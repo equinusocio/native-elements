@@ -61,7 +61,7 @@
     "gulp-rename": "1.2.2",
     "gulp-stats": "0.0.4",
     "husky": "0.14.3",
-    "lerna": "2.8.0",
+    "lerna": "2.9.1",
     "postcss-cli": "4.1.1",
     "postcss-custom-media": "6.0.0",
     "postcss-easy-import": "3.0.0",
