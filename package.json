@@ -68,6 +68,6 @@
     "postcss-nesting": "5.0.0",
     "postcss-reporter": "5.0.0",
     "postcss-selector-not": "3.0.1",
-    "stylelint": "9.2.1"
+    "stylelint": "9.3.0"
   }
 }
