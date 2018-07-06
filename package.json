@@ -45,7 +45,7 @@
   ],
   "devDependencies": {
     "@contactlab/stylelint-config-uxd": "1.1.5",
-    "autoprefixer": "8.6.4",
+    "autoprefixer": "8.6.5",
     "babel-core": "6.26.3",
     "babel-plugin-root-import": "6.1.0",
     "babel-preset-env": "1.7.0",
