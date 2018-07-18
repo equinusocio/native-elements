@@ -44,7 +44,7 @@
     "kit"
   ],
   "devDependencies": {
-    "@contactlab/stylelint-config-uxd": "1.1.5",
+    "@contactlab/stylelint-config-uxd": "1.1.7",
     "babel-core": "6.26.3",
     "babel-plugin-root-import": "6.1.0",
     "babel-preset-env": "1.7.0",
