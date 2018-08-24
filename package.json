@@ -52,7 +52,7 @@
     "babel-register": "6.26.0",
     "browser-sync": "2.24.6",
     "chalk": "2.4.1",
-    "cssnano": "4.0.4",
+    "cssnano": "4.1.0",
     "cssnano-preset-advanced": "4.0.0",
     "del": "3.0.0",
     "eslint": "5.1.0",
