@@ -65,7 +65,7 @@
     "postcss-cli": "6.0.0",
     "postcss-easy-import": "3.0.0",
     "postcss-mixins": "6.2.0",
-    "postcss-preset-env": "6.0.0",
+    "postcss-preset-env": "6.0.3",
     "postcss-reporter": "6.0.0",
     "stylelint": "9.5.0"
   }
