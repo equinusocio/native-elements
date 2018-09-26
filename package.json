@@ -60,7 +60,7 @@
     "gulp-rename": "1.4.0",
     "gulp-stats": "0.0.4",
     "hoek": "5.0.4",
-    "husky": "0.14.3",
+    "husky": "1.0.0",
     "lerna": "3.3.0",
     "postcss-cli": "6.0.0",
     "postcss-easy-import": "3.0.0",
