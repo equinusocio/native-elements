@@ -19,7 +19,7 @@
     "@native-elements/ne-button": "^1.2.2",
     "@native-elements/ne-checkradio": "^1.1.2",
     "@native-elements/ne-code": "^0.1.4",
-    "@native-elements/ne-details": "^0.2.5",
+    "@native-elements/ne-details": "^0.3.0",
     "@native-elements/ne-form": "^0.0.9",
     "@native-elements/ne-meter": "^1.1.2",
     "@native-elements/ne-progress": "^1.1.2",
