@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.2.0 (2018-10-18)
+
+
+### Bug Fixes
+
+* Update readme files ([d2f7c8b](https://github.com/equinusocio/native-elements/tree/master/elements/ne-code/commit/d2f7c8b))
+
+
+### Features
+
+* Add ne-code ([e89b909](https://github.com/equinusocio/native-elements/tree/master/elements/ne-code/commit/e89b909))
+
+
+
+
+
 <a name="0.1.4"></a>
 ## [0.1.4](https://github.com/equinusocio/native-elements/tree/master/elements/ne-code/compare/@native-elements/ne-code@0.1.2...@native-elements/ne-code@0.1.4) (2018-09-06)
 

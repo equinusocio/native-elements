@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.2.0 (2018-10-18)
+
+
+### Bug Fixes
+
+* **ne-checkradio:** Add pointer cursor on mouse hover ([5892354](https://github.com/equinusocio/native-elements/tree/master/elements/ne-checkradio/commit/5892354)), closes [#34](https://github.com/equinusocio/native-elements/tree/master/elements/ne-checkradio/issues/34)
+* **ne-checkradio:** switch to ne-* attribute ([72fb915](https://github.com/equinusocio/native-elements/tree/master/elements/ne-checkradio/commit/72fb915))
+* Add animation to indeterminate status ([e9d0feb](https://github.com/equinusocio/native-elements/tree/master/elements/ne-checkradio/commit/e9d0feb))
+* Fix config mixin name ([1e254fc](https://github.com/equinusocio/native-elements/tree/master/elements/ne-checkradio/commit/1e254fc))
+* Fix ne-checkradio element animation scale ([f9204f8](https://github.com/equinusocio/native-elements/tree/master/elements/ne-checkradio/commit/f9204f8))
+* Update doc ([8247198](https://github.com/equinusocio/native-elements/tree/master/elements/ne-checkradio/commit/8247198))
+* Update readme files ([d2f7c8b](https://github.com/equinusocio/native-elements/tree/master/elements/ne-checkradio/commit/d2f7c8b))
+
+
+### Features
+
+* **ne-checkradio:** Add radio and button element ([1a0ff78](https://github.com/equinusocio/native-elements/tree/master/elements/ne-checkradio/commit/1a0ff78))
+* **ne-checkradio:** Refactor structure ([f3d6f26](https://github.com/equinusocio/native-elements/tree/master/elements/ne-checkradio/commit/f3d6f26))
+
+
+
+
+
 <a name="0.1.8"></a>
 ## [0.1.8](https://github.com/equinusocio/native-elements/tree/master/elements/ne-checkradio/compare/@native-elements/ne-checkradio@0.1.7...@native-elements/ne-checkradio@0.1.8) (2018-09-06)
 

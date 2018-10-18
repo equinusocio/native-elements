@@ -3,6 +3,41 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.3.0 (2018-10-18)
+
+
+### Bug Fixes
+
+* **ne-button:** Add live demo to README ([49bf89a](https://github.com/equinusocio/native-elements/tree/master/elements/ne-button/commit/49bf89a))
+* **ne-button:** Add style for buttons inside input file ([e9ad459](https://github.com/equinusocio/native-elements/tree/master/elements/ne-button/commit/e9ad459))
+* **ne-button:** Fix --buttonActiveForeground name to --buttonActiveColor ([0988e31](https://github.com/equinusocio/native-elements/tree/master/elements/ne-button/commit/0988e31))
+* **ne-button:** Fix default appearance ([fe0b0cc](https://github.com/equinusocio/native-elements/tree/master/elements/ne-button/commit/fe0b0cc))
+* **ne-button:** Fix default custom properties inheritance ([dbd9345](https://github.com/equinusocio/native-elements/tree/master/elements/ne-button/commit/dbd9345))
+* **ne-button:** Fix icon positioning using css :dir() instead of [dir] ([0920bb6](https://github.com/equinusocio/native-elements/tree/master/elements/ne-button/commit/0920bb6))
+* **ne-button:** Handle icon position with the dir attribute ([fdc10cd](https://github.com/equinusocio/native-elements/tree/master/elements/ne-button/commit/fdc10cd))
+* **ne-button:** Release 1.0.3 ([3761e09](https://github.com/equinusocio/native-elements/tree/master/elements/ne-button/commit/3761e09))
+* **ne-button:** Remove dotted inner border on firefox ([951aca7](https://github.com/equinusocio/native-elements/tree/master/elements/ne-button/commit/951aca7))
+* **ne-button:** Remove internal custom properties dependencies ([112b2fa](https://github.com/equinusocio/native-elements/tree/master/elements/ne-button/commit/112b2fa))
+* **ne-button:** Remove line-height inheritance ([25a5886](https://github.com/equinusocio/native-elements/tree/master/elements/ne-button/commit/25a5886))
+* **ne-button:** Remove useless style ([d03e4f8](https://github.com/equinusocio/native-elements/tree/master/elements/ne-button/commit/d03e4f8))
+* **ne-button:** Rename all foreground API from *-foreground to *-color ([ea71a7a](https://github.com/equinusocio/native-elements/tree/master/elements/ne-button/commit/ea71a7a))
+* **ne-button:** switch to ne-* attribute ([39090c3](https://github.com/equinusocio/native-elements/tree/master/elements/ne-button/commit/39090c3))
+* **ne-button:** Update README ([2a2119e](https://github.com/equinusocio/native-elements/tree/master/elements/ne-button/commit/2a2119e))
+* Fix config mixin name ([1e254fc](https://github.com/equinusocio/native-elements/tree/master/elements/ne-button/commit/1e254fc))
+* Fix right icon style when button is disabled ([7ded2fe](https://github.com/equinusocio/native-elements/tree/master/elements/ne-button/commit/7ded2fe))
+* Update doc and api inheritance ([e60911e](https://github.com/equinusocio/native-elements/tree/master/elements/ne-button/commit/e60911e))
+* Update readme files ([d2f7c8b](https://github.com/equinusocio/native-elements/tree/master/elements/ne-button/commit/d2f7c8b))
+
+
+### Features
+
+* **ne-button:** Add --ne-button-outline-width CSS api ([fff3bf4](https://github.com/equinusocio/native-elements/tree/master/elements/ne-button/commit/fff3bf4))
+* **ne-button:** Refactor structure ([be317ff](https://github.com/equinusocio/native-elements/tree/master/elements/ne-button/commit/be317ff))
+
+
+
+
+
 <a name="0.2.0"></a>
 # [0.2.0](https://github.com/equinusocio/native-elements/tree/master/elements/ne-button/compare/@native-elements/ne-button@0.1.8...@native-elements/ne-button@0.2.0) (2018-10-12)
 

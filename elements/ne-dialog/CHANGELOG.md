@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.3.0 (2018-10-18)
+
+
+### Bug Fixes
+
+* Fix default dialog shadow ([e4fa0b5](https://github.com/equinusocio/native-elements/tree/master/elements/ne-dialog/commit/e4fa0b5))
+* Fix positionig on viewport resize ([b32af99](https://github.com/equinusocio/native-elements/tree/master/elements/ne-dialog/commit/b32af99))
+
+
+### Features
+
+* Add ne-dialog ([473c23e](https://github.com/equinusocio/native-elements/tree/master/elements/ne-dialog/commit/473c23e))
+
+
+
+
+
 <a name="0.2.0"></a>
 # [0.2.0](https://github.com/equinusocio/native-elements/tree/master/elements/ne-dialog/compare/@native-elements/ne-dialog@0.1.1...@native-elements/ne-dialog@0.2.0) (2018-10-12)
 

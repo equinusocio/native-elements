@@ -3,6 +3,37 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.2.0 (2018-10-18)
+
+
+### Bug Fixes
+
+* **ne-button:** Fix --buttonActiveForeground name to --buttonActiveColor ([0988e31](https://github.com/equinusocio/native-elements/tree/master/elements/ne-textfield/commit/0988e31))
+* **ne-datalist:** Fix cursor for disabled and readonly inputs ([6e59613](https://github.com/equinusocio/native-elements/tree/master/elements/ne-textfield/commit/6e59613))
+* **ne-texfield:** Fix readonly state style ([b754a98](https://github.com/equinusocio/native-elements/tree/master/elements/ne-textfield/commit/b754a98))
+* **ne-textfield:** Add textfield width api --ne-textfield-width ([8d3d0ae](https://github.com/equinusocio/native-elements/tree/master/elements/ne-textfield/commit/8d3d0ae))
+* **ne-textfield:** Fix missing readonly input style ([4f1588d](https://github.com/equinusocio/native-elements/tree/master/elements/ne-textfield/commit/4f1588d))
+* **ne-textfield:** Fix placeholder color on hover and readme ([81447d0](https://github.com/equinusocio/native-elements/tree/master/elements/ne-textfield/commit/81447d0))
+* **ne-textfield:** Fix some css api name ([f179f6c](https://github.com/equinusocio/native-elements/tree/master/elements/ne-textfield/commit/f179f6c))
+* **ne-textfield:** Improve api inheritance ([788b1b5](https://github.com/equinusocio/native-elements/tree/master/elements/ne-textfield/commit/788b1b5))
+* **ne-textfield:** Improve default placeholder color ([b333b83](https://github.com/equinusocio/native-elements/tree/master/elements/ne-textfield/commit/b333b83))
+* **ne-textfield:** Improve mixin code and duplication ([61c3019](https://github.com/equinusocio/native-elements/tree/master/elements/ne-textfield/commit/61c3019))
+* **ne-textfield:** switch to ne-* attribute ([cdc1935](https://github.com/equinusocio/native-elements/tree/master/elements/ne-textfield/commit/cdc1935))
+* Fix config mixin name ([1e254fc](https://github.com/equinusocio/native-elements/tree/master/elements/ne-textfield/commit/1e254fc))
+* Fix placeholder color and update the value color when disabled ([8d35518](https://github.com/equinusocio/native-elements/tree/master/elements/ne-textfield/commit/8d35518))
+* Improve read only textfield style ([915de7e](https://github.com/equinusocio/native-elements/tree/master/elements/ne-textfield/commit/915de7e))
+* Update readme files ([d2f7c8b](https://github.com/equinusocio/native-elements/tree/master/elements/ne-textfield/commit/d2f7c8b))
+* **ne-textfield:** Update api's for disabled and readonly status. Also update default value ([060b2db](https://github.com/equinusocio/native-elements/tree/master/elements/ne-textfield/commit/060b2db))
+
+
+### Features
+
+* **ne-textfield:** Refactor strcuture ([5a05e6e](https://github.com/equinusocio/native-elements/tree/master/elements/ne-textfield/commit/5a05e6e))
+
+
+
+
+
 <a name="0.1.11"></a>
 ## [0.1.11](https://github.com/equinusocio/native-elements/tree/master/elements/ne-textfield/compare/@native-elements/ne-textfield@0.1.10...@native-elements/ne-textfield@0.1.11) (2018-09-06)
 

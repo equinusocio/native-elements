@@ -3,6 +3,33 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.2.0 (2018-10-18)
+
+
+### Bug Fixes
+
+* **ne-range:** Fix grab lines and thumb position ([165c5df](https://github.com/equinusocio/native-elements/tree/master/elements/ne-range/commit/165c5df))
+* **ne-range:** Fix outline and background transition ([46cb6f7](https://github.com/equinusocio/native-elements/tree/master/elements/ne-range/commit/46cb6f7))
+* **ne-range:** Fix scaling when thumb is active ([09be45e](https://github.com/equinusocio/native-elements/tree/master/elements/ne-range/commit/09be45e))
+* **ne-range:** Fix thumb default size ([cafd44f](https://github.com/equinusocio/native-elements/tree/master/elements/ne-range/commit/cafd44f))
+* **ne-range:** Fix thumb size and position ([e7e34ab](https://github.com/equinusocio/native-elements/tree/master/elements/ne-range/commit/e7e34ab))
+* **ne-range:** Fix track style ([28783d5](https://github.com/equinusocio/native-elements/tree/master/elements/ne-range/commit/28783d5))
+* Fix color consistency ([43f6a77](https://github.com/equinusocio/native-elements/tree/master/elements/ne-range/commit/43f6a77))
+* **ne-range:** switch to ne-* attribute ([e6cd6bb](https://github.com/equinusocio/native-elements/tree/master/elements/ne-range/commit/e6cd6bb))
+* **ne-range:** Update api inheritance and update readme ([29a535c](https://github.com/equinusocio/native-elements/tree/master/elements/ne-range/commit/29a535c))
+* **ne-range:** Update thumb grab lines svg ([7e515ff](https://github.com/equinusocio/native-elements/tree/master/elements/ne-range/commit/7e515ff))
+* Fix config mixin name ([1e254fc](https://github.com/equinusocio/native-elements/tree/master/elements/ne-range/commit/1e254fc))
+* Update readme files ([d2f7c8b](https://github.com/equinusocio/native-elements/tree/master/elements/ne-range/commit/d2f7c8b))
+
+
+### Features
+
+* **ne-range:** Refactor structure ([f196f1c](https://github.com/equinusocio/native-elements/tree/master/elements/ne-range/commit/f196f1c))
+
+
+
+
+
 <a name="0.1.10"></a>
 ## [0.1.10](https://github.com/equinusocio/native-elements/tree/master/elements/ne-range/compare/@native-elements/ne-range@0.1.8...@native-elements/ne-range@0.1.10) (2018-09-06)
 

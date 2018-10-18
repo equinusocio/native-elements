@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.2.0 (2018-10-18)
+
+
+### Bug Fixes
+
+* **ne-meter:** Fix CSS properties names ([ddc4d27](https://github.com/equinusocio/native-elements/tree/master/elements/ne-meter/commit/ddc4d27))
+* **ne-meter:** Improve README ([c2d23a1](https://github.com/equinusocio/native-elements/tree/master/elements/ne-meter/commit/c2d23a1))
+* **ne-meter:** switch to ne-* attribute ([6a1a553](https://github.com/equinusocio/native-elements/tree/master/elements/ne-meter/commit/6a1a553))
+* Fix color consistency ([43f6a77](https://github.com/equinusocio/native-elements/tree/master/elements/ne-meter/commit/43f6a77))
+* Fix config mixin name ([1e254fc](https://github.com/equinusocio/native-elements/tree/master/elements/ne-meter/commit/1e254fc))
+* Update readme files ([d2f7c8b](https://github.com/equinusocio/native-elements/tree/master/elements/ne-meter/commit/d2f7c8b))
+
+
+### Features
+
+* **minify:** added minify script (plus chore yarn.lock and css sample) ([13f5648](https://github.com/equinusocio/native-elements/tree/master/elements/ne-meter/commit/13f5648))
+* **ne-meter:** Refactor structure ([ef059f2](https://github.com/equinusocio/native-elements/tree/master/elements/ne-meter/commit/ef059f2))
+
+
+
+
+
 <a name="0.1.7"></a>
 ## [0.1.7](https://github.com/equinusocio/native-elements/tree/master/elements/ne-meter/compare/@native-elements/ne-meter@0.1.5...@native-elements/ne-meter@0.1.7) (2018-09-06)
 

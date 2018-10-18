@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.3.0 (2018-10-18)
+
+
+### Bug Fixes
+
+* **ne-progress:** Fixing indeterminate stripes size ([73cedae](https://github.com/equinusocio/native-elements/tree/master/elements/ne-progress/commit/73cedae))
+* **ne-progress:** Improve :indeterminate code ([edd4e1c](https://github.com/equinusocio/native-elements/tree/master/elements/ne-progress/commit/edd4e1c))
+* **ne-progress:** switch to ne-* attribute ([41054a1](https://github.com/equinusocio/native-elements/tree/master/elements/ne-progress/commit/41054a1))
+* Fix color consistency ([43f6a77](https://github.com/equinusocio/native-elements/tree/master/elements/ne-progress/commit/43f6a77))
+* Fix config mixin name ([1e254fc](https://github.com/equinusocio/native-elements/tree/master/elements/ne-progress/commit/1e254fc))
+* Fix filled color to match palette ([a799c5f](https://github.com/equinusocio/native-elements/tree/master/elements/ne-progress/commit/a799c5f))
+* Update readme files ([d2f7c8b](https://github.com/equinusocio/native-elements/tree/master/elements/ne-progress/commit/d2f7c8b))
+
+
+### Features
+
+* **ne-progress:** Refactor structure ([fbf59eb](https://github.com/equinusocio/native-elements/tree/master/elements/ne-progress/commit/fbf59eb))
+
+
+
+
+
 <a name="0.2.0"></a>
 # [0.2.0](https://github.com/equinusocio/native-elements/tree/master/elements/ne-progress/compare/@native-elements/ne-progress@0.1.8...@native-elements/ne-progress@0.2.0) (2018-10-12)
 

@@ -1,6 +1,6 @@
 {
   "name": "@native-elements/ne-button",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Button element from Native Elements",
   "repository": "https://github.com/equinusocio/native-elements/tree/master/elements/ne-button",
   "main": "src/ne-button.pcss",
@@ -14,5 +14,6 @@
   "bugs": {
     "url": "https://github.com/equinusocio/native-elements/issues"
   },
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "gitHead": "3d719bb14266a89ac6d3923b0c9648e04bd110ee"
 }
