@@ -24,7 +24,7 @@
     "@native-elements/ne-meter": "^1.1.2",
     "@native-elements/ne-progress": "^1.1.2",
     "@native-elements/ne-range": "^0.1.10",
-    "@native-elements/ne-select": "^0.2.3",
+    "@native-elements/ne-select": "^0.3.0",
     "@native-elements/ne-textfield": "^0.1.11"
   }
 }
