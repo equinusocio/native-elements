@@ -12,6 +12,7 @@
   overflow: hidden;
   place-content: center;
   place-items: center;
+  border: var(--uploadBorder);
 
   &:hover {
     cursor: alias;
@@ -40,7 +41,7 @@
   }
 
   &::after {
-    content: attr(data-content);
+    content: attr(data-text);
     margin: auto;
     font-weight: var(--uploadLabelWeight);
     font-size: var(--uploadLabelFontSize);

@@ -28,7 +28,7 @@ Native HTML `<dialog>` element with **CSS API** that give you superpowers. 🕶
 ```
 
 ```css
-html {
+:root {
   --ne-dialog-background: #F5F5F5;
 }
 

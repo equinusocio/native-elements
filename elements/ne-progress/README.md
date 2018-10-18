@@ -24,7 +24,7 @@ Native HTML `<progress>` element with **CSS API** that give you superpowers. ðŸ•
 ```
 
 ```css
-html {
+:root {
   --ne-progress-border-color: #000;
 }
 

@@ -31,7 +31,7 @@ Native HTML `<button>` element with **CSS API** that give you superpowers. 🕶
 ```
 
 ```css
-html {
+:root {
   --ne-button-background: #000;
   --ne-button-color: #FFF;
 }

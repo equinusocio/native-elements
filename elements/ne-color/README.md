@@ -19,7 +19,7 @@ Native HTML `<input type="color">` element with **CSS API** that give you superp
 ```
 
 ```css
-html {
+:root {
   --ne-color-radius: 50%;
 }
 

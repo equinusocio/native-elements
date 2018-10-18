@@ -24,7 +24,7 @@ Native HTML `<input type="checkbox">` & `<input type="radio">` elements with **C
 ```
 
 ```css
-html {
+:root {
   --ne-checkradio-shadow: none;
 }
 

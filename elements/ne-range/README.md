@@ -40,7 +40,7 @@ Check the [live demo](https://ne-range.stackblitz.io/)
 ## CSS API
 
 ```css
-html {
+:root {
   /* Border API */
   --ne-range-border-color: rgba(0, 0, 0, 0.1); /* color */
   --ne-range-disabled-border-color: rgba(0, 0, 0, 0); /* color */

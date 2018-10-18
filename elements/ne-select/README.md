@@ -41,7 +41,7 @@ Native HTML `<select>` element with **CSS API** that give you superpowers. 🕶
 ```
 
 ```css
-html {
+:root {
   --ne-select-border-color: #000;
 }
 

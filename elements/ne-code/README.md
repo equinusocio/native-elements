@@ -39,7 +39,7 @@ p q r s t u v w x y z { | } ~ </pre>
 ```
 
 ```css
-html {
+:root {
   --ne-code-background: pink;
 }
 

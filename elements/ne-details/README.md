@@ -34,7 +34,7 @@ Native HTML `<details>` and `<summary>` elements with **CSS API** that give you 
 ```
 
 ```css
-html {
+:root {
   --ne-details-background: deeppink;
 }
 
