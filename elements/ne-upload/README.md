@@ -41,7 +41,7 @@ Check the [live demo](https://ne-upload.stackblitz.io/)
   --ne-upload-border: 2px dashed hsl(233, 64%, 85%); /* border */
 
   /* Background API */
-  --ne-upload-background: hsl(233, 64%, 95%); /* background */
+  --ne-upload-background: transparent; /* background */
 
   /* Foreground */
   --ne-upload-label-weight: 700; /*  font-weight */
