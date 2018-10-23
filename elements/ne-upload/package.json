@@ -1,6 +1,6 @@
 {
   "name": "@native-elements/ne-upload",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "File input element from Native Elements",
   "repository": "https://github.com/equinusocio/native-elements/tree/master/elements/ne-upload",
   "main": "src/ne-upload.pcss",

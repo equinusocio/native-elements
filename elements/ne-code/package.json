@@ -1,6 +1,6 @@
 {
   "name": "@native-elements/ne-code",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Code element from Native Elements",
   "repository": "https://github.com/equinusocio/native-elements/tree/master/elements/ne-code",
   "main": "src/ne-code.pcss",

@@ -1,6 +1,6 @@
 {
   "name": "@native-elements/ne-form",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Form elements styles from Native Elements",
   "repository": "https://github.com/equinusocio/native-elements/tree/master/elements/ne-form",
   "main": "src/ne-form.pcss",
