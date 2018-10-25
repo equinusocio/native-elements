@@ -1,0 +1,61 @@
+html {
+  font-size: 100%;
+
+  --ne-select-width: 100%;
+  --ne-textfield-width: 100%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.5;
+  background: #FFF;
+  overflow: auto;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  min-height: 100vh;
+}
+
+h2:not([ne-typo]) {
+  font-weight: 400;
+  margin-top: 100px;
+}
+
+main {
+  margin: 0 auto 100px;
+  max-width: 800px;
+  min-width: 300px;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+.SecondButton {
+  --ne-button-radius: 3px;
+  --ne-button-y-padding: 0.8rem;
+  --ne-button-x-padding: 1.4rem;
+}
+
+.ThirdButton {
+  --ne-button-radius: 100px;
+  --ne-button-y-padding: 0.5rem;
+  --ne-button-x-padding: 1.5rem;
+}
+
+.MutedButton {
+  --ne-button-background: transparent;
+  --ne-button-hover-background: transparent;
+  --ne-button-active-background: transparent;
+  --ne-button-shadow: none;
+  --ne-button-foreground: #000;
+  --ne-button-hover-color: var(--buttonForeground));
+  --ne-button-focus-color: var(--buttonForeground));
+  --ne-button-active-color: var(--buttonForeground));
+}
+
+.FullRound {
+  --ne-button-radius: 100px;
+}
+
+[ne-details] p {
+  padding: 0 32px;
+}

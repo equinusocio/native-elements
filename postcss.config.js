@@ -7,6 +7,7 @@ module.exports = (ctx) => ({
       extensions: '.pcss',
       plugins: [require('stylelint')()]
     },
+    'postcss-responsive-type': {},
     'postcss-preset-env': {
       browsers: BROWSERS_LIST,
       stage: 0,

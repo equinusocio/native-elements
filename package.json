@@ -43,7 +43,6 @@
     "kit"
   ],
   "devDependencies": {
-    "@contactlab/stylelint-config-uxd": "1.1.8",
     "babel-core": "6.26.3",
     "babel-plugin-root-import": "6.1.0",
     "babel-preset-env": "1.7.0",
@@ -66,7 +65,9 @@
     "postcss-mixins": "6.2.0",
     "postcss-preset-env": "6.1.1",
     "postcss-reporter": "6.0.0",
-    "stylelint": "9.6.0"
+    "postcss-responsive-type": "1.0.0",
+    "stylelint": "9.6.0",
+    "stylelint-config-standard": "18.2.0"
   },
   "husky": {
     "hooks": {

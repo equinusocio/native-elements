@@ -5,70 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="../elements/native-elements/dist/native-elements.css">
-
-  <style>
-    html {
-      font-size: 100%;
-
-      --ne-select-width: 100%;
-      --ne-textfield-width: 100%;
-    }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-      line-height: 1.5;
-      background: #FFF;
-      overflow: auto;
-      text-rendering: geometricPrecision;
-      -webkit-font-smoothing: antialiased;
-      margin: 0;
-      min-height: 100vh;
-    }
-
-    h2 {
-      font-weight: 400;
-      margin-top: 100px;
-    }
-
-    main {
-      margin: 0 auto 100px;
-      max-width: 800px;
-      min-width: 300px;
-      padding: 0 30px;
-      box-sizing: border-box;
-    }
-
-    .SecondButton {
-      --ne-button-radius: 3px;
-      --ne-button-y-padding: 0.8rem;
-      --ne-button-x-padding: 1.4rem;
-    }
-
-    .ThirdButton {
-      --ne-button-radius: 100px;
-      --ne-button-y-padding: 0.5rem;
-      --ne-button-x-padding: 1.5rem;
-    }
-
-    .MutedButton {
-      --ne-button-background: transparent;
-      --ne-button-hover-background: transparent;
-      --ne-button-active-background: transparent;
-      --ne-button-shadow: none;
-      --ne-button-foreground: #000;
-      --ne-button-hover-color: var(--buttonForeground));
-      --ne-button-focus-color: var(--buttonForeground));
-      --ne-button-active-color: var(--buttonForeground));
-    }
-
-    .FullRound {
-      --ne-button-radius: 100px;
-    }
-
-    [ne-details] p {
-      padding: 0 32px;
-    }
-
-  </style>
+  <link rel="stylesheet" href="./index.css">
 </head>
 
 <body>
@@ -78,8 +15,22 @@
 
     <a href="kitchen-sink.html">sink</a>
 
-    <h2>Typography</h2>
-    <h1 ne-typo>Awesome</h1>
+    <h2>Typography (<a href="http://type-scale.com/?size=16&scale=1.250&text=A%20Visual%20Type%20Scale&webfont=&font-family=-apple-system,%20BlinkMacSystemFont,%20%22Segoe%20UI%22,%20Helvetica,%20Arial,%20sans-serif,%20%22Apple%20Color%20Emoji%22,%20%22Segoe%20UI%20Emoji%22,%20%22Segoe%20UI%20Symbol%22&font-weight=700&font-family-headers=&font-weight-headers=inherit&background-color=white&font-color=#333" target="_blank">1.250 - Major Third</a>)</h2>
+    <h1 ne-typo>H1 Heading Title</h1>
+    <h2 ne-typo>H2 Heading Title</h2>
+    <h3 ne-typo>H3 Heading Title</h3>
+    <h4 ne-typo>H4 Heading Title</h4>
+    <h5 ne-typo>H5 Heading Title</h5>
+    <h6 ne-typo>H6 Heading Title</h6>
+
+    <p ne-typo>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, in incidunt, id quos facere hic corrupti, quia perferendis atque consectetur ipsum eaque quo quod explicabo. Aspernatur repudiandae voluptas dolore impedit?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, in incidunt, id quos facere hic corrupti, quia perferendis atque consectetur ipsum eaque quo quod explicabo. Aspernatur repudiandae voluptas dolore impedit?
+    </p>
+
+    <blockquote ne-typo>
+      <p ne-typo>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt iste iure, debitis voluptatum ab reprehenderit veritatis ipsa ullam cum ea neque quidem a quis atque rem ducimus! Quae, nesciunt voluptatum.</p>
+    </blockquote>
 
     <h2>Buttons</h2>
     <button ne-button name="puppo" tabindex="2" autofocus>Button</button>
