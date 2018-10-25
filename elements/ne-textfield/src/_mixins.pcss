@@ -54,6 +54,7 @@
 
   &:disabled,
   &[aria-disabled] {
+    cursor: not-allowed;
     border: var(--textfieldDisabledBorder);
     background: var(--textfieldDisabledBackground);
     color: var(--textfieldDisabledColor);
@@ -76,10 +77,6 @@
     &::placeholder {
       color: var(--textfieldDisabledPlaceholderColor);
     }
-  }
-
-  &:disabled {
-    cursor: not-allowed;
   }
 
   &:required {
