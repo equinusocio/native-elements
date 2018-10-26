@@ -14,264 +14,322 @@
   <main>
 
     <a href="kitchen-sink.html">sink</a>
+    <section>
+      <h4>Typography (<a href="http://type-scale.com/?size=16&scale=1.250&text=A%20Visual%20Type%20Scale&webfont=&font-family=-apple-system,%20BlinkMacSystemFont,%20%22Segoe%20UI%22,%20Helvetica,%20Arial,%20sans-serif,%20%22Apple%20Color%20Emoji%22,%20%22Segoe%20UI%20Emoji%22,%20%22Segoe%20UI%20Symbol%22&font-weight=700&font-family-headers=&font-weight-headers=inherit&background-color=white&font-color=#333" target="_blank">1.250 - Major Third</a>)</h2>
 
-    <h2>Typography (<a href="http://type-scale.com/?size=16&scale=1.250&text=A%20Visual%20Type%20Scale&webfont=&font-family=-apple-system,%20BlinkMacSystemFont,%20%22Segoe%20UI%22,%20Helvetica,%20Arial,%20sans-serif,%20%22Apple%20Color%20Emoji%22,%20%22Segoe%20UI%20Emoji%22,%20%22Segoe%20UI%20Symbol%22&font-weight=700&font-family-headers=&font-weight-headers=inherit&background-color=white&font-color=#333" target="_blank">1.250 - Major Third</a>)</h2>
-    <h1 ne-typo>H1 Heading Title</h1>
-    <h2 ne-typo>H2 Heading Title</h2>
-    <h3 ne-typo>H3 Heading Title</h3>
-    <h4 ne-typo>H4 Heading Title</h4>
-    <h5 ne-typo>H5 Heading Title</h5>
-    <h6 ne-typo>H6 Heading Title</h6>
+      <h1>H1 Heading Title</h1>
+      <h2>H2 Heading Title</h2>
+      <h3>H3 Heading Title</h3>
+      <h4>H4 Heading Title</h4>
+      <h5>H5 Heading Title</h5>
+      <h6>H6 Heading Title</h6>
 
-    <p ne-typo>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, in incidunt, id quos facere hic corrupti, quia perferendis atque consectetur ipsum eaque quo quod explicabo. Aspernatur repudiandae voluptas dolore impedit?
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, in incidunt, id quos facere hic corrupti, quia perferendis atque consectetur ipsum eaque quo quod explicabo. Aspernatur repudiandae voluptas dolore impedit?
-    </p>
+      <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, in incidunt, id quos facere hic corrupti, quia perferendis atque consectetur ipsum eaque quo quod explicabo. Aspernatur repudiandae voluptas dolore impedit?
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, in incidunt, id quos facere hic corrupti, quia perferendis atque consectetur ipsum eaque quo quod explicabo. Aspernatur repudiandae voluptas dolore impedit?
+      </p>
 
-    <blockquote ne-typo>
-      <p ne-typo>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt iste iure, debitis voluptatum ab reprehenderit veritatis ipsa ullam cum ea neque quidem a quis atque rem ducimus! Quae, nesciunt voluptatum.</p>
-    </blockquote>
+      <blockquote>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt iste iure, debitis voluptatum ab reprehenderit veritatis ipsa ullam cum ea neque quidem a quis atque rem ducimus! Quae, nesciunt voluptatum.
+        <cite>Lorem ipsum</cite>
+      </blockquote>
 
-    <h2>Buttons</h2>
-    <button ne-button name="puppo" tabindex="2" autofocus>Button</button>
-    <button ne-button class="SecondButton">Button</button>
-    <button ne-button class="ThirdButton">Button</button>
+      <p>
+        <a href="#">This is a link with an <em>specified href</em></a>
+      </p>
+      <p>
+        <a>This is a link without <em>href</em></a>
+      </p>
 
-    <button ne-button disabled>Button</button>
+      <p><strong>Strong</strong> is used to indicate strong importance.</p>
+      <p>This text has added <em>emphasis</em>.</p>
+      <p>The <b>b element</b> is stylistically different text from normal text, without any special importance.</p>
+      <p>The <i>i element</i> is text that is offset from the normal text.</p>
+      <p>The <u>u element</u> is text with an unarticulated, though explicitly rendered, non-textual annotation.</p>
 
-    <h2>Buttons & icon</h2>
-    <button ne-button>
-      <i>←</i>
-      Button
-    </button>
-    <button ne-button dir="rtl" class="FullRound">
-      <i>→</i>
-      Button
-    </button>
+      <p>
+        <del>This text is deleted.</del>
+      </p>
+      <p>
+        <ins>This text is inserted.</ins>
+      </p>
 
-    <button ne-button disabled>
-      <i>←</i>
-      Button
-    </button>
+      <p><s>This text has a strikethrough</s>.</p>
+      <p>Superscript<sup>®</sup>.</p>
+      <p>Subscript for things like H<sub>2</sub>O.</p>
+      <p>
+          <small>This small text is small for for fine print, etc.</small>
+      </p>
 
-    <h2>Progress</h2>
-    <p>
-      <progress ne-progress value="50" max="100">progress</progress>
-    </p>
-    <p>
-      <progress ne-progress></progress>
-    </p>
+      <p>Abbreviation: <abbr title="HyperText Markup Language">HTML</abbr></p>
+      <p><q cite="https://developer.mozilla.org/en-US/docs/HTML/Element/q">This text is a short inline quotation.</q></p>
+    </section>
 
-    <h2>Meter</h2>
-    <input ne-textfield type="password" value="342567rt">
-    <meter ne-meter min="0" max="100" low="25" high="75" optimum="100" value="10"></meter>
-    <meter ne-meter min="0" max="100" low="25" high="75" optimum="100" value="50"></meter>
-    <meter ne-meter min="0" max="100" low="25" high="75" optimum="100" value="80"></meter>
-
-    <h2>Checkboxes & Radio</h2>
-    <fieldset ne-form>
-      <legend ne-form>Fieldset legend</legend>
-      <label ne-form>
-        <input ne-checkradio type="checkbox">
-        Default
-      </label>
-      <label ne-form>
-        <input ne-checkradio checked type="checkbox">
-        Checked
-      </label>
-      <label ne-form>
-        <input ne-checkradio data-indeterminate type="checkbox">
-        Indeterminate
-      </label>
-      <label ne-form>
-        <input ne-checkradio type="checkbox" disabled>
-        disabled
-      </label>
-    </fieldset>
-    <fieldset ne-form>
-      <legend ne-form>Fieldset legend</legend>
-      <label ne-form>
-        <input ne-checkradio name="group" type="radio">
-        Default
-      </label>
-      <label ne-form>
-        <input ne-checkradio checked name="group" type="radio">
-        Checked
-      </label>
-      <label ne-form>
-        <input ne-checkradio name="group" disabled type="radio">
-        Disabled
-      </label>
-    </fieldset>
-
-    <h2>Range</h2>
-    <input ne-range type="range" id="range" name="range" min="100" max="500" step="10">
-    <input ne-range disabled type="range" id="range" name="range" min="100" max="500" step="10">
-
-    <h2>Text fields</h2>
-    <p>
-      <input ne-textfield type="text" placeholder="Text">
-    </p>
-    <p>
-      <input ne-textfield type="text" disabled value="I'm disabled" placeholder="Text">
-    </p>
-    <p>
-      <input ne-textfield type="text" readonly value="I'm readonly" placeholder="Readonly text">
-    </p>
-    <p>
-      <input ne-textfield type="password" placeholder="Password">
-    </p>
-    <p>
-      <input ne-textfield type="url" placeholder="Url">
-    </p>
-    <p>
-      <input ne-textfield type="email" placeholder="Email">
-    </p>
-    <p>
-      <input ne-textfield type="tel" placeholder="Tel">
-    </p>
-    <p>
-      <input ne-textfield type="search" placeholder="Search">
-    </p>
-    <p>
-      <input ne-textfield type="number" valid required placeholder="Number">
-    </p>
-    <p>
-      <input ne-textfield type="date" invalid required placeholder="Date">
-    </p>
-    <p>
-      <input ne-textfield type="time" placeholder="Time">
-    </p>
-    <p>
-      <input ne-textfield type="month" placeholder="Month">
-    </p>
-    <p>
-      <input ne-textfield type="week" placeholder="Week">
-    </p>
-    <p>
-      <input ne-textfield type="datetime-local" placeholder="Datetime Local">
-    </p>
-    <p>
-      <textarea ne-textfield></textarea>
-    </p>
-
-
-    <h2>Select</h2>
-    <p>
-      <label for="select" ne-form>Select</label>
-      <select ne-select id="select" name="select">
-        <option selected hidden>Pick an option</option>
-        <optgroup label="Option Group">
-          <option>Option 1</option>
-          <option>Option 2</option>
-          <option>Option 3</option>
-        </optgroup>
-      </select>
-    </p>
-
-    <p>
-      <label for="select" ne-form>Disabled Select</label>
-      <select ne-select id="select" name="select" disabled>
-        <optgroup label="Option Group">
-          <option selected>Option 1</option>
-          <option>Option 2</option>
-          <option>Option 3</option>
-        </optgroup>
-      </select>
-    </p>
-
-    <p>
-      <label for="multi-select" ne-form>Multi-select</label>
-      <select ne-select multiple id="multi-select">
-        <optgroup label="Option Group">
-          <option>Option 1</option>
-          <option>Option 2</option>
-          <option>Option 3</option>
-        </optgroup>
-        <optgroup label="Option Group 2">
-          <option>Option 4</option>
-          <option>Option 5</option>
-          <option>Option 6</option>
-        </optgroup>
-      </select>
-    </p>
-
-    <h2>Pre and Code</h2>
-    <p>
-      <strong>pre</strong>
-      <pre ne-code>P R E F O R M A T T E D T E X T
+    <section>
+      <h4>Pre and Code</h2>
+      <p>
+        <strong>pre</strong>
+        <pre ne-code>P R E F O R M A T T E D T E X T
 ! " # $ % &amp; ' ( ) * + , - . /
 0 1 2 3 4 5 6 7 8 9 : ; &lt; = &gt; ?
 @ A B C D E F G H I J K L M N O
 P Q R S T U V W X Y Z [ \ ] ^ _
 ` a b c d e f g h i j k l m n o
 p q r s t u v w x y z { | } ~ </pre>
-    </p>
+      </p>
 
-    <p>
-    <strong>pre + code</strong>
-    <pre ne-code><code>ReactDOM.render(
-    &lt;h1&gt;Hello, world!&lt;/h1&gt;,
-    document.getElementById('root')
+      <p>
+        <strong>pre + code</strong>
+        <pre ne-code><code>ReactDOM.render(
+  &lt;h1&gt;Hello, world!&lt;/h1&gt;,
+  document.getElementById('root')
 );</code></pre>
 
-    </p>
-    <p>
-      <strong>code</strong>
-    <code ne-code>ReactDOM.render(
-    &lt;h1&gt;Hello, world!&lt;/h1&gt;,
-    document.getElementById('root')
+      </p>
+      <p>
+        <strong>code</strong>
+        <code ne-code>ReactDOM.render(
+  &lt;h1&gt;Hello, world!&lt;/h1&gt;,
+  document.getElementById('root')
 );</code>
-    </p>
-
-    <h2>Folding</h2>
-    <p>
-      <details ne-details>
-        <summary>My details title</summary>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus provident saepe deserunt veritatis? Totam, corrupti. Dolor quos, numquam totam quae ea enim maiores sequi et? Optio harum adipisci neque nemo.</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus provident saepe deserunt veritatis? Totam, corrupti. Dolor quos, numquam totam quae ea enim maiores sequi et? Optio harum adipisci neque nemo.</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus provident saepe deserunt veritatis? Totam, corrupti. Dolor quos, numquam totam quae ea enim maiores sequi et? Optio harum adipisci neque nemo.</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus provident saepe deserunt veritatis? Totam, corrupti. Dolor quos, numquam totam quae ea enim maiores sequi et? Optio harum adipisci neque nemo.</p>
-      </details>
-    </p>
-
-    <h2>Folding group</h2>
-    <section ne-details-group>
-      <details ne-details>
-        <summary>My address details</summary>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus provident saepe deserunt veritatis? Totam, corrupti. Dolor quos, numquam totam quae ea enim maiores sequi et? Optio harum adipisci neque nemo.</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus provident saepe deserunt veritatis? Totam, corrupti. Dolor quos, numquam totam quae ea enim maiores sequi et? Optio harum adipisci neque nemo.</p>
-      </details>
-      <details ne-details>
-        <summary>My address details</summary>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus provident saepe deserunt veritatis? Totam, corrupti. Dolor quos, numquam totam quae ea enim maiores sequi et? Optio harum adipisci neque nemo.</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus provident saepe deserunt veritatis? Totam, corrupti. Dolor quos, numquam totam quae ea enim maiores sequi et? Optio harum adipisci neque nemo.</p>
-      </details>
-      <details ne-details>
-        <summary>My details extended</summary>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus provident saepe deserunt veritatis? Totam, corrupti. Dolor quos, numquam totam quae ea enim maiores sequi et? Optio harum adipisci neque nemo.</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus provident saepe deserunt veritatis? Totam, corrupti. Dolor quos, numquam totam quae ea enim maiores sequi et? Optio harum adipisci neque nemo.</p>
-      </details>
+      </p>
     </section>
 
-    <h2>Input color</h2>
-    <input ne-color type="color" value="#606fdc">
-    <input ne-color type="color" value="#70e7bd">
+    <section>
+      <h4>Buttons</h2>
+      <button ne-button name="puppo" tabindex="2" autofocus>Button</button>
+      <button ne-button class="SecondButton">Button</button>
+      <button ne-button class="ThirdButton">Button</button>
 
-    <h2>Dialog <small>(<a href="https://github.com/GoogleChrome/dialog-polyfill" target="_blank">Polyfill</a>)</small></h2>
-    <button ne-button data-modal="default-dialog" class="modalTrigger">Open default dialog</button>
+      <button ne-button disabled>Button</button>
+    </section>
 
+    <section>
+      <h4>Buttons & icon</h2>
+      <button ne-button>
+        <i>←</i>
+        Button
+      </button>
+      <button ne-button dir="rtl" class="FullRound">
+        <i>→</i>
+        Button
+      </button>
 
-    <h2>Upload</h2>
-    <label ne-upload data-text="Pick a file to upload...">
-      <input type="file">
-    </label>
+      <button ne-button disabled>
+        <i>←</i>
+        Button
+      </button>
+    </section>
 
+    <section>
+      <h4>Progress</h2>
+      <p>
+        <progress ne-progress value="50" max="100">progress</progress>
+      </p>
+      <p>
+        <progress ne-progress></progress>
+      </p>
+    </section>
+
+    <section>
+      <h4>Meter</h2>
+      <input ne-textfield type="password" value="342567rt">
+      <meter ne-meter min="0" max="100" low="25" high="75" optimum="100" value="10"></meter>
+      <meter ne-meter min="0" max="100" low="25" high="75" optimum="100" value="50"></meter>
+      <meter ne-meter min="0" max="100" low="25" high="75" optimum="100" value="80"></meter>
+    </section>
+
+    <section>
+      <h4>Checkboxes & Radio</h2>
+      <fieldset ne-form>
+        <legend ne-form>Fieldset legend</legend>
+        <label ne-form>
+          <input ne-checkradio type="checkbox">
+          Default
+        </label>
+        <label ne-form>
+          <input ne-checkradio checked type="checkbox">
+          Checked
+        </label>
+        <label ne-form>
+          <input ne-checkradio data-indeterminate type="checkbox">
+          Indeterminate
+        </label>
+        <label ne-form>
+          <input ne-checkradio type="checkbox" disabled>
+          disabled
+        </label>
+      </fieldset>
+      <fieldset ne-form>
+        <legend ne-form>Fieldset legend</legend>
+        <label ne-form>
+          <input ne-checkradio name="group" type="radio">
+          Default
+        </label>
+        <label ne-form>
+          <input ne-checkradio checked name="group" type="radio">
+          Checked
+        </label>
+        <label ne-form>
+          <input ne-checkradio name="group" disabled type="radio">
+          Disabled
+        </label>
+      </fieldset>
+    </section>
+
+    <section>
+      <h4>Range</h2>
+      <input ne-range type="range" id="range" name="range" min="100" max="500" step="10">
+      <input ne-range disabled type="range" id="range" name="range" min="100" max="500" step="10">
+    </section>
+
+    <section>
+      <h4>Text fields</h2>
+      <p>
+        <input ne-textfield type="text" placeholder="Text">
+      </p>
+      <p>
+        <input ne-textfield type="text" disabled value="I'm disabled" placeholder="Text">
+      </p>
+      <p>
+        <input ne-textfield type="text" readonly value="I'm readonly" placeholder="Readonly text">
+      </p>
+      <p>
+        <input ne-textfield type="password" placeholder="Password">
+      </p>
+      <p>
+        <input ne-textfield type="url" placeholder="Url">
+      </p>
+      <p>
+        <input ne-textfield type="email" placeholder="Email">
+      </p>
+      <p>
+        <input ne-textfield type="tel" placeholder="Tel">
+      </p>
+      <p>
+        <input ne-textfield type="search" placeholder="Search">
+      </p>
+      <p>
+        <input ne-textfield type="number" valid required placeholder="Number">
+      </p>
+      <p>
+        <input ne-textfield type="date" invalid required placeholder="Date">
+      </p>
+      <p>
+        <input ne-textfield type="time" placeholder="Time">
+      </p>
+      <p>
+        <input ne-textfield type="month" placeholder="Month">
+      </p>
+      <p>
+        <input ne-textfield type="week" placeholder="Week">
+      </p>
+      <p>
+        <input ne-textfield type="datetime-local" placeholder="Datetime Local">
+      </p>
+      <p>
+        <textarea ne-textfield></textarea>
+      </p>
+    </section>
+
+    <section>
+      <h4>Select</h2>
+      <p>
+        <label for="select" ne-form>Select</label>
+        <select ne-select id="select" name="select">
+          <option selected hidden>Pick an option</option>
+          <optgroup label="Option Group">
+            <option>Option 1</option>
+            <option>Option 2</option>
+            <option>Option 3</option>
+          </optgroup>
+        </select>
+      </p>
+
+      <p>
+        <label for="select" ne-form>Disabled Select</label>
+        <select ne-select id="select" name="select" disabled>
+          <optgroup label="Option Group">
+            <option selected>Option 1</option>
+            <option>Option 2</option>
+            <option>Option 3</option>
+          </optgroup>
+        </select>
+      </p>
+
+      <p>
+        <label for="multi-select" ne-form>Multi-select</label>
+        <select ne-select multiple id="multi-select">
+          <optgroup label="Option Group">
+            <option>Option 1</option>
+            <option>Option 2</option>
+            <option>Option 3</option>
+          </optgroup>
+          <optgroup label="Option Group 2">
+            <option>Option 4</option>
+            <option>Option 5</option>
+            <option>Option 6</option>
+          </optgroup>
+        </select>
+      </p>
+    </section>
+
+    <section>
+      <h4>Folding</h2>
+      <p>
+        <details ne-details>
+          <summary>My details title</summary>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus provident saepe deserunt veritatis? Totam, corrupti. Dolor quos, numquam totam quae ea enim maiores sequi et? Optio harum adipisci neque nemo.</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus provident saepe deserunt veritatis? Totam, corrupti. Dolor quos, numquam totam quae ea enim maiores sequi et? Optio harum adipisci neque nemo.</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus provident saepe deserunt veritatis? Totam, corrupti. Dolor quos, numquam totam quae ea enim maiores sequi et? Optio harum adipisci neque nemo.</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus provident saepe deserunt veritatis? Totam, corrupti. Dolor quos, numquam totam quae ea enim maiores sequi et? Optio harum adipisci neque nemo.</p>
+        </details>
+      </p>
+    </section>
+
+    <section>
+      <h4>Folding group</h2>
+      <section ne-details-group>
+        <details ne-details>
+          <summary>My address details</summary>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus provident saepe deserunt veritatis? Totam, corrupti. Dolor quos, numquam totam quae ea enim maiores sequi et? Optio harum adipisci neque nemo.</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus provident saepe deserunt veritatis? Totam, corrupti. Dolor quos, numquam totam quae ea enim maiores sequi et? Optio harum adipisci neque nemo.</p>
+        </details>
+        <details ne-details>
+          <summary>My address details</summary>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus provident saepe deserunt veritatis? Totam, corrupti. Dolor quos, numquam totam quae ea enim maiores sequi et? Optio harum adipisci neque nemo.</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus provident saepe deserunt veritatis? Totam, corrupti. Dolor quos, numquam totam quae ea enim maiores sequi et? Optio harum adipisci neque nemo.</p>
+        </details>
+        <details ne-details>
+          <summary>My details extended</summary>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus provident saepe deserunt veritatis? Totam, corrupti. Dolor quos, numquam totam quae ea enim maiores sequi et? Optio harum adipisci neque nemo.</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus provident saepe deserunt veritatis? Totam, corrupti. Dolor quos, numquam totam quae ea enim maiores sequi et? Optio harum adipisci neque nemo.</p>
+        </details>
+      </section>
+    </section>
+
+    <section>
+    <h4>Input color</h2>
+      <input ne-color type="color" value="#606fdc">
+      <input ne-color type="color" value="#70e7bd">
+    </section>
+
+    <section>
+      <h4>Dialog <small>(<a href="https://github.com/GoogleChrome/dialog-polyfill" target="_blank">Polyfill</a>)</small></h2>
+      <button ne-button data-modal="default-dialog" class="modalTrigger">Open default dialog</button>
+    </section>
+
+    <section>
+      <h4>Upload</h2>
+      <label ne-upload data-text="Pick a file to upload...">
+        <input type="file">
+      </label>
+    </section>
   </main>
 
 
 <dialog ne-dialog data-modal-name="default-dialog">
-  <header><h1>Dialog Header</h1></header>
+  <header><h3>Dialog Header</h3></header>
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus minus aut laborum eum, obcaecati odit accusantium enim tempore, nam suscipit cumque repellendus at. Repellendus molestias ea labore error iste dicta.</p>
   <footer>
     <button ne-button class="SecondButton modalClose">Yeah, confirm</button>

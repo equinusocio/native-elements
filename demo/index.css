@@ -1,5 +1,6 @@
 html {
   font-size: 100%;
+  text-rendering: optimizeLegibility;
 
   --ne-select-width: 100%;
   --ne-textfield-width: 100%;
@@ -16,8 +17,7 @@ body {
   min-height: 100vh;
 }
 
-h2:not([ne-typo]) {
-  font-weight: 400;
+section + section {
   margin-top: 100px;
 }
 
