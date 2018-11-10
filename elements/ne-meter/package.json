@@ -1,6 +1,6 @@
 {
   "name": "@native-elements/ne-meter",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Meter element from Native Elements",
   "repository": "https://github.com/equinusocio/native-elements/tree/master/elements/ne-meter",
   "main": "src/ne-meter.pcss",

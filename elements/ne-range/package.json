@@ -1,6 +1,6 @@
 {
   "name": "@native-elements/ne-range",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Range element from Native Elements",
   "repository": "https://github.com/equinusocio/native-elements/tree/master/elements/ne-range",
   "main": "src/ne-range.pcss",
