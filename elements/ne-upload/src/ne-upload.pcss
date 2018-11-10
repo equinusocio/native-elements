@@ -1,56 +1,17 @@
 @import './_config.pcss';
+@import '../../ne-button/src/_config.pcss';
+@import '../../ne-button/src/_mixins.pcss';
 
-[ne-upload] {
+input[type='file'] {
   @mixin upload-config;
+  @mixin button-config;
 
-  display: grid;
-  position: relative;
-  background: var(--uploadBackground);
-  border-radius: var(--uploadRadius);
-  padding: var(--uploadPadding);
-  text-align: center;
-  overflow: hidden;
-  place-content: center;
-  place-items: center;
-  border: var(--uploadBorder);
+  font-size: 1rem;
+  padding: var(--buttonOutlineWidth) 0 0 var(--buttonOutlineWidth);
 
-  &:hover {
-    cursor: alias;
-  }
+  &::-webkit-file-upload-button {
+    @mixin button;
 
-  & > input[type='file'] {
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    pointer-events: none;
-  }
-
-  &::before {
-    content: '';
-    display: block;
-    width: 100px;
-    height: 100px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-image: var(--uploadImage);
-    margin-bottom: 32px;
-  }
-
-  &::after {
-    content: attr(data-text);
-    margin: auto;
-    font-weight: var(--uploadLabelWeight);
-    font-size: var(--uploadLabelFontSize);
-  }
-
-  &:focus-within,
-  &:focus,
-  &:active {
-    outline: none;
-    box-shadow: 0 0 0 var(--uploadOutlineWidth) var(--uploadOutlineColor);
+    margin-right: 16px;
   }
 }

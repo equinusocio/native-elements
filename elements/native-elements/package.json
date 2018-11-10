@@ -15,17 +15,21 @@
     "access": "public"
   },
   "license": "Apache-2.0",
-  "dependencies": {
-    "@native-elements/ne-button": "^1.2.2",
-    "@native-elements/ne-checkradio": "^1.1.2",
+  "gitHead": "3d719bb14266a89ac6d3923b0c9648e04bd110ee",
+  "devDependencies": {
+    "@native-elements/ne-button": "^0.4.0",
+    "@native-elements/ne-checkradio": "^0.4.0",
     "@native-elements/ne-code": "^0.3.0",
+    "@native-elements/ne-color": "^0.3.0",
     "@native-elements/ne-details": "^0.4.0",
+    "@native-elements/ne-dialog": "^0.4.0",
     "@native-elements/ne-form": "^0.2.0",
-    "@native-elements/ne-meter": "^1.1.2",
-    "@native-elements/ne-progress": "^1.1.2",
+    "@native-elements/ne-meter": "^0.3.0",
+    "@native-elements/ne-progress": "^0.4.0",
     "@native-elements/ne-range": "^0.3.0",
     "@native-elements/ne-select": "^0.4.0",
-    "@native-elements/ne-textfield": "^0.3.1"
-  },
-  "gitHead": "3d719bb14266a89ac6d3923b0c9648e04bd110ee"
+    "@native-elements/ne-textfield": "^0.3.1",
+    "@native-elements/ne-typo": "^0.1.1",
+    "@native-elements/ne-upload": "^0.7.0"
+  }
 }

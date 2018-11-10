@@ -19,7 +19,7 @@ Native HTML `<select>` element with **CSS API** that give you superpowers. 🕶
 ## Example
 
 ```html
-<select ne-select name="select">
+<select name="select">
   <option selected hidden>Pick an option</option>
   <optgroup label="Option Group">
     <option selected>Option 1</option>
@@ -28,7 +28,7 @@ Native HTML `<select>` element with **CSS API** that give you superpowers. 🕶
   </optgroup>
 </select>
 
-<select ne-select multiple id="multi-select">
+<select multiple id="multi-select">
   <optgroup label="Option Group">
     <option>Option 1</option>
     <option>Option 2</option>

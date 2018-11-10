@@ -15,14 +15,14 @@ Native HTML `<dialog>` element with **CSS API** that give you superpowers. 🕶
 ## Example
 
 ```html
-  <dialog ne-dialog>
+  <dialog>
     <header><h1>Dialog Header</h1></header>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus minus aut laborum eum, obcaecati odit  accusantium enim tempore, nam suscipit cumque repellendus at. Repellendus molestias ea labore error iste dicta.
     </p>
     <footer>
-      <button ne-button>Yeah, confirm</button>
-      <button ne-button>Cancel</button>
+      <button>Yeah, confirm</button>
+      <button>Cancel</button>
     </footer>
   </dialog>
 ```

@@ -15,18 +15,18 @@ Native HTML `<details>` and `<summary>` elements with **CSS API** that give you 
 ## Example
 
 ```html
-  <details ne-details>
+  <details>
     <summary>My folding summary</summary>
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus provident saepe deserunt veritatis? Totam, corrupti. Dolor quos, numquam totam quae ea enim maiores sequi et? Optio harum adipisci neque nemo.</p>
   </details>
 
   <!-- Grouped folding -->
   <section ne-details-group>
-    <details ne-details>
+    <details>
       <summary>My folding summary</summary>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus provident saepe deserunt veritatis? Totam, corrupti. Dolor quos, numquam totam quae ea enim maiores sequi et? Optio harum adipisci neque nemo.</p>
     </details>
-    <details ne-details>
+    <details>
       <summary>My folding summary</summary>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus provident saepe deserunt veritatis? Totam, corrupti. Dolor quos, numquam totam quae ea enim maiores sequi et? Optio harum adipisci neque nemo.</p>
     </details>

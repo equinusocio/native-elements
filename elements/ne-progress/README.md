@@ -19,8 +19,8 @@ Native HTML `<progress>` element with **CSS API** that give you superpowers. ðŸ•
 ## Example
 
 ```html
-<progress ne-progress value="50" max="100">Text</progress>
-<progress ne-progress class="SpecialProgress" value="50" max="100">progress</progress>
+<progress value="50" max="100">Text</progress>
+<progress class="SpecialProgress" value="50" max="100">progress</progress>
 ```
 
 ```css

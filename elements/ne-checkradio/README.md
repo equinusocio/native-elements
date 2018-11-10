@@ -19,8 +19,8 @@ Native HTML `<input type="checkbox">` & `<input type="radio">` elements with **C
 ## Example
 
 ```html
-  <input ne-checkradio type="checkbox">
-  <input ne-checkradio type="radio" class="SpecialInput">
+  <input type="checkbox">
+  <input type="radio" class="SpecialInput">
 ```
 
 ```css

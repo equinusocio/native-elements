@@ -1,10 +1,10 @@
 @define-mixin typo-config {
-  /* Border API */
-
-  /* Background API */
-
-  /* Foreground */
-
-
   /* Misc API */
+  --selectionForeground: var(--ne-typo-selection-foreground, #FFF);
+  --selectionBackground: var(--ne-typo-selection-background, hsl(233, 64%, 72%));
+}
+
+@define-mixin responsive-typo {
+  --minFontRange: var(--ne-typo-min-font-range, 320px);
+  --maxFontRange: var(--ne-typo-max-font-range, 1440px);
 }

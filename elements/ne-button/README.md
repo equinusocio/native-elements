@@ -19,12 +19,12 @@ Native HTML `<button>` element with **CSS API** that give you superpowers. 🕶
 
 ## Example
 ```html
-<button ne-button>Text</button>
-<button ne-button class="SpecialButton">
+<button>Text</button>
+<button class="SpecialButton">
    <i>←</i>
    Text
 </button>
-<button ne-button dir="rtl" class="SpecialButton">
+<button dir="rtl" class="SpecialButton">
    <i>←</i>
    Text
 </button>

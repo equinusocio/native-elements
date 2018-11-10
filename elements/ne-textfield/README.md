@@ -19,19 +19,19 @@ Native HTML `<input ...>` and `<textarea>` elements with **CSS API** that give y
 ## Example
 
 ```html
-  <input ne-textfield type="text">
-  <input ne-textfield type="password">
-  <input ne-textfield type="url">
-  <input ne-textfield type="email">
-  <input ne-textfield type="tel">
-  <input ne-textfield type="search">
-  <input ne-textfield type="number">
-  <input ne-textfield type="date">
-  <input ne-textfield type="time">
-  <input ne-textfield type="month">
-  <input ne-textfield type="week">
-  <input ne-textfield type="datetime-local">
-  <textarea ne-textfield class="SpecialTextfield"></textarea>
+  <input type="text">
+  <input type="password">
+  <input type="url">
+  <input type="email">
+  <input type="tel">
+  <input type="search">
+  <input type="number">
+  <input type="date">
+  <input type="time">
+  <input type="month">
+  <input type="week">
+  <input type="datetime-local">
+  <textarea class="SpecialTextfield"></textarea>
 ```
 
 ```css

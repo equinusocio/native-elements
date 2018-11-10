@@ -15,8 +15,8 @@ Native HTML typography elements with **CSS API** that give you superpowers. 🕶
 ## Example
 
 ```html
-  <h1 ne-typo>My beautiful heading</h1>
-  <p ne-typo>I'm a beautiful piece of typo</p>
+  <h1>My beautiful heading</h1>
+  <p>I'm a beautiful piece of typo</p>
 ```
 
 ```css

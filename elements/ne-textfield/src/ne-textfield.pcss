@@ -1,7 +1,7 @@
 @import './_config.pcss';
 @import './_mixins.pcss';
 
-[ne-textfield] {
+input:not([type='checkbox'], [type='radio'], [type='range'], [type='color'], [type='file']) {
   @mixin textfield-config;
   @mixin input;
 
@@ -12,22 +12,22 @@
   box-sizing: border-box;
 }
 
-[ne-textfield][type='number']::-webkit-inner-spin-button,
-[ne-textfield][type='number']::-webkit-outer-spin-button {
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
   height: auto;
 }
 
-[ne-textfield][type='search'] {
+input[type='search'] {
   outline-offset: -2px;
   appearance: none;
 }
 
-[ne-textfield][type='search']::-webkit-search-cancel-button,
-[ne-textfield][type='search']::-webkit-search-decoration {
+input[type='search']::-webkit-search-cancel-button,
+input[type='search']::-webkit-search-decoration {
   appearance: none;
 }
 
-textarea[ne-textfield] {
+textarea {
   @mixin input;
 
   height: auto;

@@ -19,12 +19,12 @@ Native HTML `<input type="range">` element with **CSS API** that give you superp
 ## Example
 
 ```html
-  <input ne-range type="range">
-  <input ne-range type="range" class="SpecialRange">
+  <input type="range">
+  <input type="range" class="SpecialRange">
 ```
 
 ```css
-[ne-range] {
+:root {
   --ne-range-background: #000;
 }
 

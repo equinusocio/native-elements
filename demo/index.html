@@ -63,13 +63,38 @@
 
       <p>Abbreviation: <abbr title="HyperText Markup Language">HTML</abbr></p>
       <p><q cite="https://developer.mozilla.org/en-US/docs/HTML/Element/q">This text is a short inline quotation.</q></p>
+      <p>The <dfn>dfn element</dfn> indicates a definition.</p>
+      <p>The <var>variable element</var>, such as <var>x</var> = <var>y</var>.</p>
+      <address>
+        2518 W Armitage Ave<br>
+        Chicago IL 60647
+      </address>
+      <p>The time element: <time datetime="2013-04-06T12:32+00:00">2 weeks ago</time></p>
+      <dl>
+        <dt>Definition List Title</dt>
+        <dd>This is a definition list division.</dd>
+      </dl>
+      <ul>
+        <li>List item 01</li>
+        <li>List item 02</li>
+        <li>List item 03</li>
+      </ul>
+      <ol>
+        <li>List item 01</li>
+        <li>List item 02</li>
+        <li>List item 03</li>
+      </ol>
+      <p>To edit settings, press <kbd>ctrl + ,</kbd> using <code>&lt;kbd&gt;</code> tag</p>
+      <p><a href="#">This is a link with <code>code</code></a></p>
+      <p><samp>This is sample output from a computer program.</samp></p>
+      <p>The <mark>mark element</mark> indicates a highlight.</p>
     </section>
 
     <section>
       <h4>Pre and Code</h2>
       <p>
         <strong>pre</strong>
-        <pre ne-code>P R E F O R M A T T E D T E X T
+        <pre>P R E F O R M A T T E D T E X T
 ! " # $ % &amp; ' ( ) * + , - . /
 0 1 2 3 4 5 6 7 8 9 : ; &lt; = &gt; ?
 @ A B C D E F G H I J K L M N O
@@ -80,18 +105,11 @@ p q r s t u v w x y z { | } ~ </pre>
 
       <p>
         <strong>pre + code</strong>
-        <pre ne-code><code>ReactDOM.render(
+        <pre><code>ReactDOM.render(
   &lt;h1&gt;Hello, world!&lt;/h1&gt;,
   document.getElementById('root')
 );</code></pre>
 
-      </p>
-      <p>
-        <strong>code</strong>
-        <code ne-code>ReactDOM.render(
-  &lt;h1&gt;Hello, world!&lt;/h1&gt;,
-  document.getElementById('root')
-);</code>
       </p>
     </section>
 
@@ -321,9 +339,7 @@ p q r s t u v w x y z { | } ~ </pre>
 
     <section>
       <h4>Upload</h2>
-      <label ne-upload data-text="Pick a file to upload...">
-        <input type="file">
-      </label>
+      <input type="file">
     </section>
   </main>
 

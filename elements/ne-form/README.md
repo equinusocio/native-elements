@@ -19,11 +19,11 @@ Native HTML `<fieldset>, <legend>, <label>, <output>` form elements with **CSS A
 ## Example
 
 ```html
-  <fieldset ne-form>
-    <legend ne-form>Fieldset legend</legend>
+  <fieldset>
+    <legend>Fieldset legend</legend>
 
-    <label ne-form>Label</label>
-    <label ne-form>Label 2</label>
+    <label>Label</label>
+    <label>Label 2</label>
   </fieldset>
 ```
 

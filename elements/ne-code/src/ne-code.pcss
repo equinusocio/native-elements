@@ -1,8 +1,11 @@
 @import './_config.pcss';
 
-[ne-code] {
+pre,
+code {
   @mixin code-config;
+}
 
+pre {
   font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Mono', 'Droid Sans Mono', 'Source Code Pro', monospace;
   font-size: var(--codeFontSize);
   -ms-overflow-style: scrollbar;
@@ -18,20 +21,17 @@
   color: var(--codeForeground);
 
   & code {
-    font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Mono', 'Droid Sans Mono', 'Source Code Pro', monospace;
     padding: 0;
     background-color: transparent;
     white-space: pre;
     color: inherit;
+    border: none;
   }
 }
 
-code[ne-code] {
-  display: block;
+code {
+  font-size: inherit;
   font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Mono', 'Droid Sans Mono', 'Source Code Pro', monospace;
-  padding: var(--codePadding);
-  border-radius: var(--codeBorderRadius);
-  background-color: var(--codeBackground);
   white-space: pre;
-  color: var(--codeForeground);
+  color: inherit;
 }

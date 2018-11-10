@@ -4,18 +4,18 @@
 Native HTML `<input type="file">` element with **CSS API** that give you superpowers. 🕶
 
 - [Upload - Native Elements](#upload---native-elements)
-    - [Example](#example)
-    - [CSS API](#css-api)
-    - [Install](#install)
-    - [Usage](#usage)
-        - [PostCSS](#postcss)
+  - [Example](#example)
+  - [CSS API](#css-api)
+  - [Install](#install)
+  - [Usage](#usage)
+    - [PostCSS](#postcss)
 
 ---
 
 ## Example
 
 ```html
-<label ne-upload data-text="Pick a file to upload...">
+<label data-text="Pick a file to upload...">
     <input type="file">
 </label>
 ```

@@ -1,10 +1,13 @@
 @import './_config.pcss';
 
-[ne-form] {
+fieldset,
+label,
+legend,
+output {
   @mixin form-config;
 }
 
-fieldset[ne-form] {
+fieldset {
   min-width: 0;
   margin: 0 0 1rem;
   padding: 0;
@@ -12,14 +15,14 @@ fieldset[ne-form] {
 }
 
 
-label[ne-form] {
+label {
   display: block;
   margin: 0 0 0.25rem;
   padding: 0;
 }
 
 
-legend[ne-form] {
+legend {
   display: block;
   width: 100%;
   max-width: 100%;
@@ -31,6 +34,6 @@ legend[ne-form] {
   color: inherit;
 }
 
-output[ne-form] {
+output {
   display: inline-block;
 }

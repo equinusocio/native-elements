@@ -20,8 +20,8 @@ Native HTML `<meter>` element with **CSS API** that give you superpowers. 🕶
 
 ```html
   <input type="password" value="342567rt">
-  <meter ne-meter min="0" max="100" low="25" high="75" optimum="100" value="10"></meter>
-  <meter ne-meter class="SpecialMeter" min="0" max="100" low="25" high="75" optimum="100" value="10"></meter>
+  <meter min="0" max="100" low="25" high="75" optimum="100" value="10"></meter>
+  <meter class="SpecialMeter" min="0" max="100" low="25" high="75" optimum="100" value="10"></meter>
 ```
 
 ```css
