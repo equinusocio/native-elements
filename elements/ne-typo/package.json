@@ -1,6 +1,6 @@
 {
   "name": "@native-elements/ne-typo",
-  "version": "0.2.2",
+  "version": "0.2.1",
   "description": "Typography elements from Native Elements",
   "repository": "https://github.com/equinusocio/native-elements/tree/master/elements/ne-typo",
   "main": "src/ne-typo.pcss",
