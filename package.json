@@ -5,6 +5,9 @@
   "license": "Apache-2.0",
   "repository": "equinusocio/native-elements",
   "private": true,
+  "workspaces": [
+    "elements/*"
+  ],
   "bugs": {
     "url": "https://github.com/equinusocio/native-elements/issues"
   },
@@ -59,7 +62,7 @@
     "gulp-stats": "0.0.4",
     "hoek": "5.0.4",
     "husky": "1.1.2",
-    "lerna": "3.4.3",
+    "oao": "1.5.1",
     "postcss-cli": "6.0.1",
     "postcss-easy-import": "3.0.0",
     "postcss-mixins": "6.2.0",
