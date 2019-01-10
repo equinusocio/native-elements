@@ -1,6 +1,7 @@
 dist/
 build/
 lerna-debug.log
+vars.md
 
 ### Linux ###
 *~
