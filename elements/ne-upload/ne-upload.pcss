@@ -1,0 +1,13 @@
+input[type='file'] {
+  @mixin upload-config;
+  @mixin button-config;
+
+  font-size: 1rem;
+  padding: var(--buttonOutlineWidth) 0 0 var(--buttonOutlineWidth);
+
+  &::-webkit-file-upload-button {
+    @mixin button;
+
+    margin-right: 16px;
+  }
+}

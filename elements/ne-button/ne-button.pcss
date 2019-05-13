@@ -1,0 +1,27 @@
+button {
+  @mixin button-config;
+  @mixin button;
+
+  & i {
+    color: inherit;
+    fill: inherit;
+    font-style: normal;
+    line-height: inherit;
+    margin-right: var(--buttonIconMargin);
+    padding-right: var(--buttonIconMargin);
+    border-right: 1px solid var(--buttonIconSeparator);
+  }
+
+  &[dir='rtl'] i {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: 0;
+    margin-left: var(--buttonIconMargin);
+    padding-left: var(--buttonIconMargin);
+    border-left: 1px solid var(--buttonIconSeparator);
+  }
+
+  &[disabled] i {
+    border-color: var(--buttonDisabledIconSeparator);
+  }
+}

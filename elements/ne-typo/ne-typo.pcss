@@ -1,0 +1,124 @@
+::selection {
+  @mixin typo-config;
+
+  background-color: var(--selectionBackground);
+  color: var(--selectionForeground);
+}
+
+h1 {
+  font-size: responsive 38px 48px;
+  font-range: 320px 1440px;
+}
+
+h2 {
+  font-size: responsive 30px 39px;
+  font-range: 320px 1440px;
+}
+
+h3 {
+  font-size: responsive 26px 31px;
+  font-range: 320px 1440px;
+}
+
+h4 {
+  font-size: responsive 22px 25px;
+  font-range: 320px 1440px;
+}
+
+h5 {
+  font-size: responsive 18px 20px;
+  font-range: 320px 1440px;
+}
+
+h6 {
+  font-size: responsive 17px 18px;
+  font-range: 320px 1440px;
+}
+
+p {
+  font-size: responsive 1rem 1.125rem;
+  font-range: 320px 1440px;
+}
+
+blockquote {
+  padding: 0;
+  margin: 40px 0;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+
+  & cite {
+    display: block;
+    font-size: 0.8rem;
+    font-range: 320px 1440px;
+    color: hsl(0, 0%, 60%);
+
+    &::before {
+      content: '\2014';
+      margin-right: 4px;
+    }
+  }
+}
+
+a:link,
+a:visited {
+  color: hsl(233, 64%, 62%);
+  text-decoration: none;
+  transition: color 0.1s linear;
+
+  &:hover {
+    color: hsl(233, 64%, 52%);
+  }
+
+  &:focus {
+    outline-color: hsl(233, 64%, 85%);
+    outline-offset: 4px;
+    outline-style: solid;
+    outline-width: 0.2rem;
+  }
+}
+
+del {
+  padding: 2px 4px;
+  background-color: hsl(3, 100%, 84%);
+  color: hsl(354, 80%, 55%);
+}
+
+ins {
+  padding: 2px 4px;
+  background-color: hsl(138, 100%, 88%);
+  color: hsl(138, 100%, 28%);
+}
+
+address {
+  font-style: normal;
+  line-height: inherit;
+}
+
+dt {
+  font-weight: 700;
+}
+
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  padding-left: 1rem;
+}
+
+kbd {
+  border-color: hsl(0, 0%, 89%);
+  border-width: 1px;
+  border-style: solid;
+  padding: 2px 4px;
+  box-shadow: 0 3px 0 hsl(0, 0%, 89%), 0 3px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 3px;
+  font-weight: 700;
+}
+
+mark {
+  background: #FFF433;
+  color: #8E4813;
+}

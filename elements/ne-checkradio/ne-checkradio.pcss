@@ -1,0 +1,37 @@
+input[type='checkbox'],
+input[type='radio'] {
+  @mixin checkradio-config;
+
+  will-change: transform;
+  margin: 0;
+  cursor: pointer;
+
+  &:checked,
+  &:indeterminate {
+    animation: splash var(--checkradioAnimationDuration) cubic-bezier(0, 0, 0.2, 1);
+    filter: drop-shadow(var(--checkradioShadow));
+  }
+}
+
+@keyframes splash {
+  0% {
+    transform: scale(0.3);
+  }
+
+  20% {
+    transform: scale(1.1);
+  }
+
+  40% {
+    transform: scale(0.9);
+  }
+
+  60% {
+    opacity: unset;
+    transform: scale(1.03);
+  }
+
+  80% {
+    transform: scale(0.97);
+  }
+}

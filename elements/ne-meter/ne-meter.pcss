@@ -1,0 +1,39 @@
+meter {
+  @mixin meter-config;
+  @mixin progress;
+
+  width: var(--meterWidth);
+  height: var(--meterHeight);
+  vertical-align: middle;
+
+  &::-webkit-meter-bar {
+    @mixin progress;
+  }
+
+  /* Low value */
+  &::-webkit-meter-even-less-good-value {
+    @mixin meter-weak;
+  }
+
+  &:-moz-meter-sub-sub-optimum::-moz-meter-bar {
+    @mixin meter-weak;
+  }
+
+  /* Mid value */
+  &::-webkit-meter-suboptimum-value {
+    @mixin meter-good;
+  }
+
+  &:-moz-meter-sub-optimum::-moz-meter-bar {
+    @mixin meter-good;
+  }
+
+  /* Top value */
+  &::-webkit-meter-optimum-value {
+    @mixin meter-strong;
+  }
+
+  &:-moz-meter-optimum::-moz-meter-bar {
+    @mixin meter-strong;
+  }
+}

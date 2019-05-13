@@ -1,0 +1,119 @@
+input[type='range'] {
+  @mixin range-config;
+
+  width: 100%;
+  background: transparent;
+  outline: 0;
+  margin: 0;
+  appearance: none;
+
+  &::-webkit-slider-runnable-track {
+    @mixin track;
+  }
+
+  &::-moz-range-track {
+    @mixin track;
+  }
+
+  &::-ms-track {
+    @mixin track;
+
+    color: transparent;
+    border-color: transparent;
+    background-color: transparent;
+    border-width: var(--rangeThumbHeight);
+  }
+
+  &::-moz-focus-outer {
+    border: 0;
+  }
+
+  &::-ms-fill-upper {
+    background: var(--rangeBackground);
+  }
+
+  &::-ms-fill-lower {
+    background: var(--rangeBackground);
+  }
+
+  &:focus::-webkit-slider-runnable-track {
+    background: var(--rangeFocusBackground);
+  }
+
+  &:focus::-moz-range-track {
+    background: var(--rangeFocusBackground);
+  }
+
+  &:focus::-ms-fill-lower {
+    background: var(--rangeFocusBackground);
+  }
+
+  &:focus::-ms-fill-upper {
+    background: var(--rangeFocusBackground);
+  }
+
+  &::-webkit-slider-thumb {
+    @mixin thumb;
+
+    margin-top: calc(0.55 * calc(var(--rangeHeight) - var(--rangeThumbHeight)));
+  }
+
+  &::-moz-range-thumb {
+    @mixin thumb;
+  }
+
+  &::-ms-thumb {
+    @mixin thumb;
+  }
+
+  &:active::-webkit-slider-thumb {
+    background-color: var(--rangeThumbActiveBackground);
+  }
+
+  &:active::-moz-range-thumb {
+    background-color: var(--rangeThumbActiveBackground);
+  }
+
+  &:active::-ms-thumb {
+    background-color: var(--rangeThumbActiveBackground);
+  }
+
+  &:not(:active):focus::-webkit-slider-thumb {
+    @mixin focus-thumb;
+  }
+
+  &:not(:active):focus::-moz-range-thumb {
+    @mixin focus-thumb;
+  }
+
+  &:not(:active):focus::-ms-thumb {
+    @mixin focus-thumb;
+  }
+
+  &:disabled,
+  &[aria-disabled] {
+    &::-webkit-slider-runnable-track {
+      @mixin disabled-track;
+    }
+
+    &::-moz-range-track {
+      @mixin disabled-track;
+    }
+
+    &::-ms-track {
+      @mixin disabled-track;
+    }
+
+    &::-webkit-slider-thumb {
+      @mixin disabled-thumb;
+    }
+
+    &::-moz-range-thumb {
+      @mixin disabled-thumb;
+    }
+
+    &::-ms-thumb {
+      @mixin disabled-thumb;
+    }
+  }
+}

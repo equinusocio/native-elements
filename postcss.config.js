@@ -1,21 +1,33 @@
-module.exports = (ctx) => ({
+const path = require("path");
+
+module.exports = {
+  modules: false,
   plugins: {
-    'stylelint': {},
-    'postcss-easy-import': {
-      extensions: '.pcss',
-      plugins: [require('stylelint')()]
+    "postcss-easy-import": {
+      extensions: ".pcss"
     },
-    'postcss-responsive-type': {},
-    'postcss-preset-env': {
+    "postcss-responsive-type": {},
+    "postcss-preset-env": {
       stage: 0,
       autoprefixer: {
         grid: true
       },
-      insertBefore: {
-        'nesting-rules': require('postcss-mixins')()
+      insertAfter: {
+        "custom-media-queries": require("postcss-mixins")()
       }
     },
-    'cssnano': { preset: 'advanced' },
-    'postcss-reporter': { clearReportedMessages: true }
+    cssnano: {
+      preset: [
+        "advanced",
+        {
+          discardComments: {
+            removeAll: true
+          }
+        }
+      ]
+    },
+    "postcss-reporter": {
+      clearReportedMessages: true
+    }
   }
-})
+};
