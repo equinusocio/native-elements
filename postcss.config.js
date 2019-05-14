@@ -14,7 +14,7 @@ module.exports = {
       },
       insertAfter: {
         "custom-media-queries": require("postcss-mixins")({
-          mixinsFiles: path.join(__dirname, "elements/**", "_*.pcss")
+          mixinsFiles: path.join(__dirname, "src/elements/**", "_*.pcss")
         })
       }
     },

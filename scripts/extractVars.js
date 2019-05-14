@@ -6,7 +6,7 @@ const cwd = process.cwd()
 
 function findFiles() {
   return new Promise((resolve, reject) => {
-    return glob(`${cwd}/elements/**/_config.pcss`, (err, files) => {
+    return glob(`${cwd}/src/elements/**/_config.pcss`, (err, files) => {
       return err ? reject(err) : resolve(files)
     })
   })
