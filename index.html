@@ -12,7 +12,7 @@
       font-size: 100%;
       text-rendering: optimizeLegibility;
 
-      --ne-select-width: 100%;
+      --width: 100%;
       --ne-textfield-width: 100%;
     }
 
@@ -67,8 +67,12 @@ line-height: 1.5;
       --ne-button-radius: 100px;
     }
 
-    [ne-details] p {
+    details p {
       padding: 0 32px;
+    }
+
+    select {
+      --selectWidth: 100%;
     }
   </style>
 </head>
@@ -163,53 +167,53 @@ line-height: 1.5;
         <p>
           <strong>pre</strong>
           <pre>P R E F O R M A T T E D T E X T
-  ! " # $ % &amp; ' ( ) * + , - . /
-  0 1 2 3 4 5 6 7 8 9 : ; &lt; = &gt; ?
-  @ A B C D E F G H I J K L M N O
-  P Q R S T U V W X Y Z [ \ ] ^ _
-  ` a b c d e f g h i j k l m n o
-  p q r s t u v w x y z { | } ~ </pre>
+! " # $ % &amp; ' ( ) * + , - . /
+0 1 2 3 4 5 6 7 8 9 : ; &lt; = &gt; ?
+@ A B C D E F G H I J K L M N O
+P Q R S T U V W X Y Z [ \ ] ^ _
+` a b c d e f g h i j k l m n o
+p q r s t u v w x y z { | } ~ </pre>
         </p>
 
         <p>
           <strong>pre + code</strong>
           <pre><code>ReactDOM.render(
-    &lt;h1&gt;Hello, world!&lt;/h1&gt;,
-    document.getElementById('root')
-  );</code></pre>
+  &lt;h1&gt;Hello, world!&lt;/h1&gt;,
+  document.getElementById('root')
+);</code></pre>
 
         </p>
     </section>
 
     <section>
       <h4>Buttons</h4>
-        <button ne-button
+        <button
                 name="puppo"
                 tabindex="2"
                 autofocus>Button</button>
-        <button ne-button
+        <button
                 class="SecondButton">Button</button>
-        <button ne-button
+        <button
                 class="ThirdButton">Button</button>
 
-        <button ne-button
+        <button
                 disabled>Button</button>
     </section>
 
     <section>
       <h4>Buttons & icon</h4>
-        <button ne-button>
+        <button>
           <i>←</i>
           Button
         </button>
-        <button ne-button
+        <button
                 dir="rtl"
                 class="FullRound">
           <i>→</i>
           Button
         </button>
 
-        <button ne-button
+        <button
                 disabled>
           <i>←</i>
           Button
@@ -219,35 +223,35 @@ line-height: 1.5;
     <section>
       <h4>Progress</h4>
         <p>
-          <progress ne-progress
+          <progress
                     value="50"
                     max="100">progress</progress>
         </p>
         <p>
-          <progress ne-progress></progress>
+          <progress></progress>
         </p>
     </section>
 
     <section>
       <h4>Meter</h4>
-        <input ne-textfield
+        <input
               type="password"
               value="342567rt">
-        <meter ne-meter
+        <meter
               min="0"
               max="100"
               low="25"
               high="75"
               optimum="100"
               value="10"></meter>
-        <meter ne-meter
+        <meter
               min="0"
               max="100"
               low="25"
               high="75"
               optimum="100"
               value="50"></meter>
-        <meter ne-meter
+        <meter
               min="0"
               max="100"
               low="25"
@@ -258,49 +262,49 @@ line-height: 1.5;
 
     <section>
       <h4>Checkboxes & Radio</h4>
-        <fieldset ne-form>
-          <legend ne-form>Fieldset legend</legend>
-          <label ne-form>
-            <input ne-checkradio
+        <fieldset >
+          <legend >Fieldset legend</legend>
+          <label >
+            <input
                   type="checkbox">
             Default
           </label>
-          <label ne-form>
-            <input ne-checkradio
+          <label >
+            <input
                   checked
                   type="checkbox">
             Checked
           </label>
-          <label ne-form>
-            <input ne-checkradio
+          <label >
+            <input
                   data-indeterminate
                   type="checkbox">
             Indeterminate
           </label>
-          <label ne-form>
-            <input ne-checkradio
+          <label >
+            <input
                   type="checkbox"
                   disabled>
             disabled
           </label>
         </fieldset>
-        <fieldset ne-form>
-          <legend ne-form>Fieldset legend</legend>
-          <label ne-form>
-            <input ne-checkradio
+        <fieldset >
+          <legend >Fieldset legend</legend>
+          <label >
+            <input
                   name="group"
                   type="radio">
             Default
           </label>
-          <label ne-form>
-            <input ne-checkradio
+          <label >
+            <input
                   checked
                   name="group"
                   type="radio">
             Checked
           </label>
-          <label ne-form>
-            <input ne-checkradio
+          <label >
+            <input
                   name="group"
                   disabled
                   type="radio">
@@ -311,14 +315,14 @@ line-height: 1.5;
 
     <section>
       <h4>Range</h4>
-        <input ne-range
+        <input
               type="range"
               id="range"
               name="range"
               min="100"
               max="500"
               step="10">
-        <input ne-range
+        <input
               disabled
               type="range"
               id="range"
@@ -331,85 +335,85 @@ line-height: 1.5;
     <section>
       <h4>Text fields</h4>
         <p>
-          <input ne-textfield
+          <input
                 type="text"
                 placeholder="Text">
         </p>
         <p>
-          <input ne-textfield
+          <input
                 type="text"
                 disabled
                 value="I'm disabled"
                 placeholder="Text">
         </p>
         <p>
-          <input ne-textfield
+          <input
                 type="text"
                 readonly
                 value="I'm readonly"
                 placeholder="Readonly text">
         </p>
         <p>
-          <input ne-textfield
+          <input
                 type="password"
                 placeholder="Password">
         </p>
         <p>
-          <input ne-textfield
+          <input
                 type="url"
                 placeholder="Url">
         </p>
         <p>
-          <input ne-textfield
+          <input
                 type="email"
                 placeholder="Email">
         </p>
         <p>
-          <input ne-textfield
+          <input
                 type="tel"
                 placeholder="Tel">
         </p>
         <p>
-          <input ne-textfield
+          <input
                 type="search"
                 placeholder="Search">
         </p>
         <p>
-          <input ne-textfield
+          <input
                 type="number"
                 valid
                 required
                 placeholder="Number">
         </p>
         <p>
-          <input ne-textfield
+          <input
                 type="date"
                 invalid
                 required
                 placeholder="Date">
         </p>
         <p>
-          <input ne-textfield
+          <input
                 type="time"
                 placeholder="Time">
         </p>
         <p>
-          <input ne-textfield
+          <input
                 type="month"
                 placeholder="Month">
         </p>
         <p>
-          <input ne-textfield
+          <input
                 type="week"
                 placeholder="Week">
         </p>
         <p>
-          <input ne-textfield
+          <input
                 type="datetime-local"
                 placeholder="Datetime Local">
         </p>
         <p>
-          <textarea ne-textfield></textarea>
+          <textarea></textarea>
         </p>
     </section>
 
@@ -417,8 +421,8 @@ line-height: 1.5;
       <h4>Select</h4>
         <p>
           <label for="select"
-                ne-form>Select</label>
-          <select ne-select
+                >Select</label>
+          <select
                   id="select"
                   name="select">
             <option selected
@@ -433,8 +437,8 @@ line-height: 1.5;
 
         <p>
           <label for="select"
-                ne-form>Disabled Select</label>
-          <select ne-select
+                >Disabled Select</label>
+          <select
                   id="select"
                   name="select"
                   disabled>
@@ -448,8 +452,8 @@ line-height: 1.5;
 
         <p>
           <label for="multi-select"
-                ne-form>Multi-select</label>
-          <select ne-select
+                >Multi-select</label>
+          <select
                   multiple
                   id="multi-select">
             <optgroup label="Option Group">
@@ -469,7 +473,7 @@ line-height: 1.5;
     <section>
       <h4>Folding</h4>
         <p>
-          <details ne-details>
+          <details >
             <summary>My details title</summary>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus provident saepe deserunt veritatis?
               Totam, corrupti. Dolor quos, numquam totam quae ea enim maiores sequi et? Optio harum adipisci neque nemo.
@@ -490,7 +494,7 @@ line-height: 1.5;
     <section>
       <h4>Folding group</h4>
         <section ne-details-group>
-          <details ne-details>
+          <details >
             <summary>My address details</summary>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus provident saepe deserunt veritatis?
               Totam, corrupti. Dolor quos, numquam totam quae ea enim maiores sequi et? Optio harum adipisci neque nemo.
@@ -499,7 +503,7 @@ line-height: 1.5;
               Totam, corrupti. Dolor quos, numquam totam quae ea enim maiores sequi et? Optio harum adipisci neque nemo.
             </p>
           </details>
-          <details ne-details>
+          <details >
             <summary>My address details</summary>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus provident saepe deserunt veritatis?
               Totam, corrupti. Dolor quos, numquam totam quae ea enim maiores sequi et? Optio harum adipisci neque nemo.
@@ -508,7 +512,7 @@ line-height: 1.5;
               Totam, corrupti. Dolor quos, numquam totam quae ea enim maiores sequi et? Optio harum adipisci neque nemo.
             </p>
           </details>
-          <details ne-details>
+          <details >
             <summary>My details extended</summary>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus provident saepe deserunt veritatis?
               Totam, corrupti. Dolor quos, numquam totam quae ea enim maiores sequi et? Optio harum adipisci neque nemo.
@@ -522,10 +526,10 @@ line-height: 1.5;
 
     <section>
       <h4>Input color</h4>
-        <input ne-color
+        <input
               type="color"
               value="#606fdc">
-        <input ne-color
+        <input
               type="color"
               value="#70e7bd">
     </section>
@@ -533,7 +537,7 @@ line-height: 1.5;
     <section>
       <h4>Dialog <small>(<a href="https://github.com/GoogleChrome/dialog-polyfill"
             target="_blank">Polyfill</a>)</small></h4>
-        <button ne-button
+        <button
                 data-modal="default-dialog"
                 class="modalTrigger">Open default dialog</button>
     </section>
@@ -545,7 +549,7 @@ line-height: 1.5;
   </main>
 
 
-  <dialog ne-dialog
+  <dialog
           data-modal-name="default-dialog">
     <header>
       <h3>Dialog Header</h3>
@@ -553,14 +557,14 @@ line-height: 1.5;
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus minus aut laborum eum, obcaecati odit
       accusantium enim tempore, nam suscipit cumque repellendus at. Repellendus molestias ea labore error iste dicta.</p>
     <footer>
-      <button ne-button
+      <button
               class="SecondButton modalClose">Yeah, confirm</button>
-      <button ne-button
+      <button
               class="SecondButton MutedButton modalClose">Cancel</button>
     </footer>
   </dialog>
 
-  <dialog ne-dialog
+  <dialog
           data-modal-name="default-dialog">
     <header>
       <h3>Dialog Header</h3>
@@ -568,9 +572,9 @@ line-height: 1.5;
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus minus aut laborum eum, obcaecati odit
       accusantium enim tempore, nam suscipit cumque repellendus at. Repellendus molestias ea labore error iste dicta.</p>
     <footer>
-      <button ne-button
+      <button
               class="SecondButton modalClose">Yeah, confirm</button>
-      <button ne-button
+      <button
               class="SecondButton MutedButton modalClose">Cancel</button>
     </footer>
   </dialog>
