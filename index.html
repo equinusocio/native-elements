@@ -4,9 +4,73 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="./elements/native-elements/native-elements.pcss">
-  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet"
+        href="./elements/native-elements/native-elements.pcss">
   <title>Document</title>
+  <style>
+    html {
+      font-size: 100%;
+      text-rendering: optimizeLegibility;
+
+      --ne-select-width: 100%;
+      --ne-textfield-width: 100%;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe
+UI Emoji", "Segoe UI Symbol";
+line-height: 1.5;
+      background: #FFF;
+      overflow: auto;
+      text-rendering: geometricPrecision;
+      -webkit-font-smoothing: antialiased;
+      margin: 0;
+      min-height: 100vh;
+    }
+
+    section+section {
+      margin-top: 100px;
+    }
+
+    main {
+      margin: 0 auto 100px;
+      max-width: 800px;
+      min-width: 300px;
+      padding: 0 30px;
+      box-sizing: border-box;
+    }
+
+    .SecondButton {
+      --ne-button-radius: 3px;
+      --ne-button-y-padding: 0.8rem;
+      --ne-button-x-padding: 1.4rem;
+    }
+
+    .ThirdButton {
+      --ne-button-radius: 100px;
+      --ne-button-y-padding: 0.5rem;
+      --ne-button-x-padding: 1.5rem;
+    }
+
+    .MutedButton {
+      --ne-button-background: transparent;
+      --ne-button-hover-background: transparent;
+      --ne-button-active-background: transparent;
+      --ne-button-shadow: none;
+      --ne-button-foreground: #000;
+      --ne-button-hover-color: var(--buttonForeground));
+      --ne-button-focus-color: var(--buttonForeground));
+      --ne-button-active-color: var(--buttonForeground));
+    }
+
+    .FullRound {
+      --ne-button-radius: 100px;
+    }
+
+    [ne-details] p {
+      padding: 0 32px;
+    }
+  </style>
 </head>
 <body>
   <main>
