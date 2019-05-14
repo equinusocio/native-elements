@@ -13,7 +13,9 @@ module.exports = {
         grid: true
       },
       insertAfter: {
-        "custom-media-queries": require("postcss-mixins")()
+        "custom-media-queries": require("postcss-mixins")({
+          mixinsFiles: path.join(__dirname, "elements/**", "_*.pcss")
+        })
       }
     },
     cssnano: {
