@@ -17,12 +17,13 @@
     "node": ">=10"
   },
   "scripts": {
-    "clean": "yarn rimraf build/** dev/**",
+    "clean": "yarn rimraf dist/** dev/**",
     "serve": "parcel index.html --open --out-dir dev --no-cache",
     "predev": "yarn clean",
     "dev": "yarn serve",
     "prebuild": "yarn clean",
-    "build": "parcel build src/elements/native-elements/native-elements.pcss --no-minify --out-dir dist --detailed-report"
+    "build": "parcel build src/elements/native-elements/native-elements.pcss --no-minify --out-dir dist --detailed-report",
+    "postbuild": "copyfiles -f src/icons/** dist/icons"
   },
   "files": [
     "elements"
@@ -42,6 +43,7 @@
     "babel-eslint": "10.0.1",
     "babel-plugin-root-import": "6.2.0",
     "chalk": "2.4.2",
+    "copyfiles": "2.1.0",
     "cssnano": "4.1.10",
     "cssnano-preset-advanced": "4.0.7",
     "eslint": "5.16.0",

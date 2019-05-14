@@ -2,7 +2,7 @@ button {
   @mixin button-config;
   @mixin button;
 
-  & i {
+  & svg {
     color: inherit;
     fill: inherit;
     font-style: normal;
@@ -12,7 +12,7 @@ button {
     border-right: 1px solid var(--buttonIconSeparator);
   }
 
-  &[dir='rtl'] i {
+  &[dir='rtl'] svg {
     margin-right: 0;
     padding-right: 0;
     border-right: 0;
@@ -21,7 +21,7 @@ button {
     border-left: 1px solid var(--buttonIconSeparator);
   }
 
-  &[disabled] i {
+  &[disabled] svg {
     border-color: var(--buttonDisabledIconSeparator);
   }
 }
