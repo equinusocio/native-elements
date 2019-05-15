@@ -19,12 +19,18 @@
   height: var(--rangeThumbHeight);
   border-color: transparent;
   border-radius: var(--rangeThumbRadius);
-  background-color: var(--rangeThumbBackground);
-  background-image: url(data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="7" height="10"> <path fill="#E3E3E3" fill-rule="evenodd" d="M6 .50964952C6 .22817786 6.2319336 0 6.5 0c.2761424 0 .5.22765279.5.50964952V9.4903505C7 9.7718221 6.7680664 10 6.5 10c-.2761424 0-.5-.2276528-.5-.5096495V.50964952zm-3 0C3 .22817786 3.23193359 0 3.5 0c.27614237 0 .5.22765279.5.50964952V9.4903505C4 9.7718221 3.76806641 10 3.5 10c-.27614237 0-.5-.2276528-.5-.5096495V.50964952zm-3 0C0 .22817786.23193359 0 .5 0c.27614237 0 .5.22765279.5.50964952V9.4903505C1 9.7718221.76806641 10 .5 10c-.27614237 0-.5-.2276528-.5-.5096495V.50964952z" opacity=".701"/></svg>);
-  background-size: 40%;
+  background:
+    repeating-linear-gradient(
+      to right,
+      transparent,
+      transparent 2px,
+      var(--rangeThumbSripesColor) 2px,
+      var(--rangeThumbSripesColor) 3px
+    ),
+    var(--rangeThumbBackground);
+  background-size: 14px 54%;
   background-position: center center;
   background-repeat: no-repeat;
-  cursor: pointer;
   box-shadow: var(--rangeThumbShadow);
   transition: box-shadow 0.1s ease-out, background-color 0.1s ease-out;
   appearance: none;
@@ -33,8 +39,21 @@
     cursor: grab;
   }
 
-  &:active {
+  &:active,
+  &:focus {
     cursor: grabbing;
+    background:
+      repeating-linear-gradient(
+        to right,
+        transparent,
+        transparent 2px,
+        var(--rangeThumbSripesActiveColor) 2px,
+        var(--rangeThumbSripesActiveColor) 3px
+      ),
+      var(--rangeThumbActiveBackground);
+    background-size: 14px 54%;
+    background-position: center center;
+    background-repeat: no-repeat;
   }
 }
 
@@ -45,6 +64,17 @@
 }
 
 @define-mixin focus-thumb {
-  background-color: var(--rangeThumbActiveBackground);
+  background:
+    repeating-linear-gradient(
+      to right,
+      transparent,
+      transparent 2px,
+      var(--rangeThumbSripesActiveColor) 2px,
+      var(--rangeThumbSripesActiveColor) 3px
+    ),
+    var(--rangeThumbActiveBackground);
+  background-size: 14px 54%;
+  background-position: center center;
+  background-repeat: no-repeat;
   box-shadow: 0 0 0 var(--rangeOutlineWidth) var(--rangeOutlineColor);
 }

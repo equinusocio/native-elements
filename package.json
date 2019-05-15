@@ -18,9 +18,8 @@
   },
   "scripts": {
     "clean": "yarn rimraf dist/** dev/**",
-    "serve": "parcel index.html --open --out-dir dev --no-cache",
     "predev": "yarn clean",
-    "dev": "yarn serve",
+    "dev": "parcel index.html --open --out-dir dev --no-cache",
     "prebuild": "yarn clean",
     "build": "parcel build src/elements/native-elements/native-elements.pcss --no-minify --out-dir dist --detailed-report",
     "postbuild": "copyfiles -f src/icons/** dist/icons && size-limit",
