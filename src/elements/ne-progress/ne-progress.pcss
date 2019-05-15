@@ -14,18 +14,19 @@ progress {
   box-shadow: inset 0 0 0 1px var(--progressBorderColor);
 
   &::-webkit-progress-bar {
-    border-radius: 10px;
+    border-radius: var(--progressBorderRadius);
     background: var(--progressBackground);
     box-shadow: inset 0 0 0 1px var(--progressBorderColor);
   }
 
   &::-webkit-progress-value {
-    border-radius: 10px;
+    border-radius: var(--progressBorderRadius);
     background: var(--progressFilledColor);
+    transition: width 200ms ease-out;
   }
 
   &::-moz-progress-bar {
-    border-radius: 10px;
+    border-radius: var(--progressBorderRadius);
     background: var(--progressFilledColor);
   }
 

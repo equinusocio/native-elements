@@ -6,7 +6,6 @@ module.exports = {
     "postcss-easy-import": {
       extensions: ".pcss"
     },
-    "postcss-responsive-type": {},
     "postcss-preset-env": {
       stage: 0,
       autoprefixer: {
