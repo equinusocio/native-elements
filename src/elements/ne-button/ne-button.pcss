@@ -1,8 +1,10 @@
+@custom-selector :--icons i, svg;
+
 button {
   @mixin button-config;
   @mixin button;
 
-  & svg {
+  & :--icons {
     color: inherit;
     fill: currentColor;
     stroke: currentColor;
@@ -13,7 +15,7 @@ button {
     border-right: 1px solid var(--buttonIconSeparator);
   }
 
-  &[dir='rtl'] svg {
+  &[dir='rtl'] :--icons {
     margin-right: 0;
     padding-right: 0;
     border-right: 0;
@@ -22,7 +24,7 @@ button {
     border-left: 1px solid var(--buttonIconSeparator);
   }
 
-  &[disabled] svg {
+  &[disabled] :--icons {
     border-color: var(--buttonDisabledIconSeparator);
   }
 }
