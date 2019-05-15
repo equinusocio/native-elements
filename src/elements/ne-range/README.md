@@ -62,6 +62,7 @@ Check the [live demo](https://ne-range.stackblitz.io/)
   --ne-range-thumb-radius: 5px; /* border-radius */
 
   /* Misc API */
+  --ne-range-width: 100%; /* unit */
   --ne-range-height: 5px; /* unit */
   --ne-range-radius: 10px; /* border-radius */
   --ne-range-outline-color: hsl(233, 64%, 85%); /* color */

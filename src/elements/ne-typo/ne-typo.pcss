@@ -1,35 +1,33 @@
-::selection {
+html {
   @mixin typo-config;
+}
 
+::selection {
   background-color: var(--selectionBackground);
   color: var(--selectionForeground);
 }
 
 h1 {
-  font-size: 48px;
+  font-size: calc((1rem * var(--headingsScale)) * var(--headingsScale) * var(--headingsScale) * var(--headingsScale) * var(--headingsScale));
 }
 
 h2 {
-  font-size: 39px;
+  font-size: calc((1rem * var(--headingsScale)) * var(--headingsScale) * var(--headingsScale) * var(--headingsScale));
 }
 
 h3 {
-  font-size: 31px;
+  font-size: calc((1rem * var(--headingsScale)) * var(--headingsScale) * var(--headingsScale));
 }
 
 h4 {
-  font-size: 25px;
+  font-size: calc((1rem * var(--headingsScale)) * var(--headingsScale));
 }
 
 h5 {
-  font-size: 20px;
+  font-size: calc(1rem * var(--headingsScale));
 }
 
 h6 {
-  font-size: 18px;
-}
-
-p {
   font-size: 1rem;
 }
 
@@ -42,7 +40,6 @@ blockquote {
   & cite {
     display: block;
     font-size: 0.8rem;
-    font-range: 320px 1440px;
     color: hsl(0, 0%, 60%);
 
     &::before {
@@ -72,14 +69,17 @@ a:visited {
 
 del {
   padding: 2px 4px;
-  background-color: hsl(3, 100%, 84%);
-  color: hsl(354, 80%, 55%);
+  background-color: #FFD4D2;
+  box-shadow: 0 0 0 2px #FFD4D2;
+  color: #8E0000;
 }
 
 ins {
   padding: 2px 4px;
   background-color: hsl(138, 100%, 88%);
-  color: hsl(138, 100%, 28%);
+  box-shadow: 0 0 0 2px hsl(138, 100%, 88%);
+  text-decoration: none;
+  color: hsl(161, 98%, 18%);
 }
 
 address {
@@ -113,7 +113,8 @@ kbd {
 
 mark {
   background: #FFF433;
-  color: #8E4813;
+  box-shadow: 0 0 0 2px #FFF433;
+  color: #882E00;
 }
 
 abbr {

@@ -84,7 +84,7 @@ Check the [live demo](https://ne-textfield.stackblitz.io/)
 
   /* Misc API */
   --ne-textfield-radius: 5px; /* border-radius */
-  --ne-textfield-width: auto; /* width */
+  --ne-textfield-width: 100%; /* width */
   --ne-textfield-height: 2.5rem; /* height */
   --ne-textfield-y-padding: 0.5rem; /* unit */
   --ne-textfield-x-padding: 0.75rem; /* unit */

@@ -79,7 +79,7 @@ Check the [live demo](https://ne-select.stackblitz.io/)
 
   /* Misc API */
   --ne-select-radius: 5px; /* unit */
-  --ne-select-width: auto; /* unit */
+  --ne-select-width: 100%; /* unit */
   --ne-select-height: 2.5rem; /* unit */
   --ne-select-padding: 0.75rem; /* unit */
   --ne-select-outline-color: hsl(233, 64%, 85%); /* color */
