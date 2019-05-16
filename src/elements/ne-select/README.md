@@ -8,9 +8,6 @@ Native HTML `<select>` element with **CSS API** that give you superpowers. 🕶
 - [Select - Native Elements](#select---native-elements)
   - [Example](#example)
   - [CSS API](#css-api)
-  - [Install](#install)
-  - [Usage](#usage)
-    - [PostCSS](#postcss)
 
 <!-- /TOC -->
 
@@ -91,25 +88,3 @@ Check the [live demo](https://ne-select.stackblitz.io/)
   --ne-select-shadow: 0 1px 2px rgba(0, 0, 0, 0.06); /* box-shadow */
 }
 ```
-
-## Install
-
-You can just install it with **npm** by running:
-```
-yarn add -D @native-elements/ne-select
-```
-
-
-## Usage
-Just import the css inside your project from the **node_modules**.
-```css
-@import '@native-elements/ne-select/dist/ne-select.css';
-```
-
-### PostCSS
-If you are inside a postCSS environment you can also import the `.pcss` source file and build it with your build process:
-```css
-@import '@native-elements/ne-select/src/ne-select.pcss';
-```
-
-_**NOTE:** You need some PostCSS plugins to build Native Elements components._

@@ -9,9 +9,6 @@ Native HTML `<button>` element with **CSS API** that give you superpowers. 🕶
   - [Example](#example)
   - [CSS API](#css-api)
   - [HTML API](#html-api)
-  - [Install](#install)
-  - [Usage](#usage)
-    - [PostCSS](#postcss)
 
 <!-- /TOC -->
 
@@ -91,25 +88,3 @@ Check the [live demo](https://ne-button.stackblitz.io/)
 > dir="rtl"
 
 Adding this html attribute the icon inside the button will change the position without changing the DOM. The style will be automatically fixed.
-
-## Install
-
-You can just install it with **npm** by running:
-```
-yarn add -D @native-elements/ne-button
-```
-
-
-## Usage
-Just import the css inside your project from the **node_modules**.
-```css
-@import '@native-elements/ne-button/dist/ne-button.css';
-```
-
-### PostCSS
-If you are inside a postCSS environment you can also import the `.pcss` source file and build it with your build process:
-```css
-@import '@native-elements/ne-button/src/ne-button.pcss';
-```
-
-_**NOTE:** You need some PostCSS plugins to build Native Elements components._

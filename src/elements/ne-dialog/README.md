@@ -6,9 +6,6 @@ Native HTML `<dialog>` element with **CSS API** that give you superpowers. 🕶
 - [Dialog - Native Elements (experimental 👨‍🔬)](#dialog---native-elements-experimental-%F0%9F%91%A8%E2%80%8D%F0%9F%94%AC)
   - [Example](#example)
   - [CSS API](#css-api)
-  - [Install](#install)
-  - [Usage](#usage)
-    - [PostCSS](#postcss)
 
 ---
 
@@ -63,25 +60,3 @@ Check the [live demo](https://ne-dialog.stackblitz.io/)
   --ne-dialog-backdrop-filter: blur(10px); /* backdrop-filter */
 }
 ```
-
-## Install
-
-You can just install it with **npm** by running:
-```shell
-yarn add -D @native-elements/ne-dialog
-```
-
-
-## Usage
-Just import the css inside your project from the **node_modules**.
-```css
-@import '@native-elements/ne-dialog/dist/ne-dialog.css';
-```
-
-### PostCSS
-If you are inside a postCSS environment you can also import the `.pcss` source file and build it with your build process:
-```css
-@import '@native-elements/ne-dialog/src/ne-dialog.pcss';
-```
-
-_**NOTE:** You need some PostCSS plugins to build Native Elements components._

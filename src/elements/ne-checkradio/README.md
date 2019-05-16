@@ -8,9 +8,6 @@ Native HTML `<input type="checkbox">` & `<input type="radio">` elements with **C
 - [Check & Radio - Native Elements](#check--radio---native-elements)
   - [Example](#example)
   - [CSS API](#css-api)
-  - [Install](#install)
-  - [Usage](#usage)
-    - [PostCSS](#postcss)
 
 <!-- /TOC -->
 
@@ -44,25 +41,3 @@ Check the [live demo](https://ne-checkradio.stackblitz.io/)
   --ne-checkradio-animation-duration: 0.8s; /* time */
 }
 ```
-
-## Install
-
-You can just install it with **npm** by running:
-```
-yarn add -D @native-elements/ne-checkradio
-```
-
-
-## Usage
-Just import the css inside your project from the **node_modules**.
-```css
-@import '@native-elements/ne-checkradio/dist/ne-checkradio.css';
-```
-
-### PostCSS
-If you are inside a postCSS environment you can also import the `.pcss` source file and build it with your build process:
-```css
-@import '@native-elements/ne-checkradio/src/ne-checkradio.pcss';
-```
-
-_**NOTE:** You need some PostCSS plugins to build Native Elements components._

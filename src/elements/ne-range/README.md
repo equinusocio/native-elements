@@ -8,9 +8,6 @@ Native HTML `<input type="range">` element with **CSS API** that give you superp
 - [Range - Native Elements](#range---native-elements)
   - [Example](#example)
   - [CSS API](#css-api)
-  - [Install](#install)
-  - [Usage](#usage)
-    - [PostCSS](#postcss)
 
 <!-- /TOC -->
 
@@ -69,25 +66,3 @@ Check the [live demo](https://ne-range.stackblitz.io/)
   --ne-range-outline-width: 0.2rem; /* unit */
 }
 ```
-
-## Install
-
-You can just install it with **npm** by running:
-```
-yarn add -D @native-elements/ne-range
-```
-
-
-## Usage
-Just import the css inside your project from the **node_modules**.
-```css
-@import '@native-elements/ne-range/dist/ne-range.css';
-```
-
-### PostCSS
-If you are inside a postCSS environment you can also import the `.pcss` source file and build it with your build process:
-```css
-@import '@native-elements/ne-range/src/ne-range.pcss';
-```
-
-_**NOTE:** You need some PostCSS plugins to build Native Elements components._

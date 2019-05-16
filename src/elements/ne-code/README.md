@@ -6,11 +6,8 @@ Native HTML `<pre>` and `<code>` elements with **CSS API** that give you superpo
 <!-- TOC -->
 
 - [Code - Native Elements](#code---native-elements)
-    - [Example](#example)
-    - [CSS API](#css-api)
-    - [Install](#install)
-    - [Usage](#usage)
-        - [PostCSS](#postcss)
+  - [Example](#example)
+  - [CSS API](#css-api)
 
 <!-- /TOC -->
 
@@ -70,25 +67,3 @@ Check the [live demo](https://ne-code.stackblitz.io/)
   --ne-code-x-padding: 1.5rem; /* unit */
 }
 ```
-
-## Install
-
-You can just install it with **npm** by running:
-```
-yarn add -D @native-elements/ne-code
-```
-
-
-## Usage
-Just import the css inside your project from the **node_modules**.
-```css
-@import '@native-elements/ne-code/dist/ne-code.css';
-```
-
-### PostCSS
-If you are inside a postCSS environment you can also import the `.pcss` source file and build it with your build process:
-```css
-@import '@native-elements/ne-code/src/ne-code.pcss';
-```
-
-_**NOTE:** You need some PostCSS plugins to build Native Elements components._

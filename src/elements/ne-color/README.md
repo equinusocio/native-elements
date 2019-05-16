@@ -6,9 +6,6 @@ Native HTML `<input type="color">` element with **CSS API** that give you superp
 - [Color - Native Elements](#color---native-elements)
   - [Example](#example)
   - [CSS API](#css-api)
-  - [Install](#install)
-  - [Usage](#usage)
-    - [PostCSS](#postcss)
 
 ---
 
@@ -45,25 +42,3 @@ Check the [live demo](https://ne-color.stackblitz.io/)
   --ne-color-outline-width: 0.2rem; /* unit */
 }
 ```
-
-## Install
-
-You can just install it with **npm** by running:
-```
-yarn add -D @native-elements/ne-color
-```
-
-
-## Usage
-Just import the css inside your project from the **node_modules**.
-```css
-@import '@native-elements/ne-color/dist/ne-color.css';
-```
-
-### PostCSS
-If you are inside a postCSS environment you can also import the `.pcss` source file and build it with your build process:
-```css
-@import '@native-elements/ne-color/src/ne-color.pcss';
-```
-
-_**NOTE:** You need some PostCSS plugins to build Native Elements components._
