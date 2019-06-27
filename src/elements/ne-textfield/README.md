@@ -5,9 +5,9 @@ Native HTML `<input ...>` and `<textarea>` elements with **CSS API** that give y
 
 <!-- TOC -->
 
-- [Text fields - Native Elements](#text-fields---native-elements)
-  - [Example](#example)
-  - [CSS API](#css-api)
+- [Text fields - Native Elements](#Text-fields---Native-Elements)
+  - [Example](#Example)
+  - [CSS API](#CSS-API)
 
 <!-- /TOC -->
 
@@ -55,7 +55,7 @@ Check the [live demo](https://ne-textfield.stackblitz.io/)
   --ne-textfield-disabled-border: 1px solid hsl(220, 10%, 95%); /* border */
   --ne-textfield-readonly-border: 1px dashed hsl(0, 0%, 89%); /* border */
   --ne-textfield-readonly-focus-border: 1px dashed hsl(233, 64%, 62%); /* border */
-  --ne-textfield-vaild-border: 1px solid hsl(67, 78%, 52%); /* border */
+  --ne-textfield-vaild-border: 1px solid hsl(155, 73%, 47%); /* border */
   --ne-textfield-invaild-border: 1px solid hsl(354, 100%, 65%); /* border */
 
   /* Background API */
@@ -86,7 +86,7 @@ Check the [live demo](https://ne-textfield.stackblitz.io/)
   --ne-textfield-y-padding: 0.5rem; /* unit */
   --ne-textfield-x-padding: 0.75rem; /* unit */
   --ne-textfield-outline-color: hsl(233, 64%, 85%); /* color */
-  --ne-textfield-valid-outline-color: hsl(67, 78%, 90%); /* color */
+  --ne-textfield-valid-outline-color: hsl(155, 73%, 87%); /* color */
   --ne-textfield-invalid-outline-color: hsl(354, 100%, 90%);/* color */
   --ne-textfield-outline-width: 0.2rem; /* unit */
   --ne-textfield-selection-background: hsl(233, 64%, 90%); /* color */
