@@ -70,5 +70,11 @@
   "dependencies": {
     "@babel/preset-env": "7.4.4",
     "core-js": "3"
-  }
+  },
+  "browserslist": [
+    "last 1 Chrome versions",
+    "last 1 Firefox versions",
+    "last 1 Safari versions",
+    "last 1 Edge versions"
+  ]
 }

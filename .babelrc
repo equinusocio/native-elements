@@ -5,10 +5,12 @@
       {
         "useBuiltIns": "usage", // "usage" | "entry" | false, defaults to false.
         "corejs": "3.0.0",
-        "targets": {
-          "esmodules": true,
-          "ie": "11"
-        }
+        "targets": [
+          "last 1 Chrome versions",
+          "last 1 Firefox versions",
+          "last 1 Safari versions",
+          "last 1 Edge versions"
+        ]
       }
     ]
   ],
