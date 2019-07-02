@@ -5,7 +5,7 @@
   background: var(--textfieldBackground);
   font-family: inherit;
   font-size: inherit;
-  font-weight: 400;
+  font-weight: 600;
   line-height: inherit;
   color: var(--textfieldColor);
   letter-spacing: 0.5px;
@@ -29,6 +29,7 @@
 
   &::placeholder {
     color: var(--textfieldPlaceholderColor);
+    font-weight: 400;
   }
 
   &:hover {
@@ -86,7 +87,9 @@
       border: var(--textfieldValidBorder);
 
       &:focus {
-        box-shadow: 0 0 0 var(--textfieldOutlineWidth) var(--textfieldValidOutlineColor);
+        box-shadow:
+          0 0 0 var(--textfieldOutlineWidth)
+          var(--textfieldValidOutlineColor);
       }
     }
 
@@ -96,7 +99,9 @@
       border: var(--textfieldInvalidBorder);
 
       &:focus {
-        box-shadow: 0 0 0 var(--textfieldOutlineWidth) var(--textfieldInvalidOutlineColor);
+        box-shadow:
+          0 0 0 var(--textfieldOutlineWidth)
+          var(--textfieldInvalidOutlineColor);
       }
     }
   }

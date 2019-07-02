@@ -54,7 +54,7 @@ Check the [live demo](https://ne-button.stackblitz.io/)
   --ne-button-disabled-border: var(--ne-button-border); /*  border */
 
   /* Background API */
-  --ne-button-background: hsl(233, 64%, 62%); /*  background  */
+  --ne-button-background: hsl(235, 100%, 60%); /*  background  */
   --ne-button-hover-background: hsl(233, 64%, 52%); /*  background  */
   --ne-button-focus-background: var(--ne-button-hover-background); /*  background  */
   --ne-button-active-background: hsl(233, 64%, 32%); /*  background  */

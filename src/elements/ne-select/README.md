@@ -57,7 +57,7 @@ Check the [live demo](https://ne-select.stackblitz.io/)
   /* Border API */
   --ne-select-border: 1px solid hsl(0, 0%, 89%); /* border */
   --ne-select-hover-border: 1px solid hsl(0, 0%, 89%); /* border */
-  --ne-select-focus-border: 1px solid hsl(233, 64%, 62%); /* border */
+  --ne-select-focus-border: 1px solid hsl(235, 100%, 60%); /* border */
   --ne-select-disabled-border: 1px solid hsl(220, 10%, 95%); /* border */
 
   /* Background API */
@@ -65,7 +65,7 @@ Check the [live demo](https://ne-select.stackblitz.io/)
   --ne-select-hover-background: var(--ne-select-background); /* background */
   --ne-select-focus-background: var(--ne-select-background); /* background */
   --ne-select-disabled-background: hsl(220, 10%, 95%); /* background */
-  --ne-select-option-checked-background: hsl(233, 64%, 62%); /* background */
+  --ne-select-option-checked-background: hsl(235, 100%, 60%); /* background */
 
   /* Foreground API */
   --ne-select-color: hsl(0, 0%, 13%); /* color */

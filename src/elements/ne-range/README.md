@@ -49,9 +49,9 @@ Check the [live demo](https://ne-range.stackblitz.io/)
   --ne-range-focus-background: var(--ne-range-background); /* color */
 
   /* Thumb API */
-  --ne-range-stripes-color: hsl(233, 64%, 62%); /* color */
+  --ne-range-stripes-color: hsl(235, 100%, 60%); /* color */
   --ne-range-thumb-background: #FFF; /* color */
-  --ne-range-thumb-active-background: hsl(233, 64%, 62%); /* color */
+  --ne-range-thumb-active-background: hsl(235, 100%, 60%); /* color */
   --ne-range-thumb-disabled-background: hsl(0, 0%, 98%); /* color */
   --ne-range-thumb-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.16); /* box-shadow */
   --ne-range-thumb-width: 22px; /* unit */

@@ -51,10 +51,10 @@ Check the [live demo](https://ne-textfield.stackblitz.io/)
   /* Border API */
   --ne-textfield-border: 1px solid hsl(0, 0%, 89%); /* border */
   --ne-textfield-hover-border: 1px solid hsl(0, 0%, 89%); /* border */
-  --ne-textfield-focus-border: 1px solid hsl(233, 64%, 62%); /* border */
+  --ne-textfield-focus-border: 1px solid hsl(235, 100%, 60%); /* border */
   --ne-textfield-disabled-border: 1px solid hsl(220, 10%, 95%); /* border */
   --ne-textfield-readonly-border: 1px dashed hsl(0, 0%, 89%); /* border */
-  --ne-textfield-readonly-focus-border: 1px dashed hsl(233, 64%, 62%); /* border */
+  --ne-textfield-readonly-focus-border: 1px dashed hsl(235, 100%, 60%); /* border */
   --ne-textfield-vaild-border: 1px solid hsl(155, 73%, 47%); /* border */
   --ne-textfield-invaild-border: 1px solid hsl(354, 100%, 65%); /* border */
 
@@ -70,14 +70,14 @@ Check the [live demo](https://ne-textfield.stackblitz.io/)
   --ne-textfield-color: hsl(0, 0%, 13%); /* color */
   --ne-textfield-hover-color: var(--ne-textfield-color); /* color */
   --ne-textfield-focus-color: var(--ne-textfield-color); /* color */
-  --ne-textfield-disabled-color: hsl(220, 10%, 55%); /* color */
+  --ne-textfield-disabled-color: hsl(0, 0%, 55%); /* color */
   --ne-textfield-readonly-color: var(--ne-textfield-color); /* color */
   --ne-textfield-valid-color: var(--ne-textfield-color); /* color */
   --ne-textfield-invalid-color: var(--ne-textfield-color); /* color */
   --ne-textfield-placeholder-color: hsl(0, 0%, 85%); /* color */
   --ne-textfield-hover-placeholder-color: var(--ne-textfield-placeholder-color); /* color */
   --ne-textfield-focus-placeholder-color: var(--ne-textfield-hover-placeholder-color); /* color */
-  --ne-textfield-disabled-placeholder-color: hsl(0, 0%, 85%); /* color */
+  --ne-textfield-disabled-placeholder-color: hsl(0, 0%, 60%); /* color */
 
   /* Misc API */
   --ne-textfield-radius: 5px; /* border-radius */

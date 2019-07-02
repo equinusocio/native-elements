@@ -57,7 +57,7 @@ Check the [live demo](https://ne-details.stackblitz.io/)
   /* Foreground API */
   --ne-details-summary-font-size: initial; /* font-size */
   --ne-details-summary-font-weight: 700; /* font-weight */
-  --ne-details-summary-open-color: hsl(233, 64%, 62%); /* color */
+  --ne-details-summary-open-color: hsl(235, 100%, 60%); /* color */
 
   /* Misc API */
   --ne-details-max-height: 300px; /* height */
