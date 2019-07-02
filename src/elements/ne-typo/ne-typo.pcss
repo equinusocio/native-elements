@@ -10,39 +10,28 @@ html {
 h1 {
   font-size:
     calc(
-      1rem * var(--headingsScale)
-      * var(--headingsScale)
-      * var(--headingsScale)
-      * var(--headingsScale)
-      * var(--headingsScale)
+      1rem * var(--headingsScale) * var(--headingsScale) * var(--headingsScale) *
+      var(--headingsScale) * var(--headingsScale)
     );
 }
 
 h2 {
   font-size:
     calc(
-      1rem * var(--headingsScale)
-      * var(--headingsScale)
-      * var(--headingsScale)
-      * var(--headingsScale)
+      1rem * var(--headingsScale) * var(--headingsScale) * var(--headingsScale) *
+      var(--headingsScale)
     );
 }
 
 h3 {
   font-size:
     calc(
-      1rem * var(--headingsScale)
-      * var(--headingsScale)
-      * var(--headingsScale)
+      1rem * var(--headingsScale) * var(--headingsScale) * var(--headingsScale)
     );
 }
 
 h4 {
-  font-size:
-    calc(
-      1rem * var(--headingsScale)
-      * var(--headingsScale)
-    );
+  font-size: calc(1rem * var(--headingsScale) * var(--headingsScale));
 }
 
 h5 {
@@ -56,12 +45,15 @@ h6 {
 blockquote {
   padding: 0;
   margin: 40px 0;
-  font-weight: 500;
+  font-weight: var(--quoteFontWeight);
   letter-spacing: 0.03em;
+  font-size: var(--quoteFontSize);
+  line-height: calc(var(--basicLineHeight) / 1.5);
 
   & cite {
     display: block;
-    font-size: 0.8rem;
+    margin-top: calc(var(--citeFontSize));
+    font-size: var(--citeFontSize);
     color: hsl(0, 0%, 60%);
 
     &::before {
