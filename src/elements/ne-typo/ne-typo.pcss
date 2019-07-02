@@ -42,13 +42,36 @@ h6 {
   font-size: 1rem;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hgroup,
+ul,
+ol,
+dd,
+p,
+figure,
+pre,
+table,
+fieldset,
+hr {
+  margin-top: 0;
+}
+
 blockquote {
   padding: 0;
-  margin: 40px 0;
+  margin: 2.5em 0;
   font-weight: var(--quoteFontWeight);
   letter-spacing: 0.03em;
   font-size: var(--quoteFontSize);
   line-height: calc(var(--basicLineHeight) / 1.5);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 
   & cite {
     display: block;
