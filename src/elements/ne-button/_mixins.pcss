@@ -10,7 +10,6 @@
   justify-content: center;
   line-height: 1;
   text-decoration: none;
-  outline: none;
   white-space: nowrap;
   border: var(--buttonBorder);
   background: var(--buttonBackground);
@@ -26,7 +25,7 @@
     border: 0;
   }
 
-  &:-moz-focusring {s
+  &:-moz-focusring {
     outline: none;
   }
 
@@ -34,12 +33,6 @@
     border-color: var(--buttonHoverBorder);
     background: var(--buttonHoverBackground);
     color: var(--buttonHoverColor);
-  }
-
-  /* Simulate focus outline with box-shadow */
-  &:focus,
-  &:active {
-    box-shadow: 0 0 0 var(--buttonOutlineWidth) var(--buttonOutlineColor);
   }
 
   &:focus {

@@ -11,13 +11,13 @@ select {
   line-height: inherit;
   color: var(--selectColor);
   letter-spacing: 0.5px;
-  outline: none;
   appearance: none;
   transition: color 0.1s ease-out, box-shadow 0.1s ease-out;
   display: block;
   width: var(--selectWidth);
   height: var(--selectHeight);
-  padding: 0 calc((var(--selectPadding) * 2) + var(--selectArrowSize)) 0 var(--selectPadding);
+  padding: 0 calc((var(--selectPadding) * 2) + var(--selectArrowSize)) 0
+    var(--selectPadding);
   box-sizing: border-box;
   box-shadow: var(--selectShadow);
 
@@ -30,7 +30,6 @@ select {
   &:focus {
     border: var(--selectFocusBorder);
     background: var(--selectFocusBackground);
-    box-shadow: 0 0 0 var(--selectOutlineWidth) var(--selectOutlineColor);
     color: var(--selectFocusColor);
   }
 
@@ -61,7 +60,8 @@ select {
 
   &[multiple] {
     height: auto;
-    padding: var(--selectPadding) var(--selectPadding) calc(var(--selectPadding) / 16) var(--selectPadding);
+    padding: var(--selectPadding) var(--selectPadding)
+      calc(var(--selectPadding) / 16) var(--selectPadding);
 
     @supports (padding-left: env(safe-area-inset-left)) {
       padding: var(--selectPadding);
@@ -72,7 +72,10 @@ select {
 
       &:checked {
         color: var(--selectOptionCheckedColor);
-        background: var(--selectOptionCheckedBackground) -webkit-linear-gradient(bottom, var(--selectOptionCheckedBackground) 0%, var(--selectOptionCheckedBackground) 100%);
+        background: var(--selectOptionCheckedBackground) -webkit-linear-gradient(bottom, var(
+                --selectOptionCheckedBackground
+              )
+              0%, var(--selectOptionCheckedBackground) 100%);
         background-color: var(--selectOptionCheckedBackground);
       }
     }

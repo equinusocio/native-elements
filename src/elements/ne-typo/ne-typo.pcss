@@ -2,31 +2,36 @@ html {
   @mixin typo-config;
 }
 
-::selection {
-  background-color: var(--selectionBackground);
-  color: var(--selectionForeground);
-}
-
 h1 {
   font-size:
     calc(
-      1rem * var(--headingsScale) * var(--headingsScale) * var(--headingsScale) *
-      var(--headingsScale) * var(--headingsScale)
+      1rem
+      * var(--headingsScale)
+      * var(--headingsScale)
+      * var(--headingsScale)
+      * var(--headingsScale)
+      * var(--headingsScale)
     );
 }
 
 h2 {
   font-size:
     calc(
-      1rem * var(--headingsScale) * var(--headingsScale) * var(--headingsScale) *
-      var(--headingsScale)
+      1rem
+      * var(--headingsScale)
+      * var(--headingsScale)
+      * var(--headingsScale)
+      * var(--headingsScale)
     );
 }
 
 h3 {
   font-size:
     calc(
-      1rem * var(--headingsScale) * var(--headingsScale) * var(--headingsScale)
+      1rem
+      * var(--headingsScale)
+      * var(--headingsScale)
+      * var(--headingsScale)
     );
 }
 
@@ -67,20 +72,18 @@ blockquote {
   font-weight: var(--quoteFontWeight);
   letter-spacing: 0.03em;
   font-size: var(--quoteFontSize);
-  line-height: calc(var(--basicLineHeight) / 1.5);
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
+  line-height: calc(var(--basicLineHeight) / 1.2);
+  line-clamp: 3;
   overflow: hidden;
 
   & cite {
     display: block;
     margin-top: calc(var(--citeFontSize));
     font-size: var(--citeFontSize);
-    color: hsl(0, 0%, 60%);
+    color: var(--citeForeground);
 
     &::before {
-      content: '\2014';
+      content: '—';
       margin-right: 4px;
     }
   }
@@ -106,9 +109,9 @@ a:visited {
 
 del {
   padding: 2px 4px;
-  background-color: #FFD4D2;
-  box-shadow: 0 0 0 2px #FFD4D2;
-  color: #8E0000;
+  background-color: #ffd4d2;
+  box-shadow: 0 0 0 2px #ffd4d2;
+  color: #8e0000;
 }
 
 ins {
@@ -149,9 +152,9 @@ kbd {
 }
 
 mark {
-  background: #FFF433;
-  box-shadow: 0 0 0 2px #FFF433;
-  color: #882E00;
+  background: #fff433;
+  box-shadow: 0 0 0 2px #fff433;
+  color: #882e00;
 }
 
 abbr {

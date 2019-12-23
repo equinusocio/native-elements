@@ -9,7 +9,6 @@
   line-height: inherit;
   color: var(--textfieldColor);
   letter-spacing: 0.5px;
-  outline: none;
   appearance: none;
   transition: color 0.1s ease-out, box-shadow 0.1s ease-out;
 
@@ -45,7 +44,6 @@
   &:focus {
     border: var(--textfieldFocusBorder);
     background: var(--textfieldFocusBackground);
-    box-shadow: 0 0 0 var(--textfieldOutlineWidth) var(--textfieldOutlineColor);
     color: var(--textfieldFocusColor);
 
     &::placeholder {
@@ -85,24 +83,12 @@
       color: var(--textfieldValidColor);
       background: var(--textfieldValidBackground);
       border: var(--textfieldValidBorder);
-
-      &:focus {
-        box-shadow:
-          0 0 0 var(--textfieldOutlineWidth)
-          var(--textfieldValidOutlineColor);
-      }
     }
 
     &:invalid {
       color: var(--textfieldInvalidColor);
       background: var(--textfieldInvalidBackground);
       border: var(--textfieldInvalidBorder);
-
-      &:focus {
-        box-shadow:
-          0 0 0 var(--textfieldOutlineWidth)
-          var(--textfieldInvalidOutlineColor);
-      }
     }
   }
 }

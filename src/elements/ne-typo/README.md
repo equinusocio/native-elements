@@ -31,6 +31,10 @@ Check the [live demo](https://ne-typo.stackblitz.io/)
 
 ```css
 * {
-
+  /* Misc API */
+  --quoteFontSize: var(--ne-quote-font-size, 2rem);
+  --quoteFontWeight: var(--ne-quote-font-weight, 100);
+  --citeFontSize: var(--ne-cite-font-size, 1rem);
+  --citeForeground: var(--ne-cite-foreground, hsl(235, 100%, 60%));
 }
 ```

@@ -1,4 +1,5 @@
 # Color - Native Elements
+
 > by [Native Elements](https://github.com/equinusocio/native-elements)
 
 Native HTML `<input type="color">` element with **CSS API** that give you superpowers. 🕶
@@ -12,7 +13,7 @@ Native HTML `<input type="color">` element with **CSS API** that give you superp
 ## Example
 
 ```html
-  <input type="color" value="#FF00FF">
+<input type="color" value="#FF00FF" />
 ```
 
 ```css
@@ -27,7 +28,6 @@ Native HTML `<input type="color">` element with **CSS API** that give you superp
 
 Check the [live demo](https://ne-color.stackblitz.io/)
 
-
 ## CSS API
 
 ```css
@@ -38,7 +38,5 @@ Check the [live demo](https://ne-color.stackblitz.io/)
   /* Misc API */
   --ne-color-radius: 100%; /* border-radius */
   --ne-color-shadow: 0 1px 2px rgba(0, 0, 0, 0.16); /* box-shadow */
-  --ne-color-outline-color: hsl(233, 64%, 85%); /* color */
-  --ne-color-outline-width: 0.2rem; /* unit */
 }
 ```

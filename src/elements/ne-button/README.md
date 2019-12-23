@@ -1,4 +1,5 @@
 # Button - Native Elements
+
 > by [Native Elements](https://github.com/equinusocio/native-elements)
 
 Native HTML `<button>` element with **CSS API** that give you superpowers. 🕶
@@ -15,22 +16,23 @@ Native HTML `<button>` element with **CSS API** that give you superpowers. 🕶
 ---
 
 ## Example
+
 ```html
 <button>Text</button>
 <button class="SpecialButton">
-   <i>←</i>
-   Text
+  <i>←</i>
+  Text
 </button>
 <button dir="rtl" class="SpecialButton">
-   <i>←</i>
-   Text
+  <i>←</i>
+  Text
 </button>
 ```
 
 ```css
 :root {
   --ne-button-background: #000;
-  --ne-button-color: #FFF;
+  --ne-button-color: #fff;
 }
 
 .SpecialButton {
@@ -40,7 +42,6 @@ Native HTML `<button>` element with **CSS API** that give you superpowers. 🕶
 ```
 
 Check the [live demo](https://ne-button.stackblitz.io/)
-
 
 ## CSS API
 
@@ -56,12 +57,14 @@ Check the [live demo](https://ne-button.stackblitz.io/)
   /* Background API */
   --ne-button-background: hsl(235, 100%, 60%); /*  background  */
   --ne-button-hover-background: hsl(233, 64%, 52%); /*  background  */
-  --ne-button-focus-background: var(--ne-button-hover-background); /*  background  */
+  --ne-button-focus-background: var(
+    --ne-button-hover-background
+  ); /*  background  */
   --ne-button-active-background: hsl(233, 64%, 32%); /*  background  */
   --ne-button-disabled-background: hsl(233, 64%, 96%); /*  background  */
 
   /* Foreground API */
-  --ne-button-foreground: #FFF; /*  color */
+  --ne-button-foreground: #fff; /*  color */
   --ne-button-hover-color: var(--ne-button-color); /*  color */
   --ne-button-focus-color: var(--ne-button-color); /*  color */
   --ne-button-active-color: var(--ne-button-color); /*  color */
@@ -78,11 +81,10 @@ Check the [live demo](https://ne-button.stackblitz.io/)
   --ne-button-font-size: inherit; /*  font-size */
   --ne-button-y-padding: 1rem; /* unit */
   --ne-button-x-padding: 2rem; /* unit */
-  --ne-button-outline-color: hsl(233, 64%, 85%); /* color */
-  --ne-button-outline-width: 0.2rem; /* unit */
   --ne-button-shadow: 0 1px 2px rgba(0, 0, 0, 0.16); /* box-shadow */
 }
 ```
+
 ## HTML API
 
 > dir="rtl"

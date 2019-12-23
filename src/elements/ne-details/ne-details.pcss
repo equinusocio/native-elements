@@ -34,9 +34,9 @@ details {
     line-height: 1;
     display: list-item;
     touch-action: manipulation;
-    padding: var(--detailsSummaryPadding) var(--detailsSummaryPadding) var(--detailsSummaryPadding) 32px;
+    padding: var(--detailsSummaryPadding) var(--detailsSummaryPadding)
+      var(--detailsSummaryPadding) 32px;
     box-sizing: border-box;
-    outline: none;
     user-select: none;
     background: var(--detailsSummaryBacgrkound);
     border-radius: var(--detailsBorderRadius) var(--detailsBorderRadius) 0 0;
@@ -59,7 +59,7 @@ details {
     }
 
     &::before {
-      content: '';
+      content: "";
       transform-box: fill-box;
       position: absolute;
       top: 50%;
@@ -80,9 +80,8 @@ details {
     }
 
     &:focus {
-      outline: none;
+      outline-offset: -5px;
       border-radius: inherit;
-      box-shadow: inset 0 0 0 var(--detailsOutlineWidth) var(--detailsOutlineColor);
     }
   }
 

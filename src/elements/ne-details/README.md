@@ -1,4 +1,5 @@
 # Details - Native Elements
+
 > by [Native Elements](https://github.com/equinusocio/native-elements)
 
 Native HTML `<details>` and `<summary>` elements with **CSS API** that give you superpowers. 🕶
@@ -12,22 +13,34 @@ Native HTML `<details>` and `<summary>` elements with **CSS API** that give you 
 ## Example
 
 ```html
+<details>
+  <summary>My folding summary</summary>
+  <p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+    provident saepe deserunt veritatis? Totam, corrupti. Dolor quos, numquam
+    totam quae ea enim maiores sequi et? Optio harum adipisci neque nemo.
+  </p>
+</details>
+
+<!-- Grouped folding -->
+<section ne-details-group>
   <details>
     <summary>My folding summary</summary>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus provident saepe deserunt veritatis? Totam, corrupti. Dolor quos, numquam totam quae ea enim maiores sequi et? Optio harum adipisci neque nemo.</p>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+      provident saepe deserunt veritatis? Totam, corrupti. Dolor quos, numquam
+      totam quae ea enim maiores sequi et? Optio harum adipisci neque nemo.
+    </p>
   </details>
-
-  <!-- Grouped folding -->
-  <section ne-details-group>
-    <details>
-      <summary>My folding summary</summary>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus provident saepe deserunt veritatis? Totam, corrupti. Dolor quos, numquam totam quae ea enim maiores sequi et? Optio harum adipisci neque nemo.</p>
-    </details>
-    <details>
-      <summary>My folding summary</summary>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus provident saepe deserunt veritatis? Totam, corrupti. Dolor quos, numquam totam quae ea enim maiores sequi et? Optio harum adipisci neque nemo.</p>
-    </details>
-  </section>
+  <details>
+    <summary>My folding summary</summary>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+      provident saepe deserunt veritatis? Totam, corrupti. Dolor quos, numquam
+      totam quae ea enim maiores sequi et? Optio harum adipisci neque nemo.
+    </p>
+  </details>
+</section>
 ```
 
 ```css
@@ -42,7 +55,6 @@ Native HTML `<details>` and `<summary>` elements with **CSS API** that give you 
 
 Check the [live demo](https://ne-details.stackblitz.io/)
 
-
 ## CSS API
 
 ```css
@@ -51,8 +63,8 @@ Check the [live demo](https://ne-details.stackblitz.io/)
   --ne-details-separator: 1px solid rgba(0, 0, 0, 0.05); /* border */
 
   /* Background API */
-  ---ne-details-background: #FFF; /* background */
-  ---ne-details-summary-background: #FFF; /* background */
+  ---ne-details-background: #fff; /* background */
+  ---ne-details-summary-background: #fff; /* background */
 
   /* Foreground API */
   --ne-details-summary-font-size: initial; /* font-size */
@@ -62,8 +74,6 @@ Check the [live demo](https://ne-details.stackblitz.io/)
   /* Misc API */
   --ne-details-max-height: 300px; /* height */
   --ne-details-border-radius: 4px; /* border-radius */
-  --ne-details-outline-color: hsl(233, 64%, 85%); /* color */
-  --ne-details-outline-width: 0.2rem; /* unit */
   --ne-details-summary-padding: 16px; /* padding */
   --ne-details-shadow: 0 1px 2px rgba(0, 0, 0, 0.16); /* box-shadow */
 }

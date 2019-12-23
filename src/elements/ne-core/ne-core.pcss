@@ -1,5 +1,7 @@
 html {
-  font-size: 100%;
+  @mixin core-config;
+
+  font-size: var(--rootFontSize);
   line-height: var(--basicLineHeight);
   text-rendering: geometricPrecision;
   -webkit-font-smoothing: antialiased;
@@ -10,4 +12,9 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+}
+
+::selection {
+  background-color: var(--selectionBackground);
+  color: var(--selectionForeground);
 }

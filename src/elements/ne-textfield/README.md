@@ -1,13 +1,14 @@
 # Text fields - Native Elements
+
 > by [Native Elements](https://github.com/equinusocio/native-elements)
 
 Native HTML `<input ...>` and `<textarea>` elements with **CSS API** that give you superpowers. 🕶
 
 <!-- TOC -->
 
-- [Text fields - Native Elements](#Text-fields---Native-Elements)
-  - [Example](#Example)
-  - [CSS API](#CSS-API)
+- [Text fields - Native Elements](#text-fields---native-elements)
+  - [Example](#example)
+  - [CSS API](#css-api)
 
 <!-- /TOC -->
 
@@ -16,19 +17,19 @@ Native HTML `<input ...>` and `<textarea>` elements with **CSS API** that give y
 ## Example
 
 ```html
-  <input type="text">
-  <input type="password">
-  <input type="url">
-  <input type="email">
-  <input type="tel">
-  <input type="search">
-  <input type="number">
-  <input type="date">
-  <input type="time">
-  <input type="month">
-  <input type="week">
-  <input type="datetime-local">
-  <textarea class="SpecialTextfield"></textarea>
+<input type="text" />
+<input type="password" />
+<input type="url" />
+<input type="email" />
+<input type="tel" />
+<input type="search" />
+<input type="number" />
+<input type="date" />
+<input type="time" />
+<input type="month" />
+<input type="week" />
+<input type="datetime-local" />
+<textarea class="SpecialTextfield"></textarea>
 ```
 
 ```css
@@ -42,7 +43,6 @@ Native HTML `<input ...>` and `<textarea>` elements with **CSS API** that give y
 ```
 
 Check the [live demo](https://ne-textfield.stackblitz.io/)
-
 
 ## CSS API
 
@@ -59,8 +59,8 @@ Check the [live demo](https://ne-textfield.stackblitz.io/)
   --ne-textfield-invaild-border: 1px solid hsl(354, 100%, 65%); /* border */
 
   /* Background API */
-  --ne-textfield-background: #FFF; /* background */
-  --ne-textfield-hover-background: var(--ne-textfield-background); /* background */
+  --ne-textfield-background: #fff; /* background */
+  --ne-textfield-hover-background: var( --ne-textfield-background); /* background */
   --ne-textfield-focus-background: var(--ne-textfield-background); /* background */
   --ne-textfield-disabled-background: hsl(220, 10%, 95%); /* background */
   --ne-textfield-valid-background: var(--ne-textfield-background); /* background */
@@ -75,8 +75,12 @@ Check the [live demo](https://ne-textfield.stackblitz.io/)
   --ne-textfield-valid-color: var(--ne-textfield-color); /* color */
   --ne-textfield-invalid-color: var(--ne-textfield-color); /* color */
   --ne-textfield-placeholder-color: hsl(0, 0%, 85%); /* color */
-  --ne-textfield-hover-placeholder-color: var(--ne-textfield-placeholder-color); /* color */
-  --ne-textfield-focus-placeholder-color: var(--ne-textfield-hover-placeholder-color); /* color */
+  --ne-textfield-hover-placeholder-color: var(
+    --ne-textfield-placeholder-color
+  ); /* color */
+  --ne-textfield-focus-placeholder-color: var(
+    --ne-textfield-hover-placeholder-color
+  ); /* color */
   --ne-textfield-disabled-placeholder-color: hsl(0, 0%, 60%); /* color */
 
   /* Misc API */
@@ -85,10 +89,6 @@ Check the [live demo](https://ne-textfield.stackblitz.io/)
   --ne-textfield-height: 2.5rem; /* height */
   --ne-textfield-y-padding: 0.5rem; /* unit */
   --ne-textfield-x-padding: 0.75rem; /* unit */
-  --ne-textfield-outline-color: hsl(233, 64%, 85%); /* color */
-  --ne-textfield-valid-outline-color: hsl(155, 73%, 87%); /* color */
-  --ne-textfield-invalid-outline-color: hsl(354, 100%, 90%);/* color */
-  --ne-textfield-outline-width: 0.2rem; /* unit */
   --ne-textfield-selection-background: hsl(233, 64%, 90%); /* color */
   --ne-textfield-selection-foreground: hsl(0, 0%, 13%); /* color */
   --ne-textfield-resize: vertical; /* resize */

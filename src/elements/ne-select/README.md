@@ -1,4 +1,5 @@
 # Select - Native Elements
+
 > by [Native Elements](https://github.com/equinusocio/native-elements)
 
 Native HTML `<select>` element with **CSS API** that give you superpowers. 🕶
@@ -49,7 +50,6 @@ Native HTML `<select>` element with **CSS API** that give you superpowers. 🕶
 
 Check the [live demo](https://ne-select.stackblitz.io/)
 
-
 ## CSS API
 
 ```css
@@ -61,7 +61,7 @@ Check the [live demo](https://ne-select.stackblitz.io/)
   --ne-select-disabled-border: 1px solid hsl(220, 10%, 95%); /* border */
 
   /* Background API */
-  --ne-select-background: #FFF; /* background */
+  --ne-select-background: #fff; /* background */
   --ne-select-hover-background: var(--ne-select-background); /* background */
   --ne-select-focus-background: var(--ne-select-background); /* background */
   --ne-select-disabled-background: hsl(220, 10%, 95%); /* background */
@@ -72,15 +72,13 @@ Check the [live demo](https://ne-select.stackblitz.io/)
   --ne-select-hover-color: var(--ne-select-color); /* color */
   --ne-select-focus-color: var(--ne-select-color); /* color */
   --ne-select-disabled-color: hsl(220, 10%, 55%); /* color */
-  --ne-select-option-checked-color: #FFF; /* color */
+  --ne-select-option-checked-color: #fff; /* color */
 
   /* Misc API */
   --ne-select-radius: 5px; /* unit */
   --ne-select-width: 100%; /* unit */
   --ne-select-height: 2.5rem; /* unit */
   --ne-select-padding: 0.75rem; /* unit */
-  --ne-select-outline-color: hsl(233, 64%, 85%); /* color */
-  --ne-select-outline-width: 0.2rem; /* unit */
   --ne-select-selection-background: hsl(233, 64%, 90%); /* color */
   --ne-select-selection-foreground: hsl(0, 0%, 13%); /* color */
   --ne-select-arrow-icon: <svg...></svg>; /* background */
