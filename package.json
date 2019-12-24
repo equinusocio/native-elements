@@ -28,7 +28,9 @@
     "vars": "node scripts/extractVars.js"
   },
   "files": [
-    "elements"
+    "dist/LICENSE",
+    "dist/native-elements.css",
+    "dist/README.md"
   ],
   "keywords": [
     "elements",
