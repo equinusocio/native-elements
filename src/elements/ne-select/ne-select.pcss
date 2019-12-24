@@ -16,7 +16,8 @@ select {
   display: block;
   width: var(--selectWidth);
   height: var(--selectHeight);
-  padding: 0 calc((var(--selectPadding) * 2) + var(--selectArrowSize)) 0
+  padding:
+    0 calc((var(--selectPadding) * 2) + var(--selectArrowSize)) 0
     var(--selectPadding);
   box-sizing: border-box;
   box-shadow: var(--selectShadow);
@@ -40,7 +41,7 @@ select {
   }
 
   &:disabled,
-  &[aria-disabled] {
+  &[aria-disabled='true'] {
     border: var(--selectDisabledBorder);
     background: var(--selectDisabledBackground);
     color: var(--selectDisabledColor);
@@ -60,7 +61,8 @@ select {
 
   &[multiple] {
     height: auto;
-    padding: var(--selectPadding) var(--selectPadding)
+    padding:
+      var(--selectPadding) var(--selectPadding)
       calc(var(--selectPadding) / 16) var(--selectPadding);
 
     @supports (padding-left: env(safe-area-inset-left)) {
@@ -72,10 +74,15 @@ select {
 
       &:checked {
         color: var(--selectOptionCheckedColor);
-        background: var(--selectOptionCheckedBackground) -webkit-linear-gradient(bottom, var(
-                --selectOptionCheckedBackground
-              )
-              0%, var(--selectOptionCheckedBackground) 100%);
+        background:
+          var(--selectOptionCheckedBackground) -webkit-linear-gradient(
+            bottom,
+            var(
+              --selectOptionCheckedBackground
+            )
+            0%,
+            var(--selectOptionCheckedBackground) 100%
+          );
         background-color: var(--selectOptionCheckedBackground);
       }
     }

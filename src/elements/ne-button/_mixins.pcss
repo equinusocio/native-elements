@@ -42,7 +42,7 @@
   }
 
   &:disabled,
-  &[aria-disabled] {
+  &[aria-disabled='true'] {
     cursor: not-allowed;
     box-shadow: none;
     border: var(--buttonDisabledBorder);
@@ -50,7 +50,7 @@
     color: var(--buttonDisabledColor);
   }
 
-  &:not(:disabled, [aria-disabled]):active {
+  &:not(:disabled, [aria-disabled='true']):active {
     transform: translateY(1px);
     border: var(--buttonActiveBorder);
     background: var(--buttonActiveBackground);
