@@ -1,6 +1,6 @@
 {
   "name": "@native-elements/native-elements",
-  "version": "0.8.6",
+  "version": "0.8.5",
   "description": "Native HTML Elements with CSS superpowers.",
   "main": "dist/native-elements.css",
   "repository": "https://github.com/equinusocio/native-elements",
@@ -22,11 +22,14 @@
     "dev": "parcel index.html --open --out-dir dev --no-cache",
     "prebuild": "yarn clean",
     "build": "parcel build src/elements/native-elements/native-elements.pcss --no-minify --out-dir dist --detailed-report --no-source-maps",
-    "postbuild": "copyfiles -f LICENSE README.md dist/ && size-limit",
     "prepublish": "yarn build",
     "size": "size-limit",
     "vars": "node scripts/extractVars.js"
   },
+  "files": [
+    "src/elements/ne-*",
+    "dist/native-elements.css"
+  ],
   "keywords": [
     "elements",
     "components",
