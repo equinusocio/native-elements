@@ -27,11 +27,6 @@
     "size": "size-limit",
     "vars": "node scripts/extractVars.js"
   },
-  "files": [
-    "dist/LICENSE",
-    "dist/native-elements.css",
-    "dist/README.md"
-  ],
   "keywords": [
     "elements",
     "components",
