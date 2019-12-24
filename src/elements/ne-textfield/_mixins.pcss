@@ -79,20 +79,14 @@
   }
 
   &:required {
-    &:valid {
-      color: var(--textfieldValidColor);
-      background: var(--textfieldValidBackground);
-      border: var(--textfieldValidBorder);
-    }
-
     &:invalid {
       color: var(--textfieldInvalidColor);
       background: var(--textfieldInvalidBackground);
-      border: var(--textfieldInvalidBorder);
+      border-color: var(--textfieldInvalidBorderColor);
     }
 
     &:invalid:focus {
-      outline-color: green;
+      outline-color: var(--textfieldInvalidBorderColor);
     }
   }
 }

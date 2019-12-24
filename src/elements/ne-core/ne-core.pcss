@@ -8,6 +8,10 @@ html {
   box-sizing: border-box;
 }
 
+*:focus {
+  outline: var(--outlineStyle) var(--outlineColor);
+}
+
 *,
 *::before,
 *::after {
@@ -19,7 +23,6 @@ html {
   background-color: var(--selectionBackground);
   color: var(--selectionForeground);
 }
-
 
 h1 {
   font-size:
@@ -127,17 +130,15 @@ a:visited {
   }
 
   &:focus {
-    outline-color: hsl(233, 64%, 85%);
+    outline: var(--outlineStyle) var(--outlineColor);
     outline-offset: 4px;
-    outline-style: solid;
-    outline-width: 0.2rem;
   }
 }
 
 del {
   padding: 2px 4px;
-  background-color: #ffd4d2;
-  box-shadow: 0 0 0 2px #ffd4d2;
+  background-color: #FFD4D2;
+  box-shadow: 0 0 0 2px #FFD4D2;
   color: #881440;
 }
 
@@ -179,9 +180,9 @@ kbd {
 }
 
 mark {
-  background: #fff433;
-  box-shadow: 0 0 0 2px #fff433;
-  color: #882e00;
+  background: #FFF433;
+  box-shadow: 0 0 0 2px #FFF433;
+  color: #882E00;
 }
 
 abbr {

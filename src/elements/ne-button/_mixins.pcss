@@ -11,6 +11,7 @@
   line-height: 1;
   text-decoration: none;
   white-space: nowrap;
+  appearance: none;
   border: var(--buttonBorder);
   background: var(--buttonBackground);
   border-radius: var(--buttonBorderRadius);
@@ -26,7 +27,7 @@
   }
 
   &:-moz-focusring {
-    outline: none;
+    outline: var(--outlineStyle) var(--outlineColor);
   }
 
   &:hover {

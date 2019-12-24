@@ -8,9 +8,6 @@ module.exports = {
     },
     "postcss-preset-env": {
       stage: 0,
-      autoprefixer: {
-        grid: true
-      },
       insertAfter: {
         "custom-media-queries": require("postcss-mixins")({
           mixinsFiles: path.join(__dirname, "src/elements/**", "_*.pcss")
