@@ -7,7 +7,9 @@
   bottom: 0;
   display: block;
   background-color: var(--progressBorderColor);
-  background-image: repeating-linear-gradient(45deg, transparent, transparent 25%, var(--progressStripesColor) 25%, var(--progressStripesColor) 50%);
-  background-size: var(--progressStripesSize) var(--progressStripesSize);
-  animation: progress-stripes 1s linear infinite;
+  background-image:
+    radial-gradient(var(--progressFilledColor) 20%, transparent 30%),
+    radial-gradient(var(--progressFilledColor) 30%, transparent 30%);
+  background-size: var(--progressHeight) var(--progressHeight);
+  animation: progress-stripes 0.4s linear infinite;
 }
