@@ -1,6 +1,6 @@
 {
   "name": "@native-elements/native-elements",
-  "version": "0.8.7",
+  "version": "0.8.8",
   "description": "Native HTML Elements with CSS superpowers.",
   "main": "dist/native-elements.css",
   "repository": "https://github.com/equinusocio/native-elements",
