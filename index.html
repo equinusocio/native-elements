@@ -14,15 +14,23 @@
   <title>Document</title>
   <style>
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe
-UI Emoji", "Segoe UI Symbol";
-background: #FFF;
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        'Segoe UI',
+        Helvetica,
+        Arial,
+        sans-serif,
+        'Apple Color Emoji',
+        'Segoe UI Emoji',
+        'Segoe UI Symbol';
+      background: #FFF;
       overflow: auto;
       margin: 0;
       min-height: 100vh;
     }
 
-    section+section {
+    section + section {
       margin-top: 100px;
     }
 
@@ -65,6 +73,10 @@ background: #FFF;
       padding: 0 32px;
     }
 
+    [data-whatintent='mouse'] *:focus,
+    [data-whatintent='touch'] *:focus {
+      outline: none;
+    }
   </style>
 </head>
 
@@ -524,39 +536,7 @@ p q r s t u v w x y z { | } ~ </pre>
   </dialog>
 
 
-  <script>
-    let file = location.pathname.split("/").pop();
-
-    var link = document.createElement("link");
-    link.href = file.substr(0, file.lastIndexOf(".")) + ".css";
-    link.type = "text/css";
-    link.rel = "stylesheet";
-    link.media = "screen,print";
-
-    document.getElementsByTagName("head")[0].appendChild(link);
-
-    let indeterminates = document.querySelectorAll("[data-indeterminate]");
-    [].forEach.call(indeterminates, function (item) {
-      item.indeterminate = true;
-    });
-
-    let modalTriggers = document.querySelectorAll('.modalTrigger');
-    let modalClose = document.querySelectorAll('.modalClose');
-
-    [].forEach.call(modalClose, function (item) {
-      item.addEventListener('click', function () {
-        item.closest('dialog').close();
-      });
-    });
-
-    [].forEach.call(modalTriggers, function (item) {
-      item.addEventListener('click', function () {
-        let modal = document.querySelector('[data-modal-name="' + item.getAttribute("data-modal") + '"]');
-        modal.showModal();
-      });
-    });
-
-  </script>
+  <script src="./index.js"></script>
 </body>
 
 </html>
