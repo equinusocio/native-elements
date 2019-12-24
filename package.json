@@ -28,7 +28,7 @@
   },
   "files": [
     "src/elements/ne-*",
-    "dist/native-elements.css"
+    "dist"
   ],
   "keywords": [
     "elements",
