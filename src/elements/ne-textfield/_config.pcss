@@ -1,8 +1,8 @@
 @define-mixin textfield-config {
   /* Border API */
   --textfieldBorder: var(--ne-textfield-border, 1px solid hsl(0, 0%, 89%));
-  --textfieldHoverBorder: var(--ne-textfield-hover-border, 1px solid hsl(0, 0%, 89%));
-  --textfieldFocusBorder: var(--ne-textfield-focus-border, 1px solid hsl(233, 64%, 62%));
+  --textfieldHoverBorder: var(--ne-textfield-hover-border, var(--textfieldBorder));
+  --textfieldFocusBorder: var(--ne-textfield-focus-border, 1px solid hsl(235, 100%, 60%));
   --textfieldDisabledBorder: var(--ne-textfield-disabled-border, 1px solid hsl(220, 10%, 95%));
   --textfieldReadonlyBorder: var(--ne-textfield-readonly-border, 1px dashed hsl(0, 0%, 89%));
   --textfieldReadonlyFocusBorder: var(--ne-textfield-readonly-focus-border, 1px dashed hsl(233, 64%, 62%));
