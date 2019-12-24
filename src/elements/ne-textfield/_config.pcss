@@ -18,13 +18,13 @@
   --textfieldInvalidBackground: var(--ne-textfield-invalid-background, var(--textfieldBackground));
 
   /* Foreground API */
-  --textfieldColor: var(--ne-textfield-color, hsl(0, 0%, 13%));
-  --textfieldHoverColor: var(--ne-textfield-hover-color, var(--textfieldColor));
-  --textfieldFocusColor: var(--ne-textfield-focus-color, var(--textfieldColor));
+  --textfieldForeground: var(--ne-textfield-foreground, hsl(0, 0%, 13%));
+  --textfieldHoverColor: var(--ne-textfield-hover-color, var(--textfieldForeground));
+  --textfieldFocusColor: var(--ne-textfield-focus-color, var(--textfieldForeground));
   --textfieldDisabledColor: var(--ne-textfield-disabled-color, hsl(0, 0%, 55%));
-  --textfieldReadonlyColor: var(--ne-textfield-readonly-color, var(--textfieldColor));
-  --textfieldValidColor: var(--ne-textfield-valid-color, var(--textfieldColor));
-  --textfieldInvalidColor: var(--ne-textfield-valid-color, var(--textfieldColor));
+  --textfieldReadonlyColor: var(--ne-textfield-readonly-color, var(--textfieldForeground));
+  --textfieldValidColor: var(--ne-textfield-valid-color, var(--textfieldForeground));
+  --textfieldInvalidColor: var(--ne-textfield-valid-color, var(--textfieldForeground));
   --textfieldPlaceholderColor: var(--ne-textfield-placeholder-color, hsl(0, 0%, 60%));
   --textfieldHoverPlaceholderColor: var(--ne-textfield-hover-placeholder-color, var(--textfieldPlaceholderColor));
   --textfieldFocusPlaceholderColor: var(--ne-textfield-focus-placeholder-color, var(--textfieldHoverPlaceholderColor));
@@ -35,10 +35,6 @@
   --textfieldWidth: var(--ne-textfield-width, 100%);
   --textfieldHeight: var(--ne-textfield-height, 2.5rem);
   --textfieldPadding: var(--ne-textfield-y-padding, 0.5rem) var(--ne-textfield-x-padding, 0.75rem);
-  --textfieldOutlineColor: var(--ne-textfield-outline-color, hsl(233, 64%, 85%));
-  --textfieldValidOutlineColor: var(--ne-textfield-valid-outline-color, hsl(155, 73%, 87%));
-  --textfieldInvalidOutlineColor: var(--ne-textfield-invalid-outline-color, hsl(354, 100%, 90%));
-  --textfieldOutlineWidth: var(--ne-textfield-outline-width, 0.2rem);
   --textfieldSelectionBackground: var(--ne-textfield-selection-background, hsl(233, 64%, 90%));
   --textfieldSelectionForeground: var(--ne-textfield-selection-foreground, hsl(0, 0%, 13%));
   --textfieldResize: var(--ne-textfield-resize, vertical);

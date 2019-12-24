@@ -7,7 +7,7 @@
   font-size: inherit;
   font-weight: 600;
   line-height: inherit;
-  color: var(--textfieldColor);
+  color: var(--textfieldForeground);
   letter-spacing: 0.5px;
   appearance: none;
   transition: color 0.1s ease-out, box-shadow 0.1s ease-out;
@@ -89,6 +89,10 @@
       color: var(--textfieldInvalidColor);
       background: var(--textfieldInvalidBackground);
       border: var(--textfieldInvalidBorder);
+    }
+
+    &:invalid:focus {
+      outline-color: green;
     }
   }
 }

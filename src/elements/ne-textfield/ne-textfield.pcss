@@ -25,9 +25,13 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 textarea {
+  @mixin textfield-config;
   @mixin input;
 
   height: auto;
+  width: var(--textfieldWidth);
+  padding: var(--textfieldPadding);
+  box-sizing: border-box;
   resize: var(--textfieldResize);
 
   &::-webkit-datetime-edit-text {
@@ -35,7 +39,7 @@ textarea {
   }
 
   &::-webkit-calendar-picker-indicator {
-    color: var(--textfieldColor);
+    color: var(--textfieldForeground);
   }
 
   &::-webkit-calendar-picker-indicator:hover {
