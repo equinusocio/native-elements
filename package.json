@@ -23,7 +23,8 @@
     "prebuild": "yarn clean",
     "build": "parcel build src/elements/native-elements/native-elements.pcss --no-minify --out-dir dist --detailed-report",
     "postbuild": "copyfiles -f LICENSE README.md dist/ && size-limit",
-    "size": "size-limit"
+    "size": "size-limit",
+    "vars": "node scripts/extractVars.js"
   },
   "files": [
     "elements"

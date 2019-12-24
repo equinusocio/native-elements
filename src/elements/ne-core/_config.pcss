@@ -1,7 +1,13 @@
 @define-mixin core-config {
+  /* Core API */
   --rootFontSize: var(--ne-root-font-size, 100%);
-  --basicLineHeight: var(--ne-line-height, 1.5);
-  --headingsScale: var(--ne-headings-scale, 1.25);
   --selectionForeground: var(--ne-selection-foreground, #FFF);
   --selectionBackground: var(--ne-selection-background, hsl(233, 64%, 72%));
+
+  /* Typography */
+  --basicLineHeight: var(--ne-line-height, 1.5);
+  --headingsScale: var(--ne-headings-scale, 1.25);
+  --quoteFontSize: var(--ne-quote-font-size, 2rem);
+  --citeForeground: var(--ne-cite-foreground, hsl(235, 100%, 60%));
+  --citeFontSize: var(--ne-cite-font-size, 1rem);
 }

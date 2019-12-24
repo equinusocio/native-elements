@@ -18,3 +18,171 @@ html {
   background-color: var(--selectionBackground);
   color: var(--selectionForeground);
 }
+
+
+h1 {
+  font-size:
+    calc(
+      1rem
+      * var(--headingsScale)
+      * var(--headingsScale)
+      * var(--headingsScale)
+      * var(--headingsScale)
+      * var(--headingsScale)
+    );
+}
+
+h2 {
+  font-size:
+    calc(
+      1rem
+      * var(--headingsScale)
+      * var(--headingsScale)
+      * var(--headingsScale)
+      * var(--headingsScale)
+    );
+}
+
+h3 {
+  font-size:
+    calc(
+      1rem
+      * var(--headingsScale)
+      * var(--headingsScale)
+      * var(--headingsScale)
+    );
+}
+
+h4 {
+  font-size:
+    calc(
+      1rem
+      * var(--headingsScale)
+      * var(--headingsScale)
+    );
+}
+
+h5 {
+  font-size:
+    calc(
+      1rem
+      * var(--headingsScale)
+    );
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hgroup,
+ul,
+ol,
+dd,
+p,
+figure,
+pre,
+table,
+fieldset,
+hr {
+  margin-top: 0;
+}
+
+blockquote {
+  padding: 0;
+  margin: 2.5em 0;
+  letter-spacing: 0.03em;
+  font-size: var(--quoteFontSize);
+  line-height: calc(var(--basicLineHeight) / 1.2);
+  line-clamp: 3;
+  overflow: hidden;
+
+  & cite {
+    display: block;
+    margin-top: calc(var(--citeFontSize));
+    font-size: var(--citeFontSize);
+    color: var(--citeForeground);
+
+    &::before {
+      content: '—';
+      margin-right: 4px;
+    }
+  }
+}
+
+a:link,
+a:visited {
+  color: hsl(235, 100%, 60%);
+  text-decoration: none;
+  transition: color 0.1s linear;
+
+  &:hover {
+    color: hsl(233, 64%, 52%);
+  }
+
+  &:focus {
+    outline-color: hsl(233, 64%, 85%);
+    outline-offset: 4px;
+    outline-style: solid;
+    outline-width: 0.2rem;
+  }
+}
+
+del {
+  padding: 2px 4px;
+  background-color: #ffd4d2;
+  box-shadow: 0 0 0 2px #ffd4d2;
+  color: #8e0000;
+}
+
+ins {
+  padding: 2px 4px;
+  background-color: hsl(138, 100%, 88%);
+  box-shadow: 0 0 0 2px hsl(138, 100%, 88%);
+  text-decoration: none;
+  color: hsl(161, 98%, 18%);
+}
+
+address {
+  font-style: normal;
+  line-height: inherit;
+}
+
+dt {
+  font-weight: 700;
+}
+
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  padding-left: 1rem;
+}
+
+kbd {
+  border-color: hsl(0, 0%, 89%);
+  border-width: 1px;
+  border-style: solid;
+  padding: 2px 4px;
+  box-shadow: 0 3px 0 hsl(0, 0%, 89%), 0 3px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 3px;
+  font-weight: 700;
+}
+
+mark {
+  background: #fff433;
+  box-shadow: 0 0 0 2px #fff433;
+  color: #882e00;
+}
+
+abbr {
+  text-decoration: underline dashed hsl(235, 100%, 60%);
+}
