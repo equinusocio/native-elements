@@ -51,10 +51,12 @@
   ],
   "devDependencies": {
     "@babel/core": "7.4.4",
+    "@babel/preset-env": "7.7.7",
     "babel-eslint": "10.0.1",
     "babel-plugin-root-import": "6.2.0",
     "chalk": "2.4.2",
     "copyfiles": "2.1.0",
+    "core-js": "3.6.0",
     "cssnano": "4.1.10",
     "cssnano-preset-advanced": "4.0.7",
     "eslint": "5.16.0",
@@ -71,10 +73,6 @@
     "stylelint": "10.0.1",
     "stylelint-config-standard": "18.3.0",
     "what-input": "5.2.6"
-  },
-  "dependencies": {
-    "@babel/preset-env": "7.4.4",
-    "core-js": "3"
   },
   "browserslist": [
     "last 1 Chrome versions",
