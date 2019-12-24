@@ -1,5 +1,7 @@
 @define-mixin core-config {
   /* Core API */
+  --backroundColor: var(--ne-background-color, #FFF);
+  --foregroundColor: var(--ne-foreground-color, #000);
   --rootFontSize: var(--ne-root-font-size, 100%);
   --selectionForeground: var(--ne-selection-foreground, #FFF);
   --selectionBackground: var(--ne-selection-background, hsl(233, 64%, 72%));
@@ -13,4 +15,15 @@
   --quoteFontSize: var(--ne-quote-font-size, 2rem);
   --citeForeground: var(--ne-cite-foreground, hsl(235, 100%, 60%));
   --citeFontSize: var(--ne-cite-font-size, 1rem);
+  --citeStartSign: var(--ne-cite-start-sign, '—');
+  --linksColor: var(--ne-links-color, hsl(235, 100%, 60%));
+  --linksActiveColor: var(--ne-links-active-color, hsl(233, 64%, 52%));
+  --delForeground: var(--ne-del-foreground, hsl(337, 74%, 31%));
+  --delBackground: var(--ne-del-background, hsl(0, 100%, 94%));
+  --insForeground: var(--ne-ins-foreground, hsl(161, 98%, 18%));
+  --insBackground: var(--ne-ins-background, hsl(138, 100%, 88%));
+  --kbdColor: var(--ne-kbd-color, hsl(233, 64%, 96%));
+  --kbdRadius: var(--ne-kbd-radius, 4px);
+  --markForeground: var(--ne-mark-foreground, hsl(20, 100%, 26%));
+  --markBackground: var(--ne-mark-background, hsl(57, 100%, 60%));
 }

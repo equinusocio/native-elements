@@ -6,6 +6,8 @@ html {
   text-rendering: geometricPrecision;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+  background-color: var(--backroundColor);
+  color: var(--foregroundColor);
 }
 
 body {
@@ -107,8 +109,6 @@ blockquote {
   letter-spacing: 0.03em;
   font-size: var(--quoteFontSize);
   line-height: calc(var(--basicLineHeight) / 1.2);
-  line-clamp: 3;
-  overflow: hidden;
 
   & cite {
     display: block;
@@ -117,7 +117,7 @@ blockquote {
     color: var(--citeForeground);
 
     &::before {
-      content: '—';
+      content: var(--citeStartSign);
       margin-right: 4px;
     }
   }
@@ -125,12 +125,12 @@ blockquote {
 
 a:link,
 a:visited {
-  color: hsl(235, 100%, 60%);
+  color: var(--linksColor);
   text-decoration: none;
-  transition: color 0.1s linear;
+  transition: color 100ms linear;
 
   &:hover {
-    color: hsl(233, 64%, 52%);
+    color: var(--linksActiveColor);
   }
 
   &:focus {
@@ -141,26 +141,22 @@ a:visited {
 
 del {
   padding: 2px 4px;
-  background-color: #FFD4D2;
-  box-shadow: 0 0 0 2px #FFD4D2;
-  color: #881440;
+  background-color: var(--delBackground);
+  box-shadow: 0 0 0 2px var(--delBackground);
+  color: var(--delForeground);
 }
 
 ins {
   padding: 2px 4px;
-  background-color: hsl(138, 100%, 88%);
-  box-shadow: 0 0 0 2px hsl(138, 100%, 88%);
+  background-color: var(--insBackground);
+  box-shadow: 0 0 0 2px var(--insBackground);
   text-decoration: none;
-  color: hsl(161, 98%, 18%);
+  color: var(--insForeground);
 }
 
 address {
   font-style: normal;
   line-height: inherit;
-}
-
-dt {
-  font-weight: 700;
 }
 
 dd {
@@ -174,21 +170,14 @@ ul {
 }
 
 kbd {
-  border-color: hsl(0, 0%, 89%);
-  border-width: 1px;
-  border-style: solid;
+  border: 1px solid var(--kbdColor);
   padding: 2px 4px;
-  box-shadow: 0 3px 0 hsl(0, 0%, 89%), 0 3px 10px rgba(0, 0, 0, 0.05);
-  border-radius: 3px;
-  font-weight: 700;
+  box-shadow: 0 3px 0 var(--kbdColor), 0 3px 10px rgba(0, 0, 0, 0.05);
+  border-radius: var(--kbdRadius);
 }
 
 mark {
-  background: #FFF433;
-  box-shadow: 0 0 0 2px #FFF433;
-  color: #882E00;
-}
-
-abbr {
-  text-decoration: underline dashed hsl(235, 100%, 60%);
+  color: var(--markForeground);
+  background: var(--markBackground);
+  box-shadow: 0 0 0 2px var(--markBackground);
 }
