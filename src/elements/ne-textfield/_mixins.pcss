@@ -1,25 +1,25 @@
 @define-mixin input {
   margin: 0;
-  border: var(--textfieldBorder);
-  border-radius: var(--textfieldBorderRadius);
-  background: var(--textfieldBackground);
+  border: env(--textfieldBorder);
+  border-radius: env(--textfieldBorderRadius);
+  background: env(--textfieldBackground);
   font-family: inherit;
   font-size: inherit;
   font-weight: 600;
   line-height: inherit;
-  color: var(--textfieldForeground);
+  color: env(--textfieldForeground);
   letter-spacing: 0.5px;
   appearance: none;
   transition: color 0.1s ease-out, box-shadow 0.1s ease-out;
 
   &::selection {
-    background-color: var(--textfieldSelectionBackground);
-    color: var(--textfieldSelectionForeground);
+    background-color: env(--textfieldSelectionBackground);
+    color: env(--textfieldSelectionForeground);
   }
 
   &::-moz-selection {
-    background-color: var(--textfieldSelectionBackground);
-    color: var(--textfieldSelectionForeground);
+    background-color: env(--textfieldSelectionBackground);
+    color: env(--textfieldSelectionForeground);
   }
 
   &:-moz-ui-invalid {
@@ -27,66 +27,66 @@
   }
 
   &::placeholder {
-    color: var(--textfieldPlaceholderColor);
+    color: env(--textfieldPlaceholderForeground);
     font-weight: 400;
   }
 
   &:hover {
-    border: var(--textfieldHoverBorder);
-    background: var(--textfieldHoverBackground);
-    color: var(--textfieldHoverColor);
+    border: env(--textfieldHoverBorder);
+    background: env(--textfieldHoverBackground);
+    color: env(--textfieldHoverForeground);
 
     &::placeholder {
-      color: var(--textfieldHoverPlaceholderColor);
+      color: env(--textfieldHoverPlaceholderForeground);
     }
   }
 
   &:focus {
-    border: var(--textfieldFocusBorder);
-    background: var(--textfieldFocusBackground);
-    color: var(--textfieldFocusColor);
+    border: env(--textfieldFocusBorder);
+    background: env(--textfieldFocusBackground);
+    color: env(--textfieldFocusForeground);
 
     &::placeholder {
-      color: var(--textfieldFocusPlaceholderColor);
+      color: env(--textfieldFocusPlaceholderForeground);
     }
   }
 
   &:disabled,
   &[aria-disabled='true'] {
     cursor: not-allowed;
-    border: var(--textfieldDisabledBorder);
-    background: var(--textfieldDisabledBackground);
-    color: var(--textfieldDisabledColor);
+    border: env(--textfieldDisabledBorder);
+    background: env(--textfieldDisabledBackground);
+    color: env(--textfieldDisabledForeground);
 
     &::placeholder {
-      color: var(--textfieldDisabledPlaceholderColor);
+      color: env(--textfieldDisabledPlaceholderForeground);
     }
   }
 
   &[readonly] {
-    border: var(--textfieldReadonlyBorder);
-    background: var(--textfieldReadonlyBackground);
-    color: var(--textfieldReadonlyColor);
+    border: env(--textfieldReadonlyBorder);
+    background: env(--textfieldReadonlyBackground);
+    color: env(--textfieldReadonlyForeground);
     cursor: default;
 
     &:focus {
-      border: var(--textfieldReadonlyFocusBorder);
+      border: env(--textfieldReadonlyFocusBorder);
     }
 
     &::placeholder {
-      color: var(--textfieldDisabledPlaceholderColor);
+      color: env(--textfieldDisabledPlaceholderForeground);
     }
   }
 
   &:required {
     &:invalid {
-      color: var(--textfieldInvalidColor);
-      background: var(--textfieldInvalidBackground);
-      border-color: var(--textfieldInvalidBorderColor);
+      color: env(--textfieldInvalidForeground);
+      background: env(--textfieldInvalidBackground);
+      border-color: env(--textfieldInvalidBorderForeground);
     }
 
     &:invalid:focus {
-      outline-color: var(--textfieldInvalidBorderColor);
+      outline-color: env(--textfieldInvalidBorderForeground);
     }
   }
 }

@@ -12,14 +12,14 @@
   text-decoration: none;
   white-space: nowrap;
   appearance: none;
-  border: var(--buttonBorder);
-  background: var(--buttonBackground);
-  border-radius: var(--buttonBorderRadius);
-  font-weight: var(--buttonFontWeight);
-  color: var(--buttonForeground);
-  padding: var(--buttonPadding);
-  font-size: var(--buttonFontSize);
-  box-shadow: var(--buttonShadow);
+  border: env(--buttonBorder);
+  background: env(--buttonBackground);
+  border-radius: env(--buttonBorderRadius);
+  font-weight: env(--buttonFontWeight);
+  color: env(--buttonForeground);
+  padding: env(--buttonPadding);
+  font-size: env(--buttonFontSize);
+  box-shadow: env(--buttonShadow);
   transition: box-shadow 0.1s ease-out, background-color 0.1s ease-out;
 
   &::-moz-focus-inner {
@@ -27,34 +27,34 @@
   }
 
   &:-moz-focusring {
-    outline: var(--outlineStyle) var(--outlineColor);
+    outline: env(--outlineStyle) env(--outlineColor);
   }
 
   &:hover {
-    border-color: var(--buttonHoverBorder);
-    background: var(--buttonHoverBackground);
-    color: var(--buttonHoverColor);
+    border-color: env(--buttonHoverBorder);
+    background: env(--buttonHoverBackground);
+    color: env(--buttonHoverForeground);
   }
 
   &:focus {
-    border: var(--buttonFocusBorder);
-    background: var(--buttonFocusBackground);
-    color: var(--buttonFocusColor);
+    border: env(--buttonFocusBorder);
+    background: env(--buttonFocusBackground);
+    color: env(--buttonFocusForeground);
   }
 
   &:disabled,
   &[aria-disabled='true'] {
     cursor: not-allowed;
     box-shadow: none;
-    border: var(--buttonDisabledBorder);
-    background: var(--buttonDisabledBackground);
-    color: var(--buttonDisabledColor);
+    border: env(--buttonDisabledBorder);
+    background: env(--buttonDisabledBackground);
+    color: env(--buttonDisabledForeground);
   }
 
   &:not(:disabled, [aria-disabled='true']):active {
     transform: translateY(1px);
-    border: var(--buttonActiveBorder);
-    background: var(--buttonActiveBackground);
-    color: var(--buttonActiveColor);
+    border: env(--buttonActiveBorder);
+    background: env(--buttonActiveBackground);
+    color: env(--buttonActiveForeground);
   }
 }

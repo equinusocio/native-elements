@@ -1,45 +1,43 @@
 html {
-  @mixin core-config;
-
-  font-size: var(--rootFontSize);
-  line-height: var(--basicLineHeight);
+  font-size: env(--rootFontSize);
+  line-height: env(--basicLineHeight);
   text-rendering: geometricPrecision;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-  background: var(--globalBackground);
-  color: var(--globalForeground);
-  scroll-behavior: var(--scrollBehavior);
+  background: env(--globalBackground);
+  color: env(--globalForeground);
+  scroll-behavior: env(--scrollBehavior);
 }
 
 body {
-  scroll-padding: var(--scrollPadding);
+  scroll-padding: env(--scrollPadding);
 }
 
 *:focus {
-  outline: var(--outlineStyle) var(--outlineColor);
+  outline: env(--outlineStyle) env(--outlineColor);
 }
 
 *,
 *::before,
 *::after {
   box-sizing: inherit;
-  outline-color: var(--outlineColor);
+  outline-color: env(--outlineColor);
 }
 
 ::selection {
-  background-color: var(--selectionBackground);
-  color: var(--selectionForeground);
+  background-color: env(--selectionBackground);
+  color: env(--selectionForeground);
 }
 
 h1 {
   font-size:
     calc(
       1rem
-      * var(--headingsScale)
-      * var(--headingsScale)
-      * var(--headingsScale)
-      * var(--headingsScale)
-      * var(--headingsScale)
+      * env(--headingsScale)
+      * env(--headingsScale)
+      * env(--headingsScale)
+      * env(--headingsScale)
+      * env(--headingsScale)
     );
 }
 
@@ -47,10 +45,10 @@ h2 {
   font-size:
     calc(
       1rem
-      * var(--headingsScale)
-      * var(--headingsScale)
-      * var(--headingsScale)
-      * var(--headingsScale)
+      * env(--headingsScale)
+      * env(--headingsScale)
+      * env(--headingsScale)
+      * env(--headingsScale)
     );
 }
 
@@ -58,9 +56,9 @@ h3 {
   font-size:
     calc(
       1rem
-      * var(--headingsScale)
-      * var(--headingsScale)
-      * var(--headingsScale)
+      * env(--headingsScale)
+      * env(--headingsScale)
+      * env(--headingsScale)
     );
 }
 
@@ -68,8 +66,8 @@ h4 {
   font-size:
     calc(
       1rem
-      * var(--headingsScale)
-      * var(--headingsScale)
+      * env(--headingsScale)
+      * env(--headingsScale)
     );
 }
 
@@ -77,7 +75,7 @@ h5 {
   font-size:
     calc(
       1rem
-      * var(--headingsScale)
+      * env(--headingsScale)
     );
 }
 
@@ -108,17 +106,17 @@ blockquote {
   padding: 0;
   margin: 2.5em 0;
   letter-spacing: 0.03em;
-  font-size: var(--quoteFontSize);
-  line-height: calc(var(--basicLineHeight) / 1.2);
+  font-size: env(--quoteFontSize);
+  line-height: calc(env(--basicLineHeight) / 1.2);
 
   & cite {
     display: block;
-    margin-top: calc(var(--citeFontSize));
-    font-size: var(--citeFontSize);
-    color: var(--citeForeground);
+    margin-top: calc(env(--citeFontSize));
+    font-size: env(--citeFontSize);
+    color: env(--citeForeground);
 
     &::before {
-      content: var(--citeStartSign);
+      content: env(--citeStartSign);
       margin-right: 4px;
     }
   }
@@ -126,33 +124,33 @@ blockquote {
 
 a:link,
 a:visited {
-  color: var(--linksColor);
+  color: env(--linksColor);
   text-decoration: none;
   transition: color 100ms linear;
 
   &:hover {
-    color: var(--linksActiveColor);
+    color: env(--linksActiveColor);
   }
 
   &:focus {
-    outline: var(--outlineStyle) var(--outlineColor);
+    outline: env(--outlineStyle) env(--outlineColor);
     outline-offset: 4px;
   }
 }
 
 del {
   padding: 2px 4px;
-  background-color: var(--delBackground);
-  box-shadow: 0 0 0 2px var(--delBackground);
-  color: var(--delForeground);
+  background-color: env(--delBackground);
+  box-shadow: 0 0 0 2px env(--delBackground);
+  color: env(--delForeground);
 }
 
 ins {
   padding: 2px 4px;
-  background-color: var(--insBackground);
-  box-shadow: 0 0 0 2px var(--insBackground);
+  background-color: env(--insBackground);
+  box-shadow: 0 0 0 2px env(--insBackground);
   text-decoration: none;
-  color: var(--insForeground);
+  color: env(--insForeground);
 }
 
 address {
@@ -171,14 +169,14 @@ ul {
 }
 
 kbd {
-  border: 1px solid var(--kbdColor);
+  border: 1px solid env(--kbdColor);
   padding: 2px 4px;
-  box-shadow: 0 3px 0 var(--kbdColor), 0 3px 10px rgba(0, 0, 0, 0.05);
-  border-radius: var(--kbdRadius);
+  box-shadow: 0 3px 0 env(--kbdColor), 0 3px 10px rgba(0, 0, 0, 0.05);
+  border-radius: env(--kbdRadius);
 }
 
 mark {
-  color: var(--markForeground);
-  background: var(--markBackground);
-  box-shadow: 0 0 0 2px var(--markBackground);
+  color: env(--markForeground);
+  background: env(--markBackground);
+  box-shadow: 0 0 0 2px env(--markBackground);
 }

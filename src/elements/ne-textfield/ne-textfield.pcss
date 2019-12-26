@@ -1,11 +1,10 @@
 input:not([type='checkbox'], [type='radio'], [type='range'], [type='color'], [type='file']) {
-  @mixin textfield-config;
   @mixin input;
 
   display: block;
-  width: var(--textfieldWidth);
-  height: var(--textfieldHeight);
-  padding: var(--textfieldPadding);
+  width: env(--textfieldWidth);
+  height: env(--textfieldHeight);
+  padding: env(--textfieldPadding);
   box-sizing: border-box;
 }
 
@@ -25,21 +24,20 @@ input[type='search']::-webkit-search-decoration {
 }
 
 textarea {
-  @mixin textfield-config;
   @mixin input;
 
   height: auto;
-  width: var(--textfieldWidth);
-  padding: var(--textfieldPadding);
+  width: env(--textfieldWidth);
+  padding: env(--textfieldPadding);
   box-sizing: border-box;
-  resize: var(--textfieldResize);
+  resize: env(--textfieldResize);
 
   &::-webkit-datetime-edit-text {
     opacity: 0.3;
   }
 
   &::-webkit-calendar-picker-indicator {
-    color: var(--textfieldForeground);
+    color: env(--textfieldForeground);
   }
 
   &::-webkit-calendar-picker-indicator:hover {

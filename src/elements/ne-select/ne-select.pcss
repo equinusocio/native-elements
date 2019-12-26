@@ -1,40 +1,38 @@
 select {
-  @mixin select-config;
-
   margin: 0;
-  border: var(--selectBorder);
-  border-radius: var(--selectBorderRadius);
-  background: var(--selectBackground);
+  border: env(--selectBorder);
+  border-radius: env(--selectBorderRadius);
+  background: env(--selectBackground);
   font-family: inherit;
   font-size: inherit;
   font-weight: 400;
   line-height: inherit;
-  color: var(--selectColor);
+  color: env(--selectForeground);
   letter-spacing: 0.5px;
   appearance: none;
   transition: color 0.1s ease-out, box-shadow 0.1s ease-out;
   display: block;
-  width: var(--selectWidth);
-  height: var(--selectHeight);
+  width: env(--selectWidth);
+  height: env(--selectHeight);
   padding:
-    0 calc((var(--selectPadding) * 2) + var(--selectArrowSize)) 0
-    var(--selectPadding);
+    0 calc((env(--selectPadding) * 2) + env(--selectArrowSize)) 0
+    env(--selectPadding);
   box-sizing: border-box;
-  box-shadow: var(--selectShadow);
+  box-shadow: env(--selectShadow);
   overflow: hidden;
   text-overflow: ellipsis;
 
 
   &:hover {
-    border: var(--selectHoverBorder);
-    background: var(--selectHoverBackground);
-    color: var(--selectHoverColor);
+    border: env(--selectHoverBorder);
+    background: env(--selectHoverBackground);
+    color: env(--selectHoverForeground);
   }
 
   &:focus {
-    border: var(--selectFocusBorder);
-    background: var(--selectFocusBackground);
-    color: var(--selectFocusColor);
+    border: env(--selectFocusBorder);
+    background: env(--selectFocusBackground);
+    color: env(--selectFocusForeground);
   }
 
   &:-moz-focusring {
@@ -45,9 +43,9 @@ select {
 
   &:disabled,
   &[aria-disabled='true'] {
-    border: var(--selectDisabledBorder);
-    background: var(--selectDisabledBackground);
-    color: var(--selectDisabledColor);
+    border: env(--selectDisabledBorder);
+    background: env(--selectDisabledBackground);
+    color: env(--selectDisabledForeground);
     box-shadow: none;
   }
 
@@ -56,37 +54,37 @@ select {
   }
 
   &:not([multiple]) {
-    background-image: var(--selectArrowIcon);
+    background-image: env(--selectArrowIcon);
     background-repeat: no-repeat;
-    background-position: right var(--selectPadding) center;
-    background-size: var(--selectArrowSize);
+    background-position: right env(--selectPadding) center;
+    background-size: env(--selectArrowSize);
   }
 
   &[multiple] {
     height: auto;
     padding:
-      var(--selectPadding) var(--selectPadding)
-      calc(var(--selectPadding) / 16) var(--selectPadding);
+      env(--selectPadding) env(--selectPadding)
+      calc(env(--selectPadding) / 16) env(--selectPadding);
 
     @supports (padding-left: env(safe-area-inset-left)) {
-      padding: var(--selectPadding);
+      padding: env(--selectPadding);
     }
 
     & option {
       padding: 0.5rem 0.5rem;
 
       &:checked {
-        color: var(--selectOptionCheckedColor);
+        color: env(--selectOptionCheckedForeground);
         background:
-          var(--selectOptionCheckedBackground) -webkit-linear-gradient(
+          env(--selectOptionCheckedBackground) -webkit-linear-gradient(
             bottom,
-            var(
+            env(
               --selectOptionCheckedBackground
             )
             0%,
-            var(--selectOptionCheckedBackground) 100%
+            env(--selectOptionCheckedBackground) 100%
           );
-        background-color: var(--selectOptionCheckedBackground);
+        background-color: env(--selectOptionCheckedBackground);
       }
     }
   }

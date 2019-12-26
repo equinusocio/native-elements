@@ -1,15 +1,13 @@
 input[type='checkbox'],
 input[type='radio'] {
-  @mixin checkradio-config;
-
   will-change: transform;
   margin: 0;
   cursor: pointer;
 
   &:checked,
   &:indeterminate {
-    animation: splash var(--checkradioAnimationDuration) cubic-bezier(0, 0, 0.2, 1);
-    filter: drop-shadow(var(--checkradioShadow));
+    animation: splash env(--checkradioAnimationDuration) cubic-bezier(0, 0, 0.2, 1);
+    filter: drop-shadow(env(--checkradioShadow));
   }
 }
 

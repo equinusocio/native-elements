@@ -1,7 +1,6 @@
 @custom-selector :--icons i, svg;
 
 button {
-  @mixin button-config;
   @mixin button;
 
   & :--icons {
@@ -10,21 +9,21 @@ button {
     stroke: currentColor;
     font-style: normal;
     line-height: inherit;
-    margin-right: var(--buttonIconMargin);
-    padding-right: var(--buttonIconMargin);
-    border-right: 1px solid var(--buttonIconSeparator);
+    margin-right: env(--buttonIconMargin);
+    padding-right: env(--buttonIconMargin);
+    border-right: 1px solid env(--buttonIconSeparator);
   }
 
   &[dir='rtl'] :--icons {
     margin-right: 0;
     padding-right: 0;
     border-right: 0;
-    margin-left: var(--buttonIconMargin);
-    padding-left: var(--buttonIconMargin);
-    border-left: 1px solid var(--buttonIconSeparator);
+    margin-left: env(--buttonIconMargin);
+    padding-left: env(--buttonIconMargin);
+    border-left: 1px solid env(--buttonIconSeparator);
   }
 
   &[disabled] :--icons {
-    border-color: var(--buttonDisabledIconSeparator);
+    border-color: env(--buttonDisabledIconSeparator);
   }
 }

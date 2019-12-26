@@ -1,0 +1,5 @@
+module.exports = {
+  /* Misc API */
+  '--checkradioShadow': 'var(--ne-checkradio-shadow, 0 1px 1px rgba(0, 0, 0, 0.2))',
+  '--checkradioAnimationDuration': 'var(--ne-checkradio-animation-duration, 0.8s)',
+};
