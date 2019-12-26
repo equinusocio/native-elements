@@ -2,6 +2,10 @@ env:
   node: true
   shared-node-browser: true
 extends: 'eslint:recommended'
+parserOptions:
+  ecmaVersion: 6
+  sourceType: "module"
+  ecmaFeatures:
 rules:
   indent:
     - warn

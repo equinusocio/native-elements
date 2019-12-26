@@ -1,22 +1,22 @@
-const path = require("path");
+const path = require('path');
 
 module.exports = {
   modules: false,
   plugins: {
-    "postcss-easy-import": {
-      extensions: ".pcss"
+    'postcss-easy-import': {
+      extensions: '.pcss'
     },
-    "postcss-preset-env": {
+    'postcss-preset-env': {
       stage: 0,
       insertAfter: {
-        "custom-media-queries": require("postcss-mixins")({
-          mixinsFiles: path.join(__dirname, "src/elements/**", "_*.pcss")
+        'custom-media-queries': require('postcss-mixins')({
+          mixinsFiles: path.join(__dirname, 'src/elements/**', '_*.pcss')
         })
       }
     },
     cssnano: {
       preset: [
-        "advanced",
+        'advanced',
         {
           discardComments: {
             removeAll: true
@@ -25,7 +25,7 @@ module.exports = {
         }
       ]
     },
-    "postcss-reporter": {
+    'postcss-reporter': {
       clearReportedMessages: true
     }
   }
