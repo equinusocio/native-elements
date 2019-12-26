@@ -9,176 +9,176 @@ html {
   background: var(--globalBackground);
   color: var(--globalForeground);
   scroll-behavior: var(--scrollBehavior);
+}
 
-  body {
-    scroll-padding: var(--scrollPadding);
+body {
+  scroll-padding: var(--scrollPadding);
+}
+
+*:focus {
+  outline: var(--outlineStyle) var(--outlineColor);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  outline-color: var(--outlineColor);
+}
+
+::selection {
+  background-color: var(--selectionBackground);
+  color: var(--selectionForeground);
+}
+
+h1 {
+  font-size:
+    calc(
+      1rem
+      * var(--headingsScale)
+      * var(--headingsScale)
+      * var(--headingsScale)
+      * var(--headingsScale)
+      * var(--headingsScale)
+    );
+}
+
+h2 {
+  font-size:
+    calc(
+      1rem
+      * var(--headingsScale)
+      * var(--headingsScale)
+      * var(--headingsScale)
+      * var(--headingsScale)
+    );
+}
+
+h3 {
+  font-size:
+    calc(
+      1rem
+      * var(--headingsScale)
+      * var(--headingsScale)
+      * var(--headingsScale)
+    );
+}
+
+h4 {
+  font-size:
+    calc(
+      1rem
+      * var(--headingsScale)
+      * var(--headingsScale)
+    );
+}
+
+h5 {
+  font-size:
+    calc(
+      1rem
+      * var(--headingsScale)
+    );
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hgroup,
+ul,
+ol,
+dd,
+p,
+figure,
+pre,
+table,
+fieldset,
+hr {
+  margin-top: 0;
+}
+
+blockquote {
+  padding: 0;
+  margin: 2.5em 0;
+  letter-spacing: 0.03em;
+  font-size: var(--quoteFontSize);
+  line-height: calc(var(--basicLineHeight) / 1.2);
+
+  & cite {
+    display: block;
+    margin-top: calc(var(--citeFontSize));
+    font-size: var(--citeFontSize);
+    color: var(--citeForeground);
+
+    &::before {
+      content: var(--citeStartSign);
+      margin-right: 4px;
+    }
+  }
+}
+
+a:link,
+a:visited {
+  color: var(--linksColor);
+  text-decoration: none;
+  transition: color 100ms linear;
+
+  &:hover {
+    color: var(--linksActiveColor);
   }
 
-  *:focus {
+  &:focus {
     outline: var(--outlineStyle) var(--outlineColor);
+    outline-offset: 4px;
   }
+}
 
-  *,
-  *::before,
-  *::after {
-    box-sizing: inherit;
-    outline-color: var(--outlineColor);
-  }
+del {
+  padding: 2px 4px;
+  background-color: var(--delBackground);
+  box-shadow: 0 0 0 2px var(--delBackground);
+  color: var(--delForeground);
+}
 
-  ::selection {
-    background-color: var(--selectionBackground);
-    color: var(--selectionForeground);
-  }
+ins {
+  padding: 2px 4px;
+  background-color: var(--insBackground);
+  box-shadow: 0 0 0 2px var(--insBackground);
+  text-decoration: none;
+  color: var(--insForeground);
+}
 
-  h1 {
-    font-size:
-      calc(
-        1rem
-        * var(--headingsScale)
-        * var(--headingsScale)
-        * var(--headingsScale)
-        * var(--headingsScale)
-        * var(--headingsScale)
-      );
-  }
+address {
+  font-style: normal;
+  line-height: inherit;
+}
 
-  h2 {
-    font-size:
-      calc(
-        1rem
-        * var(--headingsScale)
-        * var(--headingsScale)
-        * var(--headingsScale)
-        * var(--headingsScale)
-      );
-  }
+dd {
+  margin: 0;
+  padding: 0;
+}
 
-  h3 {
-    font-size:
-      calc(
-        1rem
-        * var(--headingsScale)
-        * var(--headingsScale)
-        * var(--headingsScale)
-      );
-  }
+ol,
+ul {
+  padding-left: 1rem;
+}
 
-  h4 {
-    font-size:
-      calc(
-        1rem
-        * var(--headingsScale)
-        * var(--headingsScale)
-      );
-  }
+kbd {
+  border: 1px solid var(--kbdColor);
+  padding: 2px 4px;
+  box-shadow: 0 3px 0 var(--kbdColor), 0 3px 10px rgba(0, 0, 0, 0.05);
+  border-radius: var(--kbdRadius);
+}
 
-  h5 {
-    font-size:
-      calc(
-        1rem
-        * var(--headingsScale)
-      );
-  }
-
-  h6 {
-    font-size: 1rem;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  hgroup,
-  ul,
-  ol,
-  dd,
-  p,
-  figure,
-  pre,
-  table,
-  fieldset,
-  hr {
-    margin-top: 0;
-  }
-
-  blockquote {
-    padding: 0;
-    margin: 2.5em 0;
-    letter-spacing: 0.03em;
-    font-size: var(--quoteFontSize);
-    line-height: calc(var(--basicLineHeight) / 1.2);
-
-    & cite {
-      display: block;
-      margin-top: calc(var(--citeFontSize));
-      font-size: var(--citeFontSize);
-      color: var(--citeForeground);
-
-      &::before {
-        content: var(--citeStartSign);
-        margin-right: 4px;
-      }
-    }
-  }
-
-  a:link,
-  a:visited {
-    color: var(--linksColor);
-    text-decoration: none;
-    transition: color 100ms linear;
-
-    &:hover {
-      color: var(--linksActiveColor);
-    }
-
-    &:focus {
-      outline: var(--outlineStyle) var(--outlineColor);
-      outline-offset: 4px;
-    }
-  }
-
-  del {
-    padding: 2px 4px;
-    background-color: var(--delBackground);
-    box-shadow: 0 0 0 2px var(--delBackground);
-    color: var(--delForeground);
-  }
-
-  ins {
-    padding: 2px 4px;
-    background-color: var(--insBackground);
-    box-shadow: 0 0 0 2px var(--insBackground);
-    text-decoration: none;
-    color: var(--insForeground);
-  }
-
-  address {
-    font-style: normal;
-    line-height: inherit;
-  }
-
-  dd {
-    margin: 0;
-    padding: 0;
-  }
-
-  ol,
-  ul {
-    padding-left: 1rem;
-  }
-
-  kbd {
-    border: 1px solid var(--kbdColor);
-    padding: 2px 4px;
-    box-shadow: 0 3px 0 var(--kbdColor), 0 3px 10px rgba(0, 0, 0, 0.05);
-    border-radius: var(--kbdRadius);
-  }
-
-  mark {
-    color: var(--markForeground);
-    background: var(--markBackground);
-    box-shadow: 0 0 0 2px var(--markBackground);
-  }
+mark {
+  color: var(--markForeground);
+  background: var(--markBackground);
+  box-shadow: 0 0 0 2px var(--markBackground);
 }
