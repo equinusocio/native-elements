@@ -9,6 +9,7 @@ details {
   box-shadow: var(--detailsShadow);
   border-radius: var(--detailsBorderRadius);
   -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
 
   @nest [ne-details-group] > &:first-of-type {
     border-radius: var(--detailsBorderRadius) var(--detailsBorderRadius) 0 0;
@@ -34,7 +35,8 @@ details {
     line-height: 1;
     display: list-item;
     touch-action: manipulation;
-    padding: var(--detailsSummaryPadding) var(--detailsSummaryPadding)
+    padding:
+      var(--detailsSummaryPadding) var(--detailsSummaryPadding)
       var(--detailsSummaryPadding) 32px;
     box-sizing: border-box;
     user-select: none;
@@ -59,7 +61,7 @@ details {
     }
 
     &::before {
-      content: "";
+      content: '';
       transform-box: fill-box;
       position: absolute;
       top: 50%;
