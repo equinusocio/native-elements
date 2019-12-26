@@ -1,5 +1,5 @@
 {
-  "name": "@native-elements/native-elements",
+  "name": "@native-elements/core",
   "version": "0.8.12",
   "description": "Native HTML Elements with CSS superpowers.",
   "main": "dist/native-elements.css",
