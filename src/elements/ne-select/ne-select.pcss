@@ -75,12 +75,9 @@ select {
       &:checked {
         color: env(--selectOptionCheckedForeground);
         background:
-          env(--selectOptionCheckedBackground) -webkit-linear-gradient(
-            bottom,
-            env(
-              --selectOptionCheckedBackground
-            )
-            0%,
+          -webkit-linear-gradient(
+            env(--selectOptionCheckedBackground) bottom,
+            env(--selectOptionCheckedBackground) 0%,
             env(--selectOptionCheckedBackground) 100%
           );
         background-color: env(--selectOptionCheckedBackground);
