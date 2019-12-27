@@ -17,11 +17,11 @@
     "node": ">=10"
   },
   "scripts": {
-    "clean": "yarn rimraf dist/** dev/**",
+    "clean": "yarn rimraf dist/**",
     "predev": "yarn clean",
-    "dev": "parcel index.html --open --out-dir dev --no-cache",
+    "dev": "rollup -c -w",
     "prebuild": "yarn clean",
-    "build": "parcel build src/elements/native-elements/native-elements.pcss --no-minify --out-dir dist --detailed-report --no-source-maps",
+    "build": "rollup -c --environment BUILD:production",
     "postbuild": "yarn size",
     "prepublish": "yarn build",
     "postpublish": "yarn size",
@@ -30,7 +30,7 @@
   },
   "files": [
     "src/elements/ne-*",
-    "dist"
+    "dist/native-elements.css"
   ],
   "keywords": [
     "elements",
@@ -60,7 +60,6 @@
     "eslint": "5.16.0",
     "eslint-plugin-standard": "4.0.1",
     "npm-run-all": "4.1.5",
-    "parcel-bundler": "1.12.3",
     "postcss-cli": "6.1.2",
     "postcss-easy-import": "3.0.0",
     "postcss-mixins": "6.2.1",
@@ -68,6 +67,10 @@
     "postcss-preset-env": "6.6.0",
     "postcss-reporter": "6.0.1",
     "rimraf": "2.6.3",
+    "rollup": "1.27.14",
+    "rollup-plugin-bundle-html": "0.2.2",
+    "rollup-plugin-postcss": "2.0.3",
+    "rollup-plugin-serve": "1.0.1",
     "size-limit": "1.3.2",
     "stylelint": "10.0.1",
     "stylelint-config-standard": "18.3.0",
