@@ -3,6 +3,7 @@ module.exports = {
   '--globalBackground': 'var(--ne-global-background, #FFF)',
   '--globalForeground': 'var(--ne-global-foreground, #000)',
   '--rootFontSize': 'var(--ne-root-font-size, 100%)',
+  '--bodyFontSize': 'var(--ne-body-font-size, 1.125rem)',
   '--selectionForeground': 'var(--ne-selection-foreground, #FFF)',
   '--selectionBackground': 'var(--ne-selection-background, hsl(233, 64%, 72%))',
   '--outlineStyle': 'var(--ne-outline-style, 2px solid)',

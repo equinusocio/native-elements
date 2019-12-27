@@ -29,14 +29,14 @@ main {
 
 .SecondButton {
   --ne-button-radius: 3px;
-  --ne-button-y-padding: 0.8rem;
-  --ne-button-x-padding: 1.4rem;
+  --ne-button-y-padding: 0.8em;
+  --ne-button-x-padding: 1.4em;
 }
 
 .ThirdButton {
   --ne-button-radius: 100px;
-  --ne-button-y-padding: 0.5rem;
-  --ne-button-x-padding: 1.5rem;
+  --ne-button-y-padding: 0.5em;
+  --ne-button-x-padding: 1.5em;
 }
 
 .MutedButton {
