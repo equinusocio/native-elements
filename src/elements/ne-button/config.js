@@ -22,7 +22,6 @@ module.exports = {
 
   /* Icon API */
   '--buttonIconMargin': 'var(--ne-button-icon-margin, calc(2rem / 2.2))',
-  '--buttonIconSeparator': 'var(--ne-button-icon-separator, rgba(255, 255, 255, 0.3))',
   '--buttonDisabledIconSeparator': 'var(--ne-button-disabled-icon-separator, rgba(143, 150, 163, 0.3))',
 
   /* Misc API */
