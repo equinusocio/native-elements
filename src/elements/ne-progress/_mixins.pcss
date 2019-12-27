@@ -6,10 +6,10 @@
   right: 0;
   bottom: 0;
   display: block;
-  background-color: var(--progressBorderColor);
+  background-color: env(--progressBorderColor);
   background-image:
-    radial-gradient(var(--progressFilledColor) 20%, transparent 30%),
-    radial-gradient(var(--progressFilledColor) 30%, transparent 30%);
-  background-size: var(--progressHeight) var(--progressHeight);
+    radial-gradient(env(--progressFilledColor) 20%, transparent 30%),
+    radial-gradient(env(--progressFilledColor) 30%, transparent 30%);
+  background-size: env(--progressHeight) env(--progressHeight);
   animation: progress-stripes 0.4s linear infinite;
 }

@@ -1,13 +1,12 @@
 meter {
-  @mixin meter-config;
-  @mixin progress;
+  @mixin meter-progress;
 
-  width: var(--meterWidth);
-  height: var(--meterHeight);
+  width: env(--meterWidth);
+  height: env(--meterHeight);
   vertical-align: middle;
 
   &::-webkit-meter-bar {
-    @mixin progress;
+    @mixin meter-progress;
   }
 
   /* Low value */

@@ -1,10 +1,8 @@
 input[type='range'] {
-  @mixin range-config;
-
-  width: var(--rangeWidth);
+  width: env(--rangeWidth);
   background: transparent;
   outline: 0;
-  margin: calc(var(--rangeThumbHeight) / 2) 0;
+  margin: calc(env(--rangeThumbHeight) / 2) 0;
   appearance: none;
 
   &::-webkit-slider-runnable-track {
@@ -21,7 +19,7 @@ input[type='range'] {
     color: transparent;
     border-color: transparent;
     background-color: transparent;
-    border-width: var(--rangeThumbHeight);
+    border-width: env(--rangeThumbHeight);
   }
 
   &::-moz-focus-outer {
@@ -29,33 +27,33 @@ input[type='range'] {
   }
 
   &::-ms-fill-upper {
-    background: var(--rangeBackground);
+    background: env(--rangeBackground);
   }
 
   &::-ms-fill-lower {
-    background: var(--rangeBackground);
+    background: env(--rangeBackground);
   }
 
   &:focus::-webkit-slider-runnable-track {
-    background: var(--rangeFocusBackground);
+    background: env(--rangeFocusBackground);
   }
 
   &:focus::-moz-range-track {
-    background: var(--rangeFocusBackground);
+    background: env(--rangeFocusBackground);
   }
 
   &:focus::-ms-fill-lower {
-    background: var(--rangeFocusBackground);
+    background: env(--rangeFocusBackground);
   }
 
   &:focus::-ms-fill-upper {
-    background: var(--rangeFocusBackground);
+    background: env(--rangeFocusBackground);
   }
 
   &::-webkit-slider-thumb {
     @mixin thumb;
 
-    margin-top: calc(0.5 * calc(var(--rangeHeight) - var(--rangeThumbHeight)));
+    margin-top: calc(0.5 * calc(env(--rangeHeight) - env(--rangeThumbHeight)));
   }
 
   &::-moz-range-thumb {
@@ -67,15 +65,15 @@ input[type='range'] {
   }
 
   &:active::-webkit-slider-thumb {
-    background-color: var(--rangeThumbActiveBackground);
+    background-color: env(--rangeThumbActiveBackground);
   }
 
   &:active::-moz-range-thumb {
-    background-color: var(--rangeThumbActiveBackground);
+    background-color: env(--rangeThumbActiveBackground);
   }
 
   &:active::-ms-thumb {
-    background-color: var(--rangeThumbActiveBackground);
+    background-color: env(--rangeThumbActiveBackground);
   }
 
   &:not(:active):focus::-webkit-slider-thumb {

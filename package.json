@@ -22,6 +22,7 @@
     "dev": "parcel index.html --open --out-dir dev --no-cache",
     "prebuild": "yarn clean",
     "build": "parcel build src/elements/native-elements/native-elements.pcss --no-minify --out-dir dist --detailed-report --no-source-maps",
+    "postbuild": "yarn size",
     "prepublish": "yarn build",
     "postpublish": "yarn size",
     "size": "size-limit",

@@ -1,6 +1,4 @@
 progress {
-  @mixin progress-config;
-
   position: relative;
   width: 100%;
   border: none;
@@ -8,26 +6,26 @@ progress {
   appearance: none;
   overflow: hidden;
   display: block;
-  height: var(--progressHeight);
-  border-radius: var(--progressBorderRadius);
-  background: var(--progressBackground);
-  box-shadow: inset 0 0 0 1px var(--progressBorderColor);
+  height: env(--progressHeight);
+  border-radius: env(--progressBorderRadius);
+  background: env(--progressBackground);
+  box-shadow: inset 0 0 0 1px env(--progressBorderColor);
 
   &::-webkit-progress-bar {
-    border-radius: var(--progressBorderRadius);
-    background: var(--progressBackground);
-    box-shadow: inset 0 0 0 1px var(--progressBorderColor);
+    border-radius: env(--progressBorderRadius);
+    background: env(--progressBackground);
+    box-shadow: inset 0 0 0 1px env(--progressBorderColor);
   }
 
   &::-webkit-progress-value {
-    border-radius: var(--progressBorderRadius);
-    background: var(--progressFilledColor);
+    border-radius: env(--progressBorderRadius);
+    background: env(--progressFilledColor);
     transition: width 200ms ease-out;
   }
 
   &::-moz-progress-bar {
-    border-radius: var(--progressBorderRadius);
-    background: var(--progressFilledColor);
+    border-radius: env(--progressBorderRadius);
+    background: env(--progressFilledColor);
   }
 
   &:indeterminate {
@@ -52,6 +50,6 @@ progress {
   }
 
   to {
-    background-position: var(--progressHeight) 0;
+    background-position: env(--progressHeight) 0;
   }
 }

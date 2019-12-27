@@ -1,22 +1,20 @@
 details {
-  @mixin details-config;
-
   display: block;
-  background: var(--detailsBackground);
+  background: env(--detailsBackground);
   overflow: auto;
-  max-height: var(--detailsMaxHeight);
+  max-height: env(--detailsMaxHeight);
   position: relative;
-  box-shadow: var(--detailsShadow);
-  border-radius: var(--detailsBorderRadius);
+  box-shadow: env(--detailsShadow);
+  border-radius: env(--detailsBorderRadius);
   -webkit-overflow-scrolling: touch;
   overscroll-behavior: contain;
 
   @nest [ne-details-group] > &:first-of-type {
-    border-radius: var(--detailsBorderRadius) var(--detailsBorderRadius) 0 0;
+    border-radius: env(--detailsBorderRadius) env(--detailsBorderRadius) 0 0;
   }
 
   @nest [ne-details-group] > &:last-of-type {
-    border-radius: 0 0 var(--detailsBorderRadius) var(--detailsBorderRadius);
+    border-radius: 0 0 env(--detailsBorderRadius) env(--detailsBorderRadius);
   }
 
   @nest [ne-details-group] > &:not(:first-of-type, :last-of-type) {
@@ -24,11 +22,11 @@ details {
   }
 
   @nest [ne-details-group] > &:only-of-type {
-    border-radius: var(--detailsBorderRadius);
+    border-radius: env(--detailsBorderRadius);
   }
 
   @nest [ne-details-group] > &:not(:last-of-type) {
-    border-bottom: var(--detailsSeparator);
+    border-bottom: env(--detailsSeparator);
   }
 
   & summary {
@@ -36,18 +34,18 @@ details {
     display: list-item;
     touch-action: manipulation;
     padding:
-      var(--detailsSummaryPadding) var(--detailsSummaryPadding)
-      var(--detailsSummaryPadding) 32px;
+      env(--detailsSummaryPadding) env(--detailsSummaryPadding)
+      env(--detailsSummaryPadding) 32px;
     box-sizing: border-box;
     user-select: none;
-    background: var(--detailsSummaryBacgrkound);
-    border-radius: var(--detailsBorderRadius) var(--detailsBorderRadius) 0 0;
+    background: env(--detailsSummaryBacgrkound);
+    border-radius: env(--detailsBorderRadius) env(--detailsBorderRadius) 0 0;
     position: -webkit-sticky;
     position: sticky;
     z-index: 1;
     top: 0;
-    font-weight: var(--detailsSummaryFontWeight);
-    font-size: var(--detailsSummaryFontSize);
+    font-weight: env(--detailsSummaryFontWeight);
+    font-size: env(--detailsSummaryFontSize);
     cursor: pointer;
     background-size: 16px auto;
     text-overflow: ellipsis;
@@ -93,7 +91,7 @@ details {
   }
 
   &[open] summary {
-    color: var(--detailsSummaryOpenColor);
+    color: env(--detailsSummaryOpenColor);
   }
 
   &[open] summary::before {

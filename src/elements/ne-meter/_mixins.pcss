@@ -1,18 +1,18 @@
-@define-mixin progress {
-  background: var(--meterBackground);
-  box-shadow: inset 0 0 0 1px var(--meterBorderColor);
-  border-radius: var(--meterBorderRadius);
+@define-mixin meter-progress {
+  background: env(--meterBackground);
+  box-shadow: inset 0 0 0 1px env(--meterBorderColor);
+  border-radius: env(--meterBorderRadius);
   overflow: hidden;
 }
 
 @define-mixin meter-strong {
-  background: var(--meterFilledColorStrong);
+  background: env(--meterFilledColorStrong);
 }
 
 @define-mixin meter-good {
-  background: var(--meterFilledColorGood);
+  background: env(--meterFilledColorGood);
 }
 
 @define-mixin meter-weak {
-  background: var(--meterFilledColorWeak);
+  background: env(--meterFilledColorWeak);
 }

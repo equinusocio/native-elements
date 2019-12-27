@@ -1,6 +1,4 @@
-input[type="color"] {
-  @mixin color-config;
-
+input[type='color'] {
   appearance: none;
   border: 0;
   padding: 0;
@@ -8,7 +6,7 @@ input[type="color"] {
   height: 24px;
   cursor: pointer;
   background: transparent;
-  border-radius: var(--colorBorderRadius);
+  border-radius: env(--colorBorderRadius);
 
   &::-moz-focus-inner {
     border: 0;
@@ -30,6 +28,6 @@ input[type="color"] {
 
   &:focus::-webkit-color-swatch,
   &:active::-webkit-color-swatch {
-    box-shadow: inset 0 0 0 var(--colorOutlineWidth) var(--colorOutlineColor);
+    box-shadow: inset 0 0 0 env(--colorOutlineWidth) env(--colorOutlineColor);
   }
 }

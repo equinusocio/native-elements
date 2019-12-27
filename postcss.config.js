@@ -1,16 +1,34 @@
 const path = require('path');
-const coreElement = require('./src/elements/native-elements/config');
-const buttonElement = require('./src/elements/ne-button/config');
-const checkradioElement = require('./src/elements/ne-checkradio/config');
-const selectElement = require('./src/elements/ne-select/config');
-const textfieldElement = require('./src/elements/ne-textfield/config');
+const coreConfig = require('./src/elements/native-elements/config');
+const buttonConfig = require('./src/elements/ne-button/config');
+const checkradioConfig = require('./src/elements/ne-checkradio/config');
+const selectConfig = require('./src/elements/ne-select/config');
+const textfieldConfig = require('./src/elements/ne-textfield/config');
+const rangeConfig = require('./src/elements/ne-range/config');
+const detailsConfig = require('./src/elements/ne-details/config');
+const codeConfig = require('./src/elements/ne-code/config');
+const colorConfig = require('./src/elements/ne-color/config');
+const dialogConfig = require('./src/elements/ne-dialog/config');
+const formConfig = require('./src/elements/ne-form/config');
+const meterConfig = require('./src/elements/ne-meter/config');
+const progressConfig = require('./src/elements/ne-progress/config');
+const uploadConfig = require('./src/elements/ne-upload/config');
 
 const envVariables = {
-  ...coreElement,
-  ...buttonElement,
-  ...checkradioElement,
-  ...selectElement,
-  ...textfieldElement
+  ...coreConfig,
+  ...buttonConfig,
+  ...checkradioConfig,
+  ...selectConfig,
+  ...textfieldConfig,
+  ...rangeConfig,
+  ...detailsConfig,
+  ...codeConfig,
+  ...colorConfig,
+  ...dialogConfig,
+  ...formConfig,
+  ...meterConfig,
+  ...progressConfig,
+  ...uploadConfig,
 };
 
 module.exports = {

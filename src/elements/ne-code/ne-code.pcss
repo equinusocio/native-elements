@@ -1,22 +1,17 @@
-pre,
-code {
-  @mixin code-config;
-}
-
 pre {
-  font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Mono', 'Droid Sans Mono', 'Source Code Pro', monospace;
-  font-size: var(--codeFontSize);
+  font-family: env(--codeFontFamily);
+  font-size: env(--codeFontSize);
   -ms-overflow-style: scrollbar;
   overflow-x: auto;
   margin: 0;
-  padding: var(--codePadding);
-  border: var(--codeBorder);
-  border-radius: var(--codeBorderRadius);
-  background-color: var(--codeBackground);
+  padding: env(--codePadding);
+  border: env(--codeBorder);
+  border-radius: env(--codeBorderRadius);
+  background-color: env(--codeBackground);
   tab-size: 1.5rem;
   white-space: pre-wrap;
   word-wrap: normal;
-  color: var(--codeForeground);
+  color: env(--codeForeground);
 
   & code {
     padding: 0;
@@ -29,7 +24,7 @@ pre {
 
 code {
   font-size: inherit;
-  font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Mono', 'Droid Sans Mono', 'Source Code Pro', monospace;
+  font-family: env(--codeFontFamily);
   white-space: pre;
   color: inherit;
 }
