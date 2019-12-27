@@ -23,7 +23,7 @@
     "prebuild": "yarn clean",
     "build": "rollup --config --environment BUILD:production",
     "postbuild": "yarn size",
-    "prepublish": "yarn build",
+    "prepublishOnly": "yarn build",
     "postpublish": "yarn size",
     "size": "size-limit",
     "vars": "node scripts/extractVars.js"
