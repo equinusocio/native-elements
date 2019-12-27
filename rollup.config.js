@@ -1,9 +1,39 @@
-import devConfig from './rollup.dev.config.js';
-import prodConfig from './rollup.prod.config.js';
+import postcss from 'rollup-plugin-postcss';
+import serve from 'rollup-plugin-serve';
 
 export default () => {
-  if (process.env.BUILD === 'production') {
-    return prodConfig;
-  }
-  return devConfig;
+  return (process.env.BUILD === 'production') ? {
+    input: './src/elements/native-elements/native-elements.pcss',
+    output: {
+      dir: 'dist/',
+      format: 'esm'
+    },
+    plugins: [
+      postcss({
+        extract: true,
+        config: {
+          path: 'postcss.config.js'
+        }
+      })
+    ]
+  } : {
+    input: './src/elements/native-elements/native-elements.pcss',
+    output: {
+      dir: 'demo/',
+      format: 'esm'
+    },
+    plugins: [
+      postcss({
+        extract: true,
+        config: {
+          path: 'postcss.config.js'
+        }
+      }),
+      serve({
+        open: true,
+        contentBase: 'demo',
+        host: '0.0.0.0'
+      }),
+    ]
+  };
 };

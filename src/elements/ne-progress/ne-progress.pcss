@@ -9,12 +9,12 @@ progress {
   height: env(--progressHeight);
   border-radius: env(--progressBorderRadius);
   background: env(--progressBackground);
-  box-shadow: inset 0 0 0 1px env(--progressBorderColor);
+  box-shadow: inset 0 0 0 env(--progressBorder);
 
   &::-webkit-progress-bar {
     border-radius: env(--progressBorderRadius);
     background: env(--progressBackground);
-    box-shadow: inset 0 0 0 1px env(--progressBorderColor);
+    box-shadow: inset 0 0 0 env(--progressBorder);
   }
 
   &::-webkit-progress-value {

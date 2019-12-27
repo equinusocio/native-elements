@@ -30,8 +30,7 @@ module.exports = {
   /* Misc API */
   '--textfieldBorderRadius': 'var(--ne-textfield-radius, 5px)',
   '--textfieldWidth': 'var(--ne-textfield-width, 100%)',
-  '--textfieldHeight': 'var(--ne-textfield-height, 2.5rem)',
-  '--textfieldPadding': 'var(--ne-textfield-y-padding, 0.5rem) var(--ne-textfield-x-padding, 0.75rem)',
+  '--textfieldPadding': 'var(--ne-textfield-y-padding, 0.5em) var(--ne-textfield-x-padding, 1em)',
   '--textfieldSelectionBackground': 'var(--ne-textfield-selection-background, hsl(233, 64%, 90%))',
   '--textfieldSelectionForeground': 'var(--ne-textfield-selection-foreground, hsl(0, 0%, 13%))',
   '--textfieldResize': 'var(--ne-textfield-resize, vertical)',

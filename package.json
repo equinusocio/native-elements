@@ -21,7 +21,7 @@
     "predev": "yarn clean",
     "dev": "rollup -c -w",
     "prebuild": "yarn clean",
-    "build": "rollup -c --environment BUILD:production",
+    "build": "rollup --config --environment BUILD:production",
     "postbuild": "yarn size",
     "prepublish": "yarn build",
     "postpublish": "yarn size",

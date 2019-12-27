@@ -13,15 +13,14 @@ select {
   transition: color 0.1s ease-out, box-shadow 0.1s ease-out;
   display: block;
   width: env(--selectWidth);
-  height: env(--selectHeight);
   padding:
-    0 calc((env(--selectPadding) * 2) + env(--selectArrowSize)) 0
+    env(--selectPadding)
+    calc((env(--selectPadding) * 2) + env(--selectArrowSize))
+    env(--selectPadding)
     env(--selectPadding);
-  box-sizing: border-box;
   box-shadow: env(--selectShadow);
   overflow: hidden;
   text-overflow: ellipsis;
-
 
   &:hover {
     border: env(--selectHoverBorder);

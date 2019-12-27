@@ -25,7 +25,7 @@ module.exports = {
   '--insForeground': 'var(--ne-ins-foreground, hsl(161, 98%, 18%))',
   '--insBackground': 'var(--ne-ins-background, hsl(138, 100%, 88%))',
   '--kbdColor': 'var(--ne-kbd-color, hsl(233, 34%, 96%))',
-  '--kbdRadius': 'var(--ne-kbd-radius, 4px)',
+  '--kbdBorderRadius': 'var(--ne-kbd-border-radius, 4px)',
   '--markForeground': 'var(--ne-mark-foreground, hsl(20, 100%, 26%))',
   '--markBackground': 'var(--ne-mark-background, hsl(57, 100%, 60%))',
 };

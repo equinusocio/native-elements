@@ -22,10 +22,7 @@ module.exports = {
   /* Misc API */
   '--selectBorderRadius': 'var(--ne-select-radius, 5px)',
   '--selectWidth': 'var(--ne-select-width, 100%)',
-  '--selectHeight': 'var(--ne-select-height, 2.5rem)',
-  '--selectPadding': 'var(--ne-select-padding, 0.75rem)',
-  '--selectSelectionBackground': 'var(--ne-select-selection-background, hsl(233, 64%, 90%))',
-  '--selectSelectionForeground': 'var(--ne-select-selection-foreground, hsl(0, 0%, 13%))',
+  '--selectPadding': 'var(--ne-select-padding, 0.5em)',
   '--selectArrowIcon': 'var(--ne-select-arrow-icon, url(\'data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"> <path fill="none" stroke="#111" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M7 9l5-5 5 5m0 6l-5 5-5-5" class="nc-icon-wrapper"/></svg>\'))',
   '--selectArrowSize': 'var(--ne-select-arrow-size, 0.9rem)',
   '--selectShadow': 'var(--ne-select-shadow, 0 1px 2px rgba(0, 0, 0, 0.06))',

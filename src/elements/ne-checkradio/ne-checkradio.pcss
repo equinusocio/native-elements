@@ -1,13 +1,79 @@
 input[type='checkbox'],
 input[type='radio'] {
-  will-change: transform;
-  margin: 0;
+  appearance: none;
+  color: env(--checkradioColor);
+  width: env(--checkradioSize);
+  height: env(--checkradioSize);
+  border-radius: env(--checkradioBorderRadius);
+  border: env(--checkradioBorder);
   cursor: pointer;
+  position: relative;
+  background: env(--checkradioBackground);
+  vertical-align: middle;
 
-  &:checked,
-  &:indeterminate {
+  &::before {
+    content: '';
+    position: absolute;
+    pointer-events: none;
+    left: 50%;
+    top: 50%;
+    height: 5px;
+    width: 10px;
+    border-radius: 2px 0 2px 2px;
+    border-bottom: 2px solid currentColor;
+    border-left: 2px solid currentColor;
+    transform: translate(-50%, calc(-50% - 1px)) rotate(-45deg);
+    opacity: 0;
+  }
+
+  &:not(:disabled):active {
+    border-color: env(--checkradioColor);
+  }
+
+  &:checked {
+    background-color: env(--checkradioColor);
+    border-color: env(--checkradioColor);
+    color: #FFF;
     animation: splash env(--checkradioAnimationDuration) cubic-bezier(0, 0, 0.2, 1);
     filter: drop-shadow(env(--checkradioShadow));
+
+    &::before {
+      opacity: 1;
+    }
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+
+  &:indeterminate {
+    background-color: env(--checkradioColor);
+    border-color: env(--checkradioColor);
+    color: #FFF;
+    animation: splash env(--checkradioAnimationDuration) cubic-bezier(0, 0, 0.2, 1);
+    filter: drop-shadow(env(--checkradioShadow));
+
+    &::before {
+      transform: translate(-50%, calc(-50%));
+      opacity: 1;
+      height: 2px;
+      width: 8px;
+    }
+  }
+}
+
+input[type='radio'] {
+  border-radius: 100%;
+
+  &::before {
+    border-radius: 100%;
+    border: 0;
+    width: 8px;
+    height: 8px;
+    transform: translate(-50%, calc(-50%));
+    background-color: currentColor;
   }
 }
 
