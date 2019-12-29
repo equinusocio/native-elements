@@ -9,7 +9,7 @@ module.exports = {
   '--checkradioColor': 'var(--ne-checkradio-color, hsl(235, 100%, 60%))',
 
   /* Misc API */
-  '--checkradioSize': 'var(--ne-checkradio-size, 1.2rem)',
+  '--checkradioSize': 'var(--ne-checkradio-size, 18px)',
   '--checkradioBorderRadius': 'var(--ne-checkradio-border-radius, 4px)',
   '--checkradioShadow': 'var(--ne-checkradio-shadow, 0 1px 1px rgba(0, 0, 0, 0.2))',
 };
