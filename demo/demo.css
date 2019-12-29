@@ -45,9 +45,8 @@ main {
   --ne-button-active-background: transparent;
   --ne-button-shadow: none;
   --ne-button-foreground: #000;
-  --ne-button-hover-color: var(--buttonForeground));
-  --ne-button-focus-color: var(--buttonForeground));
-  --ne-button-active-color: var(--buttonForeground));
+  --ne-button-hover-foreground: #000;
+  --ne-button-active-foreground: #000;
 }
 
 .FullRound {

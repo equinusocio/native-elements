@@ -23,7 +23,7 @@ module.exports = {
   '--selectBorderRadius': 'var(--ne-select-radius, 5px)',
   '--selectWidth': 'var(--ne-select-width, 100%)',
   '--selectPadding': 'var(--ne-select-padding, 0.5em)',
-  '--selectArrowIcon': 'var(--ne-select-arrow-icon, url(\'data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"> <path fill="none" stroke="#111" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M7 9l5-5 5 5m0 6l-5 5-5-5" class="nc-icon-wrapper"/></svg>\'))',
-  '--selectArrowSize': 'var(--ne-select-arrow-size, 0.9rem)',
+  '--selectArrowIcon': 'var(--ne-select-arrow-icon, url(\'data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><g stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill="none" stroke="hsl(235, 100%, 60%)" stroke-miterlimit="10"><path d="M7 8l5-5 5 5M17 16l-5 5-5-5"/></g></svg>\'))',
+  '--selectArrowSize': 'var(--ne-select-arrow-size, 1rem)',
   '--selectShadow': 'var(--ne-select-shadow, 0 1px 2px rgba(0, 0, 0, 0.06))',
 };
