@@ -3,14 +3,14 @@
   height: env(--rangeHeight);
   transition: background-color 0.2s ease-out;
   cursor: pointer;
-  box-shadow: inset 0 0 0 env(--rangeBorderWidth) env(--rangeBorderColor);
+  box-shadow: inset 0 0 0 env(--rangeBorderColor);
   border-radius: env(--rangeBorderRadius);
   background: env(--rangeBackground);
 }
 
 @define-mixin disabled-track {
   background-color: env(--rangeDisabledBackground);
-  box-shadow: inset 0 0 0 env(--rangeBorderWidth) env(--rangeDisabledBorderColor);
+  box-shadow: inset 0 0 0 env(--rangeDisabledBorderColor);
   cursor: not-allowed;
 }
 
