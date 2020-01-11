@@ -20,13 +20,13 @@ yarn add @native-elements/core
 
 To enable your HTML superpowers, import the main, bundled css file in your project:
 
-### Within a bundler
+### With a bundler
 
 ```js
 import '@native-elements/core'
 ```
 
-### Within HTML
+### Inside HTML
 
 ```html
 <link rel="stylesheet" href="https://unpkg.com/@native-elements/core/dist/native-elements.css">
