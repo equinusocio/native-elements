@@ -4,7 +4,7 @@
 
 Native HTML elements with CSS superpowers.
 
-## 🚧 Work in progress.
+## 🚧 Work in progress
 
 This project is under development, use at your own risk.
 
