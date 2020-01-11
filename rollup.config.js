@@ -1,5 +1,6 @@
 import postcss from 'rollup-plugin-postcss';
 import serve from 'rollup-plugin-serve';
+import livereload from 'rollup-plugin-livereload';
 
 export default () => {
   return (process.env.BUILD === 'production') ? {
@@ -34,6 +35,9 @@ export default () => {
         contentBase: 'demo',
         host: '0.0.0.0'
       }),
+      livereload({
+        watch: 'demo',
+      })
     ]
   };
 };
