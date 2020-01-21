@@ -1,5 +1,5 @@
 module.exports = {
-  /* Core API */
+  /* Global API */
   '--globalBackground': 'var(--ne-global-background, #FFF)',
   '--globalForeground': 'var(--ne-global-foreground, #000)',
   '--rootFontSize': 'var(--ne-root-font-size, 100%)',

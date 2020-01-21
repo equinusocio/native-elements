@@ -14,6 +14,7 @@ const meterConfig = require('./src/elements/ne-meter/config.js');
 const progressConfig = require('./src/elements/ne-progress/config.js');
 const uploadConfig = require('./src/elements/ne-upload/config.js');
 const tableConfig = require('./src/elements/ne-table/config.js');
+const hrConfig = require('./src/elements/ne-hr/config.js');
 
 const envVariables = {
   ...coreConfig,
@@ -31,6 +32,7 @@ const envVariables = {
   ...progressConfig,
   ...uploadConfig,
   ...tableConfig,
+  ...hrConfig,
 };
 
 module.exports = {
