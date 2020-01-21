@@ -19,12 +19,12 @@
   "scripts": {
     "clean": "yarn rimraf dist/**",
     "predev": "yarn clean",
-    "dev": "rollup -c -w",
+    "watch": "parcel demo/index.html --no-source-maps",
+    "dev": "run-s clean watch",
     "prebuild": "yarn clean",
-    "build": "rollup --config --environment BUILD:production",
+    "build": "parcel build ./src/elements/native-elements/native-elements.pcss --out-dir ./dist --no-source-maps",
     "postbuild": "yarn size",
-    "prepublishOnly": "yarn build",
-    "postpublish": "yarn size",
+    "prepublishOnly": "run-s build size",
     "size": "size-limit",
     "vars": "node scripts/extractVars.js"
   },
@@ -61,6 +61,7 @@
     "eslint": "6.8.0",
     "eslint-plugin-standard": "4.0.1",
     "npm-run-all": "4.1.5",
+    "parcel-bundler": "1.12.4",
     "postcss-cli": "7.1.0",
     "postcss-easy-import": "3.0.0",
     "postcss-mixins": "6.2.3",
@@ -68,13 +69,8 @@
     "postcss-preset-env": "6.7.0",
     "postcss-reporter": "6.0.1",
     "rimraf": "3.0.0",
-    "rollup": "1.29.1",
-    "rollup-plugin-livereload": "1.0.4",
-    "rollup-plugin-postcss": "2.0.3",
-    "rollup-plugin-serve": "1.0.1",
     "stylelint": "13.0.0",
-    "stylelint-config-standard": "19.0.0",
-    "what-input": "5.2.6"
+    "stylelint-config-standard": "19.0.0"
   },
   "resolutions": {
     "safe-eval": "^0.4.1",
@@ -82,7 +78,7 @@
   },
   "browserslist": [
     "last 1 Chrome versions",
-    "last 1 Firefox versions",
+    "Firefox 72",
     "last 1 Safari versions",
     "last 1 Edge versions"
   ]
