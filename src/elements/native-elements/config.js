@@ -28,4 +28,6 @@ module.exports = {
   '--kbdBorderRadius': 'var(--ne-kbd-border-radius, 4px)',
   '--markForeground': 'var(--ne-mark-foreground, hsl(20, 100%, 26%))',
   '--markBackground': 'var(--ne-mark-background, hsl(57, 100%, 60%))',
+  '--inlineCodeBorderRadius': 'var(--ne-inline-code-border-radius, 2px)',
+  '--inlineCodeBackground': 'var(--ne-inline-code-background, hsl(220, 10%, 95%))',
 };
