@@ -1,8 +1,8 @@
 module.exports = {
   /* Border API */
   '--textfieldBorder': 'var(--ne-textfield-border, 1px solid hsl(0, 0%, 89%))',
-  '--textfieldHoverBorder': 'var(--ne-textfield-hover-border, 1px solid hsl(0, 0%, 89%))',
-  '--textfieldFocusBorder': 'var(--ne-textfield-focus-border, 1px solid hsl(235, 100%, 60%))',
+  '--textfieldHoverBorder': 'var(--ne-textfield-hover-border, var(--ne-textfield-border, 1px solid hsl(0, 0%, 89%)))',
+  '--textfieldFocusBorder': 'var(--ne-textfield-focus-border, var(--ne-textfield-border, 1px solid hsl(0, 0%, 89%)))',
   '--textfieldDisabledBorder': 'var(--ne-textfield-disabled-border, 1px solid hsl(233, 34%, 96%))',
   '--textfieldReadonlyBorder': 'var(--ne-textfield-readonly-border, 1px dashed hsl(0, 0%, 89%))',
   '--textfieldReadonlyFocusBorder': 'var(--ne-textfield-readonly-focus-border, 1px dashed hsl(233, 64%, 62%))',
@@ -10,18 +10,18 @@ module.exports = {
 
   /* Background API */
   '--textfieldBackground': 'var(--ne-textfield-background, #FFF)',
-  '--textfieldHoverBackground': 'var(--ne-textfield-hover-background, #FFF)',
-  '--textfieldFocusBackground': 'var(--ne-textfield-focus-background, #FFF)',
+  '--textfieldHoverBackground': 'var(--ne-textfield-hover-background, var(--ne-textfield-background, #fff))',
+  '--textfieldFocusBackground': 'var(--ne-textfield-focus-background, var(--ne-textfield-background, #FFF))',
   '--textfieldDisabledBackground': 'var(--ne-textfield-disabled-background, hsl(233, 34%, 96%))',
   '--textfieldInvalidBackground': 'var(--ne-textfield-invalid-background, #FFF)',
 
   /* Foreground API */
   '--textfieldForeground': 'var(--ne-textfield-foreground, hsl(0, 0%, 13%))',
-  '--textfieldHoverForeground': 'var(--ne-textfield-hover-foreground, hsl(0, 0%, 13%))',
-  '--textfieldFocusForeground': 'var(--ne-textfield-focus-foreground, hsl(0, 0%, 13%))',
+  '--textfieldHoverForeground': 'var(--ne-textfield-hover-foreground, var(--ne-textfield-foreground, hsl(0, 0%, 13%)))',
+  '--textfieldFocusForeground': 'var(--ne-textfield-focus-foreground, var(--ne-textfield-foreground, hsl(0, 0%, 13%)))',
   '--textfieldDisabledForeground': 'var(--ne-textfield-disabled-foreground, hsl(233, 24%, 72%))',
-  '--textfieldReadonlyForeground': 'var(--ne-textfield-readonly-foreground, hsl(0, 0%, 13%))',
-  '--textfieldInvalidForeground': 'var(--ne-textfield-valid-foreground, hsl(0, 0%, 13%))',
+  '--textfieldReadonlyForeground': 'var(--ne-textfield-readonly-foreground, var(--ne-textfield-foreground, hsl(0, 0%, 13%)))',
+  '--textfieldInvalidForeground': 'var(--ne-textfield-valid-foreground, var(--ne-textfield-foreground, hsl(0, 0%, 13%)))',
   '--textfieldPlaceholderForeground': 'var(--ne-textfield-placeholder-foreground, hsl(0, 0%, 60%))',
   '--textfieldHoverPlaceholderForeground': 'var(--ne-textfield-hover-placeholder-foreground, hsl(0, 0%, 60%))',
   '--textfieldFocusPlaceholderForeground': 'var(--ne-textfield-focus-placeholder-foreground, hsl(0, 0%, 60%))',
