@@ -1,19 +1,19 @@
 module.exports = {
   /* Border API */
   '--selectBorder': 'var(--ne-select-border, 1px solid hsl(0, 0%, 89%))',
-  '--selectHoverBorder': 'var(--ne-select-hover-border, 1px solid hsl(0, 0%, 89%))',
-  '--selectFocusBorder': 'var(--ne-select-focus-border, 1px solid hsl(235, 100%, 60%))',
+  '--selectHoverBorder': 'var(--ne-select-hover-border, var(--ne-select-border, 1px solid hsl(0, 0%, 89%)))',
+  '--selectFocusBorder': 'var(--ne-select-focus-border, var(--ne-select-border, 1px solid hsl(235, 100%, 60%)))',
   '--selectDisabledBorder': 'var(--ne-select-disabled-border, 1px solid hsl(233, 34%, 96%))',
 
   /* Background API */
-  '--selectBackground': 'var(--ne-select-background, var(--ne-global-background))',
+  '--selectBackground': 'var(--ne-select-background, var(--ne-global-background, #FFF))',
   '--selectHoverBackground': 'var(--ne-select-hover-background, var(--ne-select-background))',
   '--selectFocusBackground': 'var(--ne-select-focus-background, var(--ne-select-background))',
   '--selectDisabledBackground': 'var(--ne-select-disabled-background, hsl(233, 34%, 96%))',
   '--selectOptionCheckedBackground': 'var(--ne-select-option-checked-background, hsl(235, 100%, 60%))',
 
   /* Foreground API */
-  '--selectForeground': 'var(--ne-select-color, var(--ne-global-foreground))',
+  '--selectForeground': 'var(--ne-select-color, var(--ne-global-foreground, hsl(0, 0%, 13%)))',
   '--selectHoverForeground': 'var(--ne-select-hover-color, var(--ne-select-color))',
   '--selectFocusForeground': 'var(--ne-select-focus-color, var(--ne-select-color))',
   '--selectDisabledForeground': 'var(--ne-select-disabled-color, hsl(233, 14%, 72%))',
