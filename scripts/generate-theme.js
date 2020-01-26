@@ -23,7 +23,7 @@ function getProperties(fileContent) {
       .map(r => {
         const property = r.split(',')[0].replace('var(', '').replace(',','');
         const value = r.replace('hsl(235, 100%, 60%)', 'var(--acent-color)')
-        return `${property}: ${value};`
+        return `  ${property}: ${value};`
       })
   })
 }
@@ -32,7 +32,7 @@ function writeFiles(arrayResult) {
   const results = [].concat(...arrayResult).join('\n')
   return new Promise((resolve, reject) => {
     return fs.writeFile(`${cwd}/theme.css`, `:root {
---accent-color: hsl(235, 100%, 60%);
+  --accent-color: hsl(235, 100%, 60%);
 
 ${results}
 }`, (err) => {

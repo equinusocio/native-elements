@@ -12,5 +12,6 @@ module.exports = {
   '--codeFontSize': 'var(--ne-code-font-size, 0.875rem)',
   '--codeFontFamily': 'var(--ne-code-font-family, "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace)',
   '--codeBorderRadius': 'var(--ne-code-border-radius, 5px)',
-  '--codePadding': 'var(--ne-code-y-padding, 1.25rem) var(--ne-code-x-padding, 1.5rem)',
+  '--codeYPadding': 'var(--ne-code-y-padding, 1.25rem)',
+  '--codeXPadding': 'var(--ne-code-x-padding, 1.5rem)',
 };

@@ -3,7 +3,7 @@ input:not([type='checkbox'], [type='radio'], [type='range'], [type='color'], [ty
 
   display: block;
   width: env(--textfieldWidth);
-  padding: env(--textfieldPadding);
+  padding: env(--textfieldYPadding) env(--textfieldXPadding);
 }
 
 input[type='number']::-webkit-inner-spin-button,
@@ -26,7 +26,7 @@ textarea {
 
   height: auto;
   width: env(--textfieldWidth);
-  padding: env(--textfieldPadding);
+  padding: env(--textfieldYPadding) env(--textfieldXPadding);
   resize: env(--textfieldResize);
 
   &::-webkit-datetime-edit-text {

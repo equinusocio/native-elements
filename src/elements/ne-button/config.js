@@ -25,6 +25,7 @@ module.exports = {
   '--buttonBorderRadius': 'var(--ne-button-radius, 5px)',
   '--buttonFontWeight': 'var(--ne-button-font-weight, 700)',
   '--buttonFontSize': 'var(--ne-button-font-size, inherit)',
-  '--buttonPadding': 'var(--ne-button-y-padding, 1em) var(--ne-button-x-padding, 2em)',
+  '--buttonYPadding': 'var(--ne-button-y-padding, 1em)',
+  '--buttonXPadding': 'var(--ne-button-x-padding, 2em)',
   '--buttonShadow': 'var(--ne-button-shadow, 0 1px 2px rgba(0, 0, 0, 0.16))',
 };
