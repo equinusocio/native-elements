@@ -147,7 +147,7 @@
   --ne-textfield-focus-border: var(--ne-textfield-border, 1px solid hsl(0, 0%, 89%));
   --ne-textfield-disabled-border: 1px solid hsl(233, 34%, 96%);
   --ne-textfield-readonly-border: 1px dashed hsl(0, 0%, 89%);
-  --ne-textfield-readonly-focus-border: 1px dashed hsl(233, 64%, 62%);
+  --ne-textfield-readonly-focus-border: 1px dashed hsl(235, 100%, 60%);
   --ne-textfield-invaild-border-color: hsl(354, 100%, 65%);
   --ne-textfield-background: #FFF;
   --ne-textfield-hover-background: var(--ne-textfield-background, #fff);
