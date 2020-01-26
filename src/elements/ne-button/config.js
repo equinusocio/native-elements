@@ -19,7 +19,6 @@ module.exports = {
 
   /* Icon API */
   '--buttonIconMargin': 'var(--ne-button-icon-margin, calc(2rem / 2.2))',
-  '--buttonDisabledIconSeparator': 'var(--ne-button-disabled-icon-separator, rgba(143, 150, 163, 0.3))',
 
   /* Misc API */
   '--buttonBorderRadius': 'var(--ne-button-radius, 5px)',
