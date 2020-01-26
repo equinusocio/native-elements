@@ -34,6 +34,12 @@ import '@native-elements/core'
 
 ## Customisation
 
-Currently we provide a basic theme with all the custom properties used by the handled elements
+Currently we provide a basic theme with all the custom properties used by the handled elements. To customize things, pick the properties you want to change from the [theme file](/theme.css) file and add them to your `:root {}` selector:
+
+```css
+:root {
+  --accent-color: hotpink;
+}
+```
 
 ## [Live Demo](https://native-elements.stackblitz.io/)
