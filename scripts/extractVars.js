@@ -1,6 +1,6 @@
 const glob = require('glob')
 const fs = require('fs')
-const propertyRegex = /(--ne)(.*?)(?=,)/gm
+const propertyRegex = /(var\(.+\))/gmi
 
 const cwd = process.cwd()
 
@@ -20,22 +20,30 @@ function getProperties(fileContent) {
   return fileContent.map(fileCont => {
     return fileCont
       .match(propertyRegex)
-      .map(r => r.replace(/\s/g, ''))
+      .map(r => {
+        const property = r.split(',')[0].replace('var(', '').replace(',','');
+        const value = r
+          .replace('var(', '')
+          .replace(',','')
+          .replace(property, '')
+          .slice(0, -1)
+        return `${property}: ${value};`
+      })
   })
 }
 
 function writeFiles(arrayResult) {
   const results = [].concat(...arrayResult).join('\n')
   return new Promise((resolve, reject) => {
-    return fs.writeFile(`${cwd}/vars.md`, results, (err) => {
+    return fs.writeFile(`${cwd}/vars.css`, `:root {\n${results}\n}`, (err) => {
       return err ? reject(err) : resolve('File written correctly.')
     })
   })
 }
 
 (async () => {
-  const pcssFiles = await findFiles()
-  const fileContents = getFilesContent(pcssFiles)
+  const configFiles = await findFiles()
+  const fileContents = getFilesContent(configFiles)
   const properties = getProperties(fileContents)
   const writeResult = await writeFiles(properties)
   console.log(writeResult)
