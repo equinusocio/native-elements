@@ -47,8 +47,11 @@ pick the properties you want to change from the [theme file](/theme.css) file an
 
 ```css
 :root {
+  /* Custom palette */
   --accent-color: hotpink;
-  --ne-outline-color: red;
+  --secondary-color: rebeccapurple;
+
+  --ne-hr-background: var(--secondary-color);
 }
 ```
 
