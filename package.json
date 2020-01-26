@@ -23,7 +23,7 @@
     "dev": "run-s clean watch",
     "prebuild": "yarn clean",
     "build": "parcel build ./src/elements/native-elements/native-elements.pcss --out-dir ./dist --no-source-maps",
-    "postbuild": "yarn size",
+    "postbuild": "run-s theme size",
     "prepublishOnly": "run-s build size",
     "size": "size-limit",
     "theme": "node scripts/generate-theme.js"
