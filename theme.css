@@ -154,7 +154,7 @@
   --ne-textfield-focus-background: var(--ne-textfield-background, #FFF);
   --ne-textfield-disabled-background: hsl(233, 34%, 96%);
   --ne-textfield-invalid-background: #FFF;
-  --ne-textfield-foreground: hsl(0, 0%, 13%);
+  --ne-textfield-foreground: var(--ne-global-foreground, hsl(0, 0%, 13%));
   --ne-textfield-hover-foreground: var(--ne-textfield-foreground, hsl(0, 0%, 13%));
   --ne-textfield-focus-foreground: var(--ne-textfield-foreground, hsl(0, 0%, 13%));
   --ne-textfield-disabled-foreground: hsl(233, 24%, 72%);
