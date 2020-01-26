@@ -35,7 +35,10 @@ function getProperties(fileContent) {
 function writeFiles(arrayResult) {
   const results = [].concat(...arrayResult).join('\n')
   return new Promise((resolve, reject) => {
-    return fs.writeFile(`${cwd}/vars.css`, `:root {\n${results}\n}`, (err) => {
+    return fs.writeFile(`${cwd}/theme.css`, `:root {
+--accent-color: hsl(235, 100%, 60%);
+${results}
+}`, (err) => {
       return err ? reject(err) : resolve('File written correctly.')
     })
   })

@@ -16,7 +16,7 @@ Install the package with your package manager:
 yarn add @native-elements/core
 ```
 
-## Usage
+## Installation
 
 To enable your HTML superpowers, import the main, bundled css file in your project:
 
@@ -32,4 +32,8 @@ import '@native-elements/core'
 <link rel="stylesheet" href="https://unpkg.com/@native-elements/core/dist/native-elements.css">
 ```
 
-### [Live Demo](https://native-elements.stackblitz.io/)
+## Customisation
+
+Currently we provide a basic theme with all the custom properties used by the handled elements
+
+## [Live Demo](https://native-elements.stackblitz.io/)

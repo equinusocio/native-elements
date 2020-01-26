@@ -1,4 +1,5 @@
 :root {
+--accent-color: hsl(235, 100%, 60%);
 --ne-global-background:  #FFF;
 --ne-global-foreground:  #000;
 --ne-root-font-size:  100%;
