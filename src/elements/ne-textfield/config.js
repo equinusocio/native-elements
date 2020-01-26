@@ -16,7 +16,7 @@ module.exports = {
   '--textfieldInvalidBackground': 'var(--ne-textfield-invalid-background, #FFF)',
 
   /* Foreground API */
-  '--textfieldForeground': 'var(--ne-textfield-foreground, hsl(0, 0%, 13%))',
+  '--textfieldForeground': 'var(--ne-textfield-foreground, var(--ne-global-foreground, hsl(0, 0%, 13%)))',
   '--textfieldHoverForeground': 'var(--ne-textfield-hover-foreground, var(--ne-textfield-foreground, hsl(0, 0%, 13%)))',
   '--textfieldFocusForeground': 'var(--ne-textfield-focus-foreground, var(--ne-textfield-foreground, hsl(0, 0%, 13%)))',
   '--textfieldDisabledForeground': 'var(--ne-textfield-disabled-foreground, hsl(233, 24%, 72%))',
