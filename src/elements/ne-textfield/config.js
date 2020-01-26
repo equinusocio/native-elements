@@ -6,7 +6,7 @@ module.exports = {
   '--textfieldDisabledBorder': 'var(--ne-textfield-disabled-border, 1px solid hsl(233, 34%, 96%))',
   '--textfieldReadonlyBorder': 'var(--ne-textfield-readonly-border, 1px dashed hsl(0, 0%, 89%))',
   '--textfieldReadonlyFocusBorder': 'var(--ne-textfield-readonly-focus-border, 1px dashed hsl(233, 64%, 62%))',
-  '--textfieldInvalidBorderForeground': 'var(--ne-textfield-invaild-border-color, hsl(354, 100%, 65%))',
+  '--textfieldInvalidBorderColor': 'var(--ne-textfield-invaild-border-color, hsl(354, 100%, 65%))',
 
   /* Background API */
   '--textfieldBackground': 'var(--ne-textfield-background, #FFF)',
