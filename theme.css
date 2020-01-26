@@ -42,7 +42,6 @@
   --ne-button-active-foreground: #FFF;
   --ne-button-disabled-foreground: hsl(233, 24%, 72%);
   --ne-button-icon-margin: calc(2rem / 2.2);
-  --ne-button-disabled-icon-separator: rgba(143, 150, 163, 0.3);
   --ne-button-radius: 5px;
   --ne-button-font-weight: 700;
   --ne-button-font-size: inherit;
