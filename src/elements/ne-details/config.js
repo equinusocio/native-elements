@@ -14,8 +14,6 @@ module.exports = {
   /* Misc API */
   '--detailsMaxHeight': 'var(--ne-details-max-height, 300px)',
   '--detailsBorderRadius': 'var(--ne-details-border-radius, 4px)',
-  '--detailsOutlineColor': 'var(--ne-details-outline-color, hsl(233, 64%, 85%))',
-  '--detailsOutlineWidth': 'var(--ne-details-outline-width, 0.2rem)',
   '--detailsSummaryPadding': 'var(--ne-details-summary-padding, 16px)',
   '--detailsShadow': 'var(--ne-details-shadow, 0 1px 2px rgba(0, 0, 0, 0.16))',
 };

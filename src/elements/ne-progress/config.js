@@ -1,6 +1,6 @@
 module.exports = {
   /* Border API */
-  '--progressBorder': 'var(--ne-progress-border-color, 1px hsl(0, 0%, 89%))',
+  '--progressBorder': 'var(--ne-progress-border, 1px hsl(0, 0%, 89%))',
 
   /* Background API */
   '--progressBackground': 'var(--ne-progress-background, hsl(220, 10%, 95%))',
