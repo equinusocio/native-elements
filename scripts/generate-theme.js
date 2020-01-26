@@ -23,8 +23,9 @@ function getProperties(fileContent) {
       .map(r => {
         const property = r.split(',')[0].replace('var(', '').replace(',','');
         const valueRgx = /^([^,]+)(,\s)(.+)\){1}$/;
-        const value = r.match(valueRgx);
-        return `  ${property}: ${value[3]};`
+        const extractValue = r.match(valueRgx);
+        const value = extractValue[3].replace('hsl(235, 100%, 60%)', 'var(--accent-color)')
+        return `  ${property}: ${value};`
       })
   })
 }
