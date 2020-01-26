@@ -2,11 +2,16 @@
 
 # Native Elements
 
-Native HTML elements with CSS superpowers.
+**🚧 Work in progress**
+> This project is under development, use at your own risk.
 
-## 🚧 Work in progress
-
-This project is under development, use at your own risk.
+- [Native Elements](#native-elements)
+  - [Install](#install)
+  - [Installation](#installation)
+    - [With a bundler](#with-a-bundler)
+    - [Inside HTML](#inside-html)
+  - [Customize elements](#customize-elements)
+  - [Live Demo](#live-demo)
 
 ## Install
 
@@ -32,7 +37,7 @@ import '@native-elements/core'
 <link rel="stylesheet" href="https://unpkg.com/@native-elements/core/dist/native-elements.css">
 ```
 
-## Customisation
+## Customize elements
 
 Currently we provide a basic theme with all the custom properties used by the handled elements. To customize things, pick the properties you want to change from the [theme file](/theme.css) file and add them to your `:root {}` selector:
 
