@@ -22,11 +22,7 @@ function getProperties(fileContent) {
       .match(propertyRegex)
       .map(r => {
         const property = r.split(',')[0].replace('var(', '').replace(',','');
-        const value = r
-          .replace('var(', '')
-          .replace(',','')
-          .replace(property, '')
-          .slice(0, -1)
+        const value = r.replace('hsl(235, 100%, 60%)', 'var(--acent-color)')
         return `${property}: ${value};`
       })
   })
@@ -37,6 +33,7 @@ function writeFiles(arrayResult) {
   return new Promise((resolve, reject) => {
     return fs.writeFile(`${cwd}/theme.css`, `:root {
 --accent-color: hsl(235, 100%, 60%);
+
 ${results}
 }`, (err) => {
       return err ? reject(err) : resolve('File written correctly.')
