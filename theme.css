@@ -1,6 +1,5 @@
 :root {
   --accent-color: hsl(235, 100%, 60%);
-
   --ne-global-background: var(--ne-global-background, #FFF);
   --ne-global-foreground: var(--ne-global-foreground, #000);
   --ne-root-font-size: var(--ne-root-font-size, 100%);
@@ -16,7 +15,7 @@
   --ne-quote-font-size: var(--ne-quote-font-size, 2rem);
   --ne-cite-foreground: var(--ne-cite-foreground, var(--acent-color));
   --ne-cite-font-size: var(--ne-cite-font-size, 1rem);
-  --ne-cite-start-sign: var(--ne-cite-start-sign, "—");
+  --ne-cite-start-sign: var(--ne-cite-start-sign, '—');
   --ne-links-color: var(--ne-links-color, var(--acent-color));
   --ne-links-active-color: var(--ne-links-active-color, hsl(233, 64%, 52%));
   --ne-del-foreground: var(--ne-del-foreground, hsl(337, 74%, 31%));
@@ -59,7 +58,7 @@
   --ne-code-background: var(--ne-code-background, transparent);
   --ne-code-foreground: var(--ne-code-foreground, hsl(220, 10%, 50%));
   --ne-code-font-size: var(--ne-code-font-size, 0.875rem);
-  --ne-code-font-family: var(--ne-code-font-family, "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace);
+  --ne-code-font-family: var(--ne-code-font-family, 'SF Mono', Monaco, Inconsolata, 'Fira Mono', 'Droid Sans Mono', 'Source Code Pro', monospace);
   --ne-code-border-radius: var(--ne-code-border-radius, 5px);
   --ne-code-y-padding: var(--ne-code-y-padding, 1.25rem);
   --ne-code-x-padding: var(--ne-code-x-padding, 1.5rem);

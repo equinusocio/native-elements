@@ -39,12 +39,19 @@ import '@native-elements/core'
 
 ## Customize elements
 
-Currently we provide a basic theme with all the custom properties used by the handled elements. To customize things, pick the properties you want to change from the [theme file](/theme.css) file and add them to your `:root {}` selector:
+Currently we provide a basic theme with all the custom properties used by the handled elements. To customize things, copy the [theme file](/theme.css) to your application `:root {}` selector, and change the variables you want.
+
+**⚠️ NOTE:** The `--accent-color` property has been added just to simplify the accent color customization. You are able to add your own color palettes and apply them to the Native Elements properties bay replacing their default value.
+
+pick the properties you want to change from the [theme file](/theme.css) file and add them to your `:root {}` selector:
 
 ```css
 :root {
   --accent-color: hotpink;
+  --ne-outline-color: red;
 }
 ```
+
+
 
 ## [Live Demo](https://native-elements.stackblitz.io/)
