@@ -33,7 +33,7 @@ import '@native-elements/core'
 ### Inside HTML
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/@native-elements/core/dist/native-elements.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@native-elements/core/dist/native-elements.min.css">
 ```
 
 ## Customize elements
