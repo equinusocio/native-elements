@@ -17,15 +17,15 @@ module.exports = {
 
   /* Foreground API */
   '--textfieldForeground': 'var(--ne-textfield-foreground, hsl(0, 0%, 13%))',
-  '--textfieldHoverForeground': 'var(--ne-textfield-hover-color, hsl(0, 0%, 13%))',
-  '--textfieldFocusForeground': 'var(--ne-textfield-focus-color, hsl(0, 0%, 13%))',
-  '--textfieldDisabledForeground': 'var(--ne-textfield-disabled-color, hsl(233, 24%, 72%))',
-  '--textfieldReadonlyForeground': 'var(--ne-textfield-readonly-color, hsl(0, 0%, 13%))',
-  '--textfieldInvalidForeground': 'var(--ne-textfield-valid-color, hsl(0, 0%, 13%))',
-  '--textfieldPlaceholderForeground': 'var(--ne-textfield-placeholder-color, hsl(0, 0%, 60%))',
-  '--textfieldHoverPlaceholderForeground': 'var(--ne-textfield-hover-placeholder-color, hsl(0, 0%, 60%))',
-  '--textfieldFocusPlaceholderForeground': 'var(--ne-textfield-focus-placeholder-color, hsl(0, 0%, 60%))',
-  '--textfieldDisabledPlaceholderForeground': 'var(--ne-textfield-disabled-placeholder-color, hsl(233, 34%, 80%))',
+  '--textfieldHoverForeground': 'var(--ne-textfield-hover-foreground, hsl(0, 0%, 13%))',
+  '--textfieldFocusForeground': 'var(--ne-textfield-focus-foreground, hsl(0, 0%, 13%))',
+  '--textfieldDisabledForeground': 'var(--ne-textfield-disabled-foreground, hsl(233, 24%, 72%))',
+  '--textfieldReadonlyForeground': 'var(--ne-textfield-readonly-foreground, hsl(0, 0%, 13%))',
+  '--textfieldInvalidForeground': 'var(--ne-textfield-valid-foreground, hsl(0, 0%, 13%))',
+  '--textfieldPlaceholderForeground': 'var(--ne-textfield-placeholder-foreground, hsl(0, 0%, 60%))',
+  '--textfieldHoverPlaceholderForeground': 'var(--ne-textfield-hover-placeholder-foreground, hsl(0, 0%, 60%))',
+  '--textfieldFocusPlaceholderForeground': 'var(--ne-textfield-focus-placeholder-foreground, hsl(0, 0%, 60%))',
+  '--textfieldDisabledPlaceholderForeground': 'var(--ne-textfield-disabled-placeholder-foreground, hsl(233, 34%, 80%))',
 
   /* Misc API */
   '--textfieldBorderRadius': 'var(--ne-textfield-radius, 5px)',
