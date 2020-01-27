@@ -38,6 +38,7 @@ const envVariables = {
 module.exports = {
   modules: false,
   plugins: {
+    'postcss-dark-theme-class': {},
     'postcss-easy-import': {
       extensions: '.pcss'
     },
