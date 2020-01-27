@@ -5,19 +5,19 @@ table {
 }
 
 thead {
+  border-bottom: env(--tableHeadSeparator);
   text-align: left;
-  border-bottom: 2px solid blue;
-}
-
-th {
-  font-weight: 400;
 }
 
 td,
 th {
-  padding: 8px 16px;
+  padding: env(--tableCellsYPadding) env(--tableCellsXPadding);
 }
 
 tr + tr {
-  border-top: 1px solid red;
+  border-top: env(--tableRowSeparator);
+}
+
+tr:not(thead > tr):nth-child(odd) {
+  background-color: env(--tableStribedBackground);
 }

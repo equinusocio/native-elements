@@ -60,7 +60,8 @@ module.exports = {
           discardComments: {
             removeAll: true
           },
-          reduceIdents: false
+          reduceIdents: false,
+          autoprefixer: false
         }
       ]
     },

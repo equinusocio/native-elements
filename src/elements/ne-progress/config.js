@@ -3,7 +3,7 @@ module.exports = {
   '--progressBorder': 'var(--ne-progress-border, 1px hsl(0, 0%, 89%))',
 
   /* Background API */
-  '--progressBackground': 'var(--ne-progress-background, hsl(220, 10%, 95%))',
+  '--progressBackground': 'var(--ne-progress-background, hsl(233, 34%, 96%))',
   '--progressFilledColor': 'var(--ne-progress-filled-color, hsl(235, 100%, 60%))',
 
   /* Stripes API */
