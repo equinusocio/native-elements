@@ -107,8 +107,8 @@ details p {
     --ne-outline-color: var(--accent-color);
     --ne-cite-foreground: var(--accent-color);
     --ne-cite-font-size: 1rem;
-    --ne-links-color: var(--accent-color);
-    --ne-links-active-color: var(--accent-color);
+    --ne-links-foreground: var(--accent-color);
+    --ne-links-active-foreground: var(--accent-color);
     --ne-del-foreground: hsl(337, 74%, 80%);
     --ne-del-background: hsl(0, 100%, 20%);
     --ne-ins-foreground: hsl(161, 98%, 70%);
@@ -119,8 +119,8 @@ details p {
     --ne-button-foreground: var(--ne-global-background);
     --ne-button-hover-background: var(--ne-global-foreground);
     --ne-button-hover-foreground: var(--ne-global-background);
-    --ne-button-disabled-foreground: hsl(233, 4%, 45%);
-    --ne-button-disabled-background: hsl(233, 4%, 30%);
+    --ne-button-disabled-foreground: hsl(0, 0%, 16.9%);
+    --ne-button-disabled-background: hsl(220, 5.9%, 10%);
     --ne-checkradio-border: 1px solid hsl(233, 4%, 25%);
     --ne-checkradio-background: var(--muted-color);
     --ne-checkradio-color: var(--accent-color);

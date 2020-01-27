@@ -17,8 +17,8 @@
   --ne-cite-foreground: var(--accent-color);
   --ne-cite-font-size: 1rem;
   --ne-cite-start-sign: "—";
-  --ne-links-color: var(--accent-color);
-  --ne-links-active-color: hsl(233, 64%, 52%);
+  --ne-links-foreground: var(--accent-color);
+  --ne-links-active-foreground: hsl(233, 64%, 52%);
   --ne-del-foreground: hsl(337, 74%, 31%);
   --ne-del-background: hsl(0, 100%, 94%);
   --ne-ins-foreground: hsl(161, 98%, 18%);
@@ -51,6 +51,7 @@
   --ne-checkradio-border: 1px solid hsl(0, 0%, 89%);
   --ne-checkradio-background: hsl(220, 10%, 95%);
   --ne-checkradio-color: var(--accent-color);
+  --ne-checkradio-tick-color: var(--ne-global-background, #FFF);
   --ne-checkradio-size: 18px;
   --ne-checkradio-border-radius: 4px;
   --ne-checkradio-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
@@ -130,11 +131,11 @@
   --ne-select-focus-background: var(--ne-select-background, #FFF);
   --ne-select-disabled-background: hsl(233, 34%, 96%);
   --ne-select-option-checked-background: var(--accent-color);
-  --ne-select-color: var(--ne-global-foreground, hsl(0, 0%, 13%));
-  --ne-select-hover-color: var(--ne-select-color, hsl(0, 0%, 13%));
-  --ne-select-focus-color: var(--ne-select-color, hsl(0, 0%, 13%));
-  --ne-select-disabled-color: hsl(233, 14%, 72%);
-  --ne-select-option-checked-color: #FFF;
+  --ne-select-foreground: var(--ne-global-foreground, hsl(0, 0%, 13%));
+  --ne-select-hover-foreground: var(--ne-select-foreground, hsl(0, 0%, 13%));
+  --ne-select-focus-foreground: var(--ne-select-foreground, hsl(0, 0%, 13%));
+  --ne-select-disabled-foreground: hsl(233, 14%, 72%);
+  --ne-select-option-checked-foreground: #FFF;
   --ne-select-radius: 5px;
   --ne-select-width: 100%;
   --ne-select-padding: 0.5em;

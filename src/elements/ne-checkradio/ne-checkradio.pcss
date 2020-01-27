@@ -33,7 +33,7 @@ input[type='radio'] {
   &:checked {
     background-color: env(--checkradioColor);
     border-color: env(--checkradioColor);
-    color: #FFF;
+    color: env(--checkradioTickColor);
     filter: drop-shadow(env(--checkradioShadow));
 
     &::before {
@@ -50,7 +50,7 @@ input[type='radio'] {
   &:indeterminate {
     background-color: env(--checkradioColor);
     border-color: env(--checkradioColor);
-    color: #FFF;
+    color: env(--checkradioTickColor);
     filter: drop-shadow(env(--checkradioShadow));
 
     &::before {
