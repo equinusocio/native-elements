@@ -1,6 +1,5 @@
 :root {
   --accent-color: hsl(235, 100%, 60%);
-
   --ne-global-background: #FFF;
   --ne-global-foreground: #000;
   --ne-root-font-size: 100%;
@@ -16,7 +15,7 @@
   --ne-quote-font-size: 2rem;
   --ne-cite-foreground: var(--accent-color);
   --ne-cite-font-size: 1rem;
-  --ne-cite-start-sign: "—";
+  --ne-cite-start-sign: '—';
   --ne-links-foreground: var(--accent-color);
   --ne-links-active-foreground: hsl(233, 64%, 52%);
   --ne-del-foreground: hsl(337, 74%, 31%);
@@ -59,7 +58,7 @@
   --ne-code-background: transparent;
   --ne-code-foreground: hsl(220, 10%, 50%);
   --ne-code-font-size: 0.875rem;
-  --ne-code-font-family: "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace;
+  --ne-code-font-family: 'SF Mono', Monaco, Inconsolata, 'Fira Mono', 'Droid Sans Mono', 'Source Code Pro', monospace;
   --ne-code-border-radius: 5px;
   --ne-code-y-padding: 1.25rem;
   --ne-code-x-padding: 1.5rem;
@@ -142,7 +141,7 @@
   --ne-select-arrow-icon: url(data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M7 8l5-5 5 5m0 8l-5 5-5-5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill="none" stroke="currentColor" stroke-miterlimit="10"/></svg>);
   --ne-select-arrow-size: 1rem;
   --ne-select-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
-  --ne-table-row-separator: 2px solid hsl(0, 0%, 89%);
+  --ne-table-head-separator: 2px solid hsl(0, 0%, 89%);
   --ne-table-row-separator: 1px solid hsl(0, 0%, 89%);
   --ne-table-striped-background: transparent;
   --ne-table-background: transparent;

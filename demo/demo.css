@@ -161,5 +161,7 @@ details p {
     --ne-textfield-disabled-placeholder-foreground: hsl(233, 34%, 80%);
     --ne-textfield-selection-background: hsl(233, 64%, 90%);
     --ne-textfield-selection-foreground: hsl(0, 0%, 13%);
+    --ne-table-head-separator: 2px solid hsl(233, 4%, 25%);
+    --ne-table-row-separator: 1px solid hsl(0, 0%, 0%);
   }
 }

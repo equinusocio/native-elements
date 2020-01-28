@@ -1,6 +1,6 @@
 module.exports = {
   /* Border API */
-  '--tableHeadSeparator': 'var(--ne-table-row-separator, 2px solid hsl(0, 0%, 89%))',
+  '--tableHeadSeparator': 'var(--ne-table-head-separator, 2px solid hsl(0, 0%, 89%))',
   '--tableRowSeparator': 'var(--ne-table-row-separator, 1px solid hsl(0, 0%, 89%))',
 
   /* Background API */
