@@ -65,7 +65,6 @@ details p {
 
 .Herobanner {
   background-color: #000;
-  min-height: 90vh;
   color: #FFF;
   display: flex;
   justify-content: center;
@@ -78,18 +77,6 @@ details p {
 .Herobanner h1 {
   margin-bottom: 24px;
   line-height: 1;
-}
-
-
-.Herobanner__Footer {
-  display: grid;
-  grid-auto-flow: column;
-  align-items: center;
-  grid-gap: 8px;
-}
-
-.Herobanner__Footer img {
-  display: block;
 }
 
 .ThemeSwitcher {
