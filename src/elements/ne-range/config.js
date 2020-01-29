@@ -7,13 +7,13 @@ module.exports = {
   /* Background API */
   '--rangeBackground': 'var(--ne-range-background, hsl(220, 10%, 95%))',
   '--rangeDisabledBackground': 'var(--ne-range-disabled-background, hsl(233, 34%, 96%))',
-  '--rangeFocusBackground': 'var(--ne-range-focus-background, hsl(220, 10%, 95%))',
+  '--rangeFocusBackground': 'var(--ne-range-focus-background, var(--ne-range-background, hsl(220, 10%, 95%)))',
 
   /* Thumb API */
-  '--rangeThumbSripesColor': 'var(--ne-range-thumb-stripes-color, hsl(235, 100%, 60%))',
-  '--rangeThumbSripesActiveColor': 'var(--ne-range-thumb-stripes-active-color, #FFF)',
-  '--rangeThumbBackground': 'var(--ne-range-thumb-background, #FFF)',
-  '--rangeThumbActiveBackground': 'var(--ne-range-thumb-active-background, hsl(235, 100%, 60%))',
+  '--rangeThumbSripesColor': 'var(--ne-range-thumb-stripes-color, var(--ne-global-background, #fff))',
+  '--rangeThumbSripesActiveColor': 'var(--ne-range-thumb-stripes-active-color, var(--ne-range-thumb-stripes-color, #fff))',
+  '--rangeThumbBackground': 'var(--ne-range-thumb-background, hsl(235, 100%, 60%))',
+  '--rangeThumbActiveBackground': 'var(--ne-range-thumb-active-background, var(--ne-range-thumb-background, hsl(235, 100%, 60%)))',
   '--rangeThumbDisabledBackground': 'var(--ne-range-thumb-disabled-background, hsl(233, 34%, 96%))',
   '--rangeThumbShadow': 'var(--ne-range-thumb-shadow, 0 1px 2px 0 rgba(0, 0, 0, 0.16))',
   '--rangeThumbWidth': 'var(--ne-range-thumb-width, 28px)',

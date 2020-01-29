@@ -15,7 +15,7 @@ select {
   width: env(--selectWidth);
   padding:
     env(--selectPadding)
-    calc((env(--selectPadding) * 2) + env(--selectArrowSize))
+    calc((env(--selectPadding) * 2) + env(--selectIconSize))
     env(--selectPadding)
     env(--selectPadding);
   box-shadow: env(--selectShadow);
@@ -59,10 +59,10 @@ select {
   }
 
   &:not([multiple]) {
-    background-image: env(--selectArrowIcon);
+    background-image: env(--selectIcon);
     background-repeat: no-repeat;
     background-position: right env(--selectPadding) center;
-    background-size: env(--selectArrowSize);
+    background-size: env(--selectIconSize);
   }
 
   &[multiple] {

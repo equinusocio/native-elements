@@ -62,16 +62,16 @@ details {
       transform-box: fill-box;
       position: absolute;
       top: 50%;
-      margin-top: -4px;
+      margin-top: calc((env(--detailsIconSize) / 2) * -1);
       left: 12px;
-      width: 12px;
-      height: 8px;
-      transform: rotate(90deg);
+      width: env(--detailsIconSize);
+      height: env(--detailsIconSize);
+      transform: rotate(-90deg);
       transition: transform 200ms ease-out;
       transform-origin: 50% center;
       background-size: cover;
       background-repeat: no-repeat;
-      background-image: url('data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="612" height="612"> <path d="M604.501 440.509L325.398 134.956c-5.331-5.357-12.423-7.627-19.386-7.27-6.989-.357-14.056 1.913-19.387 7.27L7.499 440.509c-9.999 10.024-9.999 26.298 0 36.323s26.223 10.024 36.222 0l262.293-287.164L568.28 476.832c9.999 10.024 26.222 10.024 36.221 0 9.999-10.023 9.999-26.298 0-36.323z"/></svg>');
+      background-image: env(--detailsIcon);
     }
 
     &::-webkit-details-marker {
@@ -94,7 +94,7 @@ details {
   }
 
   &[open] summary::before {
-    transform: rotate(180deg);
+    transform: none;
   }
 }
 

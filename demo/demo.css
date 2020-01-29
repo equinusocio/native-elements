@@ -39,16 +39,6 @@ main {
   --ne-button-x-padding: 1.5em;
 }
 
-.MutedButton {
-  --ne-button-background: transparent;
-  --ne-button-hover-background: transparent;
-  --ne-button-active-background: transparent;
-  --ne-button-shadow: none;
-  --ne-button-foreground: #000;
-  --ne-button-hover-foreground: #000;
-  --ne-button-active-foreground: #000;
-}
-
 .FullRound {
   --ne-button-radius: 100px;
 }
@@ -114,6 +104,7 @@ details p {
     --ne-code-border: 1px solid hsl(233, 4%, 15%);
     --ne-code-background: hsl(233, 4%, 10%);
     --ne-code-foreground: hsl(233, 4%, 70%);
+    --ne-details-icon: url(data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"><path d="M10.293 3.293L6 7.586 1.707 3.293A1 1 0 00.293 4.707l5 5a1 1 0 001.414 0l5-5a1 1 0 10-1.414-1.414z" fill="#ffffff" stroke="#ffffff"/></svg>));
     --ne-details-separator: 1px solid hsl(233, 4%, 25%);
     --ne-details-background: var(--muted-color);
     --ne-details-summary-background: var(--muted-color);
@@ -130,38 +121,39 @@ details p {
     --ne-progress-border: 1px hsl(233, 4%, 25%);
     --ne-progress-background: var(--muted-color);
     --ne-progress-filled-color: var(--accent-color);
+    --ne-range-thumb-stripes-color: var(--ne-global-background);
     --ne-range-border-color: 1px hsl(233, 4%, 15%);
     --ne-range-background: var(--muted-color);
     --ne-range-disabled-background: var(--muted-color);
-    --ne-range-thumb-stripes-color: var(--accent-color);
-    --ne-range-thumb-active-background: var(--accent-color);
+    --ne-range-thumb-background: var(--accent-color);
     --ne-range-thumb-disabled-background: hsl(233, 4%, 25%);
+    --ne-select-icon: url(data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M7 8l5-5 5 5m0 8l-5 5-5-5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill="none" stroke="#fff" stroke-miterlimit="10"/></svg>);
     --ne-select-border: 1px solid hsl(233, 4%, 25%);
     --ne-select-disabled-border: var(--muted-color);
     --ne-select-background: var(--muted-color);
-    --ne-select-disabled-background: hsl(233, 4%, 30%);
+    --ne-select-disabled-background: hsl(220, 5.9%, 10%);
+    --ne-select-disabled-foreground: hsl(0, 0%, 16.9%);
     --ne-select-option-checked-background: var(--accent-color);
-    --ne-select-color: var(--ne-global-foreground);
+    --ne-select-foreground: var(--ne-global-foreground);
     --ne-select-disabled-color: hsl(233, 4%, 45%);
-    --ne-button-disabled-foreground: hsl(233, 4%, 45%);
-    --ne-button-disabled-background: hsl(233, 4%, 30%);
     --ne-textfield-border: 1px solid hsl(233, 4%, 25%);
-    --ne-textfield-disabled-border: 1px solid hsl(233, 4%, 30%);
+    --ne-textfield-disabled-border: 1px solid hsl(220, 5.9%, 10%);
     --ne-textfield-readonly-border: 1px dashed hsl(233, 4%, 25%);
-    --ne-textfield-readonly-focus-border: 1px dashed hsl(233, 64%, 62%);
+    --ne-textfield-readonly-focus-border: 1px dashed var(--accent-color);
     --ne-textfield-invaild-border-color: hsl(354, 100%, 65%);
     --ne-textfield-background: var(--muted-color);
-    --ne-textfield-disabled-background: hsl(233, 4%, 30%);
+    --ne-textfield-disabled-background: hsl(220, 5.9%, 10%);
     --ne-textfield-invalid-background: var(--muted-color);
     --ne-textfield-foreground: var(--ne-global-foreground);
-    --ne-textfield-disabled-foreground: hsl(233, 4%, 45%);
+    --ne-textfield-disabled-foreground: hsl(0, 0%, 16.9%);
     --ne-textfield-placeholder-foreground: hsl(0, 0%, 30%);
     --ne-textfield-hover-placeholder-foreground: hsl(0, 0%, 60%);
     --ne-textfield-focus-placeholder-foreground: hsl(0, 0%, 60%);
-    --ne-textfield-disabled-placeholder-foreground: hsl(233, 34%, 80%);
+    --ne-textfield-disabled-placeholder-foreground: hsl(0, 0%, 16.9%);
     --ne-textfield-selection-background: hsl(233, 64%, 90%);
     --ne-textfield-selection-foreground: hsl(0, 0%, 13%);
     --ne-table-head-separator: 2px solid hsl(233, 4%, 25%);
     --ne-table-row-separator: 1px solid hsl(0, 0%, 0%);
+    
   }
 }
