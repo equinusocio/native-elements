@@ -95,7 +95,9 @@ details p {
     --ne-button-background: var(--accent-color);
     --ne-button-foreground: var(--ne-global-background);
     --ne-button-hover-background: var(--ne-global-foreground);
+    --ne-button-active-background: var(--ne-global-foreground);
     --ne-button-hover-foreground: var(--ne-global-background);
+    --ne-button-active-foreground: var(--ne-global-background);
     --ne-button-disabled-foreground: hsl(0, 0%, 16.9%);
     --ne-button-disabled-background: hsl(220, 5.9%, 10%);
     --ne-checkradio-border: 1px solid hsl(233, 4%, 25%);
@@ -104,7 +106,7 @@ details p {
     --ne-code-border: 1px solid hsl(233, 4%, 15%);
     --ne-code-background: hsl(233, 4%, 10%);
     --ne-code-foreground: hsl(233, 4%, 70%);
-    --ne-details-icon: url(data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"><path d="M10.293 3.293L6 7.586 1.707 3.293A1 1 0 00.293 4.707l5 5a1 1 0 001.414 0l5-5a1 1 0 10-1.414-1.414z" fill="#ffffff" stroke="#ffffff"/></svg>));
+    --ne-details-icon: url(data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"><path d="M10.293 3.293L6 7.586 1.707 3.293A1 1 0 00.293 4.707l5 5a1 1 0 001.414 0l5-5a1 1 0 10-1.414-1.414z" fill="#ffffff"/></svg>);
     --ne-details-separator: 1px solid hsl(233, 4%, 25%);
     --ne-details-background: var(--muted-color);
     --ne-details-summary-background: var(--muted-color);
