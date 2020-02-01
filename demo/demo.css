@@ -156,6 +156,5 @@ details p {
     --ne-textfield-selection-foreground: hsl(0, 0%, 13%);
     --ne-table-head-separator: 2px solid hsl(233, 4%, 25%);
     --ne-table-row-separator: 1px solid hsl(0, 0%, 0%);
-    
   }
 }
