@@ -46,9 +46,13 @@ Currently we provide a basic theme with all the custom properties used by the ha
   --accent-color: hotpink;
   --secondary-color: rebeccapurple;
 
+  /* Native Elements settings */
   --ne-hr-background: var(--secondary-color);
+  --ne-links-foreground: var(--accent-color);
 }
 ```
+
+Check the full [theme file](/theme.css)
 
 **⚠️ NOTE**
 
