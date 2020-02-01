@@ -50,4 +50,4 @@ Currently we provide a basic theme with all the custom properties used by the ha
 }
 ```
 
-**⚠️ NOTE: The `--accent-color` property has been added to the theme just to simplify the accent color customization. By default elements don't use this property and you are able to add your own color palettes and apply them to the Native Elements properties bay replacing their default value.**
+**⚠️ NOTE: The `--accent-color` property has been added to the theme just to simplify the accent color customization. By default elements don't use this property**
