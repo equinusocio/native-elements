@@ -33,6 +33,7 @@ import '@native-elements/core'
 ### Inside HTML
 
 ```html
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@native-elements/core/dist/native-elements.min.css">
 ```
 
