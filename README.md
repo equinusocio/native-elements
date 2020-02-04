@@ -1,6 +1,6 @@
 <img width="16px" alt="Google Chrome" src="https://goo.gl/U987PH"><img width="16px" alt="Firefox" src="https://bit.ly/35SKj4D"><img width="16px" alt="Safari" src="https://goo.gl/S1vPDZ"><img width="16px" alt="Edge" src="https://bit.ly/2MnqnyS">
 
-# Native Elements - [Live Demo](https://native-elements.stackblitz.io/)
+# Native Elements - [Demo 1](https://native-elements.stackblitz.io/) - [Demo 2](https://xity.now.sh/)
 
 **🚧 Work in progress**
 > This project is under development, use at your own risk.
