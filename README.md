@@ -72,3 +72,5 @@ Since the outline is useful for the keyboard navigation, you should never comple
   outline: none;
 }
 ```
+
+By this way the outline indicator will be visible only when the users is using the keyboard as input to navigate through the page.
