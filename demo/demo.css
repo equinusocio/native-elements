@@ -79,6 +79,7 @@ details p {
     --accent-color: hsl(152, 100%, 51%);
     --secondary-color: hsl(0, 0%, 7%);
     --muted-color: hsl(0, 0%, 15%);
+    --ne-selection-background: hsl(152, 100%, 51%, 0.3);
     --ne-global-background: var(--secondary-color);
     --ne-global-foreground: #FFF;
     --ne-outline-color: var(--accent-color);
@@ -106,7 +107,7 @@ details p {
     --ne-code-border: 1px solid hsl(233, 4%, 15%);
     --ne-code-background: hsl(233, 4%, 10%);
     --ne-code-foreground: hsl(233, 4%, 70%);
-    --ne-details-icon: url(data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"><path d="M10.293 3.293L6 7.586 1.707 3.293A1 1 0 00.293 4.707l5 5a1 1 0 001.414 0l5-5a1 1 0 10-1.414-1.414z" fill="#ffffff"/></svg>);
+    --ne-details-icon: url('data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"><path d="M10.293 3.293L6 7.586 1.707 3.293A1 1 0 00.293 4.707l5 5a1 1 0 001.414 0l5-5a1 1 0 10-1.414-1.414z" fill="#ffffff"/></svg>');
     --ne-details-separator: 1px solid hsl(233, 4%, 25%);
     --ne-details-background: var(--muted-color);
     --ne-details-summary-background: var(--muted-color);
@@ -129,7 +130,7 @@ details p {
     --ne-range-disabled-background: var(--muted-color);
     --ne-range-thumb-background: var(--accent-color);
     --ne-range-thumb-disabled-background: hsl(233, 4%, 25%);
-    --ne-select-icon: url(data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M7 8l5-5 5 5m0 8l-5 5-5-5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill="none" stroke="#fff" stroke-miterlimit="10"/></svg>);
+    --ne-select-icon: url('data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M7 8l5-5 5 5m0 8l-5 5-5-5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill="none" stroke="#fff" stroke-miterlimit="10"/></svg>');
     --ne-select-border: 1px solid hsl(233, 4%, 25%);
     --ne-select-disabled-border: var(--muted-color);
     --ne-select-background: var(--muted-color);
