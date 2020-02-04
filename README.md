@@ -11,6 +11,7 @@
     - [With a bundler](#with-a-bundler)
     - [Inside HTML](#inside-html)
   - [Customize elements](#customize-elements)
+  - [About outline](#about-outline)
 
 ## Install
 
@@ -58,3 +59,16 @@ Check the full [theme file](/theme.css)
 **⚠️ NOTE**
 
 **The `--accent-color` property has been added to the theme just to simplify the accent color customization. By default elements don't use this property**
+
+## About outline
+
+Native Elements adds by default the outline indicator to any link elements when they are on `:focus` state.
+
+Since the outline is useful for the keyboard navigation, you should not completely hide the outline indicator. We strongly suggest to control when to hide the outline, for example using [`what-input`](https://github.com/ten1seven/what-input) you can do this by including it in your javascript file, then add this CSS snippet:
+
+```css
+[data-whatintent='mouse'] a:focus,
+[data-whatintent='mouse'] a:visited:focus {
+  outline: none;
+}
+```
