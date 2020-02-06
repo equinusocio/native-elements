@@ -41,7 +41,7 @@
   --ne-button-hover-foreground: #FFF;
   --ne-button-active-foreground: #FFF;
   --ne-button-disabled-foreground: hsl(233, 24%, 72%);
-  --ne-button-icon-margin: calc(2rem / 2.2);
+  --ne-button-icon-margin: 1em;
   --ne-button-radius: 5px;
   --ne-button-font-weight: 700;
   --ne-button-font-size: inherit;
