@@ -18,7 +18,7 @@ module.exports = {
   '--buttonDisabledForeground': 'var(--ne-button-disabled-foreground, hsl(233, 24%, 72%))',
 
   /* Icon API */
-  '--buttonIconMargin': 'var(--ne-button-icon-margin, calc(2rem / 2.2))',
+  '--buttonIconMargin': 'var(--ne-button-icon-margin, 1em)',
 
   /* Misc API */
   '--buttonBorderRadius': 'var(--ne-button-radius, 5px)',

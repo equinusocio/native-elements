@@ -74,6 +74,10 @@ details p {
   margin: 50px 0;
 }
 
+.Striped {
+  --ne-table-striped-background: hsla(0, 0%, 15%, 50%);
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --accent-color: hsl(152, 100%, 51%);

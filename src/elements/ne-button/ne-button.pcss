@@ -6,17 +6,10 @@ button {
   & :--icons {
     color: inherit;
     fill: currentColor;
-    stroke: currentColor;
     font-style: normal;
-    line-height: inherit;
-    margin-right: env(--buttonIconMargin);
-  }
-
-  &[dir='rtl'] :--icons {
-    margin-right: 0;
-    padding-right: 0;
-    border-right: 0;
-    margin-left: env(--buttonIconMargin);
+    margin-inline-end: env(--buttonIconMargin);
+    width: 1em;
+    height: 1em;
   }
 
   &[disabled] :--icons {
