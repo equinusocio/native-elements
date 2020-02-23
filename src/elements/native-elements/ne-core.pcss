@@ -115,6 +115,10 @@ blockquote {
   font-size: env(--quoteFontSize);
   line-height: calc(env(--basicLineHeight) / 1.2);
 
+  & > * {
+    font-size: inherit;
+  }
+
   & cite {
     display: block;
     margin-top: calc(env(--citeFontSize));
