@@ -1,6 +1,6 @@
 <img width="16px" alt="Google Chrome" src="https://goo.gl/U987PH"><img width="16px" alt="Firefox" src="https://bit.ly/35SKj4D"><img width="16px" alt="Safari" src="https://goo.gl/S1vPDZ"><img width="16px" alt="Edge" src="https://bit.ly/2MnqnyS">
 
-# Native Elements - [Demo 1](https://native-elements.stackblitz.io/) - [Demo 2](https://xity.now.sh/)
+# Native Elements - [Demo 1](https://native-elements.stackblitz.io/) - [Demo 2](https://xity-starter.netlify.com)
 
 **🚧 Work in progress**
 > This project is under development, use at your own risk.
@@ -23,7 +23,7 @@ yarn add @native-elements/core
 
 ## Installation
 
-To enable your HTML superpowers, import the main, bundled css file in your project:
+To enable your HTML superpowers, import the main, bundled CSS file in your project:
 
 ### With a bundler
 
@@ -62,7 +62,7 @@ Check the full [theme file](/theme.css)
 
 Native Elements adds by default the outline indicator to any link elements when they are on `:focus` state.
 
-Since the outline is useful for the keyboard navigation, you should never completely hide it. We strongly suggest to control when to hide the outline, for example using [`what-input`](https://github.com/ten1seven/what-input) you can do this by including it in your javascript file, then add this CSS snippet:
+Since the outline is useful for the keyboard navigation, you should never completely hide it. We strongly suggest to control when to hide the outline, for example using [`what-input`](https://github.com/ten1seven/what-input) you can do this by including it in your JavaScript file, then add this CSS snippet:
 
 ```css
 [data-whatintent='mouse'] a:focus,
