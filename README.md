@@ -1,4 +1,4 @@
-<p align="center"><img width="100%" src="https://user-images.githubusercontent.com/10454741/79691027-a16bfe00-825d-11ea-87f9-f00544a91250.png"></p>
+<h1 align="center"><img aria-label="Native Element" width="100%" src="https://user-images.githubusercontent.com/10454741/79691027-a16bfe00-825d-11ea-87f9-f00544a91250.png"></h1>
 
 <p align="center">
 <b>🚧 Work in progress</b><br>
@@ -6,15 +6,6 @@ This project is under development, use at your own risk.
 <br><br>
 Built for modern technologies: <img width="16px" alt="Google Chrome" src="https://goo.gl/U987PH"> <img width="16px" alt="Firefox" src="https://bit.ly/35SKj4D"> <img width="16px" alt="Safari" src="https://goo.gl/S1vPDZ"> <img width="16px" alt="Edge" src="https://bit.ly/2MnqnyS">
 </p>
-
-
-- [Demo](#demo)
-- [Install](#install)
-- [Installation](#installation)
-  - [With a bundler](#with-a-bundler)
-  - [Inside HTML](#inside-html)
-- [Customize elements](#customize-elements)
-- [About outline](#about-outline)
 
 
 ## Demo
