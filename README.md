@@ -1,4 +1,4 @@
-<h1 align="center"><img aria-label="Native Element" width="100%" src="https://user-images.githubusercontent.com/10454741/79691718-7683a900-8261-11ea-841e-3ca7b0cb6d51.png"></h1>
+<h1 align="center"><img aria-label="Native Element" width="100%" src="https://user-images.githubusercontent.com/10454741/79691801-d4b08c00-8261-11ea-91cd-bcb500e3295b.png"></h1>
 
 <p align="center">
 <b>🚧 Work in progress</b><br>
@@ -12,7 +12,7 @@ Built for modern technologies: <img width="16px" alt="Google Chrome" src="https:
 
 Here some live demo to check:
 
-[Demo 1](https://native-elements.stackblitz.io/) — [Demo 2](https://xity-starter.netlify.com) — [Demo 3](https://equinusocio.dev)
+[Demo 1](https://native-elements.stackblitz.io/) — [Demo 2](https://xity-starter.netlify.app) — [Demo 3](https://equinusocio.dev)
 
 ## Install
 
