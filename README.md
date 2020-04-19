@@ -1,3 +1,5 @@
+<p align="center"><img width="100%" src="https://user-images.githubusercontent.com/10454741/79691027-a16bfe00-825d-11ea-87f9-f00544a91250.png"></p>
+
 <img width="16px" alt="Google Chrome" src="https://goo.gl/U987PH"><img width="16px" alt="Firefox" src="https://bit.ly/35SKj4D"><img width="16px" alt="Safari" src="https://goo.gl/S1vPDZ"><img width="16px" alt="Edge" src="https://bit.ly/2MnqnyS">
 
 # Native Elements - [Demo 1](https://native-elements.stackblitz.io/) - [Demo 2](https://xity-starter.netlify.com) - [Demo 3](https://equinusocio.dev)
@@ -5,7 +7,7 @@
 **🚧 Work in progress**
 > This project is under development, use at your own risk.
 
-- [Native Elements - Live Demo](#native-elements---live-demo)
+- [Native Elements - Demo 1 - [Demo 2](https://xity-starter.netlify.com) - [Demo 3](https://equinusocio.dev)](#native-elements---demo-1---demo-2---demo-3)
   - [Install](#install)
   - [Installation](#installation)
     - [With a bundler](#with-a-bundler)
