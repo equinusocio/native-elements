@@ -6,7 +6,7 @@ module.exports = {
   '--checkradioBackground': 'var(--ne-checkradio-background, hsl(220, 10%, 95%))',
 
   /* Foreground API */
-  '--checkradioColor': 'var(--ne-checkradio-color, hsl(235, 100%, 60%))',
+  '--checkradioColor': 'var(--ne-checkradio-color, hsl(220, 100%, 50%))',
   '--checkradioTickColor': 'var(--ne-checkradio-tick-color, var(--ne-global-background, #FFF))',
 
   /* Misc API */

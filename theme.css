@@ -1,6 +1,5 @@
 :root {
-  --accent-color: hsl(235, 100%, 60%);
-
+  --accent-color: hsl(220, 100%, 50%);
   --ne-global-background: #FFF;
   --ne-global-foreground: #000;
   --ne-root-font-size: 100%;
@@ -16,7 +15,7 @@
   --ne-quote-font-size: 2rem;
   --ne-cite-foreground: var(--accent-color);
   --ne-cite-font-size: 1rem;
-  --ne-cite-start-sign: "—";
+  --ne-cite-start-sign: '—';
   --ne-links-foreground: var(--accent-color);
   --ne-links-active-foreground: hsl(233, 64%, 52%);
   --ne-del-foreground: hsl(337, 74%, 31%);
@@ -59,7 +58,7 @@
   --ne-code-background: transparent;
   --ne-code-foreground: hsl(220, 10%, 50%);
   --ne-code-font-size: 0.875rem;
-  --ne-code-font-family: "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace;
+  --ne-code-font-family: 'SF Mono', Monaco, Inconsolata, 'Fira Mono', 'Droid Sans Mono', 'Source Code Pro', monospace;
   --ne-code-border-radius: 5px;
   --ne-code-y-padding: 1.25rem;
   --ne-code-x-padding: 1.5rem;
@@ -112,8 +111,8 @@
   --ne-range-background: hsl(220, 10%, 95%);
   --ne-range-disabled-background: hsl(233, 34%, 96%);
   --ne-range-focus-background: var(--ne-range-background, hsl(220, 10%, 95%));
-  --ne-range-thumb-stripes-color: var(--ne-global-background, #fff);
-  --ne-range-thumb-stripes-active-color: var(--ne-range-thumb-stripes-color, #fff);
+  --ne-range-thumb-stripes-color: var(--ne-global-background, #FFF);
+  --ne-range-thumb-stripes-active-color: var(--ne-range-thumb-stripes-color, #FFF);
   --ne-range-thumb-background: var(--accent-color);
   --ne-range-thumb-active-background: var(--ne-range-thumb-background, var(--accent-color));
   --ne-range-thumb-disabled-background: hsl(233, 34%, 96%);

@@ -24,7 +24,7 @@ function getProperties(fileContent) {
         const property = r.split(',')[0].replace('var(', '').replace(',','');
         const valueRgx = /^([^,]+)(,\s)(.+)\){1}$/;
         const extractValue = r.match(valueRgx);
-        const value = extractValue[3].replace('hsl(235, 100%, 60%)', 'var(--accent-color)')
+        const value = extractValue[3].replace('hsl(220, 100%, 50%)', 'var(--accent-color)')
         return `  ${property}: ${value};`
       })
   })
@@ -34,7 +34,7 @@ function writeFiles(arrayResult) {
   const results = [].concat(...arrayResult).join('\n')
   return new Promise((resolve, reject) => {
     return fs.writeFile(`${cwd}/theme.css`, `:root {
-  --accent-color: hsl(235, 100%, 60%);
+  --accent-color: hsl(220, 100%, 50%);
 
 ${results}
 }`, (err) => {

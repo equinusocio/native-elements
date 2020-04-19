@@ -12,8 +12,8 @@ module.exports = {
   /* Thumb API */
   '--rangeThumbSripesColor': 'var(--ne-range-thumb-stripes-color, var(--ne-global-background, #fff))',
   '--rangeThumbSripesActiveColor': 'var(--ne-range-thumb-stripes-active-color, var(--ne-range-thumb-stripes-color, #fff))',
-  '--rangeThumbBackground': 'var(--ne-range-thumb-background, hsl(235, 100%, 60%))',
-  '--rangeThumbActiveBackground': 'var(--ne-range-thumb-active-background, var(--ne-range-thumb-background, hsl(235, 100%, 60%)))',
+  '--rangeThumbBackground': 'var(--ne-range-thumb-background, hsl(220, 100%, 50%))',
+  '--rangeThumbActiveBackground': 'var(--ne-range-thumb-active-background, var(--ne-range-thumb-background, hsl(220, 100%, 50%)))',
   '--rangeThumbDisabledBackground': 'var(--ne-range-thumb-disabled-background, hsl(233, 34%, 96%))',
   '--rangeThumbShadow': 'var(--ne-range-thumb-shadow, 0 1px 2px 0 rgba(0, 0, 0, 0.16))',
   '--rangeThumbWidth': 'var(--ne-range-thumb-width, 28px)',
