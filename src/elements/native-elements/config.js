@@ -8,8 +8,6 @@ module.exports = {
   '--selectionBackground': 'var(--ne-selection-background, hsl(233, 64%, 72%))',
   '--outlineStyle': 'var(--ne-outline-style, 2px solid)',
   '--outlineColor': 'var(--ne-outline-color, hsl(220, 100%, 50%))',
-  '--scrollPadding': 'var(--ne-scroll-padding, 100px)',
-  '--scrollBehavior': 'var(--ne-scroll-behavior, smooth)',
 
   /* Typography */
   '--basicLineHeight': 'var(--ne-line-height, 1.5)',
