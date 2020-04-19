@@ -1,4 +1,4 @@
-<h1 align="center"><img aria-label="Native Element" width="100%" src="https://user-images.githubusercontent.com/10454741/79691027-a16bfe00-825d-11ea-87f9-f00544a91250.png"></h1>
+<h1 align="center"><img aria-label="Native Element" width="100%" src="https://user-images.githubusercontent.com/10454741/79691718-7683a900-8261-11ea-841e-3ca7b0cb6d51.png"></h1>
 
 <p align="center">
 <b>🚧 Work in progress</b><br>
