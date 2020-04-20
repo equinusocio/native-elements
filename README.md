@@ -20,7 +20,7 @@ Install the package with your package manager:
 yarn add @native-elements/core
 ```
 
-## Installation
+## Usage
 
 To enable your HTML superpowers, import the main, bundled CSS file in your project:
 
