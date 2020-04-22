@@ -6,7 +6,7 @@ module.exports = {
   '--bodyFontSize': 'var(--ne-body-font-size, 1.125rem)',
   '--selectionForeground': 'var(--ne-selection-foreground, #FFF)',
   '--selectionBackground': 'var(--ne-selection-background, hsl(233, 64%, 72%))',
-  '--outlineStyle': 'var(--ne-outline-style, 2px solid)',
+  '--outlineStyle': 'var(--ne-outline-style, 2px)',
   '--outlineColor': 'var(--ne-outline-color, hsl(220, 100%, 50%))',
 
   /* Typography */
