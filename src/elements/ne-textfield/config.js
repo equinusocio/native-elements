@@ -36,5 +36,5 @@ module.exports = {
   '--textfieldSelectionBackground': 'var(--ne-textfield-selection-background, hsl(233, 64%, 90%))',
   '--textfieldSelectionForeground': 'var(--ne-textfield-selection-foreground, hsl(0, 0%, 13%))',
   '--textfieldResize': 'var(--ne-textfield-resize, vertical)',
-
+  '--textfieldFontWeight': 'var(--ne-textfield-font-weight, 700)',
 };
