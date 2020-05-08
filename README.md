@@ -70,4 +70,4 @@ Since the outline is useful for the keyboard navigation, you should never comple
 }
 ```
 
-By this way the outline indicator will be visible only when the users is using the keyboard as input to navigate through the page.
+By this way the outline indicator will be visible only when users will use the keyboard as input to navigate through the page.
