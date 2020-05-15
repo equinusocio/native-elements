@@ -1,6 +1,6 @@
 {
   "name": "@native-elements/core",
-  "version": "0.18.4",
+  "version": "0.18.5",
   "description": "Native HTML Elements with CSS superpowers.",
   "main": "dist/native-elements.css",
   "repository": "https://github.com/equinusocio/native-elements",
@@ -26,7 +26,8 @@
     "postbuild": "run-s theme size",
     "prepublishOnly": "run-s build size",
     "size": "size-limit",
-    "theme": "node scripts/generate-theme.js"
+    "theme": "node scripts/generate-theme.js",
+    "json": "node scripts/generate-json.js"
   },
   "files": [
     "src/elements/ne-*",
