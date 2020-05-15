@@ -84,16 +84,16 @@ details {
     }
   }
 
-  &[open] > *:not(summary) {
+  &[open='true'] > *:not(summary) {
     animation: fadeInDown 600ms;
     animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
   }
 
-  &[open] summary {
+  &[open='true'] summary {
     color: env(--detailsSummaryOpenColor);
   }
 
-  &[open] summary::before {
+  &[open='true'] summary::before {
     transform: none;
   }
 }
