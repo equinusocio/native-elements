@@ -9,7 +9,7 @@ module.exports = {
   /* Foreground API */
   '--detailsSummaryFontSize': 'var(--ne-details-summary-font-size, initial)',
   '--detailsSummaryFontWeight': 'var(--ne-details-summary-font-weight, 700)',
-  '--detailsSummaryOpenColor': 'var(--ne-details-summary-open-color, hsl(235, 100%, 60%))',
+  '--detailsSummaryOpenColor': 'var(--ne-details-summary-open-color, hsl(220, 100%, 50%))',
 
   /* Misc API */
   '--detailsMaxHeight': 'var(--ne-details-max-height, 300px)',

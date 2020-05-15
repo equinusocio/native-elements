@@ -6,6 +6,12 @@
   <link rel="stylesheet" href="https://unpkg.com/modern-normalize/modern-normalize.css">
   <link rel="stylesheet" href="../src/elements/native-elements/native-elements.pcss">
   <link rel="stylesheet" href="./demo.css">
+
+  <style>
+    .MyInput {
+      font-weight: 400;
+    }
+  </style>
 </head>
 
 <body>
@@ -330,7 +336,7 @@ p q r s t u v w x y z { | } ~ </pre>
         <input type="password" placeholder="Password">
       </p>
       <p>
-        <input type="url" placeholder="Url">
+        <input type="url" class="MyInput" placeholder="Url">
       </p>
       <p>
         <input type="email" placeholder="Email">
@@ -342,7 +348,7 @@ p q r s t u v w x y z { | } ~ </pre>
         <input type="search" placeholder="Search">
       </p>
       <p>
-        <input type="number" valid required placeholder="Number">
+        <input type="number" inputmode="decimal" valid required placeholder="Number">
       </p>
       <p>
         <input type="date" invalid required placeholder="Date">
@@ -363,7 +369,7 @@ p q r s t u v w x y z { | } ~ </pre>
         <textarea></textarea>
       </p>
       <p>
-      <input list="ice-cream-flavors" name="ice-cream-choice" />
+      <input type="text" list="ice-cream-flavors" name="ice-cream-choice" />
         <datalist id="ice-cream-flavors">
             <option value="Chocolate">
             <option value="Coconut">

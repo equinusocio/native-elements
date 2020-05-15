@@ -1,17 +1,14 @@
 @define-mixin input {
-  margin: 0;
   border: env(--textfieldBorder);
   border-radius: env(--textfieldBorderRadius);
   background: env(--textfieldBackground);
   font-family: inherit;
   font-size: inherit;
-  font-weight: 600;
   line-height: inherit;
   min-height: env(--textfieldMinHeight);
   color: env(--textfieldForeground);
-  letter-spacing: 0.5px;
   appearance: none;
-  transition: color 0.1s ease-out, box-shadow 0.1s ease-out;
+  font-weight: env(--textfieldFontWeight);
 
   &::selection {
     background-color: env(--textfieldSelectionBackground);

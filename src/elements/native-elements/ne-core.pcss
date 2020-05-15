@@ -7,8 +7,6 @@ html {
   box-sizing: border-box;
   background: env(--globalBackground);
   color: env(--globalForeground);
-  scroll-behavior: env(--scrollBehavior);
-  scroll-padding: env(--scrollPadding);
 }
 
 body {
@@ -16,7 +14,7 @@ body {
 }
 
 *:focus {
-  outline: env(--outlineStyle) env(--outlineColor);
+  outline: env(--outlineWidth) solid env(--outlineColor);
 }
 
 [tabindex='-1'] {
@@ -114,6 +112,10 @@ blockquote {
   letter-spacing: 0.03em;
   font-size: env(--quoteFontSize);
   line-height: calc(env(--basicLineHeight) / 1.2);
+
+  & > * {
+    font-size: inherit;
+  }
 
   & cite {
     display: block;

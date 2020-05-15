@@ -1,4 +1,17 @@
-input:not([type='checkbox'], [type='radio'], [type='range'], [type='color'], [type='file']) {
+input:matches(
+[type='text'],
+[type='number'],
+[type='email'],
+[type='password'],
+[type='url'],
+[type='tel'],
+[type='search'],
+[type='date'],
+[type='time'],
+[type='month'],
+[type='week'],
+[type='datetime-local']
+) {
   @mixin input;
 
   display: block;
@@ -6,9 +19,14 @@ input:not([type='checkbox'], [type='radio'], [type='range'], [type='color'], [ty
   padding: env(--textfieldYPadding) env(--textfieldXPadding);
 }
 
+input[type='number'] {
+  appearance: textfield;
+}
+
 input[type='number']::-webkit-inner-spin-button,
 input[type='number']::-webkit-outer-spin-button {
-  height: auto;
+  /* height: auto; */
+  display: none;
 }
 
 input[type='search'] {

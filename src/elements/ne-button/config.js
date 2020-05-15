@@ -6,7 +6,7 @@ module.exports = {
   '--buttonDisabledBorder': 'var(--ne-button-disabled-border, 0)',
 
   /* Background API */
-  '--buttonBackground': 'var(--ne-button-background, hsl(235, 100%, 60%))',
+  '--buttonBackground': 'var(--ne-button-background, hsl(220, 100%, 50%))',
   '--buttonHoverBackground': 'var(--ne-button-hover-background, hsl(233, 64%, 52%))',
   '--buttonActiveBackground': 'var(--ne-button-active-background, hsl(233, 64%, 32%))',
   '--buttonDisabledBackground': 'var(--ne-button-disabled-background, hsl(233, 34%, 96%))',

@@ -1,17 +1,16 @@
-<img width="16px" alt="Google Chrome" src="https://goo.gl/U987PH"><img width="16px" alt="Firefox" src="https://bit.ly/35SKj4D"><img width="16px" alt="Safari" src="https://goo.gl/S1vPDZ"><img width="16px" alt="Edge" src="https://bit.ly/2MnqnyS">
+<h1 align="center"><img aria-label="Native Element" width="100%" src="https://user-images.githubusercontent.com/10454741/79691801-d4b08c00-8261-11ea-91cd-bcb500e3295b.png"></h1>
 
-# Native Elements - [Demo 1](https://native-elements.stackblitz.io/) - [Demo 2](https://xity.now.sh/)
+<p align="center">
+<b>🚧&nbsp;&nbsp; Work in progress &nbsp;&nbsp; 🚧</b><br>
+Native HTML Elements with CSS superpowers. 🕶 <br>
+<img width="16px" alt="Google Chrome" src="https://goo.gl/U987PH"> <img width="16px" alt="Firefox" src="https://bit.ly/35SKj4D"> <img width="16px" alt="Safari" src="https://goo.gl/S1vPDZ"> <img width="16px" alt="Edge" src="https://bit.ly/2MnqnyS">
+</p>
 
-**🚧 Work in progress**
-> This project is under development, use at your own risk.
+## Demo
 
-- [Native Elements - Live Demo](#native-elements---live-demo)
-  - [Install](#install)
-  - [Installation](#installation)
-    - [With a bundler](#with-a-bundler)
-    - [Inside HTML](#inside-html)
-  - [Customize elements](#customize-elements)
-  - [About outline](#about-outline)
+Here some live demo to check:
+
+[Demo 1](https://native-elements.stackblitz.io/) — [Demo 2](https://xity-starter.netlify.app) — [Demo 3](https://equinusocio.dev)
 
 ## Install
 
@@ -21,9 +20,9 @@ Install the package with your package manager:
 yarn add @native-elements/core
 ```
 
-## Installation
+## Usage
 
-To enable your HTML superpowers, import the main, bundled css file in your project:
+To enable your HTML superpowers, import the main, bundled CSS file in your project:
 
 ### With a bundler
 
@@ -62,7 +61,7 @@ Check the full [theme file](/theme.css)
 
 Native Elements adds by default the outline indicator to any link elements when they are on `:focus` state.
 
-Since the outline is useful for the keyboard navigation, you should never completely hide it. We strongly suggest to control when to hide the outline, for example using [`what-input`](https://github.com/ten1seven/what-input) you can do this by including it in your javascript file, then add this CSS snippet:
+Since the outline is useful for the keyboard navigation, you should never completely hide it. We strongly suggest to control when to hide the outline, for example using [`what-input`](https://github.com/ten1seven/what-input) you can do this by including it in your JavaScript file, then add this CSS snippet:
 
 ```css
 [data-whatintent='mouse'] a:focus,
@@ -71,4 +70,4 @@ Since the outline is useful for the keyboard navigation, you should never comple
 }
 ```
 
-By this way the outline indicator will be visible only when the users is using the keyboard as input to navigate through the page.
+By this way the outline indicator will be visible only when users will use the keyboard as input to navigate through the page.

@@ -4,7 +4,7 @@ module.exports = {
 
   /* Background API */
   '--progressBackground': 'var(--ne-progress-background, hsl(233, 34%, 96%))',
-  '--progressFilledColor': 'var(--ne-progress-filled-color, hsl(235, 100%, 60%))',
+  '--progressFilledColor': 'var(--ne-progress-filled-color, hsl(220, 100%, 50%))',
 
   /* Stripes API */
   '--progressStripesColor': 'var(--ne-progress-stripe-colors, rgba(255, 255, 255, 0.4))',

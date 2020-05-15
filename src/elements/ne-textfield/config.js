@@ -5,7 +5,7 @@ module.exports = {
   '--textfieldFocusBorder': 'var(--ne-textfield-focus-border, var(--ne-textfield-border, 1px solid hsl(0, 0%, 89%)))',
   '--textfieldDisabledBorder': 'var(--ne-textfield-disabled-border, 1px solid hsl(233, 34%, 96%))',
   '--textfieldReadonlyBorder': 'var(--ne-textfield-readonly-border, 1px dashed hsl(0, 0%, 89%))',
-  '--textfieldReadonlyFocusBorder': 'var(--ne-textfield-readonly-focus-border, 1px dashed hsl(235, 100%, 60%))',
+  '--textfieldReadonlyFocusBorder': 'var(--ne-textfield-readonly-focus-border, 1px dashed hsl(220, 100%, 50%))',
   '--textfieldInvalidBorderColor': 'var(--ne-textfield-invaild-border-color, hsl(354, 100%, 65%))',
 
   /* Background API */
@@ -36,5 +36,5 @@ module.exports = {
   '--textfieldSelectionBackground': 'var(--ne-textfield-selection-background, hsl(233, 64%, 90%))',
   '--textfieldSelectionForeground': 'var(--ne-textfield-selection-foreground, hsl(0, 0%, 13%))',
   '--textfieldResize': 'var(--ne-textfield-resize, vertical)',
-
+  '--textfieldFontWeight': 'var(--ne-textfield-font-weight, 700)',
 };

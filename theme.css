@@ -1,5 +1,5 @@
 :root {
-  --accent-color: hsl(235, 100%, 60%);
+  --accent-color: hsl(220, 100%, 50%);
 
   --ne-global-background: #FFF;
   --ne-global-foreground: #000;
@@ -7,10 +7,8 @@
   --ne-body-font-size: 1.125rem;
   --ne-selection-foreground: #FFF;
   --ne-selection-background: hsl(233, 64%, 72%);
-  --ne-outline-style: 2px solid;
+  --ne-outline-width: 2px;
   --ne-outline-color: var(--accent-color);
-  --ne-scroll-padding: 100px;
-  --ne-scroll-behavior: smooth;
   --ne-line-height: 1.5;
   --ne-headings-scale: 1.25;
   --ne-quote-font-size: 2rem;
@@ -180,6 +178,7 @@
   --ne-textfield-selection-background: hsl(233, 64%, 90%);
   --ne-textfield-selection-foreground: hsl(0, 0%, 13%);
   --ne-textfield-resize: vertical;
+  --ne-textfield-font-weight: 700;
   --ne-upload-label-weight: 700;
   --ne-upload-label-font-size: 1.2rem;
 }

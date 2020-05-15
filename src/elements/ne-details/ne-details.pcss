@@ -62,7 +62,7 @@ details {
       transform-box: fill-box;
       position: absolute;
       top: 50%;
-      margin-top: calc((env(--detailsIconSize) / 2) * -1);
+      margin-top: calc(-1 * (env(--detailsIconSize) / 2));
       left: 12px;
       width: env(--detailsIconSize);
       height: env(--detailsIconSize);
@@ -84,16 +84,16 @@ details {
     }
   }
 
-  &[open] > *:not(summary) {
+  &[open='true'] > *:not(summary) {
     animation: fadeInDown 600ms;
     animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
   }
 
-  &[open] summary {
+  &[open='true'] summary {
     color: env(--detailsSummaryOpenColor);
   }
 
-  &[open] summary::before {
+  &[open='true'] summary::before {
     transform: none;
   }
 }
