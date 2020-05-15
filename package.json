@@ -26,7 +26,8 @@
     "postbuild": "run-s theme size",
     "prepublishOnly": "run-s build size",
     "size": "size-limit",
-    "theme": "node scripts/generate-theme.js"
+    "theme": "node scripts/generate-theme.js",
+    "json": "node scripts/generate-json.js"
   },
   "files": [
     "src/elements/ne-*",
