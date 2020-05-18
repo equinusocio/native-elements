@@ -28,21 +28,20 @@ function getProperties(fileContent) {
         const cleanValue =
           value.startsWith('"') ? value.replace(/['"]+/g, '').replace(/['"]+/g, '\'') : value.replace(/['"]+/g, '\'');
 
-        return `
-    {
-      "name": "${property}",
-      "defaultValue": "${ cleanValue }"
-    },`
+        return {
+      "name": property,
+      "defaultValue": cleanValue
+    }
       })
   })
 }
 
 function writeFiles(arrayResult) {
-  const results = [].concat(...arrayResult).join('\n')
+  const results = [].concat(...arrayResult)
   return new Promise((resolve, reject) => {
-    return fs.writeFile(`${cwd}/props.json`, `{
-  "props": [${results}]
-  }`, (err) => {
+    return fs.writeFile(`${cwd}/props.json`, JSON.stringify({
+      "props": results
+    }, null, 2), (err) => {
       return err ? reject(err) : resolve('File written correctly.')
     })
   })

@@ -4,899 +4,729 @@
       "name": "--ne-global-background",
       "defaultValue": "#FFF"
     },
-
     {
       "name": "--ne-global-foreground",
       "defaultValue": "#000"
     },
-
     {
       "name": "--ne-root-font-size",
       "defaultValue": "100%"
     },
-
     {
       "name": "--ne-body-font-size",
       "defaultValue": "1.125rem"
     },
-
     {
       "name": "--ne-selection-foreground",
       "defaultValue": "#FFF"
     },
-
     {
       "name": "--ne-selection-background",
       "defaultValue": "hsl(233, 64%, 72%)"
     },
-
     {
       "name": "--ne-outline-width",
       "defaultValue": "2px"
     },
-
     {
       "name": "--ne-outline-color",
       "defaultValue": "hsl(220, 100%, 50%)"
     },
-
     {
       "name": "--ne-line-height",
       "defaultValue": "1.5"
     },
-
     {
       "name": "--ne-headings-scale",
       "defaultValue": "1.25"
     },
-
     {
       "name": "--ne-quote-font-size",
       "defaultValue": "2rem"
     },
-
     {
       "name": "--ne-cite-foreground",
       "defaultValue": "hsl(220, 100%, 50%)"
     },
-
     {
       "name": "--ne-cite-font-size",
       "defaultValue": "1rem"
     },
-
     {
       "name": "--ne-cite-start-sign",
       "defaultValue": "—"
     },
-
     {
       "name": "--ne-links-foreground",
       "defaultValue": "hsl(220, 100%, 50%)"
     },
-
     {
       "name": "--ne-links-active-foreground",
       "defaultValue": "hsl(233, 64%, 52%)"
     },
-
     {
       "name": "--ne-del-foreground",
       "defaultValue": "hsl(337, 74%, 31%)"
     },
-
     {
       "name": "--ne-del-background",
       "defaultValue": "hsl(0, 100%, 94%)"
     },
-
     {
       "name": "--ne-ins-foreground",
       "defaultValue": "hsl(161, 98%, 18%)"
     },
-
     {
       "name": "--ne-ins-background",
       "defaultValue": "hsl(138, 100%, 88%)"
     },
-
     {
       "name": "--ne-kbd-color",
       "defaultValue": "hsl(233, 34%, 96%)"
     },
-
     {
       "name": "--ne-kbd-border-radius",
       "defaultValue": "4px"
     },
-
     {
       "name": "--ne-mark-foreground",
       "defaultValue": "hsl(20, 100%, 26%)"
     },
-
     {
       "name": "--ne-mark-background",
       "defaultValue": "hsl(57, 100%, 60%)"
     },
-
     {
       "name": "--ne-inline-code-border-radius",
       "defaultValue": "2px"
     },
-
     {
       "name": "--ne-inline-code-background",
       "defaultValue": "hsl(220, 10%, 95%)"
     },
-
     {
       "name": "--ne-button-border",
       "defaultValue": "0"
     },
-
     {
       "name": "--ne-button-hover-border",
       "defaultValue": "0"
     },
-
     {
       "name": "--ne-button-active-border",
       "defaultValue": "0"
     },
-
     {
       "name": "--ne-button-disabled-border",
       "defaultValue": "0"
     },
-
     {
       "name": "--ne-button-background",
       "defaultValue": "hsl(220, 100%, 50%)"
     },
-
     {
       "name": "--ne-button-hover-background",
       "defaultValue": "hsl(233, 64%, 52%)"
     },
-
     {
       "name": "--ne-button-active-background",
       "defaultValue": "hsl(233, 64%, 32%)"
     },
-
     {
       "name": "--ne-button-disabled-background",
       "defaultValue": "hsl(233, 34%, 96%)"
     },
-
     {
       "name": "--ne-button-foreground",
       "defaultValue": "#FFF"
     },
-
     {
       "name": "--ne-button-hover-foreground",
       "defaultValue": "#FFF"
     },
-
     {
       "name": "--ne-button-active-foreground",
       "defaultValue": "#FFF"
     },
-
     {
       "name": "--ne-button-disabled-foreground",
       "defaultValue": "hsl(233, 24%, 72%)"
     },
-
     {
       "name": "--ne-button-icon-margin",
       "defaultValue": "1em"
     },
-
     {
       "name": "--ne-button-radius",
       "defaultValue": "5px"
     },
-
     {
       "name": "--ne-button-font-weight",
       "defaultValue": "700"
     },
-
     {
       "name": "--ne-button-font-size",
       "defaultValue": "inherit"
     },
-
     {
       "name": "--ne-button-y-padding",
       "defaultValue": "1em"
     },
-
     {
       "name": "--ne-button-x-padding",
       "defaultValue": "2em"
     },
-
     {
       "name": "--ne-button-shadow",
       "defaultValue": "0 1px 2px rgba(0, 0, 0, 0.16)"
     },
-
     {
       "name": "--ne-checkradio-border",
       "defaultValue": "1px solid hsl(0, 0%, 89%)"
     },
-
     {
       "name": "--ne-checkradio-background",
       "defaultValue": "hsl(220, 10%, 95%)"
     },
-
     {
       "name": "--ne-checkradio-color",
       "defaultValue": "hsl(220, 100%, 50%)"
     },
-
     {
       "name": "--ne-checkradio-tick-color",
       "defaultValue": "var(--ne-global-background, #FFF)"
     },
-
     {
       "name": "--ne-checkradio-size",
       "defaultValue": "18px"
     },
-
     {
       "name": "--ne-checkradio-border-radius",
       "defaultValue": "4px"
     },
-
     {
       "name": "--ne-checkradio-shadow",
       "defaultValue": "0 1px 1px rgba(0, 0, 0, 0.2)"
     },
-
     {
       "name": "--ne-code-border",
       "defaultValue": "1px solid hsl(0, 0%, 89%)"
     },
-
     {
       "name": "--ne-code-background",
       "defaultValue": "transparent"
     },
-
     {
       "name": "--ne-code-foreground",
       "defaultValue": "hsl(220, 10%, 50%)"
     },
-
     {
       "name": "--ne-code-font-size",
       "defaultValue": "0.875rem"
     },
-
     {
       "name": "--ne-code-font-family",
       "defaultValue": "SF Mono, Monaco, Inconsolata, Fira Mono, Droid Sans Mono, Source Code Pro, monospace"
     },
-
     {
       "name": "--ne-code-border-radius",
       "defaultValue": "5px"
     },
-
     {
       "name": "--ne-code-y-padding",
       "defaultValue": "1.25rem"
     },
-
     {
       "name": "--ne-code-x-padding",
       "defaultValue": "1.5rem"
     },
-
     {
       "name": "--ne-color-border",
       "defaultValue": "0"
     },
-
     {
       "name": "--ne-color-radius",
       "defaultValue": "100%"
     },
-
     {
       "name": "--ne-color-shadow",
       "defaultValue": "0 1px 2px rgba(0, 0, 0, 0.16)"
     },
-
+    {
+      "name": "--ne-color-width",
+      "defaultValue": "24px"
+    },
+    {
+      "name": "--ne-color-height",
+      "defaultValue": "var(--ne-color-width, 24px)"
+    },
     {
       "name": "--ne-details-separator",
       "defaultValue": "1px solid rgba(0, 0, 0, 0.05)"
     },
-
     {
       "name": "--ne-details-background",
       "defaultValue": "#FFF"
     },
-
     {
       "name": "--ne-details-summary-background",
       "defaultValue": "#FFF"
     },
-
     {
       "name": "--ne-details-summary-font-size",
       "defaultValue": "initial"
     },
-
     {
       "name": "--ne-details-summary-font-weight",
       "defaultValue": "700"
     },
-
     {
       "name": "--ne-details-summary-open-color",
       "defaultValue": "hsl(220, 100%, 50%)"
     },
-
     {
       "name": "--ne-details-max-height",
       "defaultValue": "300px"
     },
-
     {
       "name": "--ne-details-icon",
       "defaultValue": "url(data:image/svg+xml;utf-8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12'><path d='M10.293 3.293L6 7.586 1.707 3.293A1 1 0 00.293 4.707l5 5a1 1 0 001.414 0l5-5a1 1 0 10-1.414-1.414z' fill='currentColor'/></svg>)"
     },
-
     {
       "name": "--ne-details-icon-size",
       "defaultValue": "0.75rem"
     },
-
     {
       "name": "--ne-details-border-radius",
       "defaultValue": "4px"
     },
-
     {
       "name": "--ne-details-summary-padding",
       "defaultValue": "16px"
     },
-
     {
       "name": "--ne-details-shadow",
       "defaultValue": "0 1px 2px rgba(0, 0, 0, 0.16)"
     },
-
     {
       "name": "--ne-dialog-border",
       "defaultValue": "0"
     },
-
     {
       "name": "--ne-dialog-background",
       "defaultValue": "#FFF"
     },
-
     {
       "name": "--ne-dialog-radius",
       "defaultValue": "5px"
     },
-
     {
       "name": "--ne-dialog-y-padding",
       "defaultValue": "2rem"
     },
-
     {
       "name": "--ne-dialog-x-padding",
       "defaultValue": "2rem"
     },
-
     {
       "name": "--ne-dialog-shadow",
       "defaultValue": "0 19px 38px 0 rgba(0, 0, 0, 0.16), 0 15px 12px 0 rgba(0, 0, 0, 0.12)"
     },
-
     {
       "name": "--ne-dialog-max-width",
       "defaultValue": "40rem"
     },
-
     {
       "name": "--ne-dialog-backdrop",
       "defaultValue": "rgba(0, 0, 0, 0.3)"
     },
-
     {
       "name": "--ne-dialog-backdrop-filter",
       "defaultValue": "blur(10px)"
     },
-
     {
       "name": "--ne-form-legend-weight",
       "defaultValue": "600"
     },
-
     {
       "name": "--ne-form-legend-margin",
       "defaultValue": "0 0 0.5rem"
     },
-
     {
       "name": "--ne-hr-background",
       "defaultValue": "hsl(0, 0%, 89%)"
     },
-
     {
       "name": "--ne-hr-weight",
       "defaultValue": "2px"
     },
-
     {
       "name": "--ne-hr-margin",
       "defaultValue": "50px"
     },
-
     {
       "name": "--ne-meter-border-color",
       "defaultValue": "hsl(0, 0%, 89%)"
     },
-
     {
       "name": "--ne-meter-background",
       "defaultValue": "hsl(220, 10%, 95%)"
     },
-
     {
       "name": "--ne-meter-radius",
       "defaultValue": "5px"
     },
-
     {
       "name": "--ne-meter-width",
       "defaultValue": "30px"
     },
-
     {
       "name": "--ne-meter-height",
       "defaultValue": "3px"
     },
-
     {
       "name": "--ne-meter-filled-color-strong",
       "defaultValue": "hsl(67, 78%, 52%)"
     },
-
     {
       "name": "--ne-meter-filled-color-good",
       "defaultValue": "hsl(41, 100%, 60%)"
     },
-
     {
       "name": "--ne-meter-filled-color-weak",
       "defaultValue": "hsl(354, 100%, 65%)"
     },
-
     {
       "name": "--ne-progress-border",
       "defaultValue": "1px hsl(0, 0%, 89%)"
     },
-
     {
       "name": "--ne-progress-background",
       "defaultValue": "hsl(233, 34%, 96%)"
     },
-
     {
       "name": "--ne-progress-filled-color",
       "defaultValue": "hsl(220, 100%, 50%)"
     },
-
     {
       "name": "--ne-progress-stripe-colors",
       "defaultValue": "rgba(255, 255, 255, 0.4)"
     },
-
     {
       "name": "--ne-progress-height",
       "defaultValue": "8px"
     },
-
     {
       "name": "--ne-progress-radius",
       "defaultValue": "10px"
     },
-
     {
       "name": "--ne-range-border-color",
       "defaultValue": "1px hsl(0, 0%, 89%)"
     },
-
     {
       "name": "--ne-range-disabled-border-color",
       "defaultValue": "1px rgba(0, 0, 0, 0)"
     },
-
     {
       "name": "--ne-range-border-width",
       "defaultValue": "1px"
     },
-
     {
       "name": "--ne-range-background",
       "defaultValue": "hsl(220, 10%, 95%)"
     },
-
     {
       "name": "--ne-range-disabled-background",
       "defaultValue": "hsl(233, 34%, 96%)"
     },
-
     {
       "name": "--ne-range-focus-background",
       "defaultValue": "var(--ne-range-background, hsl(220, 10%, 95%))"
     },
-
     {
       "name": "--ne-range-thumb-stripes-color",
       "defaultValue": "var(--ne-global-background, #fff)"
     },
-
     {
       "name": "--ne-range-thumb-stripes-active-color",
       "defaultValue": "var(--ne-range-thumb-stripes-color, #fff)"
     },
-
     {
       "name": "--ne-range-thumb-background",
       "defaultValue": "hsl(220, 100%, 50%)"
     },
-
     {
       "name": "--ne-range-thumb-active-background",
       "defaultValue": "var(--ne-range-thumb-background, hsl(220, 100%, 50%))"
     },
-
     {
       "name": "--ne-range-thumb-disabled-background",
       "defaultValue": "hsl(233, 34%, 96%)"
     },
-
     {
       "name": "--ne-range-thumb-shadow",
       "defaultValue": "0 1px 2px 0 rgba(0, 0, 0, 0.16)"
     },
-
     {
       "name": "--ne-range-thumb-width",
       "defaultValue": "28px"
     },
-
     {
       "name": "--ne-range-thumb-height",
       "defaultValue": "30px"
     },
-
     {
       "name": "--ne-range-thumb-radius",
       "defaultValue": "5px"
     },
-
     {
       "name": "--ne-range-width",
       "defaultValue": "100%"
     },
-
     {
       "name": "--ne-range-height",
       "defaultValue": "5px"
     },
-
     {
       "name": "--ne-range-radius",
       "defaultValue": "10px"
     },
-
     {
       "name": "--ne-select-border",
       "defaultValue": "1px solid hsl(0, 0%, 89%)"
     },
-
     {
       "name": "--ne-select-hover-border",
       "defaultValue": "var(--ne-select-border, 1px solid hsl(0, 0%, 89%))"
     },
-
     {
       "name": "--ne-select-focus-border",
       "defaultValue": "var(--ne-select-border, 1px solid hsl(220, 100%, 50%))"
     },
-
     {
       "name": "--ne-select-disabled-border",
       "defaultValue": "1px solid hsl(233, 34%, 96%)"
     },
-
     {
       "name": "--ne-select-background",
       "defaultValue": "var(--ne-global-background, #FFF)"
     },
-
     {
       "name": "--ne-select-hover-background",
       "defaultValue": "var(--ne-select-background, #FFF)"
     },
-
     {
       "name": "--ne-select-focus-background",
       "defaultValue": "var(--ne-select-background, #FFF)"
     },
-
     {
       "name": "--ne-select-disabled-background",
       "defaultValue": "hsl(233, 34%, 96%)"
     },
-
     {
       "name": "--ne-select-option-checked-background",
       "defaultValue": "hsl(220, 100%, 50%)"
     },
-
     {
       "name": "--ne-select-foreground",
       "defaultValue": "var(--ne-global-foreground, hsl(0, 0%, 13%))"
     },
-
     {
       "name": "--ne-select-hover-foreground",
       "defaultValue": "var(--ne-select-foreground, hsl(0, 0%, 13%))"
     },
-
     {
       "name": "--ne-select-focus-foreground",
       "defaultValue": "var(--ne-select-foreground, hsl(0, 0%, 13%))"
     },
-
     {
       "name": "--ne-select-disabled-foreground",
       "defaultValue": "hsl(233, 14%, 72%)"
     },
-
     {
       "name": "--ne-select-option-checked-foreground",
       "defaultValue": "#FFF"
     },
-
     {
       "name": "--ne-select-radius",
       "defaultValue": "5px"
     },
-
     {
       "name": "--ne-select-width",
       "defaultValue": "100%"
     },
-
     {
       "name": "--ne-select-padding",
       "defaultValue": "0.5em"
     },
-
     {
       "name": "--ne-select-icon",
       "defaultValue": "url(data:image/svg+xml;utf-8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24'><path d='M7 8l5-5 5 5m0 8l-5 5-5-5' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' fill='none' stroke='currentColor' stroke-miterlimit='10'/></svg>)"
     },
-
     {
       "name": "--ne-select-icon-size",
       "defaultValue": "1rem"
     },
-
     {
       "name": "--ne-select-shadow",
       "defaultValue": "0 1px 2px rgba(0, 0, 0, 0.06)"
     },
-
     {
       "name": "--ne-table-head-separator",
       "defaultValue": "2px solid hsl(0, 0%, 89%)"
     },
-
     {
       "name": "--ne-table-row-separator",
       "defaultValue": "1px solid hsl(0, 0%, 89%)"
     },
-
     {
       "name": "--ne-table-striped-background",
       "defaultValue": "transparent"
     },
-
     {
       "name": "--ne-table-background",
       "defaultValue": "transparent"
     },
-
     {
       "name": "--ne-table-cells-y-padding",
       "defaultValue": "16px"
     },
-
     {
       "name": "--ne-table-cells-x-padding",
       "defaultValue": "16px"
     },
-
     {
       "name": "--ne-textfield-border",
       "defaultValue": "1px solid hsl(0, 0%, 89%)"
     },
-
     {
       "name": "--ne-textfield-hover-border",
       "defaultValue": "var(--ne-textfield-border, 1px solid hsl(0, 0%, 89%))"
     },
-
     {
       "name": "--ne-textfield-focus-border",
       "defaultValue": "var(--ne-textfield-border, 1px solid hsl(0, 0%, 89%))"
     },
-
     {
       "name": "--ne-textfield-disabled-border",
       "defaultValue": "1px solid hsl(233, 34%, 96%)"
     },
-
     {
       "name": "--ne-textfield-readonly-border",
       "defaultValue": "1px dashed hsl(0, 0%, 89%)"
     },
-
     {
       "name": "--ne-textfield-readonly-focus-border",
       "defaultValue": "1px dashed hsl(220, 100%, 50%)"
     },
-
     {
       "name": "--ne-textfield-invaild-border-color",
       "defaultValue": "hsl(354, 100%, 65%)"
     },
-
     {
       "name": "--ne-textfield-background",
       "defaultValue": "#FFF"
     },
-
     {
       "name": "--ne-textfield-hover-background",
       "defaultValue": "var(--ne-textfield-background, #FFF)"
     },
-
     {
       "name": "--ne-textfield-focus-background",
       "defaultValue": "var(--ne-textfield-background, #FFF)"
     },
-
     {
       "name": "--ne-textfield-disabled-background",
       "defaultValue": "hsl(233, 34%, 96%)"
     },
-
     {
       "name": "--ne-textfield-invalid-background",
       "defaultValue": "#FFF"
     },
-
     {
       "name": "--ne-textfield-foreground",
       "defaultValue": "var(--ne-global-foreground, hsl(0, 0%, 13%))"
     },
-
     {
       "name": "--ne-textfield-hover-foreground",
       "defaultValue": "var(--ne-global-foreground, hsl(0, 0%, 13%))"
     },
-
     {
       "name": "--ne-textfield-focus-foreground",
       "defaultValue": "var(--ne-global-foreground, hsl(0, 0%, 13%))"
     },
-
     {
       "name": "--ne-textfield-disabled-foreground",
       "defaultValue": "hsl(233, 24%, 72%)"
     },
-
     {
       "name": "--ne-textfield-readonly-foreground",
       "defaultValue": "var(--ne-global-foreground, hsl(0, 0%, 13%))"
     },
-
     {
       "name": "--ne-textfield-valid-foreground",
       "defaultValue": "var(--ne-global-foreground, hsl(0, 0%, 13%))"
     },
-
     {
       "name": "--ne-textfield-placeholder-foreground",
       "defaultValue": "hsl(0, 0%, 60%)"
     },
-
     {
       "name": "--ne-textfield-hover-placeholder-foreground",
       "defaultValue": "hsl(0, 0%, 60%)"
     },
-
     {
       "name": "--ne-textfield-focus-placeholder-foreground",
       "defaultValue": "hsl(0, 0%, 60%)"
     },
-
     {
       "name": "--ne-textfield-disabled-placeholder-foreground",
       "defaultValue": "hsl(233, 34%, 80%)"
     },
-
     {
       "name": "--ne-textfield-radius",
       "defaultValue": "5px"
     },
-
     {
       "name": "--ne-textfield-width",
       "defaultValue": "100%"
     },
-
     {
       "name": "--ne-textfield-min-height",
       "defaultValue": "48px"
     },
-
     {
       "name": "--ne-textfield-y-padding",
       "defaultValue": "0.5em"
     },
-
     {
       "name": "--ne-textfield-x-padding",
       "defaultValue": "1em"
     },
-
     {
       "name": "--ne-textfield-selection-background",
       "defaultValue": "hsl(233, 64%, 90%)"
     },
-
     {
       "name": "--ne-textfield-selection-foreground",
       "defaultValue": "hsl(0, 0%, 13%)"
     },
-
     {
       "name": "--ne-textfield-resize",
       "defaultValue": "vertical"
     },
-
     {
       "name": "--ne-textfield-font-weight",
       "defaultValue": "700"
     },
-
     {
       "name": "--ne-upload-label-weight",
       "defaultValue": "700"
     },
-
     {
       "name": "--ne-upload-label-font-size",
       "defaultValue": "1.2rem"
-    },]
-  }
+    }
+  ]
+}
