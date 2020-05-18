@@ -51,11 +51,11 @@
     }
   ],
   "devDependencies": {
-    "@babel/core": "7.8.3",
-    "@babel/preset-env": "7.8.3",
+    "@babel/core": "7.9.6",
+    "@babel/preset-env": "7.9.6",
     "@size-limit/preset-small-lib": "3.0.0",
-    "babel-eslint": "10.0.3",
-    "babel-plugin-root-import": "6.4.1",
+    "babel-eslint": "10.1.0",
+    "babel-plugin-root-import": "6.5.0",
     "core-js": "3.6.5",
     "cssnano": "4.1.10",
     "cssnano-preset-advanced": "4.0.7",
@@ -70,7 +70,7 @@
     "postcss-preset-env": "6.7.0",
     "postcss-reporter": "6.0.1",
     "rimraf": "3.0.2",
-    "stylelint": "13.0.0",
+    "stylelint": "13.4.0",
     "stylelint-config-standard": "19.0.0"
   },
   "resolutions": {
@@ -84,6 +84,7 @@
     "last 1 Edge versions"
   ],
   "dependencies": {
+    "serialize-to-js": "3.1.1",
     "what-input": "5.2.9"
   }
 }
