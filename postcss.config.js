@@ -1,5 +1,5 @@
 const path = require('path');
-const coreConfig = require('./src/elements/native-elements/config.js');
+const coreConfig = require('./src/elements/core/config.js');
 const buttonConfig = require('./src/elements/ne-button/config.js');
 const checkradioConfig = require('./src/elements/ne-checkradio/config.js');
 const selectConfig = require('./src/elements/ne-select/config.js');

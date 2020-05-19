@@ -44,6 +44,8 @@ This will inline the latest version inside your generated css.
 @import 'https://cdn.jsdelivr.net/npm/@native-elements/core/dist/native-elements.min.css';
 ```
 
+### Importing sources
+
 ## Customize elements
 
 Currently we provide a basic theme with all the custom properties used by the handled elements. To customize things, copy the [theme file](/theme.css) to your application `:root {}` selector, and change the variables you want.
