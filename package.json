@@ -22,7 +22,10 @@
     "watch": "parcel demo/index.html --no-source-maps",
     "dev": "run-s clean watch",
     "prebuild": "yarn clean",
-    "build": "parcel build ./src/elements/native-elements/native-elements.pcss --out-dir ./dist --no-source-maps",
+    "build:css": "parcel build ./src/elements/native-elements/native-elements.pcss --out-dir ./dist --no-source-maps",
+    "copy:source": "copyfiles -u 2 ./src/elements/ne-*/* ./dist/elements",
+    "copy:props": "copyfiles ./props.json ./dist",
+    "build": "runs-s build:css",
     "postbuild": "run-s theme json size",
     "prepublishOnly": "run-s build",
     "size": "size-limit",
@@ -30,9 +33,7 @@
     "json": "node scripts/generate-json.js"
   },
   "files": [
-    "src/elements/ne-*",
-    "dist/native-elements.css",
-    "props.json"
+    "dist/"
   ],
   "keywords": [
     "elements",
@@ -85,6 +86,7 @@
     "last 1 Edge versions"
   ],
   "dependencies": {
+    "copyfiles": "2.2.0",
     "serialize-to-js": "3.1.1",
     "what-input": "5.2.9"
   }
