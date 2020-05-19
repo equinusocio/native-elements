@@ -24,7 +24,7 @@
     "prebuild": "yarn clean",
     "build": "parcel build ./src/elements/native-elements/native-elements.pcss --out-dir ./dist --no-source-maps",
     "postbuild": "run-s theme json size",
-    "prepublishOnly": "run-s build size",
+    "prepublishOnly": "run-s build",
     "size": "size-limit",
     "theme": "node scripts/generate-theme.js",
     "json": "node scripts/generate-json.js"
