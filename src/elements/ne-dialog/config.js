@@ -3,7 +3,7 @@ module.exports = {
   '--dialogBorder': 'var(--ne-dialog-border, 0)',
 
   /* Background API */
-  '--dialogBackground': 'var(--ne-dialog-background, #FFF)',
+  '--dialogBackground': 'var(--ne-dialog-background, hsl(0, 0%, 100%))',
 
   /* Misc API */
   '--dialogBorderRadius': 'var(--ne-dialog-radius, 5px)',

@@ -1,10 +1,10 @@
 module.exports = {
   /* Global API */
-  '--globalBackground': 'var(--ne-global-background, #FFF)',
-  '--globalForeground': 'var(--ne-global-foreground, #000)',
+  '--globalBackground': 'var(--ne-global-background, hsl(0, 0%, 100%))',
+  '--globalForeground': 'var(--ne-global-foreground, hsl(0, 0%, 0%))',
   '--rootFontSize': 'var(--ne-root-font-size, 100%)',
   '--bodyFontSize': 'var(--ne-body-font-size, 1.125rem)',
-  '--selectionForeground': 'var(--ne-selection-foreground, #FFF)',
+  '--selectionForeground': 'var(--ne-selection-foreground, hsl(0, 0%, 100%))',
   '--selectionBackground': 'var(--ne-selection-background, hsl(233, 64%, 72%))',
   '--outlineWidth': 'var(--ne-outline-width, 2px)',
   '--outlineColor': 'var(--ne-outline-color, hsl(220, 100%, 50%))',

@@ -9,11 +9,11 @@ module.exports = {
   '--textfieldInvalidBorderColor': 'var(--ne-textfield-invaild-border-color, hsl(354, 100%, 65%))',
 
   /* Background API */
-  '--textfieldBackground': 'var(--ne-textfield-background, #FFF)',
-  '--textfieldHoverBackground': 'var(--ne-textfield-hover-background, var(--ne-textfield-background, #FFF))',
-  '--textfieldFocusBackground': 'var(--ne-textfield-focus-background, var(--ne-textfield-background, #FFF))',
+  '--textfieldBackground': 'var(--ne-textfield-background, hsl(0, 0%, 100%))',
+  '--textfieldHoverBackground': 'var(--ne-textfield-hover-background, var(--ne-textfield-background, hsl(0, 0%, 100%)))',
+  '--textfieldFocusBackground': 'var(--ne-textfield-focus-background, var(--ne-textfield-background, hsl(0, 0%, 100%)))',
   '--textfieldDisabledBackground': 'var(--ne-textfield-disabled-background, hsl(233, 34%, 96%))',
-  '--textfieldInvalidBackground': 'var(--ne-textfield-invalid-background, #FFF)',
+  '--textfieldInvalidBackground': 'var(--ne-textfield-invalid-background, hsl(0, 0%, 100%))',
 
   /* Foreground API */
   '--textfieldForeground': 'var(--ne-textfield-foreground, var(--ne-global-foreground, hsl(0, 0%, 13%)))',

@@ -3,8 +3,8 @@ module.exports = {
   '--detailsSeparator': 'var(--ne-details-separator, 1px solid rgba(0, 0, 0, 0.05))',
 
   /* Background API */
-  '--detailsBackground': 'var(--ne-details-background, #FFF)',
-  '--detailsSummaryBacgrkound': 'var(--ne-details-summary-background, #FFF)',
+  '--detailsBackground': 'var(--ne-details-background, hsl(0, 0%, 100%))',
+  '--detailsSummaryBacgrkound': 'var(--ne-details-summary-background, hsl(0, 0%, 100%))',
 
   /* Foreground API */
   '--detailsSummaryFontSize': 'var(--ne-details-summary-font-size, initial)',

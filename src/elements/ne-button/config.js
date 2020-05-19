@@ -12,9 +12,9 @@ module.exports = {
   '--buttonDisabledBackground': 'var(--ne-button-disabled-background, hsl(233, 34%, 96%))',
 
   /* Foreground API */
-  '--buttonForeground': 'var(--ne-button-foreground, #FFF)',
-  '--buttonHoverForeground': 'var(--ne-button-hover-foreground, #FFF)',
-  '--buttonActiveForeground': 'var(--ne-button-active-foreground, #FFF)',
+  '--buttonForeground': 'var(--ne-button-foreground, hsl(0, 0%, 100%))',
+  '--buttonHoverForeground': 'var(--ne-button-hover-foreground, hsl(0, 0%, 100%))',
+  '--buttonActiveForeground': 'var(--ne-button-active-foreground, hsl(0, 0%, 100%))',
   '--buttonDisabledForeground': 'var(--ne-button-disabled-foreground, hsl(233, 24%, 72%))',
 
   /* Icon API */
