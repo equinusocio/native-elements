@@ -1,11 +1,11 @@
 :root {
   --accent-color: hsl(220, 100%, 50%);
 
-  --ne-global-background: #FFF;
-  --ne-global-foreground: #000;
+  --ne-global-background: hsl(0, 0%, 100%);
+  --ne-global-foreground: hsl(0, 0%, 0%);
   --ne-root-font-size: 100%;
   --ne-body-font-size: 1.125rem;
-  --ne-selection-foreground: #FFF;
+  --ne-selection-foreground: hsl(0, 0%, 100%);
   --ne-selection-background: hsl(233, 64%, 72%);
   --ne-outline-width: 2px;
   --ne-outline-color: var(--accent-color);
@@ -35,9 +35,9 @@
   --ne-button-hover-background: hsl(233, 64%, 52%);
   --ne-button-active-background: hsl(233, 64%, 32%);
   --ne-button-disabled-background: hsl(233, 34%, 96%);
-  --ne-button-foreground: #FFF;
-  --ne-button-hover-foreground: #FFF;
-  --ne-button-active-foreground: #FFF;
+  --ne-button-foreground: hsl(0, 0%, 100%);
+  --ne-button-hover-foreground: hsl(0, 0%, 100%);
+  --ne-button-active-foreground: hsl(0, 0%, 100%);
   --ne-button-disabled-foreground: hsl(233, 24%, 72%);
   --ne-button-icon-margin: 1em;
   --ne-button-radius: 5px;
@@ -49,7 +49,7 @@
   --ne-checkradio-border: 1px solid hsl(0, 0%, 89%);
   --ne-checkradio-background: hsl(220, 10%, 95%);
   --ne-checkradio-color: var(--accent-color);
-  --ne-checkradio-tick-color: var(--ne-global-background, #FFF);
+  --ne-checkradio-tick-color: var(--ne-global-background, hsl(0, 0%, 100%));
   --ne-checkradio-size: 18px;
   --ne-checkradio-border-radius: 4px;
   --ne-checkradio-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
@@ -67,8 +67,8 @@
   --ne-color-width: 24px;
   --ne-color-height: var(--ne-color-width, 24px);
   --ne-details-separator: 1px solid rgba(0, 0, 0, 0.05);
-  --ne-details-background: #FFF;
-  --ne-details-summary-background: #FFF;
+  --ne-details-background: hsl(0, 0%, 100%);
+  --ne-details-summary-background: hsl(0, 0%, 100%);
   --ne-details-summary-font-size: initial;
   --ne-details-summary-font-weight: 700;
   --ne-details-summary-open-color: var(--accent-color);
@@ -79,7 +79,7 @@
   --ne-details-summary-padding: 16px;
   --ne-details-shadow: 0 1px 2px rgba(0, 0, 0, 0.16);
   --ne-dialog-border: 0;
-  --ne-dialog-background: #FFF;
+  --ne-dialog-background: hsl(0, 0%, 100%);
   --ne-dialog-radius: 5px;
   --ne-dialog-y-padding: 2rem;
   --ne-dialog-x-padding: 2rem;
@@ -112,8 +112,8 @@
   --ne-range-background: hsl(220, 10%, 95%);
   --ne-range-disabled-background: hsl(233, 34%, 96%);
   --ne-range-focus-background: var(--ne-range-background, hsl(220, 10%, 95%));
-  --ne-range-thumb-stripes-color: var(--ne-global-background, #fff);
-  --ne-range-thumb-stripes-active-color: var(--ne-range-thumb-stripes-color, #fff);
+  --ne-range-thumb-stripes-color: var(--ne-global-background, hsl(0, 0%, 100%));
+  --ne-range-thumb-stripes-active-color: var(--ne-range-thumb-stripes-color, hsl(0, 0%, 100%));
   --ne-range-thumb-background: var(--accent-color);
   --ne-range-thumb-active-background: var(--ne-range-thumb-background, var(--accent-color));
   --ne-range-thumb-disabled-background: hsl(233, 34%, 96%);
@@ -128,16 +128,16 @@
   --ne-select-hover-border: var(--ne-select-border, 1px solid hsl(0, 0%, 89%));
   --ne-select-focus-border: var(--ne-select-border, 1px solid var(--accent-color));
   --ne-select-disabled-border: 1px solid hsl(233, 34%, 96%);
-  --ne-select-background: var(--ne-global-background, #FFF);
-  --ne-select-hover-background: var(--ne-select-background, #FFF);
-  --ne-select-focus-background: var(--ne-select-background, #FFF);
+  --ne-select-background: var(--ne-global-background, hsl(0, 0%, 100%));
+  --ne-select-hover-background: var(--ne-select-background, hsl(0, 0%, 100%));
+  --ne-select-focus-background: var(--ne-select-background, hsl(0, 0%, 100%));
   --ne-select-disabled-background: hsl(233, 34%, 96%);
   --ne-select-option-checked-background: var(--accent-color);
   --ne-select-foreground: var(--ne-global-foreground, hsl(0, 0%, 13%));
   --ne-select-hover-foreground: var(--ne-select-foreground, hsl(0, 0%, 13%));
   --ne-select-focus-foreground: var(--ne-select-foreground, hsl(0, 0%, 13%));
   --ne-select-disabled-foreground: hsl(233, 14%, 72%);
-  --ne-select-option-checked-foreground: #FFF;
+  --ne-select-option-checked-foreground: hsl(0, 0%, 100%);
   --ne-select-radius: 5px;
   --ne-select-width: 100%;
   --ne-select-padding: 0.5em;
@@ -157,11 +157,11 @@
   --ne-textfield-readonly-border: 1px dashed hsl(0, 0%, 89%);
   --ne-textfield-readonly-focus-border: 1px dashed var(--accent-color);
   --ne-textfield-invaild-border-color: hsl(354, 100%, 65%);
-  --ne-textfield-background: #FFF;
-  --ne-textfield-hover-background: var(--ne-textfield-background, #FFF);
-  --ne-textfield-focus-background: var(--ne-textfield-background, #FFF);
+  --ne-textfield-background: hsl(0, 0%, 100%);
+  --ne-textfield-hover-background: var(--ne-textfield-background, hsl(0, 0%, 100%));
+  --ne-textfield-focus-background: var(--ne-textfield-background, hsl(0, 0%, 100%));
   --ne-textfield-disabled-background: hsl(233, 34%, 96%);
-  --ne-textfield-invalid-background: #FFF;
+  --ne-textfield-invalid-background: hsl(0, 0%, 100%);
   --ne-textfield-foreground: var(--ne-global-foreground, hsl(0, 0%, 13%));
   --ne-textfield-hover-foreground: var(--ne-global-foreground, hsl(0, 0%, 13%));
   --ne-textfield-focus-foreground: var(--ne-global-foreground, hsl(0, 0%, 13%));

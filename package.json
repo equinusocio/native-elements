@@ -3,18 +3,18 @@
   "version": "0.18.6",
   "description": "Native HTML Elements with CSS superpowers.",
   "main": "dist/native-elements.css",
-  "repository": "https://github.com/equinusocio/native-elements",
+  "repository": "https://github.com/n-elements/core",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/equinusocio/native-elements/issues"
+    "url": "https://github.com/n-elements/core/issues"
   },
-  "homepage": "https://github.com/equinusocio/native-elements",
+  "homepage": "https://native-elements.stackblitz.io/",
   "author": {
-    "name": "Equinusocio",
-    "url": "http://equinsuocha.io"
+    "name": "Mattia Astorino",
+    "url": "http://equinusocio.dev"
   },
   "engines": {
-    "node": ">=10"
+    "node": ">=12"
   },
   "scripts": {
     "clean": "yarn rimraf dist/**",
@@ -31,7 +31,8 @@
   },
   "files": [
     "src/elements/ne-*",
-    "dist/native-elements.css"
+    "dist/native-elements.css",
+    "props.json"
   ],
   "keywords": [
     "elements",
