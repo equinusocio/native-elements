@@ -43,7 +43,7 @@
     "native",
     "npm",
     "ui",
-    "kit"
+    "library"
   ],
   "size-limit": [
     {
