@@ -9,7 +9,7 @@
   --ne-selection-background: hsl(233, 64%, 72%);
   --ne-outline-width: 2px;
   --ne-outline-color: var(--accent-color);
-  --ne-line-height: 1.5;
+  --ne-basic-line-height: 1.5;
   --ne-headings-scale: 1.25;
   --ne-quote-font-size: 2rem;
   --ne-cite-foreground: var(--accent-color);
