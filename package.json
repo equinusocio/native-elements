@@ -23,7 +23,7 @@
     "prebuild": "yarn clean",
     "build:css": "parcel build ./src/elements/core/core.pcss --out-dir ./dist -o native-elements.css --no-source-maps",
     "copy:source": "copyfiles -u 2 ./src/elements/**/* ./dist/elements",
-    "copy:props": "copyfiles ./props.json ./dist",
+    "copy:props": "copyfiles ./props/**/* ./dist",
     "build": "run-s build:css",
     "postbuild": "run-s theme copy:source copy:props size",
     "prepublishOnly": "run-s build",
