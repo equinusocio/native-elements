@@ -7,7 +7,7 @@ const envVariables = {
     let prop = variables[key];
     let normalizedName = prop.name.replace('--ne-', '');
     let newKey = `--${camelCase(normalizedName)}`;
-    props[newKey] = `${prop.defaultValue}`;
+    props[newKey] = `${prop.tokenValue}`;
     return props;
   }, {}),
 };
