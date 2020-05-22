@@ -6,7 +6,7 @@ module.exports = {
   '--dialogBackground': 'var(--ne-dialog-background, hsl(0, 0%, 100%))',
 
   /* Misc API */
-  '--dialogBorderRadius': 'var(--ne-dialog-radius, 5px)',
+  '--dialogBorderRadius': 'var(--ne-dialog-border-radius, 5px)',
   '--dialogYPadding': 'var(--ne-dialog-y-padding, 2rem)',
   '--dialogXPadding': 'var(--ne-dialog-x-padding, 2rem)',
   '--dialogShadow': 'var(--ne-dialog-shadow, 0 19px 38px 0 rgba(0, 0, 0, 0.16), 0 15px 12px 0 rgba(0, 0, 0, 0.12))',

@@ -40,7 +40,7 @@
   --ne-button-active-foreground: hsl(0, 0%, 100%);
   --ne-button-disabled-foreground: hsl(233, 24%, 72%);
   --ne-button-icon-margin: 1em;
-  --ne-button-radius: 5px;
+  --ne-button-border-radius: 5px;
   --ne-button-font-weight: 700;
   --ne-button-font-size: inherit;
   --ne-button-y-padding: 1em;
@@ -62,7 +62,7 @@
   --ne-code-y-padding: 1.25rem;
   --ne-code-x-padding: 1.5rem;
   --ne-color-border: 0;
-  --ne-color-radius: 100%;
+  --ne-color-border-radius: 100%;
   --ne-color-shadow: 0 1px 2px rgba(0, 0, 0, 0.16);
   --ne-color-width: 24px;
   --ne-color-height: var(--ne-color-width, 24px);
@@ -80,7 +80,7 @@
   --ne-details-shadow: 0 1px 2px rgba(0, 0, 0, 0.16);
   --ne-dialog-border: 0;
   --ne-dialog-background: hsl(0, 0%, 100%);
-  --ne-dialog-radius: 5px;
+  --ne-dialog-border-radius: 5px;
   --ne-dialog-y-padding: 2rem;
   --ne-dialog-x-padding: 2rem;
   --ne-dialog-shadow: 0 19px 38px 0 rgba(0, 0, 0, 0.16), 0 15px 12px 0 rgba(0, 0, 0, 0.12);
@@ -94,7 +94,7 @@
   --ne-hr-margin: 50px;
   --ne-meter-border-color: hsl(0, 0%, 89%);
   --ne-meter-background: hsl(220, 10%, 95%);
-  --ne-meter-radius: 5px;
+  --ne-meter-border-radius: 5px;
   --ne-meter-width: 30px;
   --ne-meter-height: 3px;
   --ne-meter-filled-color-strong: hsl(67, 78%, 52%);
@@ -105,7 +105,7 @@
   --ne-progress-filled-color: var(--accent-color);
   --ne-progress-stripe-colors: rgba(255, 255, 255, 0.4);
   --ne-progress-height: 8px;
-  --ne-progress-radius: 10px;
+  --ne-progress-border-radius: 10px;
   --ne-range-border-color: 1px hsl(0, 0%, 89%);
   --ne-range-disabled-border-color: 1px rgba(0, 0, 0, 0);
   --ne-range-border-width: 1px;
@@ -123,7 +123,7 @@
   --ne-range-thumb-radius: 5px;
   --ne-range-width: 100%;
   --ne-range-height: 5px;
-  --ne-range-radius: 10px;
+  --ne-range-border-radius: 10px;
   --ne-select-border: 1px solid hsl(0, 0%, 89%);
   --ne-select-hover-border: var(--ne-select-border, 1px solid hsl(0, 0%, 89%));
   --ne-select-focus-border: var(--ne-select-border, 1px solid var(--accent-color));
@@ -138,7 +138,7 @@
   --ne-select-focus-foreground: var(--ne-select-foreground, hsl(0, 0%, 13%));
   --ne-select-disabled-foreground: hsl(233, 14%, 72%);
   --ne-select-option-checked-foreground: hsl(0, 0%, 100%);
-  --ne-select-radius: 5px;
+  --ne-select-border-radius: 5px;
   --ne-select-width: 100%;
   --ne-select-padding: 0.5em;
   --ne-select-icon: url(data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M7 8l5-5 5 5m0 8l-5 5-5-5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill="none" stroke="currentColor" stroke-miterlimit="10"/></svg>);
@@ -172,7 +172,7 @@
   --ne-textfield-hover-placeholder-foreground: hsl(0, 0%, 60%);
   --ne-textfield-focus-placeholder-foreground: hsl(0, 0%, 60%);
   --ne-textfield-disabled-placeholder-foreground: hsl(233, 34%, 80%);
-  --ne-textfield-radius: 5px;
+  --ne-textfield-border-radius: 5px;
   --ne-textfield-width: 100%;
   --ne-textfield-min-height: 48px;
   --ne-textfield-y-padding: 0.5em;

@@ -21,7 +21,7 @@ module.exports = {
   '--buttonIconMargin': 'var(--ne-button-icon-margin, 1em)',
 
   /* Misc API */
-  '--buttonBorderRadius': 'var(--ne-button-radius, 5px)',
+  '--buttonBorderRadius': 'var(--ne-button-border-radius, 5px)',
   '--buttonFontWeight': 'var(--ne-button-font-weight, 700)',
   '--buttonFontSize': 'var(--ne-button-font-size, inherit)',
   '--buttonYPadding': 'var(--ne-button-y-padding, 1em)',

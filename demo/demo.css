@@ -28,19 +28,19 @@ main {
 
 
 .SecondButton {
-  --ne-button-radius: 3px;
+  --ne-button-border-radius: 3px;
   --ne-button-y-padding: 0.8em;
   --ne-button-x-padding: 1.4em;
 }
 
 .ThirdButton {
-  --ne-button-radius: 100px;
+  --ne-button-border-radius: 100px;
   --ne-button-y-padding: 0.5em;
   --ne-button-x-padding: 1.5em;
 }
 
 .FullRound {
-  --ne-button-radius: 100px;
+  --ne-button-border-radius: 100px;
 }
 
 details p {

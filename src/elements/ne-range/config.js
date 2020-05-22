@@ -23,5 +23,5 @@ module.exports = {
   /* Misc API */
   '--rangeWidth': 'var(--ne-range-width, 100%)',
   '--rangeHeight': 'var(--ne-range-height, 5px)',
-  '--rangeBorderRadius': 'var(--ne-range-radius, 10px)',
+  '--rangeBorderRadius': 'var(--ne-range-border-radius, 10px)',
 };

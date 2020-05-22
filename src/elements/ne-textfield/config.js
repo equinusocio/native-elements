@@ -28,7 +28,7 @@ module.exports = {
   '--textfieldDisabledPlaceholderForeground': 'var(--ne-textfield-disabled-placeholder-foreground, hsl(233, 34%, 80%))',
 
   /* Misc API */
-  '--textfieldBorderRadius': 'var(--ne-textfield-radius, 5px)',
+  '--textfieldBorderRadius': 'var(--ne-textfield-border-radius, 5px)',
   '--textfieldWidth': 'var(--ne-textfield-width, 100%)',
   '--textfieldMinHeight': 'var(--ne-textfield-min-height, 48px)',
   '--textfieldYPadding': 'var(--ne-textfield-y-padding, 0.5em)',

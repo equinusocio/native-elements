@@ -4,7 +4,7 @@ module.exports = {
   '--tableRowSeparator': 'var(--ne-table-row-separator, 1px solid hsl(0, 0%, 89%))',
 
   /* Background API */
-  '--tableStribedBackground': 'var(--ne-table-striped-background, transparent)',
+  '--tableStripedBackground': 'var(--ne-table-striped-background, transparent)',
   '--tableBackground': 'var(--ne-table-background, transparent)',
 
   /* Foreground API */

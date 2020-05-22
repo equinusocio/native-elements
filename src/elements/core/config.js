@@ -10,7 +10,7 @@ module.exports = {
   '--outlineColor': 'var(--ne-outline-color, hsl(220, 100%, 50%))',
 
   /* Typography */
-  '--basicLineHeight': 'var(--ne-line-height, 1.5)',
+  '--basicLineHeight': 'var(--ne-basic-line-height, 1.5)',
   '--headingsScale': 'var(--ne-headings-scale, 1.25)',
   '--quoteFontSize': 'var(--ne-quote-font-size, 2rem)',
   '--citeForeground': 'var(--ne-cite-foreground, hsl(220, 100%, 50%))',

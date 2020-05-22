@@ -11,5 +11,5 @@ module.exports = {
 
   /* Misc API */
   '--progressHeight': 'var(--ne-progress-height, 8px)',
-  '--progressBorderRadius': 'var(--ne-progress-radius, 10px)',
+  '--progressBorderRadius': 'var(--ne-progress-border-radius, 10px)',
 };

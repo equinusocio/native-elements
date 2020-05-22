@@ -33,7 +33,7 @@
       "defaultValue": "hsl(220, 100%, 50%)"
     },
     {
-      "name": "--ne-line-height",
+      "name": "--ne-basic-line-height",
       "defaultValue": "1.5"
     },
     {
@@ -157,7 +157,7 @@
       "defaultValue": "1em"
     },
     {
-      "name": "--ne-button-radius",
+      "name": "--ne-button-border-radius",
       "defaultValue": "5px"
     },
     {
@@ -245,7 +245,7 @@
       "defaultValue": "0"
     },
     {
-      "name": "--ne-color-radius",
+      "name": "--ne-color-border-radius",
       "defaultValue": "100%"
     },
     {
@@ -317,7 +317,7 @@
       "defaultValue": "hsl(0, 0%, 100%)"
     },
     {
-      "name": "--ne-dialog-radius",
+      "name": "--ne-dialog-border-radius",
       "defaultValue": "5px"
     },
     {
@@ -373,7 +373,7 @@
       "defaultValue": "hsl(220, 10%, 95%)"
     },
     {
-      "name": "--ne-meter-radius",
+      "name": "--ne-meter-border-radius",
       "defaultValue": "5px"
     },
     {
@@ -417,7 +417,7 @@
       "defaultValue": "8px"
     },
     {
-      "name": "--ne-progress-radius",
+      "name": "--ne-progress-border-radius",
       "defaultValue": "10px"
     },
     {
@@ -489,7 +489,7 @@
       "defaultValue": "5px"
     },
     {
-      "name": "--ne-range-radius",
+      "name": "--ne-range-border-radius",
       "defaultValue": "10px"
     },
     {
@@ -549,7 +549,7 @@
       "defaultValue": "hsl(0, 0%, 100%)"
     },
     {
-      "name": "--ne-select-radius",
+      "name": "--ne-select-border-radius",
       "defaultValue": "5px"
     },
     {
@@ -685,7 +685,7 @@
       "defaultValue": "hsl(233, 34%, 80%)"
     },
     {
-      "name": "--ne-textfield-radius",
+      "name": "--ne-textfield-border-radius",
       "defaultValue": "5px"
     },
     {

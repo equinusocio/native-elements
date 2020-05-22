@@ -52,9 +52,8 @@ details {
     overflow: hidden;
     transition: color 200ms;
 
-    &:first-of-type {
-      list-style: none;
-      list-style-type: none;
+    &::marker {
+      content: '';
     }
 
     &::before {
