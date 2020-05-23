@@ -17,6 +17,10 @@ input:matches(
   display: block;
   width: env(--textfieldWidth);
   padding: env(--textfieldYPadding) env(--textfieldXPadding);
+
+  &::-webkit-calendar-picker-indicator {
+    display: none;
+  }
 }
 
 input[type='number'] {
@@ -45,18 +49,10 @@ textarea {
   height: auto;
   width: env(--textfieldWidth);
   padding: env(--textfieldYPadding) env(--textfieldXPadding);
-  resize: env(--textfieldResize);
+  resize: env(--textfieldResizeDirection);
 
   &::-webkit-datetime-edit-text {
     opacity: 0.3;
-  }
-
-  &::-webkit-calendar-picker-indicator {
-    color: env(--textfieldForeground);
-  }
-
-  &::-webkit-calendar-picker-indicator:hover {
-    background-color: transparent;
   }
 
   &:-moz-ui-invalid {

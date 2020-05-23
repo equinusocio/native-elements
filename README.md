@@ -30,12 +30,22 @@ To enable your HTML superpowers, import the main, bundled CSS file in your proje
 import '@native-elements/core'
 ```
 
-### Inside HTML
+### With CDN
 
 ```html
 <link rel="preconnect" href="https://cdn.jsdelivr.net">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@native-elements/core/dist/native-elements.min.css">
 ```
+
+### Using [postcss-import-url](https://www.npmjs.com/package/postcss-import-url)
+
+This will inline the latest version inside your generated css.
+
+```css
+@import 'https://cdn.jsdelivr.net/npm/@native-elements/core/dist/native-elements.min.css';
+```
+
+### Importing sources
 
 ## Customize elements
 

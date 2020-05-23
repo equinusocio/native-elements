@@ -37,13 +37,12 @@ details {
       env(--detailsSummaryPadding) env(--detailsSummaryPadding)
       env(--detailsSummaryPadding) 32px;
     user-select: none;
-    background: env(--detailsSummaryBacgrkound);
+    background: env(--detailsSummaryBackground);
     border-radius: env(--detailsBorderRadius) env(--detailsBorderRadius) 0 0;
     position: -webkit-sticky;
     position: sticky;
     z-index: 1;
     top: 0;
-    font-weight: env(--detailsSummaryFontWeight);
     font-size: env(--detailsSummaryFontSize);
     cursor: pointer;
     background-size: 16px auto;
@@ -52,9 +51,8 @@ details {
     overflow: hidden;
     transition: color 200ms;
 
-    &:first-of-type {
-      list-style: none;
-      list-style-type: none;
+    &::marker {
+      content: '';
     }
 
     &::before {
@@ -84,16 +82,16 @@ details {
     }
   }
 
-  &[open='true'] > *:not(summary) {
+  &[open] > *:not(summary) {
     animation: fadeInDown 600ms;
     animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
   }
 
-  &[open='true'] summary {
+  &[open] summary {
     color: env(--detailsSummaryOpenColor);
   }
 
-  &[open='true'] summary::before {
+  &[open] summary::before {
     transform: none;
   }
 }

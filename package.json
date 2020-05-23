@@ -1,37 +1,38 @@
 {
   "name": "@native-elements/core",
-  "version": "0.18.5",
+  "version": "0.18.9",
   "description": "Native HTML Elements with CSS superpowers.",
   "main": "dist/native-elements.css",
-  "repository": "https://github.com/equinusocio/native-elements",
+  "repository": "https://github.com/n-elements/core",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/equinusocio/native-elements/issues"
+    "url": "https://github.com/n-elements/core/issues"
   },
-  "homepage": "https://github.com/equinusocio/native-elements",
+  "homepage": "https://native-elements.stackblitz.io/",
   "author": {
-    "name": "Equinusocio",
-    "url": "http://equinsuocha.io"
+    "name": "Mattia Astorino",
+    "url": "http://equinusocio.dev"
   },
   "engines": {
-    "node": ">=10"
+    "node": ">=12"
   },
   "scripts": {
-    "clean": "yarn rimraf dist/**",
-    "predev": "yarn clean",
-    "watch": "parcel demo/index.html --no-source-maps",
+    "clean": "yarn rimraf dist/** .cache",
+    "watch": "parcel demo/index.html --out-dir ./.dev --no-source-maps",
     "dev": "run-s clean watch",
     "prebuild": "yarn clean",
-    "build": "parcel build ./src/elements/native-elements/native-elements.pcss --out-dir ./dist --no-source-maps",
-    "postbuild": "run-s theme size",
-    "prepublishOnly": "run-s build size",
+    "build:css": "parcel build ./src/elements/core/core.pcss --out-dir ./dist -o native-elements.css --no-source-maps",
+    "copy:source": "copyfiles -u 2 ./src/elements/**/* ./dist/elements",
+    "copy:props": "copyfiles -u 1 ./src/props/**/* ./dist",
+    "build": "run-s build:css",
+    "postbuild": "run-s theme copy:source copy:props size",
+    "prepublishOnly": "run-s build",
     "size": "size-limit",
     "theme": "node scripts/generate-theme.js",
     "json": "node scripts/generate-json.js"
   },
   "files": [
-    "src/elements/ne-*",
-    "dist/native-elements.css"
+    "dist/"
   ],
   "keywords": [
     "elements",
@@ -41,7 +42,7 @@
     "native",
     "npm",
     "ui",
-    "kit"
+    "library"
   ],
   "size-limit": [
     {
@@ -51,27 +52,27 @@
     }
   ],
   "devDependencies": {
-    "@babel/core": "7.8.3",
-    "@babel/preset-env": "7.8.3",
+    "@babel/core": "7.9.6",
+    "@babel/preset-env": "7.9.6",
     "@size-limit/preset-small-lib": "3.0.0",
-    "babel-eslint": "10.0.3",
-    "babel-plugin-root-import": "6.4.1",
-    "core-js": "3.6.4",
+    "babel-eslint": "10.1.0",
+    "babel-plugin-root-import": "6.5.0",
+    "camelcase": "6.0.0",
+    "core-js": "3.6.5",
     "cssnano": "4.1.10",
     "cssnano-preset-advanced": "4.0.7",
     "eslint": "6.8.0",
     "eslint-plugin-standard": "4.0.1",
     "npm-run-all": "4.1.5",
+    "parcel": "2.0.0-nightly.275",
     "parcel-bundler": "1.12.4",
-    "postcss-cli": "7.1.0",
+    "postcss-cli": "7.1.1",
     "postcss-dark-theme-class": "0.4.0",
     "postcss-easy-import": "3.0.0",
     "postcss-mixins": "6.2.3",
-    "postcss-modules": "1.5.0",
     "postcss-preset-env": "6.7.0",
-    "postcss-reporter": "6.0.1",
-    "rimraf": "3.0.0",
-    "stylelint": "13.0.0",
+    "rimraf": "3.0.2",
+    "stylelint": "13.4.0",
     "stylelint-config-standard": "19.0.0"
   },
   "resolutions": {
@@ -80,11 +81,13 @@
   },
   "browserslist": [
     "last 1 Chrome versions",
-    "last 2 Firefox versions",
+    "last 1 Firefox versions",
     "last 1 Safari versions",
     "last 1 Edge versions"
   ],
   "dependencies": {
-    "what-input": "5.2.6"
+    "copyfiles": "2.2.0",
+    "serialize-to-js": "3.1.1",
+    "what-input": "5.2.9"
   }
 }
