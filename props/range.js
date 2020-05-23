@@ -1,16 +1,16 @@
 module.exports = [
   {
-    "name": "--ne-range-border-color",
-    "tokenValue": "var(--ne-range-border-color, 1px hsl(0, 0%, 89%))",
-    "defaultValue": "1px hsl(0, 0%, 89%)",
+    "name": "--ne-range-shadow",
+    "tokenValue": "var(--ne-range-shadow, inset 0 0 0 1px hsl(0, 0%, 89%))",
+    "defaultValue": "inset 0 0 0 1px hsl(0, 0%, 89%)",
     "domain": "elements",
     "type": "box-shadow",
     "element": "range"
   }
   ,{
-    "name": "--ne-range-disabled-border-color",
-    "tokenValue": "var(--ne-range-disabled-border-color, 1px rgba(0, 0, 0, 0))",
-    "defaultValue": "1px rgba(0, 0, 0, 0)",
+    "name": "--ne-range-disabled-shadow",
+    "tokenValue": "var(--ne-range-disabled-shadow, inset 0 0 0 1px hsla(0, 0%, 0%, 0.1))",
+    "defaultValue": "inset 0 0 0 1px hsla(0, 0%, 0%, 0.1)",
     "domain": "elements",
     "type": "box-shadow",
     "element": "range"

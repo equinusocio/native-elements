@@ -1,7 +1,7 @@
 module.exports = [
   {
     "name": "--ne-progress-shadow",
-    "tokenValue": "var(--ne-progress-shadow, inset 0 0 0 hsl(0, 0%, 89%))",
+    "tokenValue": "var(--ne-progress-shadow, inset 0 0 0 1px hsl(0, 0%, 89%))",
     "defaultValue": "inset 0 0 0 1px hsl(0, 0%, 89%)",
     "domain": "elements",
     "type": "box-shadow",
