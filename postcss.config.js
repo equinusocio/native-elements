@@ -12,6 +12,8 @@ const envVariables = {
   }, {}),
 };
 
+// console.log(JSON.stringify(envVariables.environmentVariables, null, 2))
+
 module.exports = {
   modules: false,
   plugins: {
