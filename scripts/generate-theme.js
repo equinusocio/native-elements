@@ -1,24 +1,30 @@
+const props = require('../src/props')
 const glob = require('glob')
 const fs = require('fs')
+const { Object } = require('core-js')
 const propertyRegex = /(var\(.+\))/gmi
 
 const cwd = process.cwd()
 
-function findFiles() {
-  return new Promise((resolve, reject) => {
-    return glob(`${cwd}/src/elements/**/config.js`, (err, files) => {
-      return err ? reject(err) : resolve(files)
-    })
-  })
-}
+// function findFiles() {
+//   return new Promise((resolve, reject) => {
+//     return glob(`${cwd}/src/props/**/*!(index).js`, (err, files) => {
+//       return err ? reject(err) : resolve(files)
+//     })
+//   })
+// }
 
-function getFilesContent(fileList) {
-  return fileList.map(file => fs.readFileSync(file, "utf8"))
-}
+// function getFilesContent(fileList) {
+//   return fileList.map(file => fs.readFileSync(file, "utf8"))
+// }
+
+// function getFilesContent(fileList) {
+//   return fileList.map(file => fs.readFileSync(file, "utf8"))
+// }
 
 function getProperties(fileContent) {
   return fileContent.map(fileCont => {
-    return fileCont
+    return fileCont.tokenValue
       .match(propertyRegex)
       .map(r => {
         const property = r.split(',')[0].replace('var(', '').replace(',','');
@@ -44,9 +50,9 @@ ${results}
 }
 
 (async () => {
-  const configFiles = await findFiles()
-  const fileContents = getFilesContent(configFiles)
-  const properties = getProperties(fileContents)
+  // const configFiles = await findFiles()
+  // const fileContents = getFilesContent(configFiles)
+  const properties = getProperties(props)
   const writeResult = await writeFiles(properties)
   console.log(writeResult)
 })()

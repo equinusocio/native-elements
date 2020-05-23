@@ -137,7 +137,7 @@ module.exports = [
   }
   ,{
     "name": "--ne-select-icon",
-    "tokenValue": "var(--ne-select-icon, url(data:image/svg+xml;utf-8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24'><path d='M7 8l5-5 5 5m0 8l-5 5-5-5' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' fill='none' stroke='currentColor' stroke-miterlimit='10'/></svg>))",
+    "tokenValue": "var(--ne-select-icon, url(\"data:image/svg+xml;utf-8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24'><path d='M7 8l5-5 5 5m0 8l-5 5-5-5' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' fill='none' stroke='currentColor' stroke-miterlimit='10'/></svg>\"))",
     "defaultValue": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24'><path d='M7 8l5-5 5 5m0 8l-5 5-5-5' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' fill='none' stroke='currentColor' stroke-miterlimit='10'/></svg>",
     "domain": "elements",
     "type": "text",
