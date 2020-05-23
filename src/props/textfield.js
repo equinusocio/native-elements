@@ -33,8 +33,8 @@ module.exports = [
   }
   ,{
     "name": "--ne-textfield-readonly-border",
-    "tokenValue": "var(--ne-textfield-readonly-border, 1px solid hsl(0, 0%, 89%))",
-    "defaultValue": "1px solid hsl(0, 0%, 89%)",
+    "tokenValue": "var(--ne-textfield-readonly-border, 1px dashed hsl(0, 0%, 89%))",
+    "defaultValue": "1px dashed hsl(0, 0%, 89%)",
     "domain": "elements",
     "type": "border",
     "element": "textfield"
@@ -129,8 +129,8 @@ module.exports = [
   }
   ,{
     "name": "--ne-textfield-readonly-foreground",
-    "tokenValue": "var(--ne-textfield-readonly-foreground, hsl(0, 0%, 13%))",
-    "defaultValue": "hsl(0, 0%, 13%)",
+    "tokenValue": "var(--ne-textfield-readonly-foreground, inherit)",
+    "defaultValue": "inherit",
     "domain": "elements",
     "type": "color",
     "element": "textfield"
@@ -138,7 +138,7 @@ module.exports = [
   ,{
     "name": "--ne-textfield-invalid-foreground",
     "tokenValue": "var(--ne-textfield-invalid-foreground, inherit)",
-    "defaultValue": "hsl(0, 0%, 13%)",
+    "defaultValue": "inherit",
     "domain": "elements",
     "type": "color",
     "element": "textfield"
