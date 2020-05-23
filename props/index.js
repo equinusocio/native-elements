@@ -7,6 +7,7 @@ const DETAILS_PROPS = require('./details');
 const DIALOG_PROPS = require('./dialog');
 const FORM_PROPS = require('./form');
 const HR_PROPS = require('./hr');
+const METER_PROPS = require('./meter');
 
 module.exports = [
   ...CORE_PROPS,
@@ -17,5 +18,6 @@ module.exports = [
   ...DETAILS_PROPS,
   ...DIALOG_PROPS,
   ...FORM_PROPS,
-  ...HR_PROPS
+  ...HR_PROPS,
+  ...METER_PROPS
 ]
