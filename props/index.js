@@ -11,6 +11,7 @@ const METER_PROPS = require('./meter');
 const PROGRESS_PROPS = require('./progress');
 const RANGE_PROPS = require('./range');
 const SELECT_PROPS = require('./select');
+const TABLE_PROPS = require('./table');
 
 module.exports = [
   ...CORE_PROPS,
@@ -25,5 +26,6 @@ module.exports = [
   ...METER_PROPS,
   ...PROGRESS_PROPS,
   ...RANGE_PROPS,
-  ...SELECT_PROPS
+  ...SELECT_PROPS,
+  ...TABLE_PROPS
 ]
