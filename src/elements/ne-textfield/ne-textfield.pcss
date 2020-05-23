@@ -17,6 +17,10 @@ input:matches(
   display: block;
   width: env(--textfieldWidth);
   padding: env(--textfieldYPadding) env(--textfieldXPadding);
+
+  &::-webkit-calendar-picker-indicator {
+    display: none;
+  }
 }
 
 input[type='number'] {
