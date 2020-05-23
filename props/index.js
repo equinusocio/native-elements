@@ -9,6 +9,7 @@ const FORM_PROPS = require('./form');
 const HR_PROPS = require('./hr');
 const METER_PROPS = require('./meter');
 const PROGRESS_PROPS = require('./progress');
+const RANGE_PROPS = require('./range');
 
 module.exports = [
   ...CORE_PROPS,
@@ -21,5 +22,6 @@ module.exports = [
   ...FORM_PROPS,
   ...HR_PROPS,
   ...METER_PROPS,
-  ...PROGRESS_PROPS
+  ...PROGRESS_PROPS,
+  ...RANGE_PROPS
 ]
