@@ -12,6 +12,7 @@ const PROGRESS_PROPS = require('./progress');
 const RANGE_PROPS = require('./range');
 const SELECT_PROPS = require('./select');
 const TABLE_PROPS = require('./table');
+const TEXTFIELD_PROPS = require('./textfield');
 const UPLOAD_PROPS = require('./upload');
 
 module.exports = [
@@ -29,5 +30,6 @@ module.exports = [
   ...RANGE_PROPS,
   ...SELECT_PROPS,
   ...TABLE_PROPS,
+  ...TEXTFIELD_PROPS,
   ...UPLOAD_PROPS
 ]
