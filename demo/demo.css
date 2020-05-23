@@ -28,19 +28,19 @@ main {
 
 
 .SecondButton {
-  --ne-button-radius: 3px;
+  --ne-button-border-radius: 3px;
   --ne-button-y-padding: 0.8em;
   --ne-button-x-padding: 1.4em;
 }
 
 .ThirdButton {
-  --ne-button-radius: 100px;
+  --ne-button-border-radius: 100px;
   --ne-button-y-padding: 0.5em;
   --ne-button-x-padding: 1.5em;
 }
 
 .FullRound {
-  --ne-button-radius: 100px;
+  --ne-button-border-radius: 100px;
 }
 
 details p {
@@ -150,6 +150,8 @@ details p {
     --ne-textfield-readonly-focus-border: 1px dashed var(--accent-color);
     --ne-textfield-invaild-border-color: hsl(354, 100%, 65%);
     --ne-textfield-background: var(--muted-color);
+    --ne-textfield-hover-background: var(--muted-color);
+    --ne-textfield-focus-background: var(--muted-color);
     --ne-textfield-disabled-background: hsl(220, 5.9%, 10%);
     --ne-textfield-invalid-background: var(--muted-color);
     --ne-textfield-foreground: var(--ne-global-foreground);
