@@ -139,6 +139,8 @@ details p {
     --ne-select-border: 1px solid hsl(233, 4%, 25%);
     --ne-select-disabled-border: var(--muted-color);
     --ne-select-background: var(--muted-color);
+    --ne-select-focus-background: var(--muted-color);
+    --ne-select-hover-background: var(--muted-color);
     --ne-select-disabled-background: hsl(220, 5.9%, 10%);
     --ne-select-disabled-foreground: hsl(0, 0%, 16.9%);
     --ne-select-option-checked-background: var(--accent-color);
