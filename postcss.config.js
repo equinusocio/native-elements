@@ -1,5 +1,5 @@
 const path = require('path');
-const variables = require('./props');
+const variables = require('./src/props');
 const camelCase = require('camelcase');
 
 const envVariables = {
