@@ -105,16 +105,16 @@ module.exports = [
   }
   ,{
     "name": "--ne-textfield-hover-foreground",
-    "tokenValue": "var(--ne-textfield-hover-foreground, hsl(0, 0%, 13%))",
-    "defaultValue": "hsl(0, 0%, 13%)",
+    "tokenValue": "var(--ne-textfield-hover-foreground, inherit)",
+    "defaultValue": "inherit",
     "domain": "elements",
     "type": "color",
     "element": "textfield"
   }
   ,{
     "name": "--ne-textfield-focus-foreground",
-    "tokenValue": "var(--ne-textfield-focus-foreground, hsl(0, 0%, 13%))",
-    "defaultValue": "hsl(0, 0%, 13%)",
+    "tokenValue": "var(--ne-textfield-focus-foreground, inherit)",
+    "defaultValue": "inherit",
     "domain": "elements",
     "type": "color",
     "element": "textfield"
@@ -137,7 +137,7 @@ module.exports = [
   }
   ,{
     "name": "--ne-textfield-invalid-foreground",
-    "tokenValue": "var(--ne-textfield-invalid-foreground, hsl(0, 0%, 13%))",
+    "tokenValue": "var(--ne-textfield-invalid-foreground, inherit)",
     "defaultValue": "hsl(0, 0%, 13%)",
     "domain": "elements",
     "type": "color",

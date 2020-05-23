@@ -150,6 +150,8 @@ details p {
     --ne-textfield-readonly-focus-border: 1px dashed var(--accent-color);
     --ne-textfield-invaild-border-color: hsl(354, 100%, 65%);
     --ne-textfield-background: var(--muted-color);
+    --ne-textfield-hover-background: var(--muted-color);
+    --ne-textfield-focus-background: var(--muted-color);
     --ne-textfield-disabled-background: hsl(220, 5.9%, 10%);
     --ne-textfield-invalid-background: var(--muted-color);
     --ne-textfield-foreground: var(--ne-global-foreground);
