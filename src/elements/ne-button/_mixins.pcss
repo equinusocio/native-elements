@@ -16,8 +16,7 @@
   color: env(--buttonForeground);
   padding: env(--buttonYPadding) env(--buttonXPadding);
   font-size: env(--buttonFontSize);
-  box-shadow: env(--buttonShadow);
-  transition: box-shadow 0.1s ease-out, background-color 0.1s ease-out;
+  transition: background-color 0.1s ease-out;
 
   &::-moz-focus-inner {
     border: 0;
@@ -36,7 +35,6 @@
   &:disabled,
   &[aria-disabled='true'] {
     cursor: not-allowed;
-    box-shadow: none;
     border: env(--buttonDisabledBorder);
     background: env(--buttonDisabledBackground);
     color: env(--buttonDisabledForeground);

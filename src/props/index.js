@@ -32,4 +32,4 @@ module.exports = [
   ...TABLE_PROPS,
   ...TEXTFIELD_PROPS,
   ...UPLOAD_PROPS
-]
+];
