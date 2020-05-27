@@ -97,8 +97,8 @@ module.exports = [
   }
   ,{
     'name': '--ne-textfield-foreground',
-    'tokenValue': 'var(--ne-textfield-foreground,  hsl(0, 0%, 13%))',
-    'defaultValue': 'hsl(0, 0%, 13%)',
+    'tokenValue': 'var(--ne-textfield-foreground, inherit)',
+    'defaultValue': 'inherit',
     'domain': 'elements',
     'type': 'color',
     'element': 'textfield'
