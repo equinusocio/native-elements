@@ -154,7 +154,7 @@
   --ne-textfield-focus-background: hsl(0, 0%, 100%);
   --ne-textfield-disabled-background: hsl(233, 34%, 96%);
   --ne-textfield-invalid-background: hsl(0, 0%, 100%);
-  --ne-textfield-foreground:  hsl(0, 0%, 13%);
+  --ne-textfield-foreground: inherit;
   --ne-textfield-hover-foreground: inherit;
   --ne-textfield-focus-foreground: inherit;
   --ne-textfield-disabled-foreground: hsl(233, 24%, 72%);
