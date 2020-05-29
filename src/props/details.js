@@ -82,7 +82,7 @@ module.exports = [
   ,{
     'name': '--ne-details-shadow',
     'tokenValue': 'var(--ne-details-shadow, 0 1px 2px rgba(0, 0, 0, 0.16))',
-    'defaultValue': '16px',
+    'defaultValue': '0 1px 2px rgba(0, 0, 0, 0.16)',
     'domain': 'elements',
     'type': 'box-shadow',
     'element': 'details'
