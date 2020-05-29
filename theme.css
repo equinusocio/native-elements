@@ -3,6 +3,7 @@
 
   --ne-global-background: hsl(0, 0%, 100%);
   --ne-global-foreground: hsl(0, 0%, 0%);
+  --ne-body-font-family: sans-serif;
   --ne-root-font-size: 100%;
   --ne-body-font-size: 1.125rem;
   --ne-selection-foreground: hsl(0, 0%, 100%);
