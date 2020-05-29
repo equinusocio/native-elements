@@ -125,7 +125,7 @@ module.exports = [
     'defaultValue': '1em',
     'domain': 'elements',
     'type': 'unit',
-    'element': 'Button'
+    'element': 'button'
   }
   ,{
     'name': '--ne-button-x-padding',
@@ -133,6 +133,6 @@ module.exports = [
     'defaultValue': '2em',
     'domain': 'elements',
     'type': 'unit',
-    'element': 'Button'
+    'element': 'button'
   }
 ];

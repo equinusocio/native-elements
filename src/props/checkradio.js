@@ -5,7 +5,7 @@ module.exports = [
     'defaultValue': '1px solid hsl(0, 0%, 89%)',
     'domain': 'elements',
     'type': 'border',
-    'element': 'Check/Radio'
+    'element': 'check-radio'
   }
   ,{
     'name': '--ne-checkradio-background',
@@ -13,7 +13,7 @@ module.exports = [
     'defaultValue': 'hsl(220, 10%, 95%)',
     'domain': 'elements',
     'type': 'color',
-    'element': 'Check/Radio'
+    'element': 'check-radio'
   }
   ,{
     'name': '--ne-checkradio-color',
@@ -21,7 +21,7 @@ module.exports = [
     'defaultValue': 'hsl(220, 100%, 50%)',
     'domain': 'elements',
     'type': 'color',
-    'element': 'Check/Radio'
+    'element': 'check-radio'
   }
   ,{
     'name': '--ne-checkradio-tick-color',
@@ -29,7 +29,7 @@ module.exports = [
     'defaultValue': 'hsl(0, 0%, 100%)',
     'domain': 'elements',
     'type': 'color',
-    'element': 'Check/Radio'
+    'element': 'check-radio'
   }
   ,{
     'name': '--ne-checkradio-size',
@@ -37,7 +37,7 @@ module.exports = [
     'defaultValue': '18px',
     'domain': 'elements',
     'type': 'unit',
-    'element': 'Check/Radio'
+    'element': 'check-radio'
   }
   ,{
     'name': '--ne-checkradio-border-radius',
@@ -45,7 +45,7 @@ module.exports = [
     'defaultValue': '4px',
     'domain': 'elements',
     'type': 'unit-multiple',
-    'element': 'Check/Radio'
+    'element': 'check-radio'
   }
   ,{
     'name': '--ne-checkradio-shadow',
@@ -53,6 +53,6 @@ module.exports = [
     'defaultValue': '0 1px 1px rgba(0, 0, 0, 0.2)',
     'domain': 'elements',
     'type': 'box-shadow',
-    'element': 'Check/Radio'
+    'element': 'check-radio'
   }
 ];
