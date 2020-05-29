@@ -166,7 +166,7 @@ module.exports = [
   ,{
     'name': '--ne-kbd-color',
     'tokenValue': 'var(--ne-kbd-color, hsl(233, 34%, 96%))',
-    'defaultValue': 'var(--ne-kbd-color, hsl(233, 34%, 96%))',
+    'defaultValue': 'hsl(233, 34%, 96%)',
     'domain': 'typography',
     'type': 'color',
     'element': null
