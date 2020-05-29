@@ -16,6 +16,14 @@ module.exports = [
     'element': null
   }
   ,{
+    'name': '--ne-body-font-family',
+    'tokenValue': 'var(--ne-body-font-family, sans-serif)',
+    'defaultValue': 'sans-serif',
+    'domain': 'document',
+    'type': 'text',
+    'element': null
+  }
+  ,{
     'name': '--ne-root-font-size',
     'tokenValue': 'var(--ne-root-font-size, 100%)',
     'defaultValue': '100%',
