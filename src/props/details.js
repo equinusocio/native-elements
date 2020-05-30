@@ -24,6 +24,14 @@ module.exports = [
     'element': 'details'
   }
   ,{
+    'name': '--ne-details-summary-foreground',
+    'tokenValue': 'var(--ne-details-summary-background, inherit)',
+    'defaultValue': 'inherit',
+    'domain': 'elements',
+    'type': 'color',
+    'element': 'details'
+  }
+  ,{
     'name': '--ne-details-summary-font-size',
     'tokenValue': 'var(--ne-details-summary-font-size, initial)',
     'defaultValue': 'initial',
