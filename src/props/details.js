@@ -49,7 +49,7 @@ module.exports = [
   }
   ,{
     'name': '--ne-details-icon',
-    'tokenValue': 'var(--ne-details-icon, url\'"data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"><path d="M10.293 3.293L6 7.586 1.707 3.293A1 1 0 00.293 4.707l5 5a1 1 0 001.414 0l5-5a1 1 0 10-1.414-1.414z" fill="currentColor"/></svg>\'))',
+    'tokenValue': 'var(--ne-details-icon, url(\'data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"><path d="M10.293 3.293L6 7.586 1.707 3.293A1 1 0 00.293 4.707l5 5a1 1 0 001.414 0l5-5a1 1 0 10-1.414-1.414z" fill="currentColor"/></svg>\'))',
     'defaultValue': 'url(\'data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"><path d="M10.293 3.293L6 7.586 1.707 3.293A1 1 0 00.293 4.707l5 5a1 1 0 001.414 0l5-5a1 1 0 10-1.414-1.414z" fill="currentColor"/></svg>\')',
     'domain': 'elements',
     'type': 'text',
