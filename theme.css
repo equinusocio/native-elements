@@ -45,6 +45,7 @@
   --ne-button-font-size: inherit;
   --ne-button-y-padding: 1em;
   --ne-button-x-padding: 2em;
+  --ne-button-line-height: 1;
   --ne-checkradio-border: 1px solid hsl(0, 0%, 89%);
   --ne-checkradio-background: hsl(220, 10%, 95%);
   --ne-checkradio-color: var(--accent-color);
