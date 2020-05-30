@@ -96,6 +96,14 @@ module.exports = [
     'element': 'Button'
   }
   ,{
+    'name': '--ne-button-icon-size',
+    'tokenValue': 'var(--ne-button-icon-size, 1em)',
+    'defaultValue': '1em',
+    'domain': 'elements',
+    'type': 'unit',
+    'element': 'Button'
+  }
+  ,{
     'name': '--ne-button-icon-margin',
     'tokenValue': 'var(--ne-button-icon-margin, 1em)',
     'defaultValue': '1em',
