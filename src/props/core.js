@@ -118,7 +118,7 @@ module.exports = [
   ,{
     'name': '--ne-cite-start-sign',
     'tokenValue': 'var(--ne-cite-start-sign, \'—\')',
-    'defaultValue': '—',
+    'defaultValue': '\'—\'',
     'domain': 'typography',
     'type': 'text',
     'element': null
