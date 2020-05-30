@@ -25,7 +25,7 @@ module.exports = [
   }
   ,{
     'name': '--ne-details-summary-foreground',
-    'tokenValue': 'var(--ne-details-summary-background, inherit)',
+    'tokenValue': 'var(--ne-details-summary-foreground, inherit)',
     'defaultValue': 'inherit',
     'domain': 'elements',
     'type': 'color',
