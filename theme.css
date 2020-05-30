@@ -69,6 +69,7 @@
   --ne-details-separator: 1px solid rgba(0, 0, 0, 0.05);
   --ne-details-background: hsl(0, 0%, 100%);
   --ne-details-summary-background: hsl(0, 0%, 100%);
+  --ne-details-summary-background: inherit;
   --ne-details-summary-font-size: initial;
   --ne-details-summary-open-color: var(--accent-color);
   --ne-details-max-height: 300px;
@@ -92,7 +93,6 @@
   --ne-meter-background: hsl(220, 10%, 95%);
   --ne-meter-border-radius: 5px;
   --ne-meter-height: 6px;
-  --ne-meter-strong-color: hsl(67, 78%, 52%);
   --ne-meter-strong-color: hsl(67, 78%, 52%);
   --ne-meter-good-color: hsl(41, 100%, 60%);
   --ne-meter-weak-color: hsl(354, 100%, 65%);
