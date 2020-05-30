@@ -81,8 +81,8 @@ module.exports = [
   }
   ,{
     'name': '--ne-details-summary-padding',
-    'tokenValue': 'var(--ne-details-summary-padding, 16px)',
-    'defaultValue': '16px',
+    'tokenValue': 'var(--ne-details-summary-padding, 1rem)',
+    'defaultValue': '1rem',
     'domain': 'elements',
     'type': 'unit',
     'element': 'details'
