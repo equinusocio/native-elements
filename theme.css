@@ -69,7 +69,7 @@
   --ne-details-separator: 1px solid rgba(0, 0, 0, 0.05);
   --ne-details-background: hsl(0, 0%, 100%);
   --ne-details-summary-background: hsl(0, 0%, 100%);
-  --ne-details-summary-background: inherit;
+  --ne-details-summary-foreground: inherit;
   --ne-details-summary-font-size: initial;
   --ne-details-summary-open-color: var(--accent-color);
   --ne-details-max-height: 300px;
