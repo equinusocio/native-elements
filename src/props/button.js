@@ -135,4 +135,12 @@ module.exports = [
     'type': 'unit',
     'element': 'button'
   }
+  ,{
+    'name': '--ne-button-line-height',
+    'tokenValue': 'var(--ne-button-line-height, 1)',
+    'defaultValue': '1',
+    'domain': 'elements',
+    'type': 'unit',
+    'element': 'button'
+  }
 ];
