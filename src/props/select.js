@@ -81,16 +81,16 @@ module.exports = [
   }
   ,{
     'name': '--ne-select-hover-foreground',
-    'tokenValue': 'var(--ne-select-hover-foreground, inherit)',
-    'defaultValue': '',
+    'tokenValue': 'var(--ne-select-hover-foreground, hsl(0, 0%, 13%))',
+    'defaultValue': 'hsl(0, 0%, 13%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'select'
   }
   ,{
     'name': '--ne-select-focus-foreground',
-    'tokenValue': 'var(--ne-select-focus-foreground, inherit)',
-    'defaultValue': '',
+    'tokenValue': 'var(--ne-select-focus-foreground, hsl(0, 0%, 13%))',
+    'defaultValue': 'hsl(0, 0%, 13%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'select'
