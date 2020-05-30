@@ -33,16 +33,16 @@ module.exports = [
   }
   ,{
     'name': '--ne-table-cells-y-padding',
-    'tokenValue': 'var(--ne-table-cells-y-padding, 16px)',
-    'defaultValue': '16px',
+    'tokenValue': 'var(--ne-table-cells-y-padding, 1rem)',
+    'defaultValue': '1rem',
     'domain': 'elements',
     'type': 'unit',
     'element': 'table'
   }
   ,{
     'name': '--ne-table-cells-x-padding',
-    'tokenValue': 'var(--ne-table-cells-x-padding, 16px)',
-    'defaultValue': '16px',
+    'tokenValue': 'var(--ne-table-cells-x-padding, 1rem)',
+    'defaultValue': '1rem',
     'domain': 'elements',
     'type': 'unit',
     'element': 'table'
