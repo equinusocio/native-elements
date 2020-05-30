@@ -1,6 +1,6 @@
 {
   "name": "@native-elements/core",
-  "version": "0.21.5",
+  "version": "0.21.6",
   "description": "Native HTML Elements with CSS superpowers.",
   "main": "dist/native-elements.css",
   "repository": "https://github.com/n-elements/core",
