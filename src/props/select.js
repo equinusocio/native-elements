@@ -17,8 +17,8 @@ module.exports = [
   }
   ,{
     'name': '--ne-select-focus-border',
-    'tokenValue': 'var(--ne-select-focus-border, 1px solid hsl(220, 100%, 50%))',
-    'defaultValue': '1px solid hsl(220, 100%, 50%)',
+    'tokenValue': 'var(--ne-select-focus-border, 1px solidhsl(220, 100%, 50%))',
+    'defaultValue': '1px solidhsl(220, 100%, 50%)',
     'domain': 'elements',
     'type': 'border',
     'element': 'select'
@@ -66,7 +66,7 @@ module.exports = [
   ,{
     'name': '--ne-select-option-checked-background',
     'tokenValue': 'var(--ne-select-option-checked-background, hsl(220, 100%, 50%))',
-    'defaultValue': 'hsl(233, 34%, 96%)',
+    'defaultValue': 'hsl(220, 100%, 50%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'select'
