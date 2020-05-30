@@ -129,8 +129,8 @@
   --ne-select-disabled-background: hsl(233, 34%, 96%);
   --ne-select-option-checked-background: var(--accent-color);
   --ne-select-foreground: hsl(0, 0%, 13%);
-  --ne-select-hover-foreground: inherit;
-  --ne-select-focus-foreground: inherit;
+  --ne-select-hover-foreground: hsl(0, 0%, 13%);
+  --ne-select-focus-foreground: hsl(0, 0%, 13%);
   --ne-select-disabled-foreground: hsl(233, 14%, 72%);
   --ne-select-option-checked-foreground: hsl(0, 0%, 100%);
   --ne-select-border-radius: 5px;

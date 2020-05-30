@@ -26,7 +26,7 @@ module.exports = [
   ,{
     'name': '--ne-select-disabled-border',
     'tokenValue': 'var(--ne-select-disabled-border, 1px solid hsl(233, 34%, 96%))',
-    'defaultValue': '1px solid hsl(220, 100%, 50%)',
+    'defaultValue': '1px solid hsl(233, 34%, 96%)',
     'domain': 'elements',
     'type': 'border',
     'element': 'select'
