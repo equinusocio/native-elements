@@ -40,14 +40,6 @@ module.exports = [
     'element': 'meter'
   }
   ,{
-    'name': '--ne-meter-strong-color',
-    'tokenValue': 'var(--ne-meter-strong-color, hsl(67, 78%, 52%))',
-    'defaultValue': 'hsl(67, 78%, 52%)',
-    'domain': 'elements',
-    'type': 'color',
-    'element': 'meter'
-  }
-  ,{
     'name': '--ne-meter-good-color',
     'tokenValue': 'var(--ne-meter-good-color, hsl(41, 100%, 60%))',
     'defaultValue': 'hsl(41, 100%, 60%)',
