@@ -16,6 +16,14 @@ module.exports = [
     'element': 'details'
   }
   ,{
+    'name': '--ne-details-overflow',
+    'tokenValue': 'var(--ne-details-overflow, auto)',
+    'defaultValue': 'auto',
+    'domain': 'elements',
+    'type': 'text',
+    'element': 'details'
+  }
+  ,{
     'name': '--ne-details-summary-background',
     'tokenValue': 'var(--ne-details-summary-background, hsl(0, 0%, 100%))',
     'defaultValue': 'hsl(0, 0%, 100%)',
@@ -85,6 +93,14 @@ module.exports = [
     'defaultValue': '1rem',
     'domain': 'elements',
     'type': 'unit',
+    'element': 'details'
+  }
+  ,{
+    'name': '--ne-details-summary-position',
+    'tokenValue': 'var(--ne-details-summary-position, sticky)',
+    'defaultValue': 'sticky',
+    'domain': 'elements',
+    'type': 'text',
     'element': 'details'
   }
   ,{
