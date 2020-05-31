@@ -13,7 +13,7 @@ const RANGE_PROPS = require('./range');
 const SELECT_PROPS = require('./select');
 const TABLE_PROPS = require('./table');
 const TEXTFIELD_PROPS = require('./textfield');
-const UPLOAD_PROPS = require('./upload');
+// const UPLOAD_PROPS = require('./upload');
 
 module.exports = [
   ...CORE_PROPS,
@@ -31,5 +31,4 @@ module.exports = [
   ...SELECT_PROPS,
   ...TABLE_PROPS,
   ...TEXTFIELD_PROPS,
-  ...UPLOAD_PROPS
 ];
