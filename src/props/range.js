@@ -16,14 +16,6 @@ module.exports = [
     'element': 'range'
   }
   ,{
-    'name': '--ne-range-border-width',
-    'tokenValue': 'var(--ne-range-border-width, 1px)',
-    'defaultValue': '1px',
-    'domain': 'elements',
-    'type': 'unit',
-    'element': 'range'
-  }
-  ,{
     'name': '--ne-range-background',
     'tokenValue': 'var(--ne-range-background, hsl(220, 10%, 95%))',
     'defaultValue': 'hsl(220, 10%, 95%)',
@@ -43,22 +35,6 @@ module.exports = [
     'name': '--ne-range-focus-background',
     'tokenValue': 'var(--ne-range-focus-background, hsl(220, 10%, 95%))',
     'defaultValue': 'hsl(220, 10%, 95%)',
-    'domain': 'elements',
-    'type': 'color',
-    'element': 'range'
-  }
-  ,{
-    'name': '--ne-range-thumb-stripes-color',
-    'tokenValue': 'var(--ne-range-thumb-stripes-color, hsl(0, 0%, 100%))',
-    'defaultValue': 'hsl(0, 0%, 100%)',
-    'domain': 'elements',
-    'type': 'color',
-    'element': 'range'
-  }
-  ,{
-    'name': '--ne-range-thumb-stripes-active-color',
-    'tokenValue': 'var(--ne-range-thumb-stripes-active-color, hsl(0, 0%, 100%))',
-    'defaultValue': 'hsl(0, 0%, 100%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'range'
