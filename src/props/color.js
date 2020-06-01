@@ -4,7 +4,7 @@ module.exports = [
     'tokenValue': 'var(--ne-color-border, 0)',
     'defaultValue': '0',
     'domain': 'elements',
-    'type': 'color',
+    'type': 'border',
     'element': 'color'
   }
   ,{

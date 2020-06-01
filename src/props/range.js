@@ -92,7 +92,7 @@ module.exports = [
     'tokenValue': 'var(--ne-range-thumb-shadow, 0 1px 2px 0 hsla(0, 0%, 0%, 0.16))',
     'defaultValue': '0 1px 2px 0 hsla(0, 0%, 0%, 0.16)',
     'domain': 'elements',
-    'type': 'color',
+    'type': 'box-shadow',
     'element': 'range'
   }
   ,{
