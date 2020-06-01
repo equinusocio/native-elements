@@ -10,7 +10,7 @@ module.exports = [
   ,{
     'name': '--ne-dialog-background',
     'tokenValue': 'var(--ne-dialog-background, hsl(0, 0%, 100%))',
-    'defaultValue': '0',
+    'defaultValue': 'hsl(0, 0%, 100%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'dialog'
