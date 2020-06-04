@@ -4,6 +4,7 @@
   "rules": {
     "color-hex-case": "upper",
     "max-empty-lines": 2,
+    "value-keyword-case": null,
     "no-missing-end-of-source-newline": true,
     "no-descending-specificity": null,
     "selector-type-no-unknown": null,
