@@ -17,7 +17,7 @@ module.exports = [
   }
   ,{
     'name': '--ne-select-focus-border',
-    'tokenValue': 'var(--ne-select-focus-border, 1px solidhsl(220, 100%, 50%))',
+    'tokenValue': 'var(--ne-select-focus-border, 1px solid hsl(220, 100%, 50%))',
     'defaultValue': '1px solid hsl(220, 100%, 50%)',
     'domain': 'elements',
     'type': 'border',

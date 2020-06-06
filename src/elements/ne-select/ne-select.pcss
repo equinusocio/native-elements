@@ -67,13 +67,7 @@ select {
 
   &[multiple] {
     height: auto;
-    padding:
-      env(--selectPadding) env(--selectPadding)
-      calc(env(--selectPadding) / 16) env(--selectPadding);
-
-    @supports (padding-left: env(safe-area-inset-left)) {
-      padding: env(--selectPadding);
-    }
+    padding: env(--selectPadding);
 
     & option {
       padding: 0.5rem 0.5rem;
