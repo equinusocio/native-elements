@@ -3,8 +3,8 @@
 <p align="center">
 <b>🚧&nbsp;&nbsp; This project is under development and may be subject to heavy changes &nbsp;&nbsp; 🚧</b><br>
 Native HTML Elements with CSS superpowers. 🕶 <br>
-<img width="16px" alt="Google Chrome" src="https://goo.gl/U987PH"> <img width="16px" alt="Firefox" src="https://bit.ly/35SKj4D"> <img width="16px" alt="Safari" src="https://goo.gl/S1vPDZ"> <img width="16px" alt="Edge" src="https://bit.ly/2MnqnyS">
-  <br /><br />
+<img width="16px" alt="Google Chrome" src="https://goo.gl/U987PH"> <img width="16px" alt="Firefox" src="https://bit.ly/35SKj4D"> <img width="16px" alt="Safari" src="https://goo.gl/S1vPDZ"> <img width="16px" alt="Edge" src="https://bit.ly/2MnqnyS"> <a href="https://www.jsdelivr.com/package/npm/@native-elements/core"><img src="https://data.jsdelivr.com/v1/package/npm/@native-elements/core/badge?colorA=655BE1&colorB=4F44D6&style=for-the-badge"/></a>
+  <br /><br />  
   <a href="https://a.paddle.com/v2/click/16413/37697?link=1227"><img src="https://img.shields.io/badge/Supported%20by-VSCode%20Power%20User-gray.svg?colorA=655BE1&colorB=4F44D6&style=for-the-badge"/></a> <a href="https://a.paddle.com/v2/click/16413/37697?link=2345"><img src="https://img.shields.io/badge/Supported%20by-Node%20Cli.com%20-gray.svg?colorA=61c265&colorB=4CAF50&style=for-the-badge"/></a>
 </p>
 
