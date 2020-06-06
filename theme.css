@@ -120,7 +120,7 @@
   --ne-range-border-radius: 10px;
   --ne-select-border: 1px solid hsl(0, 0%, 89%);
   --ne-select-hover-border: 1px solid hsl(0, 0%, 89%);
-  --ne-select-focus-border: 1px solidvar(--accent-color);
+  --ne-select-focus-border: 1px solid var(--accent-color);
   --ne-select-disabled-border: 1px solid hsl(233, 34%, 96%);
   --ne-select-background: hsl(0, 0%, 100%);
   --ne-select-hover-background: hsl(0, 0%, 100%);
