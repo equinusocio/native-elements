@@ -32,17 +32,19 @@
     color: env(--buttonHoverForeground);
   }
 
+  &:active {
+    border: env(--buttonActiveBorder);
+    background: env(--buttonActiveBackground);
+    color: env(--buttonActiveForeground);
+  }
+
   &:disabled,
-  &[aria-disabled='true'] {
+  &[aria-disabled='true'],
+  &:disabled:active,
+  &[aria-disabled='true']:active {
     cursor: not-allowed;
     border: env(--buttonDisabledBorder);
     background: env(--buttonDisabledBackground);
     color: env(--buttonDisabledForeground);
-  }
-
-  &:not(:disabled, [aria-disabled='true']):active {
-    border: env(--buttonActiveBorder);
-    background: env(--buttonActiveBackground);
-    color: env(--buttonActiveForeground);
   }
 }
