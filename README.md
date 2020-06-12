@@ -1,85 +1,29 @@
 <h1 align="center"><img aria-label="Native Element" width="100%" src="https://user-images.githubusercontent.com/10454741/79691801-d4b08c00-8261-11ea-91cd-bcb500e3295b.png"></h1>
 
 <p align="center">
-<b>🚧&nbsp;&nbsp; This project is under development and may be subject to heavy changes &nbsp;&nbsp; 🚧</b><br>
 Native HTML Elements with CSS superpowers. 🕶 <br>
-<img width="16px" alt="Google Chrome" src="https://goo.gl/U987PH"> <img width="16px" alt="Firefox" src="https://bit.ly/35SKj4D"> <img width="16px" alt="Safari" src="https://goo.gl/S1vPDZ"> <img width="16px" alt="Edge" src="https://bit.ly/2MnqnyS"> <a href="https://www.jsdelivr.com/package/npm/@native-elements/core"><img src="https://data.jsdelivr.com/v1/package/npm/@native-elements/core/badge?colorA=655BE1&colorB=4F44D6&style=for-the-badge"/></a>
-  <br /><br />  
-  <a href="https://a.paddle.com/v2/click/16413/37697?link=1227"><img src="https://img.shields.io/badge/Supported%20by-VSCode%20Power%20User-gray.svg?colorA=655BE1&colorB=4F44D6&style=for-the-badge"/></a> <a href="https://a.paddle.com/v2/click/16413/37697?link=2345"><img src="https://img.shields.io/badge/Supported%20by-Node%20Cli.com%20-gray.svg?colorA=61c265&colorB=4CAF50&style=for-the-badge"/></a>
+<img width="16px" alt="Google Chrome" src="https://goo.gl/U987PH"> <img width="16px" alt="Firefox" src="https://bit.ly/35SKj4D"> <img width="16px" alt="Safari" src="https://goo.gl/S1vPDZ"> <img width="16px" alt="Edge" src="https://bit.ly/2MnqnyS">
+  <br /><br />
+  <a href="https://www.jsdelivr.com/package/npm/@native-elements/core"><img src="https://data.jsdelivr.com/v1/package/npm/@native-elements/core/badge?colorA=655BE1&colorB=4F44D6&style=for-the-badge"/></a>
+  <br /><br />
+  <a href="https://a.paddle.com/v2/click/16413/37697?link=1227"><img src="https://img.shields.io/badge/Powered-VSCode%20Power%20User-gray.svg?colorA=655BE1&colorB=4F44D6&style=for-the-badge"/></a> <a href="https://a.paddle.com/v2/click/16413/37697?link=2345"><img src="https://img.shields.io/badge/Powered-Node%20Cli.com%20-gray.svg?colorA=61c265&colorB=4CAF50&style=for-the-badge"/></a>
 </p>
 
-## Demo
+---
 
-Here some live demo to check:
+<p align="center">
+  <a href="https://native-elements.dev"><b>Documentation</b></a>
+  —
+  <a href="https://app.native-elements.dev"><b>Theme Builder</b></a>
+</p>
 
-[Demo 1](https://native-elements.stackblitz.io/) — [Demo 2](https://xity-starter.netlify.app) — [Demo 3](https://equinusocio.dev)
 
-## Install
+Native Elements (NE) is not a CSS framework, no bundlers required or tons of configurations to set.
 
-Install the package with your package manager:
+You can consider it as a customizable plug-n-play library for your site which helps you easily styling all the available HTML elements using CSS custom properties, classes, attributes, or whatever you want in less than 7 kB. You can also build your class-based CSS framework on top of it.
 
-```bash
-yarn add @native-elements/core
-```
+## When to use it
 
-## Usage
-
-To enable your HTML superpowers, import the main, bundled CSS file in your project:
-
-### With a bundler
-
-```js
-import '@native-elements/core'
-```
-
-### With CDN
-
-```html
-<link rel="preconnect" href="https://cdn.jsdelivr.net">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@native-elements/core/dist/native-elements.min.css">
-```
-
-### Using [postcss-import-url](https://www.npmjs.com/package/postcss-import-url)
-
-This will inline the latest version inside your generated css.
-
-```css
-@import 'https://cdn.jsdelivr.net/npm/@native-elements/core/dist/native-elements.min.css';
-```
-
-### Importing sources
-
-## Customize elements
-
-Currently we provide a basic theme with all the custom properties used by the handled elements. To customize things, copy the [theme file](/theme.css) to your application `:root {}` selector, and change the variables you want.
-
-```css
-:root {
-  /* Custom palette */
-  --accent-color: hotpink;
-  --secondary-color: rebeccapurple;
-
-  /* Native Elements settings */
-  --ne-hr-background: var(--secondary-color);
-  --ne-links-foreground: var(--accent-color);
-}
-```
-
-Check the full [theme file](/theme.css)
-
-**⚠️ NOTE: The `--accent-color` property has been added to the theme just to simplify the accent color customization. By default elements don't use this property**
-
-## About outline
-
-Native Elements adds by default the outline indicator to any link elements when they are on `:focus` state.
-
-Since the outline is useful for the keyboard navigation, you should never completely hide it. We strongly suggest to control when to hide the outline, for example using [`what-input`](https://github.com/ten1seven/what-input) you can do this by including it in your JavaScript file, then add this CSS snippet:
-
-```css
-[data-whatintent='mouse'] a:focus,
-[data-whatintent='mouse'] a:visited:focus {
-  outline: none;
-}
-```
-
-By this way the outline indicator will be visible only when users will use the keyboard as input to navigate through the page.
+- You're working on projects for **modern and secure web browsers** <img width="16px" alt="Google Chrome" src="https://goo.gl/U987PH"/> <img width="16px" alt="Firefox" src="https://bit.ly/35SKj4D"/> <img width="16px" alt="Safari" src="https://goo.gl/S1vPDZ"/> <img width="16px" alt="Edge" src="https://bit.ly/2MnqnyS"/>
+- You're not going to mix other CSS frameworks
+- You want to save time sacrificing a bit of flexibility.
