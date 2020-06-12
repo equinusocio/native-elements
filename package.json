@@ -25,9 +25,10 @@
     "copy:source": "copyfiles -u 2 ./src/elements/**/* ./dist/elements",
     "copy:props": "copyfiles -u 1 ./src/props/**/* ./dist",
     "build": "run-s build:css",
-    "postbuild": "run-s json copy:source copy:props size",
+    "postbuild": "run-s theme copy:source copy:props size",
     "prepublishOnly": "run-s build",
     "size": "size-limit",
+    "theme": "node scripts/generate-theme.js",
     "json": "node scripts/generate-json.js"
   },
   "files": [
