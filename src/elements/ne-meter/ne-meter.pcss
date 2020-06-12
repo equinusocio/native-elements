@@ -6,6 +6,9 @@ meter {
 
   &::-webkit-meter-bar {
     @mixin meter-progress;
+
+    border: 0;
+    height: env(--meterHeight);
   }
 
   /* Low value */

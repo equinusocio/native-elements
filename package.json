@@ -1,6 +1,6 @@
 {
   "name": "@native-elements/core",
-  "version": "0.19.0",
+  "version": "1.0.0",
   "description": "Native HTML Elements with CSS superpowers.",
   "main": "dist/native-elements.css",
   "repository": "https://github.com/n-elements/core",
@@ -25,10 +25,9 @@
     "copy:source": "copyfiles -u 2 ./src/elements/**/* ./dist/elements",
     "copy:props": "copyfiles -u 1 ./src/props/**/* ./dist",
     "build": "run-s build:css",
-    "postbuild": "run-s theme copy:source copy:props size",
+    "postbuild": "run-s json copy:source copy:props size",
     "prepublishOnly": "run-s build",
     "size": "size-limit",
-    "theme": "node scripts/generate-theme.js",
     "json": "node scripts/generate-json.js"
   },
   "files": [
@@ -52,32 +51,26 @@
     }
   ],
   "devDependencies": {
-    "@babel/core": "7.9.6",
-    "@babel/preset-env": "7.9.6",
-    "@size-limit/preset-small-lib": "3.0.0",
+    "@babel/core": "7.10.2",
+    "@babel/preset-env": "7.10.2",
+    "@size-limit/preset-small-lib": "4.5.0",
     "babel-eslint": "10.1.0",
     "babel-plugin-root-import": "6.5.0",
-    "camelcase": "6.0.0",
     "core-js": "3.6.5",
-    "cssnano": "4.1.10",
-    "cssnano-preset-advanced": "4.0.7",
-    "eslint": "6.8.0",
+    "eslint": "7.1.0",
     "eslint-plugin-standard": "4.0.1",
     "npm-run-all": "4.1.5",
-    "parcel": "2.0.0-nightly.275",
     "parcel-bundler": "1.12.4",
     "postcss-cli": "7.1.1",
     "postcss-dark-theme-class": "0.4.0",
-    "postcss-easy-import": "3.0.0",
-    "postcss-mixins": "6.2.3",
-    "postcss-preset-env": "6.7.0",
     "rimraf": "3.0.2",
-    "stylelint": "13.4.0",
-    "stylelint-config-standard": "19.0.0"
+    "size-limit": "4.5.0",
+    "stylelint": "13.5.0",
+    "stylelint-config-standard": "20.0.0"
   },
   "resolutions": {
     "safe-eval": "^0.4.1",
-    "serialize-to-js": "^3.0.1"
+    "minimist": "^1.2.3"
   },
   "browserslist": [
     "last 1 Chrome versions",
@@ -86,8 +79,14 @@
     "last 1 Edge versions"
   ],
   "dependencies": {
-    "copyfiles": "2.2.0",
+    "camelcase": "6.0.0",
+    "copyfiles": "2.3.0",
+    "cssnano": "4.1.10",
+    "cssnano-preset-advanced": "4.0.7",
+    "postcss-easy-import": "3.0.0",
+    "postcss-mixins": "6.2.3",
+    "postcss-preset-env": "6.7.0",
     "serialize-to-js": "3.1.1",
-    "what-input": "5.2.9"
+    "what-input": "5.2.10"
   }
 }

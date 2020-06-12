@@ -7,7 +7,6 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  text-decoration: none;
   white-space: nowrap;
   appearance: none;
   border: env(--buttonBorder);
@@ -16,8 +15,8 @@
   color: env(--buttonForeground);
   padding: env(--buttonYPadding) env(--buttonXPadding);
   font-size: env(--buttonFontSize);
-  box-shadow: env(--buttonShadow);
-  transition: box-shadow 0.1s ease-out, background-color 0.1s ease-out;
+  transition: background-color 0.1s ease-out;
+  line-height: env(--buttonLineHeight);
 
   &::-moz-focus-inner {
     border: 0;
@@ -28,23 +27,24 @@
   }
 
   &:hover {
-    border-color: env(--buttonHoverBorder);
+    border: env(--buttonHoverBorder);
     background: env(--buttonHoverBackground);
     color: env(--buttonHoverForeground);
   }
 
-  &:disabled,
-  &[aria-disabled='true'] {
-    cursor: not-allowed;
-    box-shadow: none;
-    border: env(--buttonDisabledBorder);
-    background: env(--buttonDisabledBackground);
-    color: env(--buttonDisabledForeground);
-  }
-
-  &:not(:disabled, [aria-disabled='true']):active {
+  &:active {
     border: env(--buttonActiveBorder);
     background: env(--buttonActiveBackground);
     color: env(--buttonActiveForeground);
+  }
+
+  &:disabled,
+  &[aria-disabled='true'],
+  &:disabled:active,
+  &[aria-disabled='true']:active {
+    cursor: not-allowed;
+    border: env(--buttonDisabledBorder);
+    background: env(--buttonDisabledBackground);
+    color: env(--buttonDisabledForeground);
   }
 }
