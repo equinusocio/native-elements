@@ -27,7 +27,8 @@
     "build": "run-s build:css",
     "postbuild": "run-s copy:source copy:props size",
     "prepublishOnly": "run-s build",
-    "size": "size-limit"
+    "size": "size-limit",
+    "postinstall": "opencollective postinstall"
   },
   "files": [
     "dist/"
@@ -81,10 +82,16 @@
     "copyfiles": "2.3.0",
     "cssnano": "4.1.10",
     "cssnano-preset-advanced": "4.0.7",
+    "opencollective": "1.0.3",
     "postcss-easy-import": "3.0.0",
     "postcss-mixins": "6.2.3",
     "postcss-preset-env": "6.7.0",
     "serialize-to-js": "3.1.1",
     "what-input": "5.2.10"
+  },
+  "collective": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/native-elements",
+    "logo": "https://raw.githubusercontent.com/n-elements/core/develop/logo.txt"
   }
 }
