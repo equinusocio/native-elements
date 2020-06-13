@@ -28,7 +28,7 @@
     "postbuild": "run-s copy:source copy:props size",
     "release": "git pull && standard-version --release-as patch && git push --follow-tags",
     "release:minor": "git pull && standard-version --release-as minor && git push --follow-tags",
-    "prepublishOnly": "run-s build",
+    "prepack": "run-s build",
     "size": "size-limit"
   },
   "files": [
