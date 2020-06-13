@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+    tags:
+      - v*
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    if: contains(github.ref, 'tag')
+    steps:
+    - uses: actions/checkout@v2
+    # Setup .npmrc file to publish to GitHub Packages
+    - name: Use Node Version 12.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+        # Default to org scope
+        scope: '@native-elements'
+    - run: yarn
+    - name: Publish package
+      run: npm publish
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
