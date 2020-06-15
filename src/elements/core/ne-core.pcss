@@ -4,7 +4,6 @@ html {
   text-rendering: geometricPrecision;
   -webkit-font-smoothing: antialiased;
   -webkit-touch-callout: none;
-  box-sizing: border-box;
   background: env(--globalBackground);
   color: env(--globalForeground);
 }
@@ -25,7 +24,7 @@ body {
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 ::selection {
