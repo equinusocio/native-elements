@@ -32,5 +32,5 @@ You can consider it as a customizable plug-n-play library for your site which he
 
 <p align="center">
   <a href="https://opencollective.com/native-elements/donate" target="_blank" rel="noopener"><img src="https://opencollective.com/native-elements/donate/button@2x.png?color=blue" width="250 /></a>
-  <a href="https://opencollective.com/native-elements/donate" target="_blank"><img src="https://opencollective.com/native-elements/donate/button@2x.png?color=blue" width="250 /></a>
+  <!--<a href="https://opencollective.com/native-elements/donate" target="_blank"><img src="https://opencollective.com/native-elements/donate/button@2x.png?color=blue" width="250 /></a>-->
 </p>
