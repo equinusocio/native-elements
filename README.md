@@ -6,7 +6,6 @@ Native HTML Elements with CSS superpowers. 🕶 <br>
   <br /><br />
   <a href="https://www.jsdelivr.com/package/npm/@native-elements/core"><img src="https://data.jsdelivr.com/v1/package/npm/@native-elements/core/badge?colorA=655BE1&colorB=4F44D6&style=for-the-badge"/></a>
   <br /><br />
-<a href="#backers" alt="sponsors on Open Collective"><img src="https://opencollective.com/native-elements/backers/badge.svg" /></a> <a href="#sponsors" alt="Sponsors on Open Collective"><img src="https://opencollective.com/native-elements/sponsors/badge.svg" /></a>
   <a href="https://a.paddle.com/v2/click/16413/37697?link=1227"><img src="https://img.shields.io/badge/Powered-VSCode%20Power%20User-gray.svg?colorA=655BE1&colorB=4F44D6&style=for-the-badge"/></a> <a href="https://a.paddle.com/v2/click/16413/37697?link=2345"><img src="https://img.shields.io/badge/Powered-Node%20Cli.com%20-gray.svg?colorA=61c265&colorB=4CAF50&style=for-the-badge"/></a>
 </p>
 
@@ -32,7 +31,6 @@ You can consider it as a customizable plug-n-play library for your site which he
 ---
 
 <p align="center">
-  <a href="https://opencollective.com/native-elements/donate" target="_blank">
-    <img src="https://opencollective.com/native-elements/donate/button@2x.png?color=blue" width="250 />
-  </a>
+  <a href="https://opencollective.com/native-elements/donate" target="_blank" rel="noopener"><img src="https://opencollective.com/native-elements/donate/button@2x.png?color=blue" width="250 /></a>
+  <a href="https://opencollective.com/native-elements/donate" target="_blank"><img src="https://opencollective.com/native-elements/donate/button@2x.png?color=blue" width="250 /></a>
 </p>
