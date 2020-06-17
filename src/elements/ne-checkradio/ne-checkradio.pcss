@@ -31,7 +31,7 @@ input[type='radio'] {
   }
 
   &:checked {
-    background-color: env(--checkradioColor);
+    background: env(--checkradioColor);
     border-color: env(--checkradioColor);
     color: env(--checkradioTickColor);
     filter: drop-shadow(env(--checkradioShadow));
@@ -48,7 +48,7 @@ input[type='radio'] {
   }
 
   &:indeterminate {
-    background-color: env(--checkradioColor);
+    background: env(--checkradioColor);
     border-color: env(--checkradioColor);
     color: env(--checkradioTickColor);
     filter: drop-shadow(env(--checkradioShadow));
@@ -71,6 +71,6 @@ input[type='radio'] {
     width: 8px;
     height: 8px;
     transform: translate(-50%, calc(-50%));
-    background-color: currentColor;
+    background: currentColor;
   }
 }

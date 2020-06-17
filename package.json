@@ -17,13 +17,13 @@
     "node": ">=12"
   },
   "scripts": {
-    "clean": "yarn rimraf dist/** .cache",
+    "clean": "yarn rimraf ./props ./elements ./native-elements.css .cache",
     "watch": "parcel demo/index.html --out-dir ./.dev --no-source-maps",
     "dev": "run-s clean watch",
     "prebuild": "yarn clean",
-    "build:css": "parcel build ./src/elements/core/core.pcss --out-dir ./dist -o native-elements.css --no-source-maps",
-    "copy:source": "copyfiles -u 2 ./src/elements/**/* ./dist/elements",
-    "copy:props": "copyfiles -u 1 ./src/props/**/* ./dist",
+    "build:css": "parcel build ./src/elements/core/core.pcss --out-dir ./ -o native-elements.css --no-source-maps",
+    "copy:source": "copyfiles -u 2 ./src/elements/**/* ./elements",
+    "copy:props": "copyfiles -u 1 ./src/props/**/* ./",
     "build": "run-s build:css",
     "postbuild": "run-s copy:source copy:props size",
     "release": "git pull && standard-version --release-as patch && git push --follow-tags",
@@ -32,7 +32,9 @@
     "size": "size-limit"
   },
   "files": [
-    "dist/"
+    "./props",
+    "./elements",
+    "./native-elements.css"
   ],
   "keywords": [
     "elements",
@@ -48,7 +50,7 @@
     {
       "webpack": false,
       "limit": "20 KB",
-      "path": "dist/native-elements.css"
+      "path": "./native-elements.css"
     }
   ],
   "devDependencies": {

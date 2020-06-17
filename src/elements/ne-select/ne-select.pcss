@@ -3,9 +3,7 @@ select {
   border: env(--selectBorder);
   border-radius: env(--selectBorderRadius);
   background: env(--selectBackground);
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: 400;
+  font: 400 inherit inherit;
   line-height: inherit;
   color: env(--selectForeground);
   letter-spacing: 0.5px;
@@ -59,10 +57,7 @@ select {
   }
 
   &:not([multiple]) {
-    background-image: env(--selectIcon);
-    background-repeat: no-repeat;
-    background-position: right env(--selectPadding) center;
-    background-size: env(--selectIconSize);
+    background: env(--selectIcon) no-repeat right env(--selectPadding) center / env(--selectIconSize);
   }
 
   &[multiple] {
@@ -87,8 +82,7 @@ select {
 
   & optgroup {
     margin: 0 0 1rem 0;
-    font-family: inherit;
-    font-size: inherit;
+    font: inherit inherit;
     line-height: inherit;
   }
 }
