@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/n-elements/core/compare/v1.1.0...v1.1.1) (2020-06-17)
+
+
+### Bug Fixes
+
+* main package file path ([feccca8](https://github.com/n-elements/core/commit/feccca82ded82dca678cb4ebea476e4f13dee641))
+
 ## [1.1.0](https://github.com/n-elements/core/compare/v1.0.2...v1.1.0) (2020-06-17)
 
 
