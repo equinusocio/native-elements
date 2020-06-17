@@ -17,6 +17,7 @@ jobs:
       with:
         node-version: '12.x'
         # Default to org scope
+        registry-url: 'https://registry.npmjs.org'
         scope: '@native-elements'
     - run: yarn
     - name: Publish package
