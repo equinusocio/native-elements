@@ -13,25 +13,8 @@ input[type='range'] {
     @mixin track;
   }
 
-  &::-ms-track {
-    @mixin track;
-
-    color: transparent;
-    border-color: transparent;
-    background-color: transparent;
-    border-width: env(--rangeThumbHeight);
-  }
-
   &::-moz-focus-outer {
     border: 0;
-  }
-
-  &::-ms-fill-upper {
-    background: env(--rangeBackground);
-  }
-
-  &::-ms-fill-lower {
-    background: env(--rangeBackground);
   }
 
   &:active::-webkit-slider-runnable-track,
@@ -41,16 +24,6 @@ input[type='range'] {
 
   &:active::-moz-range-track,
   &:focus::-moz-range-track {
-    background: env(--rangeFocusBackground);
-  }
-
-  &:active::-ms-fill-lower,
-  &:focus::-ms-fill-lower {
-    background: env(--rangeFocusBackground);
-  }
-
-  &:active::-ms-fill-upper,
-  &:focus::-ms-fill-upper {
     background: env(--rangeFocusBackground);
   }
 
@@ -64,10 +37,6 @@ input[type='range'] {
     @mixin thumb;
   }
 
-  &::-ms-thumb {
-    @mixin thumb;
-  }
-
   &:active::-webkit-slider-thumb {
     background-color: env(--rangeThumbActiveBackground);
   }
@@ -76,19 +45,11 @@ input[type='range'] {
     background-color: env(--rangeThumbActiveBackground);
   }
 
-  &:active::-ms-thumb {
-    background-color: env(--rangeThumbActiveBackground);
-  }
-
   &:not(:active):focus::-webkit-slider-thumb {
     @mixin focus-thumb;
   }
 
   &:not(:active):focus::-moz-range-thumb {
-    @mixin focus-thumb;
-  }
-
-  &:not(:active):focus::-ms-thumb {
     @mixin focus-thumb;
   }
 
@@ -102,19 +63,11 @@ input[type='range'] {
       @mixin disabled-track;
     }
 
-    &::-ms-track {
-      @mixin disabled-track;
-    }
-
     &::-webkit-slider-thumb {
       @mixin disabled-thumb;
     }
 
     &::-moz-range-thumb {
-      @mixin disabled-thumb;
-    }
-
-    &::-ms-thumb {
       @mixin disabled-thumb;
     }
   }
