@@ -1,21 +1,20 @@
 pre {
   font-family: env(--codeFontFamily);
   font-size: env(--codeFontSize);
-  -ms-overflow-style: scrollbar;
   overflow-x: auto;
   margin: 0;
   padding: env(--codeYPadding) env(--codeXPadding);
   border: env(--codeBorder);
   border-radius: env(--codeBorderRadius);
-  background-color: env(--codeBackground);
-  tab-size: 1.5rem;
+  background: env(--codeBackground);
+  tab-size: env(--codeTabSize);
   white-space: pre-wrap;
   word-wrap: normal;
   color: env(--codeForeground);
 
   & code {
     padding: 0;
-    background-color: transparent;
+    background: transparent;
     white-space: pre;
     color: inherit;
     border: none;
@@ -23,8 +22,7 @@ pre {
 }
 
 code {
-  font-size: inherit;
-  font-family: env(--codeFontFamily);
+  font: inherit env(--codeFontFamily);
   white-space: pre;
   color: inherit;
 }

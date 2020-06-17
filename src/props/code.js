@@ -32,6 +32,14 @@ module.exports = [
     'element': 'code'
   }
   ,{
+    'name': '--ne-code-tab-size',
+    'tokenValue': 'var(--ne-code-tab-size, 1.5rem)',
+    'defaultValue': '1.5rem',
+    'domain': 'elements',
+    'type': 'unit',
+    'element': 'code'
+  }
+  ,{
     'name': '--ne-code-font-family',
     'tokenValue': 'var(--ne-code-font-family, \'SF Mono\', Monaco, Inconsolata, \'Fira Mono\', \'Droid Sans Mono\', \'Source Code Pro\', monospace)',
     'defaultValue': '\'SF Mono\', Monaco, Inconsolata, \'Fira Mono\', \'Droid Sans Mono\', \'Source Code Pro\', monospace',
