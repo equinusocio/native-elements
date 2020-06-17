@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.5](https://github.com/n-elements/core/compare/v1.1.4...v1.1.5) (2020-06-17)
+
+
+### Bug Fixes
+
+* textfield font-size inheritance ([e58da3d](https://github.com/n-elements/core/commit/e58da3d544a7867fdfb4a58daf75a015c663e2b8))
+
 ### [1.1.4](https://github.com/n-elements/core/compare/v1.1.3...v1.1.4) (2020-06-17)
 
 ### [1.1.3](https://github.com/n-elements/core/compare/v1.1.2...v1.1.3) (2020-06-17)
