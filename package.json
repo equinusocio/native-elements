@@ -50,7 +50,7 @@
     {
       "webpack": false,
       "limit": "20 KB",
-      "path": "dist/native-elements.css"
+      "path": "./native-elements.css"
     }
   ],
   "devDependencies": {
