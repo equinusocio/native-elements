@@ -1,22 +1,20 @@
 @define-mixin input {
+  appearance: none;
   border: env(--textfieldBorder);
   border-radius: env(--textfieldBorderRadius);
   background: env(--textfieldBackground);
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
+  font: inherit/inherit inherit;
   min-height: env(--textfieldMinHeight);
   color: env(--textfieldForeground);
-  appearance: none;
   font-weight: env(--textfieldFontWeight);
 
   &::selection {
-    background-color: env(--textfieldSelectionBackground);
+    background: env(--textfieldSelectionBackground);
     color: env(--textfieldSelectionForeground);
   }
 
   &::-moz-selection {
-    background-color: env(--textfieldSelectionBackground);
+    background: env(--textfieldSelectionBackground);
     color: env(--textfieldSelectionForeground);
   }
 
