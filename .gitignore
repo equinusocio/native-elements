@@ -5,8 +5,6 @@ dev/
 .cache/
 vars.md
 .dev
-/elements
-/props
 native-elements.css
 
 ### Linux ###

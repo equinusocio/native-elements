@@ -22,19 +22,17 @@
     "dev": "run-s clean watch",
     "prebuild": "yarn clean",
     "build:css": "parcel build ./src/elements/core/core.pcss --out-dir ./ -o native-elements.css --no-source-maps",
-    "copy:source": "copyfiles -u 2 ./src/elements/**/* ./elements",
-    "copy:props": "copyfiles -u 1 ./src/props/**/* ./",
     "build": "run-s build:css",
-    "postbuild": "run-s copy:source copy:props size",
+    "postbuild": "run-s size",
     "release": "git pull && standard-version --release-as patch && git push --follow-tags",
     "release:minor": "git pull && standard-version --release-as minor && git push --follow-tags",
     "prepack": "run-s build",
     "size": "size-limit"
   },
   "files": [
-    "./props",
-    "./elements",
-    "./native-elements.css"
+    "src/props",
+    "src/elements",
+    "native-elements.css"
   ],
   "keywords": [
     "elements",
