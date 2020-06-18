@@ -40,11 +40,27 @@ module.exports = [
     'element': null
   }
   ,{
+    'name': '--ne-body-font-size',
+    'tokenValue': 'var(--ne-body-font-size, 1.125rem)',
+    'defaultValue': '1.125rem',
+    'domain': 'document',
+    'type': 'unit',
+    'element': null
+  }
+  ,{
     'name': '--ne-selection-foreground',
     'tokenValue': 'var(--ne-selection-foreground, hsl(0, 0%, 100%))',
     'defaultValue': 'hsl(0, 0%, 100%)',
     'domain': 'document',
     'type': 'color',
+    'element': null
+  }
+  ,{
+    'name': '--ne-global-box-sizing',
+    'tokenValue': 'var(--ne-global-box-sizing, border-box)',
+    'defaultValue': 'border-box',
+    'domain': 'document',
+    'type': 'text',
     'element': null
   }
   ,{
