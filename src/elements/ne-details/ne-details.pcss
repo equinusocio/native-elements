@@ -9,6 +9,10 @@ details {
   -webkit-overflow-scrolling: touch;
   overscroll-behavior: contain;
 
+  & * {
+    box-sizing: env(--globalBoxSizing);
+  }
+
   @nest [ne-details-group] > &:first-of-type {
     border-radius: env(--detailsBorderRadius) env(--detailsBorderRadius) 0 0;
   }
