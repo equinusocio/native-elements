@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.8](https://github.com/n-elements/core/compare/v1.1.7...v1.1.8) (2020-06-18)
+
+
+### Bug Fixes
+
+* remove duplicated properties ([1e544c1](https://github.com/n-elements/core/commit/1e544c155ee6a146994e2a8315d811d32a0d3de6))
+
 ### [1.1.7](https://github.com/n-elements/core/compare/v1.1.6...v1.1.7) (2020-06-18)
 
 ### [1.1.6](https://github.com/n-elements/core/compare/v1.1.5...v1.1.6) (2020-06-18)
