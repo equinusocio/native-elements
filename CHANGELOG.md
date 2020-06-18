@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.6](https://github.com/n-elements/core/compare/v1.1.5...v1.1.6) (2020-06-18)
+
+
+### Bug Fixes
+
+* fix box-size inheritance inside details on Chrome/Safari ([#155](https://github.com/n-elements/core/issues/155)) ([f3efba1](https://github.com/n-elements/core/commit/f3efba18c6156c149aaae8165a6969f7cc19f565)), closes [#151](https://github.com/n-elements/core/issues/151)
+* remove default font smoothing and rendering ([#153](https://github.com/n-elements/core/issues/153)) ([4213448](https://github.com/n-elements/core/commit/421344811f4514b9c45a35c669365988a5099e6b)), closes [#149](https://github.com/n-elements/core/issues/149)
+
 ### [1.1.5](https://github.com/n-elements/core/compare/v1.1.4...v1.1.5) (2020-06-17)
 
 
