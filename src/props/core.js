@@ -40,14 +40,6 @@ module.exports = [
     'element': null
   }
   ,{
-    'name': '--ne-body-font-size',
-    'tokenValue': 'var(--ne-body-font-size, 1.125rem)',
-    'defaultValue': '1.125rem',
-    'domain': 'document',
-    'type': 'unit',
-    'element': null
-  }
-  ,{
     'name': '--ne-selection-foreground',
     'tokenValue': 'var(--ne-selection-foreground, hsl(0, 0%, 100%))',
     'defaultValue': 'hsl(0, 0%, 100%)',
