@@ -2,7 +2,6 @@ input[type='range'] {
   width: env(--rangeWidth);
   background: transparent;
   outline: 0;
-  margin: calc(env(--rangeThumbHeight) / 2) 0;
   appearance: none;
   overflow: hidden;
   height: env(--rangeHeight);
@@ -56,8 +55,7 @@ input[type='range'] {
     @mixin focus-thumb;
   }
 
-  &:disabled,
-  &[aria-disabled='true'] {
+  &:disabled {
     &::-webkit-slider-runnable-track {
       @mixin disabled-track;
     }

@@ -47,6 +47,7 @@ module.exports = {
           discardComments: {
             removeAll: true
           },
+          cssDeclarationSorter: true,
           reduceIdents: false,
           autoprefixer: false
         }

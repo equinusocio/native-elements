@@ -1,48 +1,48 @@
 module.exports = [
   {
     'name': '--ne-textfield-border',
-    'tokenValue': 'var(--ne-textfield-border, 1px solid hsl(0, 0%, 89%))',
-    'defaultValue': '1px solid hsl(0, 0%, 89%)',
+    'tokenValue': 'var(--ne-textfield-border, 2px solid hsl(233, 34%, 96%))',
+    'defaultValue': '2px solid hsl(233, 34%, 96%)',
     'domain': 'elements',
     'type': 'border',
     'element': 'textfield'
   }
   ,{
     'name': '--ne-textfield-hover-border',
-    'tokenValue': 'var(--ne-textfield-hover-border, 1px solid hsl(0, 0%, 89%))',
-    'defaultValue': '1px solid hsl(0, 0%, 89%)',
+    'tokenValue': 'var(--ne-textfield-hover-border, 2px solid hsl(233, 34%, 96%))',
+    'defaultValue': '2px solid hsl(233, 34%, 96%)',
     'domain': 'elements',
     'type': 'border',
     'element': 'textfield'
   }
   ,{
     'name': '--ne-textfield-focus-border',
-    'tokenValue': 'var(--ne-textfield-focus-border, 1px solid hsl(0, 0%, 89%))',
-    'defaultValue': '1px solid hsl(0, 0%, 89%)',
+    'tokenValue': 'var(--ne-textfield-focus-border, 2px solid hsl(220, 100%, 50%))',
+    'defaultValue': '2px solid hsl(220, 100%, 50%)',
     'domain': 'elements',
     'type': 'border',
     'element': 'textfield'
   }
   ,{
     'name': '--ne-textfield-disabled-border',
-    'tokenValue': 'var(--ne-textfield-disabled-border, 1px solid hsl(233, 34%, 96%))',
-    'defaultValue': '1px solid hsl(233, 34%, 96%)',
+    'tokenValue': 'var(--ne-textfield-disabled-border, 2px solid hsl(233, 34%, 96%))',
+    'defaultValue': '2px solid hsl(233, 34%, 96%)',
     'domain': 'elements',
     'type': 'border',
     'element': 'textfield'
   }
   ,{
     'name': '--ne-textfield-readonly-border',
-    'tokenValue': 'var(--ne-textfield-readonly-border, 1px dashed hsl(0, 0%, 89%))',
-    'defaultValue': '1px dashed hsl(0, 0%, 89%)',
+    'tokenValue': 'var(--ne-textfield-readonly-border, 2px dashed hsl(233, 34%, 96%))',
+    'defaultValue': '2px dashed hsl(233, 34%, 96%)',
     'domain': 'elements',
     'type': 'border',
     'element': 'textfield'
   }
   ,{
     'name': '--ne-textfield-readonly-focus-border',
-    'tokenValue': 'var(--ne-textfield-readonly-focus-border, 1px dashed hsl(220, 100%, 50%))',
-    'defaultValue': '1px dashed hsl(220, 100%, 50%)',
+    'tokenValue': 'var(--ne-textfield-readonly-focus-border, 2px dashed hsl(220, 100%, 50%))',
+    'defaultValue': '2px dashed hsl(220, 100%, 50%)',
     'domain': 'elements',
     'type': 'border',
     'element': 'textfield'
@@ -145,24 +145,24 @@ module.exports = [
   }
   ,{
     'name': '--ne-textfield-placeholder-foreground',
-    'tokenValue': 'var(--ne-textfield-placeholder-foreground, hsl(0, 0%, 60%))',
-    'defaultValue': 'hsl(0, 0%, 60%)',
+    'tokenValue': 'var(--ne-textfield-placeholder-foreground, hsl(233, 24%, 72%))',
+    'defaultValue': 'hsl(233, 24%, 72%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'textfield'
   }
   ,{
     'name': '--ne-textfield-hover-placeholder-foreground',
-    'tokenValue': 'var(--ne-textfield-hover-placeholder-foreground, hsl(0, 0%, 60%))',
-    'defaultValue': 'hsl(0, 0%, 60%)',
+    'tokenValue': 'var(--ne-textfield-hover-placeholder-foreground, hsl(233, 24%, 72%))',
+    'defaultValue': 'hsl(233, 24%, 72%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'textfield'
   }
   ,{
     'name': '--ne-textfield-focus-placeholder-foreground',
-    'tokenValue': 'var(--ne-textfield-focus-placeholder-foreground, hsl(0, 0%, 60%))',
-    'defaultValue': 'hsl(0, 0%, 60%)',
+    'tokenValue': 'var(--ne-textfield-focus-placeholder-foreground, hsl(233, 24%, 72%))',
+    'defaultValue': 'hsl(233, 24%, 72%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'textfield'
