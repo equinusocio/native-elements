@@ -129,16 +129,16 @@ module.exports = [
   }
   ,{
     'name': '--ne-button-y-padding',
-    'tokenValue': 'var(--ne-button-y-padding, 1em)',
-    'defaultValue': '1em',
+    'tokenValue': 'var(--ne-button-y-padding, 0.7em)',
+    'defaultValue': '0.7em',
     'domain': 'elements',
     'type': 'unit',
     'element': 'button'
   }
   ,{
     'name': '--ne-button-x-padding',
-    'tokenValue': 'var(--ne-button-x-padding, 2em)',
-    'defaultValue': '2em',
+    'tokenValue': 'var(--ne-button-x-padding, 1em)',
+    'defaultValue': '1em',
     'domain': 'elements',
     'type': 'unit',
     'element': 'button'

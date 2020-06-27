@@ -33,8 +33,8 @@ module.exports = [
   }
   ,{
     'name': '--ne-checkradio-size',
-    'tokenValue': 'var(--ne-checkradio-size, 18px)',
-    'defaultValue': '18px',
+    'tokenValue': 'var(--ne-checkradio-size, 22px)',
+    'defaultValue': '22px',
     'domain': 'elements',
     'type': 'unit',
     'element': 'check-radio'

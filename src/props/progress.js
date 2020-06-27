@@ -1,8 +1,8 @@
 module.exports = [
   {
     'name': '--ne-progress-shadow',
-    'tokenValue': 'var(--ne-progress-shadow, inset 0 0 0 1px hsl(0, 0%, 89%))',
-    'defaultValue': 'inset 0 0 0 1px hsl(0, 0%, 89%)',
+    'tokenValue': 'var(--ne-progress-shadow, none)',
+    'defaultValue': 'none',
     'domain': 'elements',
     'type': 'box-shadow',
     'element': 'progress'
@@ -25,16 +25,16 @@ module.exports = [
   }
   ,{
     'name': '--ne-progress-height',
-    'tokenValue': 'var(--ne-progress-height, 8px)',
-    'defaultValue': '8px',
+    'tokenValue': 'var(--ne-progress-height, 1rem)',
+    'defaultValue': '1rem',
     'domain': 'elements',
     'type': 'unit',
     'element': 'progress'
   }
   ,{
     'name': '--ne-progress-border-radius',
-    'tokenValue': 'var(--ne-progress-border-radius, 10px)',
-    'defaultValue': '10px',
+    'tokenValue': 'var(--ne-progress-border-radius, 1rem)',
+    'defaultValue': '1rem',
     'domain': 'elements',
     'type': 'unit',
     'element': 'progress'

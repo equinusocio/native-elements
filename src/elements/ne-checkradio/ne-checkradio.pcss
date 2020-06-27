@@ -9,7 +9,7 @@ input[type='radio'] {
   cursor: pointer;
   position: relative;
   background: env(--checkradioBackground);
-  vertical-align: middle;
+  vertical-align: bottom;
 
   &::before {
     content: '';
@@ -17,12 +17,12 @@ input[type='radio'] {
     pointer-events: none;
     left: 50%;
     top: 50%;
-    height: 5px;
-    width: 10px;
-    border-radius: 2px 0 2px 2px;
+    height: 6px;
+    width: 13px;
+    border-radius: 0;
     border-bottom: 2px solid currentColor;
     border-left: 2px solid currentColor;
-    transform: translate(-50%, calc(-50% - 1px)) rotate(-45deg);
+    transform: translate(-50%, calc(-50% - 2px)) rotate(-45deg);
     opacity: 0;
   }
 
@@ -68,8 +68,8 @@ input[type='radio'] {
   &::before {
     border-radius: 100%;
     border: 0;
-    width: 8px;
-    height: 8px;
+    width: calc(env(--checkradioSize) / 2);
+    height: calc(env(--checkradioSize) / 2);
     transform: translate(-50%, calc(-50%));
     background: currentColor;
   }

@@ -17,15 +17,15 @@
 @define-mixin thumb {
   width: env(--rangeThumbWidth);
   height: env(--rangeThumbHeight);
-  border-color: transparent;
+  border: 0;
   border-radius: env(--rangeThumbRadius);
   background-color: env(--rangeThumbBackground);
-  background-size: 14px 54%;
-  background-position: center center;
-  background-repeat: no-repeat;
-  box-shadow: env(--rangeThumbShadow);
+  box-shadow:
+    0 0 0 2px env(--rangeBackground),
+    calc((9999px + (env(--rangeThumbWidth)) / 2) * -1) 0 0 9999px env(--rangeProgressColor);
   transition: box-shadow 0.1s ease-out, background-color 0.1s ease-out;
   appearance: none;
+  outline-offset: -2px;
 
   &:hover {
     cursor: grab;
@@ -35,21 +35,16 @@
   &:focus {
     cursor: grabbing;
     background-color: env(--rangeThumbActiveBackground);
-    background-size: 14px 54%;
-    background-position: center center;
-    background-repeat: no-repeat;
   }
 }
 
 @define-mixin disabled-thumb {
   background: none env(--rangeThumbDisabledBackground);
   cursor: not-allowed;
+  box-shadow: none;
 }
 
 @define-mixin focus-thumb {
   background-color: env(--rangeThumbActiveBackground);
-  background-size: 14px 54%;
-  background-position: center center;
-  background-repeat: no-repeat;
   outline: env(--outlineWidth) solid env(--outlineColor);
 }

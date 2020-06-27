@@ -1,24 +1,32 @@
 module.exports = [
   {
     'name': '--ne-range-shadow',
-    'tokenValue': 'var(--ne-range-shadow, inset 0 0 0 1px hsl(0, 0%, 89%))',
-    'defaultValue': 'inset 0 0 0 1px hsl(0, 0%, 89%)',
+    'tokenValue': 'var(--ne-range-shadow, none)',
+    'defaultValue': 'none',
     'domain': 'elements',
     'type': 'box-shadow',
     'element': 'range'
   }
   ,{
     'name': '--ne-range-disabled-shadow',
-    'tokenValue': 'var(--ne-range-disabled-shadow, inset 0 0 0 1px hsla(0, 0%, 0%, 0.1))',
-    'defaultValue': 'inset 0 0 0 1px hsla(0, 0%, 0%, 0.1)',
+    'tokenValue': 'var(--ne-range-disabled-shadow, none)',
+    'defaultValue': 'none',
     'domain': 'elements',
     'type': 'box-shadow',
     'element': 'range'
   }
   ,{
     'name': '--ne-range-background',
-    'tokenValue': 'var(--ne-range-background, hsl(220, 10%, 95%))',
-    'defaultValue': 'hsl(220, 10%, 95%)',
+    'tokenValue': 'var(--ne-range-background, hsl(233, 34%, 96%))',
+    'defaultValue': 'hsl(233, 34%, 96%)',
+    'domain': 'elements',
+    'type': 'color',
+    'element': 'range'
+  }
+  ,{
+    'name': '--ne-range-progress-color',
+    'tokenValue': 'var(--ne-range-progress-color, hsl(0, 0%, 0%))',
+    'defaultValue': 'hsl(0, 0%, 0%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'range'
@@ -57,40 +65,32 @@ module.exports = [
   }
   ,{
     'name': '--ne-range-thumb-disabled-background',
-    'tokenValue': 'var(--ne-range-thumb-disabled-background, hsl(233, 34%, 96%))',
-    'defaultValue': 'hsl(233, 34%, 96%)',
+    'tokenValue': 'var(--ne-range-thumb-disabled-background, hsl(233, 24%, 72%))',
+    'defaultValue': 'hsl(233, 24%, 72%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'range'
   }
   ,{
-    'name': '--ne-range-thumb-shadow',
-    'tokenValue': 'var(--ne-range-thumb-shadow, 0 1px 2px 0 hsla(0, 0%, 0%, 0.16))',
-    'defaultValue': '0 1px 2px 0 hsla(0, 0%, 0%, 0.16)',
-    'domain': 'elements',
-    'type': 'box-shadow',
-    'element': 'range'
-  }
-  ,{
     'name': '--ne-range-thumb-width',
-    'tokenValue': 'var(--ne-range-thumb-width, 28px)',
-    'defaultValue': '28px',
+    'tokenValue': 'var(--ne-range-thumb-width, 24px)',
+    'defaultValue': '24px',
     'domain': 'elements',
     'type': 'unit',
     'element': 'range'
   }
   ,{
     'name': '--ne-range-thumb-height',
-    'tokenValue': 'var(--ne-range-thumb-height, 30px)',
-    'defaultValue': '30px',
+    'tokenValue': 'var(--ne-range-thumb-height, 24px)',
+    'defaultValue': '24px',
     'domain': 'elements',
     'type': 'unit',
     'element': 'range'
   }
   ,{
     'name': '--ne-range-thumb-radius',
-    'tokenValue': 'var(--ne-range-thumb-radius, 5px)',
-    'defaultValue': '5px',
+    'tokenValue': 'var(--ne-range-thumb-radius, 100%)',
+    'defaultValue': '100%',
     'domain': 'elements',
     'type': 'unit',
     'element': 'range'
@@ -105,16 +105,16 @@ module.exports = [
   }
   ,{
     'name': '--ne-range-height',
-    'tokenValue': 'var(--ne-range-height, 5px)',
-    'defaultValue': '5px',
+    'tokenValue': 'var(--ne-range-height, 24px)',
+    'defaultValue': '24px',
     'domain': 'elements',
     'type': 'unit',
     'element': 'range'
   }
   ,{
     'name': '--ne-range-border-radius',
-    'tokenValue': 'var(--ne-range-border-radius, 10px)',
-    'defaultValue': '10px',
+    'tokenValue': 'var(--ne-range-border-radius, 24px)',
+    'defaultValue': '24px',
     'domain': 'elements',
     'type': 'unit',
     'element': 'range'
