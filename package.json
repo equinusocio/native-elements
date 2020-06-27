@@ -29,7 +29,9 @@
     "release": "git pull && standard-version --release-as patch && git push --follow-tags",
     "release:minor": "git pull && standard-version --release-as minor && git push --follow-tags",
     "prepack": "run-s build",
-    "size": "size-limit"
+    "size": "size-limit",
+    "update:deps": "yarn upgrade-interactive --latest && yarn upgrade",
+    "update:cssdb": "npx browserslist@latest --update-db"
   },
   "files": [
     "props",
@@ -54,21 +56,21 @@
     }
   ],
   "devDependencies": {
-    "@babel/core": "7.10.2",
-    "@babel/preset-env": "7.10.2",
-    "@size-limit/preset-small-lib": "4.5.0",
+    "@babel/core": "7.10.3",
+    "@babel/preset-env": "7.10.3",
+    "@size-limit/preset-small-lib": "4.5.2",
     "babel-eslint": "10.1.0",
     "babel-plugin-root-import": "6.5.0",
-    "eslint": "7.1.0",
+    "eslint": "7.3.1",
     "eslint-plugin-standard": "4.0.1",
     "npm-run-all": "4.1.5",
     "parcel-bundler": "1.12.4",
     "postcss-cli": "7.1.1",
     "postcss-dark-theme-class": "0.4.0",
     "rimraf": "3.0.2",
-    "size-limit": "4.5.0",
+    "size-limit": "4.5.2",
     "standard-version": "8.0.0",
-    "stylelint": "13.5.0",
+    "stylelint": "13.6.1",
     "stylelint-config-standard": "20.0.0"
   },
   "resolutions": {
