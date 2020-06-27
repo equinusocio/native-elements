@@ -22,6 +22,7 @@ input[type='radio'] {
     border-radius: 0;
     border-bottom: 2px solid currentColor;
     border-left: 2px solid currentColor;
+    transition: transform 100ms;
     transform: translate(-50%, calc(-50% - 2px)) rotate(-45deg);
     opacity: 0;
   }
@@ -35,6 +36,7 @@ input[type='radio'] {
     border-color: env(--checkradioColor);
     color: env(--checkradioTickColor);
     filter: drop-shadow(env(--checkradioShadow));
+    animation: splash 0.3s ease-out;
 
     &::before {
       opacity: 1;
@@ -72,5 +74,28 @@ input[type='radio'] {
     height: calc(env(--checkradioSize) / 2);
     transform: translate(-50%, calc(-50%));
     background: currentColor;
+  }
+}
+
+@keyframes splash {
+  0% {
+    transform: scale(0.3);
+  }
+
+  20% {
+    transform: scale(1.1);
+  }
+
+  40% {
+    transform: scale(0.9);
+  }
+
+  60% {
+    opacity: unset;
+    transform: scale(1.03);
+  }
+
+  80% {
+    transform: scale(0.97);
   }
 }

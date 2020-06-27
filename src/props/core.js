@@ -73,8 +73,8 @@ module.exports = [
   }
   ,{
     'name': '--ne-outline-color',
-    'tokenValue': 'var(--ne-outline-color, hsl(220, 100%, 50%))',
-    'defaultValue': 'hsl(220, 100%, 50%)',
+    'tokenValue': 'var(--ne-outline-color, hsl(0, 0%, 0%))',
+    'defaultValue': 'hsl(0, 0%, 0%)',
     'domain': 'document',
     'type': 'color',
     'element': null
