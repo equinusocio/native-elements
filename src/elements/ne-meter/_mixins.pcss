@@ -1,6 +1,6 @@
 @define-mixin meter-progress {
   background: env(--meterBackground);
-  box-shadow: inset 0 0 0 1px env(--meterBorderColor);
+  box-shadow: inset 0 0 0 env(--meterBorderWidth) env(--meterBorderColor);
   border-radius: env(--meterBorderRadius);
   overflow: hidden;
 }

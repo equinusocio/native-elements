@@ -1,5 +1,13 @@
 module.exports = [
   {
+    'name': '--ne-meter-border-width',
+    'tokenValue': 'var(--ne-meter-border-width, 1px)',
+    'defaultValue': '1px',
+    'domain': 'elements',
+    'type': 'number',
+    'element': 'meter'
+  }
+  ,{
     'name': '--ne-meter-border-color',
     'tokenValue': 'var(--ne-meter-border-color, hsl(0, 0%, 89%))',
     'defaultValue': 'hsl(0, 0%, 89%)',
