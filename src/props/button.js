@@ -151,4 +151,12 @@ module.exports = [
     'type': 'unit',
     'element': 'button'
   }
+  ,{
+    'name': '--ne-button-shadow',
+    'tokenValue': 'var(--ne-button-shadow, 0 1px 2px rgba(0, 0, 0, 0.16))',
+    'defaultValue': '0 1px 2px rgba(0, 0, 0, 0.16)',
+    'domain': 'elements',
+    'type': 'box-shadow',
+    'element': 'button'
+  }
 ];
