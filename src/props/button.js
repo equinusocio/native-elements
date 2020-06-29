@@ -57,8 +57,8 @@ module.exports = [
   }
   ,{
     'name': '--ne-button-disabled-background',
-    'tokenValue': 'var(--ne-button-disabled-background, hsl(233, 34%, 96%))',
-    'defaultValue': 'hsl(233, 34%, 96%)',
+    'tokenValue': 'var(--ne-button-disabled-background, hsl(235, 100%, 98%))',
+    'defaultValue': 'hsl(235, 100%, 98%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'Button'
@@ -89,8 +89,8 @@ module.exports = [
   }
   ,{
     'name': '--ne-button-disabled-foreground',
-    'tokenValue': 'var(--ne-button-disabled-foreground, hsl(233, 24%, 72%))',
-    'defaultValue': 'hsl(233, 24%, 72%)',
+    'tokenValue': 'var(--ne-button-disabled-foreground, hsl(232, 36%, 87%))',
+    'defaultValue': 'hsl(232, 36%, 87%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'Button'

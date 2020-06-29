@@ -9,8 +9,8 @@ module.exports = [
   }
   ,{
     'name': '--ne-checkradio-background',
-    'tokenValue': 'var(--ne-checkradio-background, hsl(233, 34%, 96%))',
-    'defaultValue': 'hsl(233, 34%, 96%)',
+    'tokenValue': 'var(--ne-checkradio-background, hsl(233, 34%, 92%))',
+    'defaultValue': 'hsl(233, 34%, 92%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'check-radio'

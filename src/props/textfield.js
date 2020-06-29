@@ -1,16 +1,16 @@
 module.exports = [
   {
     'name': '--ne-textfield-border',
-    'tokenValue': 'var(--ne-textfield-border, 2px solid hsl(233, 34%, 96%))',
-    'defaultValue': '2px solid hsl(233, 34%, 96%)',
+    'tokenValue': 'var(--ne-textfield-border, 2px solid hsl(213, 26%, 92%))',
+    'defaultValue': '2px solid hsl(213, 26%, 92%)',
     'domain': 'elements',
     'type': 'border',
     'element': 'textfield'
   }
   ,{
     'name': '--ne-textfield-hover-border',
-    'tokenValue': 'var(--ne-textfield-hover-border, 2px solid hsl(233, 34%, 96%))',
-    'defaultValue': '2px solid hsl(233, 34%, 96%)',
+    'tokenValue': 'var(--ne-textfield-hover-border, 2px solid hsl(213, 26%, 92%))',
+    'defaultValue': '2px solid hsl(213, 26%, 92%)',
     'domain': 'elements',
     'type': 'border',
     'element': 'textfield'
@@ -25,16 +25,16 @@ module.exports = [
   }
   ,{
     'name': '--ne-textfield-disabled-border',
-    'tokenValue': 'var(--ne-textfield-disabled-border, 2px solid hsl(233, 34%, 96%))',
-    'defaultValue': '2px solid hsl(233, 34%, 96%)',
+    'tokenValue': 'var(--ne-textfield-disabled-border, 2px solid hsl(233, 34%, 92%))',
+    'defaultValue': '2px solid hsl(233, 34%, 92%)',
     'domain': 'elements',
     'type': 'border',
     'element': 'textfield'
   }
   ,{
     'name': '--ne-textfield-readonly-border',
-    'tokenValue': 'var(--ne-textfield-readonly-border, 2px dashed hsl(233, 34%, 96%))',
-    'defaultValue': '2px dashed hsl(233, 34%, 96%)',
+    'tokenValue': 'var(--ne-textfield-readonly-border, 2px dashed hsl(213, 26%, 92%))',
+    'defaultValue': '2px dashed hsl(213, 26%, 92%)',
     'domain': 'elements',
     'type': 'border',
     'element': 'textfield'
@@ -81,8 +81,8 @@ module.exports = [
   }
   ,{
     'name': '--ne-textfield-disabled-background',
-    'tokenValue': 'var(--ne-textfield-disabled-background, hsl(233, 34%, 96%))',
-    'defaultValue': 'hsl(233, 34%, 96%)',
+    'tokenValue': 'var(--ne-textfield-disabled-background, hsl(233, 34%, 92%))',
+    'defaultValue': 'hsl(233, 34%, 92%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'textfield'
@@ -145,24 +145,24 @@ module.exports = [
   }
   ,{
     'name': '--ne-textfield-placeholder-foreground',
-    'tokenValue': 'var(--ne-textfield-placeholder-foreground, hsl(233, 24%, 72%))',
-    'defaultValue': 'hsl(233, 24%, 72%)',
+    'tokenValue': 'var(--ne-textfield-placeholder-foreground, hsl(232, 36%, 87%))',
+    'defaultValue': 'hsl(232, 36%, 87%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'textfield'
   }
   ,{
     'name': '--ne-textfield-hover-placeholder-foreground',
-    'tokenValue': 'var(--ne-textfield-hover-placeholder-foreground, hsl(233, 24%, 72%))',
-    'defaultValue': 'hsl(233, 24%, 72%)',
+    'tokenValue': 'var(--ne-textfield-hover-placeholder-foreground, hsl(232, 36%, 87%))',
+    'defaultValue': 'hsl(232, 36%, 87%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'textfield'
   }
   ,{
     'name': '--ne-textfield-focus-placeholder-foreground',
-    'tokenValue': 'var(--ne-textfield-focus-placeholder-foreground, hsl(233, 24%, 72%))',
-    'defaultValue': 'hsl(233, 24%, 72%)',
+    'tokenValue': 'var(--ne-textfield-focus-placeholder-foreground, hsl(232, 36%, 87%))',
+    'defaultValue': 'hsl(232, 36%, 87%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'textfield'

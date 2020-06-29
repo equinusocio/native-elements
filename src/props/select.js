@@ -1,16 +1,16 @@
 module.exports = [
   {
     'name': '--ne-select-border',
-    'tokenValue': 'var(--ne-select-border, 2px solid hsl(233, 34%, 96%))',
-    'defaultValue': '2px solid hsl(233, 34%, 96%)',
+    'tokenValue': 'var(--ne-select-border, 2px solid hsl(213, 26%, 92%))',
+    'defaultValue': '2px solid hsl(213, 26%, 92%)',
     'domain': 'elements',
     'type': 'border',
     'element': 'select'
   }
   ,{
     'name': '--ne-select-hover-border',
-    'tokenValue': 'var(--ne-select-hover-border, 2px solid hsl(233, 34%, 96%))',
-    'defaultValue': '2px solid hsl(233, 34%, 96%)',
+    'tokenValue': 'var(--ne-select-hover-border, 2px solid hsl(213, 26%, 92%))',
+    'defaultValue': '2px solid hsl(213, 26%, 92%)',
     'domain': 'elements',
     'type': 'border',
     'element': 'select'
@@ -25,8 +25,8 @@ module.exports = [
   }
   ,{
     'name': '--ne-select-disabled-border',
-    'tokenValue': 'var(--ne-select-disabled-border, 2px solid hsl(233, 34%, 96%))',
-    'defaultValue': '2px solid hsl(233, 34%, 96%)',
+    'tokenValue': 'var(--ne-select-disabled-border, 2px solid hsl(213, 26%, 92%))',
+    'defaultValue': '2px solid hsl(213, 26%, 92%)',
     'domain': 'elements',
     'type': 'border',
     'element': 'select'
@@ -57,8 +57,8 @@ module.exports = [
   }
   ,{
     'name': '--ne-select-disabled-background',
-    'tokenValue': 'var(--ne-select-disabled-background, hsl(233, 34%, 96%))',
-    'defaultValue': 'hsl(233, 34%, 96%)',
+    'tokenValue': 'var(--ne-select-disabled-background, hsl(213, 26%, 92%))',
+    'defaultValue': 'hsl(213, 26%, 92%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'select'

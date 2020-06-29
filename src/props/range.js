@@ -1,16 +1,16 @@
 module.exports = [
   {
     'name': '--ne-range-background',
-    'tokenValue': 'var(--ne-range-background, hsl(233, 34%, 96%))',
-    'defaultValue': 'hsl(233, 34%, 96%)',
+    'tokenValue': 'var(--ne-range-background, hsl(233, 34%, 92%))',
+    'defaultValue': 'hsl(233, 34%, 92%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'range'
   }
   ,{
     'name': '--ne-range-disabled-background',
-    'tokenValue': 'var(--ne-range-disabled-background, hsl(233, 34%, 96%))',
-    'defaultValue': 'hsl(233, 34%, 96%)',
+    'tokenValue': 'var(--ne-range-disabled-background, hsl(233, 34%, 92%))',
+    'defaultValue': 'hsl(233, 34%, 92%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'range'
@@ -25,8 +25,8 @@ module.exports = [
   }
   ,{
     'name': '--ne-range-disabled-progress-color',
-    'tokenValue': 'var(--ne-range-disabled-progress-color, hsl(233, 34%, 92%))',
-    'defaultValue': 'hsl(233, 34%, 92%)',
+    'tokenValue': 'var(--ne-range-disabled-progress-color, hsl(235, 100%, 98%))',
+    'defaultValue': 'hsl(235, 100%, 98%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'range'
@@ -57,24 +57,24 @@ module.exports = [
   }
   ,{
     'name': '--ne-range-thumb-disabled-background',
-    'tokenValue': 'var(--ne-range-thumb-disabled-background, hsl(233, 24%, 72%))',
-    'defaultValue': 'hsl(233, 24%, 72%)',
+    'tokenValue': 'var(--ne-range-thumb-disabled-background, hsl(232, 36%, 87%))',
+    'defaultValue': 'hsl(232, 36%, 87%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'range'
   }
   ,{
     'name': '--ne-range-thumb-width',
-    'tokenValue': 'var(--ne-range-thumb-width, 22px)',
-    'defaultValue': '22px',
+    'tokenValue': 'var(--ne-range-thumb-width, 24px)',
+    'defaultValue': '24px',
     'domain': 'elements',
     'type': 'unit',
     'element': 'range'
   }
   ,{
     'name': '--ne-range-thumb-height',
-    'tokenValue': 'var(--ne-range-thumb-height, 22px)',
-    'defaultValue': '22px',
+    'tokenValue': 'var(--ne-range-thumb-height, 24px)',
+    'defaultValue': '24px',
     'domain': 'elements',
     'type': 'unit',
     'element': 'range'

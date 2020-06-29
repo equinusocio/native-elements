@@ -1,8 +1,8 @@
 module.exports = [
   {
     'name': '--ne-hr-background',
-    'tokenValue': 'var(--ne-hr-background, hsl(0, 0%, 89%))',
-    'defaultValue': 'hsl(0, 0%, 89%)',
+    'tokenValue': 'var(--ne-hr-background, hsl(233, 34%, 92%))',
+    'defaultValue': 'hsl(233, 34%, 92%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'hr'

@@ -17,8 +17,8 @@ module.exports = [
   }
   ,{
     'name': '--ne-meter-background',
-    'tokenValue': 'var(--ne-meter-background, hsl(220, 10%, 95%))',
-    'defaultValue': 'hsl(220, 10%, 95%)',
+    'tokenValue': 'var(--ne-meter-background, hsl(233, 34%, 92%))',
+    'defaultValue': 'hsl(233, 34%, 92%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'meter'
