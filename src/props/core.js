@@ -1,8 +1,8 @@
 module.exports = [
   {
     'name': '--ne-global-background',
-    'tokenValue': 'var(--ne-global-background, hsl(0, 0%, 100%))',
-    'defaultValue': 'hsl(0, 0%, 100%)',
+    'tokenValue': 'var(--ne-global-background, hsl(220, 43%, 99%))',
+    'defaultValue': 'hsl(220, 43%, 99%)',
     'domain': 'document',
     'type': 'color',
     'element': null

@@ -1,32 +1,8 @@
 module.exports = [
   {
-    'name': '--ne-range-shadow',
-    'tokenValue': 'var(--ne-range-shadow, none)',
-    'defaultValue': 'none',
-    'domain': 'elements',
-    'type': 'box-shadow',
-    'element': 'range'
-  }
-  ,{
-    'name': '--ne-range-disabled-shadow',
-    'tokenValue': 'var(--ne-range-disabled-shadow, none)',
-    'defaultValue': 'none',
-    'domain': 'elements',
-    'type': 'box-shadow',
-    'element': 'range'
-  }
-  ,{
     'name': '--ne-range-background',
     'tokenValue': 'var(--ne-range-background, hsl(233, 34%, 96%))',
     'defaultValue': 'hsl(233, 34%, 96%)',
-    'domain': 'elements',
-    'type': 'color',
-    'element': 'range'
-  }
-  ,{
-    'name': '--ne-range-progress-color',
-    'tokenValue': 'var(--ne-range-progress-color, hsl(0, 0%, 0%))',
-    'defaultValue': 'hsl(0, 0%, 0%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'range'
@@ -40,9 +16,25 @@ module.exports = [
     'element': 'range'
   }
   ,{
-    'name': '--ne-range-focus-background',
-    'tokenValue': 'var(--ne-range-focus-background, hsl(220, 10%, 95%))',
-    'defaultValue': 'hsl(220, 10%, 95%)',
+    'name': '--ne-range-progress-color',
+    'tokenValue': 'var(--ne-range-progress-color, hsl(0, 0%, 100%))',
+    'defaultValue': 'hsl(0, 0%, 100%)',
+    'domain': 'elements',
+    'type': 'color',
+    'element': 'range'
+  }
+  ,{
+    'name': '--ne-range-disabled-progress-color',
+    'tokenValue': 'var(--ne-range-disabled-progress-color, hsl(233, 34%, 92%))',
+    'defaultValue': 'hsl(233, 34%, 92%)',
+    'domain': 'elements',
+    'type': 'color',
+    'element': 'range'
+  }
+  ,{
+    'name': '--ne-range-active-progress-color',
+    'tokenValue': 'var(--ne-range-active-progress-color, hsl(0, 0%, 100%))',
+    'defaultValue': 'hsl(0, 0%, 100%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'range'
@@ -73,16 +65,16 @@ module.exports = [
   }
   ,{
     'name': '--ne-range-thumb-width',
-    'tokenValue': 'var(--ne-range-thumb-width, 24px)',
-    'defaultValue': '24px',
+    'tokenValue': 'var(--ne-range-thumb-width, 22px)',
+    'defaultValue': '22px',
     'domain': 'elements',
     'type': 'unit',
     'element': 'range'
   }
   ,{
     'name': '--ne-range-thumb-height',
-    'tokenValue': 'var(--ne-range-thumb-height, 24px)',
-    'defaultValue': '24px',
+    'tokenValue': 'var(--ne-range-thumb-height, 22px)',
+    'defaultValue': '22px',
     'domain': 'elements',
     'type': 'unit',
     'element': 'range'

@@ -19,14 +19,12 @@ input[type='range'] {
     border: 0;
   }
 
-  &:active::-webkit-slider-runnable-track,
-  &:focus::-webkit-slider-runnable-track {
-    background: env(--rangeFocusBackground);
+  &:active::-webkit-slider-runnable-track {
+    background: env(--rangeActiveProgressColor);
   }
 
-  &:active::-moz-range-track,
-  &:focus::-moz-range-track {
-    background: env(--rangeFocusBackground);
+  &:active::-moz-range-track {
+    background: env(--rangeActiveProgressColor);
   }
 
   &::-webkit-slider-thumb {
