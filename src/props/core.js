@@ -40,6 +40,14 @@ module.exports = [
     'element': null
   }
   ,{
+    'name': '--ne-vertical-leading',
+    'tokenValue': 'var(--ne-vertical-leading, 1.5em)',
+    'defaultValue': '1.5em',
+    'domain': 'document',
+    'type': 'unit',
+    'element': null
+  }
+  ,{
     'name': '--ne-selection-foreground',
     'tokenValue': 'var(--ne-selection-foreground, hsl(0, 0%, 100%))',
     'defaultValue': 'hsl(0, 0%, 100%)',
