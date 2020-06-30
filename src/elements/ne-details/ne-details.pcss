@@ -4,10 +4,10 @@ details {
   overflow: env(--detailsOverflow);
   max-height: env(--detailsMaxHeight);
   position: relative;
-  box-shadow: env(--detailsShadow);
   border-radius: env(--detailsBorderRadius);
   -webkit-overflow-scrolling: touch;
   overscroll-behavior: contain;
+  border: 2px solid #E4E5F2;
 
   & * {
     box-sizing: env(--globalBoxSizing);
@@ -30,7 +30,7 @@ details {
   }
 
   @nest [ne-details-group] > &:not(:last-of-type) {
-    border-bottom: env(--detailsSeparator);
+    border-bottom: 0;
   }
 
   & summary {
@@ -67,7 +67,6 @@ details {
       top: 50%;
       margin-top: calc(-1 * (env(--detailsIconSize) / 2));
       left: 12px;
-      inset-inline-start: 12px;
       width: env(--detailsIconSize);
       height: env(--detailsIconSize);
       transform: rotate(-90deg);

@@ -18,17 +18,18 @@ select {
     env(--selectPadding);
   overflow: hidden;
   text-overflow: ellipsis;
-  background: env(--selectIcon) no-repeat right env(--selectPadding) center / env(--selectIconSize), env(--selectBackground);
+  background: env(--selectIcon) no-repeat right env(--selectPadding) center / env(--selectIconSize);
+  background-color: env(--selectBackground);
 
   &:hover {
     border: env(--selectHoverBorder);
-    background: env(--selectHoverBackground);
+    background-color: env(--selectHoverBackground);
     color: env(--selectHoverForeground);
   }
 
   &:focus {
     border: env(--selectFocusBorder);
-    background: env(--selectFocusProgressColor);
+    background-color: env(--selectFocusBackground);
     color: env(--selectFocusForeground);
   }
 

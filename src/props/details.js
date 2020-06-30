@@ -103,12 +103,4 @@ module.exports = [
     'type': 'text',
     'element': 'details'
   }
-  ,{
-    'name': '--ne-details-shadow',
-    'tokenValue': 'var(--ne-details-shadow, 0 1px 2px rgba(0, 0, 0, 0.16))',
-    'defaultValue': '0 1px 2px rgba(0, 0, 0, 0.16)',
-    'domain': 'elements',
-    'type': 'box-shadow',
-    'element': 'details'
-  }
 ];
