@@ -1,16 +1,24 @@
 module.exports = [
   {
+    'name': '--ne-meter-border-width',
+    'tokenValue': 'var(--ne-meter-border-width, 1px)',
+    'defaultValue': '1px',
+    'domain': 'elements',
+    'type': 'number',
+    'element': 'meter'
+  }
+  ,{
     'name': '--ne-meter-border-color',
-    'tokenValue': 'var(--ne-meter-border-color, hsl(0, 0%, 89%))',
-    'defaultValue': 'hsl(0, 0%, 89%)',
+    'tokenValue': 'var(--ne-meter-border-color, transparent)',
+    'defaultValue': 'transparent',
     'domain': 'elements',
     'type': 'color',
     'element': 'meter'
   }
   ,{
     'name': '--ne-meter-background',
-    'tokenValue': 'var(--ne-meter-background, hsl(220, 10%, 95%))',
-    'defaultValue': 'hsl(220, 10%, 95%)',
+    'tokenValue': 'var(--ne-meter-background, hsl(233, 34%, 92%))',
+    'defaultValue': 'hsl(233, 34%, 92%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'meter'
@@ -25,16 +33,16 @@ module.exports = [
   }
   ,{
     'name': '--ne-meter-height',
-    'tokenValue': 'var(--ne-meter-height, 6px)',
-    'defaultValue': '6px',
+    'tokenValue': 'var(--ne-meter-height, 8px)',
+    'defaultValue': '8px',
     'domain': 'elements',
     'type': 'unit',
     'element': 'meter'
   }
   ,{
     'name': '--ne-meter-strong-color',
-    'tokenValue': 'var(--ne-meter-strong-color, hsl(67, 78%, 52%))',
-    'defaultValue': 'hsl(67, 78%, 52%)',
+    'tokenValue': 'var(--ne-meter-strong-color, hsl(148, 78%, 52%))',
+    'defaultValue': 'hsl(148, 78%, 52%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'meter'

@@ -1,16 +1,16 @@
 module.exports = [
   {
     'name': '--ne-checkradio-border',
-    'tokenValue': 'var(--ne-checkradio-border, 1px solid hsl(0, 0%, 89%))',
-    'defaultValue': '1px solid hsl(0, 0%, 89%)',
+    'tokenValue': 'var(--ne-checkradio-border, none)',
+    'defaultValue': 'none',
     'domain': 'elements',
     'type': 'border',
     'element': 'check-radio'
   }
   ,{
     'name': '--ne-checkradio-background',
-    'tokenValue': 'var(--ne-checkradio-background, hsl(220, 10%, 95%))',
-    'defaultValue': 'hsl(220, 10%, 95%)',
+    'tokenValue': 'var(--ne-checkradio-background, hsl(233, 34%, 92%))',
+    'defaultValue': 'hsl(233, 34%, 92%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'check-radio'
@@ -33,8 +33,8 @@ module.exports = [
   }
   ,{
     'name': '--ne-checkradio-size',
-    'tokenValue': 'var(--ne-checkradio-size, 18px)',
-    'defaultValue': '18px',
+    'tokenValue': 'var(--ne-checkradio-size, 22px)',
+    'defaultValue': '22px',
     'domain': 'elements',
     'type': 'unit',
     'element': 'check-radio'

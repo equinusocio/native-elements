@@ -1,8 +1,8 @@
 module.exports = [
   {
-    'name': '--ne-details-separator',
-    'tokenValue': 'var(--ne-details-separator, 1px solid rgba(0, 0, 0, 0.05))',
-    'defaultValue': '1px solid rgba(0, 0, 0, 0.05)',
+    'name': '--ne-details-border',
+    'tokenValue': 'var(--ne-details-border, 2px solid hsl(213, 26%, 92%))',
+    'defaultValue': '2px solid hsl(213, 26%, 92%)',
     'domain': 'elements',
     'type': 'border',
     'element': 'details'
@@ -81,8 +81,8 @@ module.exports = [
   }
   ,{
     'name': '--ne-details-border-radius',
-    'tokenValue': 'var(--ne-details-border-radius, 4px)',
-    'defaultValue': '4px',
+    'tokenValue': 'var(--ne-details-border-radius, 10px)',
+    'defaultValue': '10px',
     'domain': 'elements',
     'type': 'unit',
     'element': 'details'
@@ -101,14 +101,6 @@ module.exports = [
     'defaultValue': 'sticky',
     'domain': 'elements',
     'type': 'text',
-    'element': 'details'
-  }
-  ,{
-    'name': '--ne-details-shadow',
-    'tokenValue': 'var(--ne-details-shadow, 0 1px 2px rgba(0, 0, 0, 0.16))',
-    'defaultValue': '0 1px 2px rgba(0, 0, 0, 0.16)',
-    'domain': 'elements',
-    'type': 'box-shadow',
     'element': 'details'
   }
 ];

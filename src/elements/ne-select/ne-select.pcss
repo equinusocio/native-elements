@@ -2,13 +2,13 @@ select {
   margin: 0;
   border: env(--selectBorder);
   border-radius: env(--selectBorderRadius);
-  background: env(--selectBackground);
-  font: 400 inherit inherit;
+  font-family: inherit;
+  font-size: 100%;
   line-height: inherit;
   color: env(--selectForeground);
   letter-spacing: 0.5px;
   appearance: none;
-  transition: color 0.1s ease-out, box-shadow 0.1s ease-out;
+  transition: color 0.1s ease-out;
   display: block;
   width: env(--selectWidth);
   padding:
@@ -16,19 +16,20 @@ select {
     calc((env(--selectPadding) * 2) + env(--selectIconSize))
     env(--selectPadding)
     env(--selectPadding);
-  box-shadow: env(--selectShadow);
   overflow: hidden;
   text-overflow: ellipsis;
+  background: env(--selectIcon) no-repeat right env(--selectPadding) center / env(--selectIconSize);
+  background-color: env(--selectBackground);
 
   &:hover {
     border: env(--selectHoverBorder);
-    background: env(--selectHoverBackground);
+    background-color: env(--selectHoverBackground);
     color: env(--selectHoverForeground);
   }
 
   &:focus {
     border: env(--selectFocusBorder);
-    background: env(--selectFocusBackground);
+    background-color: env(--selectFocusBackground);
     color: env(--selectFocusForeground);
   }
 
@@ -44,24 +45,16 @@ select {
     }
   }
 
-  &:disabled,
-  &[aria-disabled='true'] {
+  &:disabled {
     border: env(--selectDisabledBorder);
     background: env(--selectDisabledBackground);
     color: env(--selectDisabledForeground);
-    box-shadow: none;
-  }
-
-  &:disabled {
     cursor: not-allowed;
-  }
-
-  &:not([multiple]) {
-    background: env(--selectIcon) no-repeat right env(--selectPadding) center / env(--selectIconSize);
   }
 
   &[multiple] {
     height: auto;
+    background: env(--selectBackground);
     padding: env(--selectPadding);
 
     & option {

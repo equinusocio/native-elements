@@ -9,7 +9,7 @@ input[type='radio'] {
   cursor: pointer;
   position: relative;
   background: env(--checkradioBackground);
-  vertical-align: middle;
+  vertical-align: bottom;
 
   &::before {
     content: '';
@@ -17,12 +17,13 @@ input[type='radio'] {
     pointer-events: none;
     left: 50%;
     top: 50%;
-    height: 5px;
-    width: 10px;
-    border-radius: 2px 0 2px 2px;
+    height: 6px;
+    width: 13px;
+    border-radius: 0;
     border-bottom: 2px solid currentColor;
     border-left: 2px solid currentColor;
-    transform: translate(-50%, calc(-50% - 1px)) rotate(-45deg);
+    transition: transform 100ms;
+    transform: translate(-50%, calc(-50% - 2px)) rotate(-45deg);
     opacity: 0;
   }
 
@@ -34,7 +35,8 @@ input[type='radio'] {
     background: env(--checkradioColor);
     border-color: env(--checkradioColor);
     color: env(--checkradioTickColor);
-    filter: drop-shadow(env(--checkradioShadow));
+    box-shadow: env(--checkradioShadow);
+    animation: splash 0.3s ease-out;
 
     &::before {
       opacity: 1;
@@ -51,7 +53,7 @@ input[type='radio'] {
     background: env(--checkradioColor);
     border-color: env(--checkradioColor);
     color: env(--checkradioTickColor);
-    filter: drop-shadow(env(--checkradioShadow));
+    box-shadow: env(--checkradioShadow);
 
     &::before {
       transform: translate(-50%, calc(-50%));
@@ -68,9 +70,32 @@ input[type='radio'] {
   &::before {
     border-radius: 100%;
     border: 0;
-    width: 8px;
-    height: 8px;
+    width: calc(env(--checkradioSize) / 2);
+    height: calc(env(--checkradioSize) / 2);
     transform: translate(-50%, calc(-50%));
     background: currentColor;
+  }
+}
+
+@keyframes splash {
+  0% {
+    transform: scale(0.3);
+  }
+
+  20% {
+    transform: scale(1.1);
+  }
+
+  40% {
+    transform: scale(0.9);
+  }
+
+  60% {
+    opacity: unset;
+    transform: scale(1.03);
+  }
+
+  80% {
+    transform: scale(0.97);
   }
 }

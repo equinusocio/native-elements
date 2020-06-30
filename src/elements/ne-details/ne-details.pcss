@@ -4,10 +4,10 @@ details {
   overflow: env(--detailsOverflow);
   max-height: env(--detailsMaxHeight);
   position: relative;
-  box-shadow: env(--detailsShadow);
   border-radius: env(--detailsBorderRadius);
   -webkit-overflow-scrolling: touch;
   overscroll-behavior: contain;
+  border: env(--detailsBorder);
 
   & * {
     box-sizing: env(--globalBoxSizing);
@@ -30,16 +30,17 @@ details {
   }
 
   @nest [ne-details-group] > &:not(:last-of-type) {
-    border-bottom: env(--detailsSeparator);
+    border-bottom: 0;
   }
 
   & summary {
     line-height: 1;
     display: list-item;
     touch-action: manipulation;
-    padding:
-      env(--detailsSummaryPadding) env(--detailsSummaryPadding)
-      env(--detailsSummaryPadding) 32px;
+    padding-block-start: env(--detailsSummaryPadding);
+    padding-block-end: env(--detailsSummaryPadding);
+    padding-inline-start: 32px;
+    padding-inline-end: env(--detailsSummaryPadding);
     user-select: none;
     background: env(--detailsSummaryBackground);
     border-radius: env(--detailsBorderRadius) env(--detailsBorderRadius) 0 0;

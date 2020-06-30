@@ -9,16 +9,16 @@ module.exports = [
   }
   ,{
     'name': '--ne-table-head-separator',
-    'tokenValue': 'var(--ne-table-head-separator, 2px solid hsl(0, 0%, 89%))',
-    'defaultValue': '2px solid hsl(0, 0%, 89%)',
+    'tokenValue': 'var(--ne-table-head-separator, 2px solid hsl(213, 26%, 92%))',
+    'defaultValue': '2px solid hsl(213, 26%, 92%)',
     'domain': 'elements',
     'type': 'border',
     'element': 'table'
   }
   ,{
     'name': '--ne-table-row-separator',
-    'tokenValue': 'var(--ne-table-row-separator, 1px solid hsl(0, 0%, 89%))',
-    'defaultValue': '1px solid hsl(0, 0%, 89%)',
+    'tokenValue': 'var(--ne-table-row-separator, 1px solid hsl(213, 26%, 92%))',
+    'defaultValue': '1px solid hsl(213, 26%, 92%)',
     'domain': 'elements',
     'type': 'border',
     'element': 'table'

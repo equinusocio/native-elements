@@ -3,15 +3,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Native Elements</title>
-  <link rel="stylesheet" href="https://unpkg.com/modern-normalize/modern-normalize.css">
   <link rel="stylesheet" href="../src/elements/core/core.pcss">
   <link rel="stylesheet" href="./demo.css">
-
-  <style>
-    .MyInput {
-      font-weight: 400;
-    }
-  </style>
 </head>
 
 <body>
@@ -224,26 +217,18 @@ p q r s t u v w x y z { | } ~ </pre>
 
     <section>
       <h4>Buttons</h4>
-      <button name="puppo" tabindex="2">Button</button>
-      <button class="SecondButton">Button</button>
-      <button class="ThirdButton">Button</button>
-
+      <button>Button</button>
       <button disabled>Button</button>
     </section>
 
     <section>
       <h4>Buttons &amp; icon</h4>
       <button>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><path d="M6 0a6 6 0 106 6 6 6 0 00-6-6zm0 9L3 5h6z" /></svg>
+        <svg viewBox="0 0 12 12"><path d="M6 0a6 6 0 106 6 6 6 0 00-6-6zm0 9L3 5h6z" /></svg>
         Button
       </button>
-      <button dir="rtl" class="FullRound">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><path d="M6 0a6 6 0 106 6 6 6 0 00-6-6zm0 9L3 5h6z" /></svg>
-        Button
-      </button>
-
       <button disabled>
-        <i>&#x2190;</i>
+        <svg viewBox="0 0 12 12"><path d="M6 0a6 6 0 106 6 6 6 0 00-6-6zm0 9L3 5h6z" /></svg>
         Button
       </button>
     </section>
@@ -314,10 +299,10 @@ p q r s t u v w x y z { | } ~ </pre>
     <section>
       <h4>Text fields</h4>
       <p>
-        <input type="text" placeholder="Text">
+        <input type="text" placeholder="Placeholder">
       </p>
       <p>
-        <input type="text" disabled placeholder="Text">
+        <input type="text" disabled placeholder="Placeholder">
       </p>
       <p>
         <input type="text" readonly value="I&apos;m readonly" placeholder="Readonly text">
@@ -326,7 +311,7 @@ p q r s t u v w x y z { | } ~ </pre>
         <input type="password" placeholder="Password">
       </p>
       <p>
-        <input type="url" class="MyInput" placeholder="Url">
+        <input type="url" placeholder="Url">
       </p>
       <p>
         <input type="email" placeholder="Email">

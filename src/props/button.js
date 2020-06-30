@@ -57,8 +57,8 @@ module.exports = [
   }
   ,{
     'name': '--ne-button-disabled-background',
-    'tokenValue': 'var(--ne-button-disabled-background, hsl(233, 34%, 96%))',
-    'defaultValue': 'hsl(233, 34%, 96%)',
+    'tokenValue': 'var(--ne-button-disabled-background, hsl(235, 100%, 98%))',
+    'defaultValue': 'hsl(235, 100%, 98%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'Button'
@@ -89,8 +89,8 @@ module.exports = [
   }
   ,{
     'name': '--ne-button-disabled-foreground',
-    'tokenValue': 'var(--ne-button-disabled-foreground, hsl(233, 24%, 72%))',
-    'defaultValue': 'hsl(233, 24%, 72%)',
+    'tokenValue': 'var(--ne-button-disabled-foreground, hsl(232, 36%, 87%))',
+    'defaultValue': 'hsl(232, 36%, 87%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'Button'
@@ -113,8 +113,8 @@ module.exports = [
   }
   ,{
     'name': '--ne-button-border-radius',
-    'tokenValue': 'var(--ne-button-border-radius, 5px)',
-    'defaultValue': '5px',
+    'tokenValue': 'var(--ne-button-border-radius, 10px)',
+    'defaultValue': '10px',
     'domain': 'elements',
     'type': 'unit',
     'element': 'Button'
@@ -129,16 +129,16 @@ module.exports = [
   }
   ,{
     'name': '--ne-button-y-padding',
-    'tokenValue': 'var(--ne-button-y-padding, 1em)',
-    'defaultValue': '1em',
+    'tokenValue': 'var(--ne-button-y-padding, 0.7em)',
+    'defaultValue': '0.7em',
     'domain': 'elements',
     'type': 'unit',
     'element': 'button'
   }
   ,{
     'name': '--ne-button-x-padding',
-    'tokenValue': 'var(--ne-button-x-padding, 2em)',
-    'defaultValue': '2em',
+    'tokenValue': 'var(--ne-button-x-padding, 1em)',
+    'defaultValue': '1em',
     'domain': 'elements',
     'type': 'unit',
     'element': 'button'
@@ -149,6 +149,14 @@ module.exports = [
     'defaultValue': '1',
     'domain': 'elements',
     'type': 'unit',
+    'element': 'button'
+  }
+  ,{
+    'name': '--ne-button-shadow',
+    'tokenValue': 'var(--ne-button-shadow, 0 1px 2px rgba(0, 0, 0, 0.16))',
+    'defaultValue': '0 1px 2px rgba(0, 0, 0, 0.16)',
+    'domain': 'elements',
+    'type': 'box-shadow',
     'element': 'button'
   }
 ];

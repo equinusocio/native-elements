@@ -1,8 +1,8 @@
 module.exports = [
   {
     'name': '--ne-global-background',
-    'tokenValue': 'var(--ne-global-background, hsl(0, 0%, 100%))',
-    'defaultValue': 'hsl(0, 0%, 100%)',
+    'tokenValue': 'var(--ne-global-background, hsl(220, 43%, 99%))',
+    'defaultValue': 'hsl(220, 43%, 99%)',
     'domain': 'document',
     'type': 'color',
     'element': null
@@ -35,6 +35,14 @@ module.exports = [
     'name': '--ne-body-font-size',
     'tokenValue': 'var(--ne-body-font-size, 1.125rem)',
     'defaultValue': '1.125rem',
+    'domain': 'document',
+    'type': 'unit',
+    'element': null
+  }
+  ,{
+    'name': '--ne-vertical-leading',
+    'tokenValue': 'var(--ne-vertical-leading, 1.5em)',
+    'defaultValue': '1.5em',
     'domain': 'document',
     'type': 'unit',
     'element': null
@@ -73,8 +81,8 @@ module.exports = [
   }
   ,{
     'name': '--ne-outline-color',
-    'tokenValue': 'var(--ne-outline-color, hsl(220, 100%, 50%))',
-    'defaultValue': 'hsl(220, 100%, 50%)',
+    'tokenValue': 'var(--ne-outline-color, hsl(0, 0%, 0%))',
+    'defaultValue': 'hsl(0, 0%, 0%)',
     'domain': 'document',
     'type': 'color',
     'element': null

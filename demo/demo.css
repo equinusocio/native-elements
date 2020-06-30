@@ -48,6 +48,8 @@ details p {
 }
 
 [data-whatintent='mouse'] *:focus,
+[data-whatintent='mouse'] *:active,
+[data-whatintent='touch'] *:active,
 [data-whatintent='touch'] *:focus {
   outline: none;
 }
