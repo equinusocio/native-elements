@@ -113,8 +113,8 @@ module.exports = [
   }
   ,{
     'name': '--ne-select-border-radius',
-    'tokenValue': 'var(--ne-select-border-radius, 5px)',
-    'defaultValue': '5px',
+    'tokenValue': 'var(--ne-select-border-radius, 10px)',
+    'defaultValue': '10px',
     'domain': 'elements',
     'type': 'unit',
     'element': 'select'
@@ -137,16 +137,16 @@ module.exports = [
   }
   ,{
     'name': '--ne-select-icon',
-    'tokenValue': 'var(--ne-select-icon, url(\'data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M7 8l5-5 5 5m0 8l-5 5-5-5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill="none" stroke="currentColor" stroke-miterlimit="10"/></svg>\'))',
-    'defaultValue': 'url(\'data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M7 8l5-5 5 5m0 8l-5 5-5-5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill="none" stroke="currentColor" stroke-miterlimit="10"/></svg>\')',
+    'tokenValue': 'var(--ne-select-icon, url(\'data:image/svg+xml;utf-8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0 6a6 6 0 016-6h12a6 6 0 016 6v12a6 6 0 01-6 6H6a6 6 0 01-6-6V6zm17.415 3.77a.936.936 0 01-1.315.146L12 6.638 7.9 9.916a.936.936 0 01-1.169-1.46l4.684-3.75a.937.937 0 011.17 0l4.684 3.75a.935.935 0 01.146 1.315zm-6 9.525A.937.937 0 0012 19.5a.937.937 0 00.585-.2l4.683-3.746a.937.937 0 00-1.17-1.464L12 17.364l-4.098-3.279a.937.937 0 00-1.17 1.463l4.683 3.747z" fill="#0057FF"/></svg>\'))',
+    'defaultValue': 'url(\'data:image/svg+xml;utf-8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0 6a6 6 0 016-6h12a6 6 0 016 6v12a6 6 0 01-6 6H6a6 6 0 01-6-6V6zm17.415 3.77a.936.936 0 01-1.315.146L12 6.638 7.9 9.916a.936.936 0 01-1.169-1.46l4.684-3.75a.937.937 0 011.17 0l4.684 3.75a.935.935 0 01.146 1.315zm-6 9.525A.937.937 0 0012 19.5a.937.937 0 00.585-.2l4.683-3.746a.937.937 0 00-1.17-1.464L12 17.364l-4.098-3.279a.937.937 0 00-1.17 1.463l4.683 3.747z" fill="#0057FF"/></svg>\')',
     'domain': 'elements',
     'type': 'text',
     'element': 'select'
   }
   ,{
     'name': '--ne-select-icon-size',
-    'tokenValue': 'var(--ne-select-icon-size, 1rem)',
-    'defaultValue': '1rem',
+    'tokenValue': 'var(--ne-select-icon-size, 1.5rem)',
+    'defaultValue': '1.5rem',
     'domain': 'elements',
     'type': 'unit',
     'element': 'select'

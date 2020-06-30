@@ -177,8 +177,8 @@ module.exports = [
   }
   ,{
     'name': '--ne-textfield-border-radius',
-    'tokenValue': 'var(--ne-textfield-border-radius, 5px)',
-    'defaultValue': '5px',
+    'tokenValue': 'var(--ne-textfield-border-radius, 10px)',
+    'defaultValue': '10px',
     'domain': 'elements',
     'type': 'unit',
     'element': 'textfield'

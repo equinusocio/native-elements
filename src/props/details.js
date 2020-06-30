@@ -81,8 +81,8 @@ module.exports = [
   }
   ,{
     'name': '--ne-details-border-radius',
-    'tokenValue': 'var(--ne-details-border-radius, 4px)',
-    'defaultValue': '4px',
+    'tokenValue': 'var(--ne-details-border-radius, 10px)',
+    'defaultValue': '10px',
     'domain': 'elements',
     'type': 'unit',
     'element': 'details'
