@@ -7,7 +7,7 @@ module.exports = [
     'type': 'border',
     'element': 'details'
   }
-  {
+  ,{
     'name': '--ne-details-separator-border',
     'tokenValue': 'var(--ne-details-separator-border, 0)',
     'defaultValue': '0',
