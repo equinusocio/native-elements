@@ -25,8 +25,8 @@ module.exports = [
   }
   ,{
     'name': '--ne-select-disabled-border',
-    'tokenValue': 'var(--ne-select-disabled-border, 2px solid hsl(213, 26%, 92%))',
-    'defaultValue': '2px solid hsl(213, 26%, 92%)',
+    'tokenValue': 'var(--ne-select-disabled-border, 2px solid hsl(235, 100%, 98%))',
+    'defaultValue': '2px solid hsl(235, 100%, 98%)',
     'domain': 'elements',
     'type': 'border',
     'element': 'select'
@@ -57,8 +57,8 @@ module.exports = [
   }
   ,{
     'name': '--ne-select-disabled-background',
-    'tokenValue': 'var(--ne-select-disabled-background, hsl(213, 26%, 92%))',
-    'defaultValue': 'hsl(213, 26%, 92%)',
+    'tokenValue': 'var(--ne-select-disabled-background, hsl(235, 100%, 98%))',
+    'defaultValue': 'hsl(235, 100%, 98%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'select'

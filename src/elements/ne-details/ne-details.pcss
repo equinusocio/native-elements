@@ -37,9 +37,10 @@ details {
     line-height: 1;
     display: list-item;
     touch-action: manipulation;
-    padding:
-      env(--detailsSummaryPadding) env(--detailsSummaryPadding)
-      env(--detailsSummaryPadding) 32px;
+    padding-block-start: env(--detailsSummaryPadding);
+    padding-block-end: env(--detailsSummaryPadding);
+    padding-inline-start: 32px;
+    padding-inline-end: env(--detailsSummaryPadding);
     user-select: none;
     background: env(--detailsSummaryBackground);
     border-radius: env(--detailsBorderRadius) env(--detailsBorderRadius) 0 0;
@@ -66,6 +67,7 @@ details {
       top: 50%;
       margin-top: calc(-1 * (env(--detailsIconSize) / 2));
       left: 12px;
+      inset-inline-start: 12px;
       width: env(--detailsIconSize);
       height: env(--detailsIconSize);
       transform: rotate(-90deg);

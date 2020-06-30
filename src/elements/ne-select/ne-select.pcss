@@ -2,7 +2,6 @@ select {
   margin: 0;
   border: env(--selectBorder);
   border-radius: env(--selectBorderRadius);
-  background: env(--selectBackground);
   font-family: inherit;
   font-size: 100%;
   line-height: inherit;
@@ -19,6 +18,7 @@ select {
     env(--selectPadding);
   overflow: hidden;
   text-overflow: ellipsis;
+  background: env(--selectIcon) no-repeat right env(--selectPadding) center / env(--selectIconSize), env(--selectBackground);
 
   &:hover {
     border: env(--selectHoverBorder);
@@ -44,23 +44,16 @@ select {
     }
   }
 
-  &:disabled,
-  &[aria-disabled='true'] {
+  &:disabled {
     border: env(--selectDisabledBorder);
     background: env(--selectDisabledBackground);
     color: env(--selectDisabledForeground);
-  }
-
-  &:disabled {
     cursor: not-allowed;
-  }
-
-  &:not([multiple]) {
-    background: env(--selectIcon) no-repeat right env(--selectPadding) center / env(--selectIconSize), env(--selectBackground);
   }
 
   &[multiple] {
     height: auto;
+    background: env(--selectBackground);
     padding: env(--selectPadding);
 
     & option {

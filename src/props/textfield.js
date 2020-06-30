@@ -25,8 +25,8 @@ module.exports = [
   }
   ,{
     'name': '--ne-textfield-disabled-border',
-    'tokenValue': 'var(--ne-textfield-disabled-border, 2px solid hsl(233, 34%, 92%))',
-    'defaultValue': '2px solid hsl(233, 34%, 92%)',
+    'tokenValue': 'var(--ne-textfield-disabled-border, 2px solid hsl(235, 100%, 98%))',
+    'defaultValue': '2px solid hsl(235, 100%, 98%)',
     'domain': 'elements',
     'type': 'border',
     'element': 'textfield'
@@ -81,8 +81,8 @@ module.exports = [
   }
   ,{
     'name': '--ne-textfield-disabled-background',
-    'tokenValue': 'var(--ne-textfield-disabled-background, hsl(233, 34%, 92%))',
-    'defaultValue': 'hsl(233, 34%, 92%)',
+    'tokenValue': 'var(--ne-textfield-disabled-background, hsl(235, 100%, 98%))',
+    'defaultValue': 'hsl(235, 100%, 98%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'textfield'
@@ -145,24 +145,24 @@ module.exports = [
   }
   ,{
     'name': '--ne-textfield-placeholder-foreground',
-    'tokenValue': 'var(--ne-textfield-placeholder-foreground, hsl(232, 36%, 87%))',
-    'defaultValue': 'hsl(232, 36%, 87%)',
+    'tokenValue': 'var(--ne-textfield-placeholder-foreground, hsl(233, 24%, 72%))',
+    'defaultValue': 'hsl(233, 24%, 72%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'textfield'
   }
   ,{
     'name': '--ne-textfield-hover-placeholder-foreground',
-    'tokenValue': 'var(--ne-textfield-hover-placeholder-foreground, hsl(232, 36%, 87%))',
-    'defaultValue': 'hsl(232, 36%, 87%)',
+    'tokenValue': 'var(--ne-textfield-hover-placeholder-foreground, hsl(233, 24%, 72%))',
+    'defaultValue': 'hsl(233, 24%, 72%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'textfield'
   }
   ,{
     'name': '--ne-textfield-focus-placeholder-foreground',
-    'tokenValue': 'var(--ne-textfield-focus-placeholder-foreground, hsl(232, 36%, 87%))',
-    'defaultValue': 'hsl(232, 36%, 87%)',
+    'tokenValue': 'var(--ne-textfield-focus-placeholder-foreground, hsl(233, 24%, 72%))',
+    'defaultValue': 'hsl(233, 24%, 72%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'textfield'

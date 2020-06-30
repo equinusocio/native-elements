@@ -113,8 +113,8 @@ module.exports = [
   }
   ,{
     'name': '--ne-button-border-radius',
-    'tokenValue': 'var(--ne-button-border-radius, 5px)',
-    'defaultValue': '5px',
+    'tokenValue': 'var(--ne-button-border-radius, 10px)',
+    'defaultValue': '10px',
     'domain': 'elements',
     'type': 'unit',
     'element': 'Button'
