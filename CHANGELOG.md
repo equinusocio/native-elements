@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.2](https://github.com/n-elements/core/compare/v1.2.1...v1.2.2) (2020-06-30)
+
+
+### Features
+
+* add details-separator-border property ([0045c8e](https://github.com/n-elements/core/commit/0045c8ea941139f4a4c5c34d438d5899e09c5d57))
+
 ### [1.2.1](https://github.com/n-elements/core/compare/v1.2.0...v1.2.1) (2020-06-30)
 
 
