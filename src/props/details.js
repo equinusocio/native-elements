@@ -7,6 +7,14 @@ module.exports = [
     'type': 'border',
     'element': 'details'
   }
+  {
+    'name': '--ne-details-separator-border',
+    'tokenValue': 'var(--ne-details-separator-border, 0)',
+    'defaultValue': '0',
+    'domain': 'elements',
+    'type': 'border',
+    'element': 'details'
+  }
   ,{
     'name': '--ne-details-background',
     'tokenValue': 'var(--ne-details-background, hsl(0, 0%, 100%))',
