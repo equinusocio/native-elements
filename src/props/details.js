@@ -1,8 +1,8 @@
 module.exports = [
   {
-    'name': '--ne-details-separator',
-    'tokenValue': 'var(--ne-details-separator, 1px solid rgba(0, 0, 0, 0.05))',
-    'defaultValue': '1px solid rgba(0, 0, 0, 0.05)',
+    'name': '--ne-details-border',
+    'tokenValue': 'var(--ne-details-border, 2px solid hsl(213, 26%, 92%))',
+    'defaultValue': '2px solid hsl(213, 26%, 92%)',
     'domain': 'elements',
     'type': 'border',
     'element': 'details'
