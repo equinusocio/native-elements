@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.4](https://github.com/n-elements/core/compare/v1.2.3...v1.2.4) (2020-07-03)
+
+
+### Features
+
+* add new custom attribute ne-button to apply button style to links ([ea1f5b3](https://github.com/n-elements/core/commit/ea1f5b3ad925e567687c07014d6a9bc8d4e637e4))
+
+
+### Bug Fixes
+
+* updated checkradio default border-radius to 6px ([de4cfcc](https://github.com/n-elements/core/commit/de4cfcc6cb2e4ded6980a2ee492cd51596ae9466))
+
 ### [1.2.3](https://github.com/n-elements/core/compare/v1.2.2...v1.2.3) (2020-06-30)
 
 ### [1.2.2](https://github.com/n-elements/core/compare/v1.2.1...v1.2.2) (2020-06-30)
