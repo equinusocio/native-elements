@@ -41,8 +41,8 @@ module.exports = [
   }
   ,{
     'name': '--ne-checkradio-border-radius',
-    'tokenValue': 'var(--ne-checkradio-border-radius, 4px)',
-    'defaultValue': '4px',
+    'tokenValue': 'var(--ne-checkradio-border-radius, 6px)',
+    'defaultValue': '6px',
     'domain': 'elements',
     'type': 'unit-multiple',
     'element': 'check-radio'
