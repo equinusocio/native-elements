@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.5](https://github.com/n-elements/core/compare/v1.2.4...v1.2.5) (2020-07-03)
+
+
+### Bug Fixes
+
+* missin css initial for button text decoration ([2feb503](https://github.com/n-elements/core/commit/2feb503017fe6c5a36371486b38ba4155d24b24d))
+
 ### [1.2.4](https://github.com/n-elements/core/compare/v1.2.3...v1.2.4) (2020-07-03)
 
 
