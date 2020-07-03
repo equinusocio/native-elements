@@ -37,5 +37,4 @@ Let us know where you are using Native Elements and we will'add the public link 
 
 <p align="center">
   <a href="https://opencollective.com/native-elements/donate" target="_blank" rel="noopener"><img src="https://opencollective.com/native-elements/donate/button@2x.png?color=blue" width="250 /></a>
-  <!--<a href="https://opencollective.com/native-elements/donate" target="_blank"><img src="https://opencollective.com/native-elements/donate/button@2x.png?color=blue" width="250 /></a>-->
 </p>
