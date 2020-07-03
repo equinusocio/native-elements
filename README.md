@@ -28,6 +28,10 @@ You can consider it as a customizable plug-n-play library for your site which he
 - You're not going to mix other CSS frameworks
 - You want to save time sacrificing a bit of flexibility.
 
+## Do you love this tool?
+
+Let us know where you are using Native Elements and we will'add the public link to the official documentation. [Check who is using it right now.](https://native-elements.dev/docs/#who-is-using-it)
+
 ---
 
 <p align="center">
