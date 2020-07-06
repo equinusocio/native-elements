@@ -108,6 +108,14 @@ module.exports = [
     'element': null
   }
   ,{
+    'name': '--ne-headings-line-height',
+    'tokenValue': 'var(--ne-headings-line-height, 1.1)',
+    'defaultValue': '1.1',
+    'domain': 'typography',
+    'type': 'unit',
+    'element': null
+  }
+  ,{
     'name': '--ne-quote-font-size',
     'tokenValue': 'var(--ne-quote-font-size, 2rem)',
     'defaultValue': '2rem',
