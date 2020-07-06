@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.6](https://github.com/n-elements/core/compare/v1.2.5...v1.2.6) (2020-07-06)
+
+
+### Features
+
+* add --ne-headings-line-height property ([10cf5d7](https://github.com/n-elements/core/commit/10cf5d7eb44061ec037637af00be06c58af6e448)), closes [#159](https://github.com/n-elements/core/issues/159)
+
+
+### Bug Fixes
+
+* fix dialog backdrop color ([7ad5fef](https://github.com/n-elements/core/commit/7ad5fef42ec91ebeb56c2b9dcc8b5feb102609dc)), closes [#144](https://github.com/n-elements/core/issues/144)
+* remove default button transition property to avoid flickering ([e5b7e40](https://github.com/n-elements/core/commit/e5b7e402b2035ce1f41ed470f1c419e061ba6895)), closes [#158](https://github.com/n-elements/core/issues/158)
+
 ### [1.2.5](https://github.com/n-elements/core/compare/v1.2.4...v1.2.5) (2020-07-03)
 
 
