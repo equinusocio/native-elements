@@ -10,6 +10,14 @@
 <body>
   <main>
     <section>
+      <h4>Ignored Elements</h4>
+      <details ne-ignore class="MyDetails">
+        <summary>Click</summary>
+        Test
+      </details>
+      <button ne-ignore class="MyButton">Click Me</button>
+    </section>
+    <section>
       <h4>Horizontal Rule</h4>
       <hr />
     </section>
@@ -200,7 +208,7 @@
     <section>
       <h4>Pre and Code</h4>
       <strong>pre</strong>
-      <pre>P R E F O R M A T T E D T E X T
+      <pre ne-ignore>P R E F O R M A T T E D T E X T
 ! &quot; # $ % &amp; &apos; ( ) * + , - . /
 0 1 2 3 4 5 6 7 8 9 : ; &lt; = &gt; ?
 @ A B C D E F G H I J K L M N O
@@ -400,8 +408,6 @@ p q r s t u v w x y z { | } ~ </pre>
 
     <section>
       <h4>Folding</h4>
-      <p>
-      </p>
       <details>
         <summary><strong>My details title</strong></summary>
         <p>

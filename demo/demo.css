@@ -57,3 +57,11 @@ details p {
 .Striped {
   --ne-table-striped-background: hsla(0, 0%, 15%, 5%);
 }
+
+.MyDetails {
+  border: 2px solid blue;
+}
+
+.MyButton {
+  background-color: red;
+}
