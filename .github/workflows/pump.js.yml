@@ -1,0 +1,11 @@
+name: Pump
+
+on: 
+  schedule:
+    - cron: '*/10 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps: 
+      - run: npm install @native-elements/core
