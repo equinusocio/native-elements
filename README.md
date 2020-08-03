@@ -26,7 +26,7 @@ You can consider it as a customizable plug-n-play library for your site which he
 ## When to use it
 
 - You're working on projects for **modern and secure web browsers** <img width="16px" alt="Google Chrome" src="https://goo.gl/U987PH"/> <img width="16px" alt="Firefox" src="https://bit.ly/35SKj4D"/> <img width="16px" alt="Safari" src="https://goo.gl/S1vPDZ"/> <img width="16px" alt="Edge" src="https://bit.ly/2MnqnyS"/>
-- You're not going to mix other CSS frameworks
+- You're not going to mix other CSS frameworks.
 - You want to save time sacrificing a bit of flexibility.
 
 ## Do you love this tool?
