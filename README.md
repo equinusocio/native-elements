@@ -31,7 +31,7 @@ You can consider it as a customizable plug-n-play library for your site which he
 
 ## Do you love this tool?
 
-Let us know where you are using Native Elements and we will'add the public link to the official documentation. [Check who is using it right now.](https://native-elements.dev/docs/#who-is-using-it)
+Let us know where you are using Native Elements and we will'add the public link to the official documentation. [Check who is using it right now.](https://native-elements.dev/#/?id=who-is-using-it)
 
 ---
 
