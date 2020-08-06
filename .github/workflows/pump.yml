@@ -1,15 +1,15 @@
-name: Pump
+#name: Pump
 
-on: 
-  schedule:
-    - cron: '*/10 * * * *'
+#on: 
+#  schedule:
+#    - cron: '*/10 * * * *'
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps: 
-      - name: Use Node Version 12.x
-        uses: actions/setup-node@v1
-        with:
-          node-version: '12.x'
-      - run: npm install @native-elements/core
+#jobs:
+#  build:
+#    runs-on: ubuntu-latest
+#    steps: 
+#      - name: Use Node Version 12.x
+#        uses: actions/setup-node@v1
+#        with:
+#          node-version: '12.x'
+#      - run: npm install @native-elements/core
