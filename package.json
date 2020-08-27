@@ -56,24 +56,25 @@
     }
   ],
   "devDependencies": {
-    "@babel/core": "7.10.3",
-    "@babel/preset-env": "7.10.3",
-    "@size-limit/preset-small-lib": "4.5.2",
+    "@babel/core": "7.11.4",
+    "@babel/preset-env": "7.11.0",
+    "@size-limit/preset-small-lib": "4.5.7",
     "babel-eslint": "10.1.0",
     "babel-plugin-root-import": "6.5.0",
-    "eslint": "7.3.1",
+    "eslint": "7.7.0",
     "eslint-plugin-standard": "4.0.1",
     "npm-run-all": "4.1.5",
     "parcel-bundler": "1.12.4",
     "postcss-cli": "7.1.1",
     "postcss-dark-theme-class": "0.4.0",
     "rimraf": "3.0.2",
-    "size-limit": "4.5.2",
-    "standard-version": "8.0.1",
+    "size-limit": "4.5.7",
+    "standard-version": "9.0.0",
     "stylelint": "13.6.1",
     "stylelint-config-standard": "20.0.0"
   },
   "resolutions": {
+    "dot-prop": "^5.1.1",
     "safe-eval": "^0.4.1",
     "minimist": "^1.2.3"
   },
