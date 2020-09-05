@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/n-elements/core/compare/v1.3.1...v1.4.0) (2020-09-05)
+
+
+### Features
+
+* add new [ne-ignore] attribute ([958562f](https://github.com/n-elements/core/commit/958562fbe5a2dccbe162f26b07dc60385a1b073a))
+
 ### [1.3.1](https://github.com/n-elements/core/compare/v1.3.0...v1.3.1) (2020-09-03)
 
 ## [1.3.0](https://github.com/n-elements/core/compare/v1.2.6...v1.3.0) (2020-07-06)
