@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.1](https://github.com/n-elements/core/compare/v1.4.0...v1.4.1) (2020-09-05)
+
+
+### Bug Fixes
+
+* revert ne-ignore (tmp) ([b60dd4a](https://github.com/n-elements/core/commit/b60dd4a5faa2c0395c0720331b26c1dd58b1b33f))
+
 ## [1.4.0](https://github.com/n-elements/core/compare/v1.3.1...v1.4.0) (2020-09-05)
 
 
