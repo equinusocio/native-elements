@@ -1,4 +1,4 @@
-name: CI
+name: Build & Release
 
 on:
   push:
@@ -11,15 +11,33 @@ jobs:
     if: contains(github.ref, 'tag')
     steps:
     - uses: actions/checkout@v2
-    # Setup .npmrc file to publish to GitHub Packages
+
     - name: Use Node Version 12.x
       uses: actions/setup-node@v1
       with:
         node-version: '12.x'
-        # Default to org scope
         registry-url: 'https://registry.npmjs.org'
         scope: '@native-elements'
-    - run: yarn
+
+    - name: Get yarn cache directory path
+      id: yarn-cache-dir-path
+      run: echo "::set-output name=dir::$(yarn cache dir)"
+
+    - uses: actions/cache@v2
+      id: yarn-cache
+      with:
+        path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+        key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-yarn-
+
+    - name: Install Dependencies
+      run: yarn --frozen-lockfile
+      if: steps.cache-yarn-cache.outputs.cache-hit != 'true' || steps.cache-node-modules.outputs.cache-hit != 'true'
+
+    - name: Build CSS
+      run: yarn build
+
     - name: Publish package
       run: npm publish
       env:
