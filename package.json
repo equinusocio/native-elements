@@ -58,7 +58,7 @@
   "devDependencies": {
     "@babel/core": "7.11.6",
     "@babel/preset-env": "7.11.5",
-    "@size-limit/preset-small-lib": "4.5.7",
+    "@size-limit/preset-small-lib": "4.6.0",
     "babel-eslint": "10.1.0",
     "babel-plugin-root-import": "6.5.0",
     "eslint": "7.8.1",
@@ -68,15 +68,10 @@
     "postcss-cli": "7.1.2",
     "postcss-dark-theme-class": "0.4.0",
     "rimraf": "3.0.2",
-    "size-limit": "4.5.7",
+    "size-limit": "4.6.0",
     "standard-version": "9.0.0",
     "stylelint": "13.7.0",
     "stylelint-config-standard": "20.0.0"
-  },
-  "resolutions": {
-    "dot-prop": "^5.1.1",
-    "safe-eval": "^0.4.1",
-    "minimist": "^1.2.3"
   },
   "browserslist": [
     "last 1 Chrome versions",
