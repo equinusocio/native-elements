@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/n-elements/core/compare/v1.4.2...v1.5.0) (2020-12-26)
+
+
+### Features
+
+* add background and border inheritance ([910015d](https://github.com/n-elements/core/commit/910015da71982e25a8714dabf861c076f0850cba))
+* use browser default outline style and color ([6d9c04d](https://github.com/n-elements/core/commit/6d9c04d48d69a65d23f27e703f736b553b04e5ba))
+* use browser default outline style and color and add ne-prose ([58ab122](https://github.com/n-elements/core/commit/58ab122af3c97a0b187e692621da232f36facdf9))
+
 ### [1.4.2](https://github.com/n-elements/core/compare/v1.4.1...v1.4.2) (2020-12-13)
 
 ### [1.4.1](https://github.com/n-elements/core/compare/v1.4.0...v1.4.1) (2020-09-05)
