@@ -9,8 +9,8 @@ module.exports = [
   }
   ,{
     'name': '--ne-select-hover-border',
-    'tokenValue': 'var(--ne-select-hover-border, var(--ne-select-border, 2px solid hsl(213, 26%, 92%)))',
-    'defaultValue': 'var(--ne-select-border, 2px solid hsl(213, 26%, 92%))',
+    'tokenValue': 'var(--ne-select-hover-border, 2px solid hsl(213, 26%, 92%))',
+    'defaultValue': '2px solid hsl(213, 26%, 92%)',
     'domain': 'elements',
     'type': 'border',
     'element': 'select'
@@ -41,16 +41,16 @@ module.exports = [
   }
   ,{
     'name': '--ne-select-hover-background',
-    'tokenValue': 'var(--ne-select-hover-background, var(--ne-select-background, hsl(0, 0%, 100%)))',
-    'defaultValue': 'var(--ne-select-background, hsl(0, 0%, 100%))',
+    'tokenValue': 'var(--ne-select-hover-background, hsl(0, 0%, 100%))',
+    'defaultValue': 'hsl(0, 0%, 100%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'select'
   }
   ,{
     'name': '--ne-select-focus-background',
-    'tokenValue': 'var(--ne-select-focus-background, var(--ne-select-background, hsl(0, 0%, 100%)))',
-    'defaultValue': 'var(--ne-select-background, hsl(0, 0%, 100%))',
+    'tokenValue': 'var(--ne-select-focus-background, hsl(0, 0%, 100%))',
+    'defaultValue': 'hsl(0, 0%, 100%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'select'
