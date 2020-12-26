@@ -71,22 +71,6 @@ module.exports = [
     'type': 'color',
     'element': null
   }
-  ,{
-    'name': '--ne-outline-width',
-    'tokenValue': 'var(--ne-outline-width, 2px)',
-    'defaultValue': '2px',
-    'domain': 'document',
-    'type': 'unit',
-    'element': null
-  }
-  ,{
-    'name': '--ne-outline-color',
-    'tokenValue': 'var(--ne-outline-color, hsl(0, 0%, 0%))',
-    'defaultValue': 'hsl(0, 0%, 0%)',
-    'domain': 'document',
-    'type': 'color',
-    'element': null
-  }
 
   /**
    * Typography domain properties
