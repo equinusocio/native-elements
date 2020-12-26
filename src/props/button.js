@@ -41,16 +41,16 @@ module.exports = [
   }
   ,{
     'name': '--ne-button-hover-background',
-    'tokenValue': 'var(--ne-button-hover-background, hsl(233, 64%, 52%))',
-    'defaultValue': 'hsl(233, 64%, 52%)',
+    'tokenValue': 'var(--ne-button-hover-background, hsl(220, 100%, 55%))',
+    'defaultValue': 'hsl(220, 100%, 55%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'Button'
   }
   ,{
     'name': '--ne-button-active-background',
-    'tokenValue': 'var(--ne-button-active-background, hsl(233, 64%, 32%))',
-    'defaultValue': 'hsl(233, 64%, 32%)',
+    'tokenValue': 'var(--ne-button-active-background, hsl(220, 100%, 45%))',
+    'defaultValue': 'hsl(220, 100%, 45%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'Button'

@@ -9,8 +9,8 @@ module.exports = [
   }
   ,{
     'name': '--ne-textfield-hover-border',
-    'tokenValue': 'var(--ne-textfield-hover-border, 2px solid hsl(213, 26%, 92%))',
-    'defaultValue': '2px solid hsl(213, 26%, 92%)',
+    'tokenValue': 'var(--ne-textfield-hover-border, var(--ne-textfield-border, 2px solid hsl(213, 26%, 92%)))',
+    'defaultValue': 'var(--ne-textfield-border, 2px solid hsl(213, 26%, 92%))',
     'domain': 'elements',
     'type': 'border',
     'element': 'textfield'
@@ -65,16 +65,16 @@ module.exports = [
   }
   ,{
     'name': '--ne-textfield-hover-background',
-    'tokenValue': 'var(--ne-textfield-hover-background, hsl(0, 0%, 100%))',
-    'defaultValue': 'hsl(0, 0%, 100%)',
+    'tokenValue': 'var(--ne-textfield-hover-background, var(--ne-textfield-background, hsl(0, 0%, 100%)))',
+    'defaultValue': 'var(--ne-textfield-background, hsl(0, 0%, 100%))',
     'domain': 'elements',
     'type': 'color',
     'element': 'textfield'
   }
   ,{
     'name': '--ne-textfield-focus-background',
-    'tokenValue': 'var(--ne-textfield-focus-background, hsl(0, 0%, 100%))',
-    'defaultValue': 'hsl(0, 0%, 100%)',
+    'tokenValue': 'var(--ne-textfield-focus-background, var(--ne-textfield-background, hsl(0, 0%, 100%)))',
+    'defaultValue': 'var(--ne-textfield-background, hsl(0, 0%, 100%))',
     'domain': 'elements',
     'type': 'color',
     'element': 'textfield'
@@ -89,8 +89,8 @@ module.exports = [
   }
   ,{
     'name': '--ne-textfield-invalid-background',
-    'tokenValue': 'var(--ne-textfield-invalid-background, hsl(0, 0%, 100%))',
-    'defaultValue': 'hsl(0, 0%, 100%)',
+    'tokenValue': 'var(--ne-textfield-invalid-background, var(--ne-textfield-background, hsl(0, 0%, 100%)))',
+    'defaultValue': 'var(--ne-textfield-background, hsl(0, 0%, 100%))',
     'domain': 'elements',
     'type': 'color',
     'element': 'textfield'
