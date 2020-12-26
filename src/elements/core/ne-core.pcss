@@ -1,3 +1,6 @@
+@custom-selector :--headings h1, h2, h3, h4, h5, h6;
+@custom-selector :--blocks h1, h2, h3, h4, h5, h6, hgroup, ul, ol, dd, p, figure, pre, table, fieldset, hr;
+
 html {
   font-size: env(--rootFontSize);
   line-height: env(--basicLineHeight);
@@ -12,8 +15,9 @@ body {
   font-family: env(--bodyFontFamily);
 }
 
-:focus {
-  outline: env(--outlineWidth) solid env(--outlineColor);
+*:focus {
+  outline: 5px auto Highlight;
+  outline: 5px auto -webkit-focus-ring-color;
 }
 
 [tabindex='-1'] {
@@ -108,7 +112,21 @@ table,
 fieldset,
 hr {
   margin-top: 0;
-  margin-bottom: env(--verticalLeading);
+}
+
+[ne-prose] {
+  & > :--blocks {
+    margin-top: env(--verticalLeading);
+    margin-bottom: env(--verticalLeading);
+  }
+
+  & > :--headings {
+    margin-bottom: 0;
+  }
+
+  & > :--headings + p {
+    margin-top: calc(env(--verticalLeading) / 2);
+  }
 }
 
 blockquote {
