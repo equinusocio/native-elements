@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.5.1](https://github.com/n-elements/core/compare/v1.5.0...v1.5.1) (2020-12-26)
+
+
+### Bug Fixes
+
+* disble logica properties transformation ([8658925](https://github.com/n-elements/core/commit/86589253846153c29c33d8796eb0f230e127cd3e))
+
 ## [1.5.0](https://github.com/n-elements/core/compare/v1.4.2...v1.5.0) (2020-12-26)
 
 
