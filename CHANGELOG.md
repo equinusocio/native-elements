@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.5.2](https://github.com/n-elements/core/compare/v1.5.1...v1.5.2) (2020-12-26)
+
+
+### Bug Fixes
+
+* color inheritance ([4507a53](https://github.com/n-elements/core/commit/4507a537aab49759fe1a58e5cc46b2a26c3dc2bf))
+
 ### [1.5.1](https://github.com/n-elements/core/compare/v1.5.0...v1.5.1) (2020-12-26)
 
 
