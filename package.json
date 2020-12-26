@@ -93,5 +93,8 @@
     "type": "opencollective",
     "url": "https://opencollective.com/native-elements",
     "logo": "https://rawcdn.githack.com/n-elements/core/968a7e27f8152f077e1e227604a58ed5ca708a1e/logo.txt"
+  },
+  "resolutions": {
+    "node-forge": "^0.10.0"
   }
 }
