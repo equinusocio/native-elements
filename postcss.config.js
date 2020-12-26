@@ -27,9 +27,7 @@ module.exports = {
     'postcss-preset-env': {
       stage: 0,
       features: {
-        'logical-properties-and-values': {
-          preserve: true
-        }
+        'logical-properties-and-values': false
       },
       importFrom: [
         envVariables,
