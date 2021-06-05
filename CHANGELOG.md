@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/n-elements/core/compare/v1.5.4...v1.6.0) (2021-06-05)
+
+
+### Bug Fixes
+
+* date inputs on Safari and update details style ([af5399a](https://github.com/n-elements/core/commit/af5399a2d93dc74b7e47062603a19b50b681cd56))
+
 ### [1.5.4](https://github.com/n-elements/core/compare/v1.5.3...v1.5.4) (2020-12-29)
 
 ### [1.5.3](https://github.com/n-elements/core/compare/v1.5.2...v1.5.3) (2020-12-26)
