@@ -9,8 +9,8 @@ module.exports = [
   }
   ,{
     'name': '--ne-details-background',
-    'tokenValue': 'var(--ne-details-background, none)',
-    'defaultValue': 'none',
+    'tokenValue': 'var(--ne-details-background, hsl(220, 43%, 99%))',
+    'defaultValue': 'hsl(220, 43%, 99%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'details'
