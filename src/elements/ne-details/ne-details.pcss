@@ -4,31 +4,14 @@ details {
   overflow: env(--detailsOverflow);
   max-height: env(--detailsMaxHeight);
   position: relative;
-  border-radius: env(--detailsBorderRadius);
   -webkit-overflow-scrolling: touch;
   overscroll-behavior: contain;
-  border: env(--detailsBorder);
   transform: translateZ(0);
 
   & * {
     box-sizing: env(--globalBoxSizing);
   }
 
-  @nest [ne-details-group] > &:first-of-type {
-    border-radius: env(--detailsBorderRadius) env(--detailsBorderRadius) 0 0;
-  }
-
-  @nest [ne-details-group] > &:last-of-type {
-    border-radius: 0 0 env(--detailsBorderRadius) env(--detailsBorderRadius);
-  }
-
-  @nest [ne-details-group] > &:not(:first-of-type, :last-of-type) {
-    border-radius: 0;
-  }
-
-  @nest [ne-details-group] > &:only-of-type {
-    border-radius: env(--detailsBorderRadius);
-  }
 
   @nest [ne-details-group] > &:not(:last-of-type) {
     border-bottom: env(--detailsSeparatorBorder);
@@ -44,13 +27,11 @@ details {
     padding-inline-end: env(--detailsSummaryPadding);
     user-select: none;
     background: env(--detailsSummaryBackground);
-    border-radius: env(--detailsBorderRadius) env(--detailsBorderRadius) 0 0;
     position: env(--detailsSummaryPosition);
     z-index: 1;
     top: 0;
     font-size: env(--detailsSummaryFontSize);
     cursor: pointer;
-    background-size: 16px auto;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;

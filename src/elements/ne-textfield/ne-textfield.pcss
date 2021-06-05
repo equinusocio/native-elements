@@ -14,12 +14,16 @@ input:matches(
 ) {
   @mixin input;
 
-  display: block;
+  display: flex;
   width: env(--textfieldWidth);
   padding: env(--textfieldYPadding) env(--textfieldXPadding);
 
   &::-webkit-calendar-picker-indicator {
     display: none;
+  }
+
+  &::-webkit-datetime-edit {
+    color: env(--textfieldPlaceholderForeground);
   }
 }
 

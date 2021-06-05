@@ -1,24 +1,16 @@
 module.exports = [
   {
-    'name': '--ne-details-border',
-    'tokenValue': 'var(--ne-details-border, 2px solid hsl(213, 26%, 92%))',
+    'name': '--ne-details-separator-border',
+    'tokenValue': 'var(--ne-details-separator-border, 2px solid hsl(213, 26%, 92%))',
     'defaultValue': '2px solid hsl(213, 26%, 92%)',
     'domain': 'elements',
     'type': 'border',
     'element': 'details'
   }
   ,{
-    'name': '--ne-details-separator-border',
-    'tokenValue': 'var(--ne-details-separator-border, 0)',
-    'defaultValue': '0',
-    'domain': 'elements',
-    'type': 'border',
-    'element': 'details'
-  }
-  ,{
     'name': '--ne-details-background',
-    'tokenValue': 'var(--ne-details-background, hsl(0, 0%, 100%))',
-    'defaultValue': 'hsl(0, 0%, 100%)',
+    'tokenValue': 'var(--ne-details-background, none)',
+    'defaultValue': 'none',
     'domain': 'elements',
     'type': 'color',
     'element': 'details'
@@ -33,8 +25,8 @@ module.exports = [
   }
   ,{
     'name': '--ne-details-summary-background',
-    'tokenValue': 'var(--ne-details-summary-background, hsl(0, 0%, 100%))',
-    'defaultValue': 'hsl(0, 0%, 100%)',
+    'tokenValue': 'var(--ne-details-summary-background, hsl(220, 43%, 99%))',
+    'defaultValue': 'hsl(220, 43%, 99%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'details'
@@ -83,14 +75,6 @@ module.exports = [
     'name': '--ne-details-icon-size',
     'tokenValue': 'var(--ne-details-icon-size, 0.75rem)',
     'defaultValue': '0.75rem',
-    'domain': 'elements',
-    'type': 'unit',
-    'element': 'details'
-  }
-  ,{
-    'name': '--ne-details-border-radius',
-    'tokenValue': 'var(--ne-details-border-radius, 10px)',
-    'defaultValue': '10px',
     'domain': 'elements',
     'type': 'unit',
     'element': 'details'

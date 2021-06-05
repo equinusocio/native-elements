@@ -121,8 +121,8 @@ module.exports = [
   }
   ,{
     'name': '--ne-textfield-disabled-foreground',
-    'tokenValue': 'var(--ne-textfield-disabled-foreground, hsl(233, 24%, 72%))',
-    'defaultValue': 'hsl(233, 24%, 72%)',
+    'tokenValue': 'var(--ne-textfield-disabled-foreground, hsl(233, 0%, 72%))',
+    'defaultValue': 'hsl(233, 0%, 72%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'textfield'
@@ -145,24 +145,24 @@ module.exports = [
   }
   ,{
     'name': '--ne-textfield-placeholder-foreground',
-    'tokenValue': 'var(--ne-textfield-placeholder-foreground, hsl(233, 24%, 72%))',
-    'defaultValue': 'hsl(233, 24%, 72%)',
+    'tokenValue': 'var(--ne-textfield-placeholder-foreground, hsl(233, 0%, 72%))',
+    'defaultValue': 'hsl(233, 0%, 72%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'textfield'
   }
   ,{
     'name': '--ne-textfield-hover-placeholder-foreground',
-    'tokenValue': 'var(--ne-textfield-hover-placeholder-foreground, hsl(233, 24%, 72%))',
-    'defaultValue': 'hsl(233, 24%, 72%)',
+    'tokenValue': 'var(--ne-textfield-hover-placeholder-foreground, hsl(233, 0%, 72%))',
+    'defaultValue': 'hsl(233, 0%, 72%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'textfield'
   }
   ,{
     'name': '--ne-textfield-focus-placeholder-foreground',
-    'tokenValue': 'var(--ne-textfield-focus-placeholder-foreground, hsl(233, 24%, 72%))',
-    'defaultValue': 'hsl(233, 24%, 72%)',
+    'tokenValue': 'var(--ne-textfield-focus-placeholder-foreground, hsl(233, 0%, 72%))',
+    'defaultValue': 'hsl(233, 0%, 72%)',
     'domain': 'elements',
     'type': 'color',
     'element': 'textfield'
@@ -241,8 +241,8 @@ module.exports = [
   }
   ,{
     'name': '--ne-textfield-font-weight',
-    'tokenValue': 'var(--ne-textfield-font-weight, 700)',
-    'defaultValue': '700',
+    'tokenValue': 'var(--ne-textfield-font-weight, 600)',
+    'defaultValue': '600',
     'domain': 'elements',
     'type': 'text',
     'element': 'textfield'
